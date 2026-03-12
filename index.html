@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Learning Structure</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        pre { background-color: #f4f4f4; padding: 10px; border-radius: 5px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Learning Structure</h1>
+    <pre id="json-data"></pre>
+    <script>
+        const jsonData = {
+            // Example structure, replace with actual JSON data
+            "title": "Slovak Language Learning",
+            "lessons": [
+                {"title": "Lesson 1", "content": "Introduction to Slovak"},
+                {"title": "Lesson 2", "content": "Basic Phrases"},
+            ]
+        };
+
+        document.getElementById('json-data').textContent = JSON.stringify(jsonData, null, 2);
+    </script>
+</body>
+</html>
