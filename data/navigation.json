@@ -1,0 +1,41 @@
+{
+  "topics": [
+    {
+      "title": "Nouns",
+      "children": [
+        {
+          "title": "Genders",
+          "children": [
+            {
+              "title": "Masculine",
+              "lesson": "data/lessons/nouns/masculine-gender.json"
+            }
+          ]
+        },
+        {
+          "title": "Cases",
+          "children": [
+            {
+              "title": "Dative",
+              "lesson": "data/lessons/nouns/dative.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Verbs",
+      "children": [
+        {
+          "title": "Present Tense",
+          "children": [
+            {
+              "title": "-ať verbs",
+              "lesson": "data/lessons/verbs/present-at.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
