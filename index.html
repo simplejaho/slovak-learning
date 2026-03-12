@@ -1,239 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Slovak Learning</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slovak Learning</title>
+<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <h1>🇸🇰 Slovak Learning</h1>
-        </header>
-        
-        <div class="main-content">
-            <!-- Left Sidebar -->
-            <aside id="sidebar" class="sidebar">
-                <div id="nav-tree"></div>
-            </aside>
-            
-            <!-- Main Content Area -->
-            <main id="content" class="content">
-                <p>Select a topic from the sidebar to get started!</p>
-            </main>
-        </div>
-    </div>
 
-    <script>
-        let jsonData = null;
+<div class="container">
 
-        // Fetch and load the JSON data
-        fetch('slovak-learning-structure.json')
-            .then(response => response.json())
-            .then(data => {
-                jsonData = data;
-                buildNavigationTree(data);
-            })
-            .catch(error => console.error('Error loading JSON:', error));
+<header>
+<h1>🇸🇰 Slovak Learning</h1>
+</header>
 
-        // Build the navigation tree
-        function buildNavigationTree(data) {
-            const navTree = document.getElementById('nav-tree');
-            navTree.innerHTML = '';
-            
-            data.topics.forEach(topic => {
-                const topicElement = createTopicElement(topic);
-                navTree.appendChild(topicElement);
-            });
-        }
+<div class="main-content">
 
-        // Create topic element with expandable subtopics
-        function createTopicElement(topic, level = 0) {
-            const div = document.createElement('div');
-            div.classList.add('topic-item', `level-${level}`);
-            
-            const header = document.createElement('div');
-            header.classList.add('topic-header');
-            
-            // Add expand/collapse button if has subtopics
-            if (topic.subtopics && topic.subtopics.length > 0) {
-                const expandBtn = document.createElement('span');
-                expandBtn.classList.add('expand-btn');
-                expandBtn.textContent = '▶';
-                header.appendChild(expandBtn);
-            }
-            
-            const title = document.createElement('span');
-            title.classList.add('topic-title');
-            title.textContent = topic.title;
-            title.style.cursor = 'pointer';
-            
-            title.addEventListener('click', () => displayTopic(topic));
-            
-            header.appendChild(title);
-            div.appendChild(header);
-            
-            // Create subtopics container
-            if (topic.subtopics && topic.subtopics.length > 0) {
-                const subtopicsContainer = document.createElement('div');
-                subtopicsContainer.classList.add('subtopics-container', 'collapsed');
-                
-                const expandBtn = header.querySelector('.expand-btn');
-                expandBtn.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    subtopicsContainer.classList.toggle('collapsed');
-                    expandBtn.textContent = subtopicsContainer.classList.contains('collapsed') ? '▶' : '▼';
-                });
-                
-                topic.subtopics.forEach(subtopic => {
-                    const subtopicElement = createSubtopicElement(subtopic, topic.id, level + 1);
-                    subtopicsContainer.appendChild(subtopicElement);
-                });
-                
-                div.appendChild(subtopicsContainer);
-            }
-            
-            return div;
-        }
+<aside id="sidebar" class="sidebar">
+<div id="nav-tree"></div>
+</aside>
 
-        // Create subtopic element
-        function createSubtopicElement(subtopic, parentId, level) {
-            const div = document.createElement('div');
-            div.classList.add('subtopic-item', `level-${level}`);
-            
-            const header = document.createElement('div');
-            header.classList.add('subtopic-header');
-            
-            // Add expand/collapse button if has nested subtopics
-            if (subtopic.subtopics && subtopic.subtopics.length > 0) {
-                const expandBtn = document.createElement('span');
-                expandBtn.classList.add('expand-btn');
-                expandBtn.textContent = '▶';
-                header.appendChild(expandBtn);
-            }
-            
-            const title = document.createElement('span');
-            title.classList.add('subtopic-title');
-            title.textContent = subtopic.title;
-            title.style.cursor = 'pointer';
-            
-            title.addEventListener('click', () => displaySubtopic(subtopic, parentId));
-            
-            header.appendChild(title);
-            div.appendChild(header);
-            
-            // Create nested subtopics container
-            if (subtopic.subtopics && subtopic.subtopics.length > 0) {
-                const nestedContainer = document.createElement('div');
-                nestedContainer.classList.add('subtopics-container', 'collapsed');
-                
-                const expandBtn = header.querySelector('.expand-btn');
-                expandBtn.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    nestedContainer.classList.toggle('collapsed');
-                    expandBtn.textContent = nestedContainer.classList.contains('collapsed') ? '▶' : '▼';
-                });
-                
-                subtopic.subtopics.forEach(nestedSubtopic => {
-                    const nestedElement = createSubtopicElement(nestedSubtopic, parentId, level + 1);
-                    nestedContainer.appendChild(nestedElement);
-                });
-                
-                div.appendChild(nestedContainer);
-            }
-            
-            return div;
-        }
+<main id="content" class="content">
+<p>Select a lesson from the sidebar</p>
+</main>
 
-        // Display topic content
-        function displayTopic(topic) {
-            const contentArea = document.getElementById('content');
-            contentArea.innerHTML = `<h2>${topic.title}</h2>`;
-            
-            if (topic.subtopics && topic.subtopics.length > 0) {
-                contentArea.innerHTML += '<p>Select a subtopic to see rules and vocabulary.</p>';
-            }
-        }
+</div>
 
-        // Display subtopic content with rules and vocabulary
-        function displaySubtopic(subtopic, parentId) {
-            const contentArea = document.getElementById('content');
-            contentArea.innerHTML = `<h2>${subtopic.title}</h2>`;
-            
-            // Display rules if they exist
-            if (subtopic.rules && subtopic.rules.length > 0 && jsonData.rules) {
-                contentArea.innerHTML += '<h3>Rules</h3>';
-                
-                subtopic.rules.forEach(ruleId => {
-                    const rule = jsonData.rules[ruleId];
-                    if (rule) {
-                        contentArea.innerHTML += `<div class="rule">`;
-                        contentArea.innerHTML += `<h4>${rule.title}</h4>`;
-                        
-                        if (rule.content.text) {
-                            contentArea.innerHTML += `<p>${rule.content.text}</p>`;
-                        }
-                        
-                        if (rule.content.examples) {
-                            contentArea.innerHTML += `<div class="examples">
-                                <strong>Examples:</strong>
-                                <ul>`;
-                            rule.content.examples.forEach(ex => {
-                                contentArea.innerHTML += `<li>${ex}</li>`;
-                            });
-                            contentArea.innerHTML += `</ul></div>`;
-                        }
-                        
-                        if (rule.content.table) {
-                            contentArea.innerHTML += `<table class="rule-table">
-                                <thead><tr>`;
-                            rule.content.table.headers.forEach(header => {
-                                contentArea.innerHTML += `<th>${header}</th>`;
-                            });
-                            contentArea.innerHTML += `</tr></thead><tbody>`;
-                            
-                            rule.content.table.rows.forEach(row => {
-                                contentArea.innerHTML += `<tr>`;
-                                row.forEach(cell => {
-                                    contentArea.innerHTML += `<td>${cell}</td>`;
-                                });
-                                contentArea.innerHTML += `</tr>`;
-                            });
-                            contentArea.innerHTML += `</tbody></table>`;
-                        }
-                        
-                        contentArea.innerHTML += `</div>`;
-                        
-                        // Display vocabulary for this rule
-                        if (rule.vocab_sets) {
-                            contentArea.innerHTML += `<div class="vocab-section">`;
-                            rule.vocab_sets.forEach(setId => {
-                                const vocabIds = jsonData.vocab_sets[setId];
-                                if (vocabIds) {
-                                    contentArea.innerHTML += `<h4>${setId}</h4><div class="vocab-list">`;
-                                    vocabIds.forEach(vocabId => {
-                                        const vocab = jsonData.vocab[vocabId];
-                                        if (vocab) {
-                                            contentArea.innerHTML += `<div class="vocab-item">
-                                                <strong>${vocab.sk}</strong> - <em>${vocab.en}</em>`;
-                                            if (vocab.gender) {
-                                                contentArea.innerHTML += ` (${vocab.gender})`;
-                                            }
-                                            contentArea.innerHTML += `</div>`;
-                                        }
-                                    });
-                                    contentArea.innerHTML += `</div>`;
-                                }
-                            });
-                            contentArea.innerHTML += `</div>`;
-                        }
-                    }
-                });
-            } else if (subtopic.subtopics && subtopic.subtopics.length > 0) {
-                contentArea.innerHTML += '<p>Select a nested topic to see rules and vocabulary.</p>';
-            }
-        }
-    </script>
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
