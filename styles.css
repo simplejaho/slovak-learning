@@ -40,16 +40,14 @@ overflow:hidden;
 
 /* SIDEBAR */
 
+/* SIDEBAR */
+
 .sidebar{
 width:280px;
 background:#1e1e2f;
-color:white;
+color:#e4e4e4;
 overflow-y:auto;
 transition:transform .3s ease;
-}
-
-.sidebar.closed{
-transform:translateX(-100%);
 }
 
 #nav-tree{
@@ -60,6 +58,7 @@ padding:10px;
 padding:8px 10px;
 cursor:pointer;
 border-radius:4px;
+color:#e4e4e4;
 }
 
 .nav-item:hover{
@@ -68,8 +67,8 @@ background:#33334d;
 
 .nav-item.active{
 background:#667eea;
+color:white;
 }
-
 
 /* MAIN CONTENT */
 
