@@ -21,15 +21,26 @@
 <aside id="sidebar" class="sidebar">
 <div id="nav-tree"></div>
 </aside>
-
 <div class="lesson-area">
 
-<div id="rules" class="rules-panel">
-<p>Select a lesson from the sidebar</p>
-</div>
+  <div id="rules" class="rules-panel">
+    <p>Select a lesson from the sidebar</p>
+  </div>
 
-<div id="vocab" class="vocab-panel">
-</div>
+  <div id="vocab" class="vocab-panel">
+    <input type="text" id="vocab-search" placeholder="Search vocabulary..." />
+    <table id="vocab-table">
+      <thead>
+        <tr>
+          <th>Slovak</th>
+          <th>English</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- dynamically filled -->
+      </tbody>
+    </table>
+  </div>
 
 </div>
 
