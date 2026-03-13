@@ -3,9 +3,10 @@ let currentSelected = null;
 async function init() {
   await loadNavigation();
   setupNavigationClick();
+  setupVocabSearch();
 }
 
-// Load navigation tree from JSON
+// Load navigation tree
 async function loadNavigation() {
   const res = await fetch("data/navigation.json");
   const data = await res.json();
@@ -28,7 +29,6 @@ function createNode(node, number, level) {
   item.style.paddingLeft = `${level * 18}px`;
   item.textContent = `${number}. ${node.title}`;
 
-  // mark lesson path if exists
   if (node.lesson) {
     item.dataset.lesson = node.lesson;
     item.classList.add("clickable");
@@ -36,7 +36,6 @@ function createNode(node, number, level) {
 
   container.appendChild(item);
 
-  // children
   if (node.children) {
     node.children.forEach((child, index) => {
       const childNode = createNode(child, `${number}.${index + 1}`, level + 1);
@@ -47,23 +46,19 @@ function createNode(node, number, level) {
   return container;
 }
 
-// Event delegation for clicks
+// Click handling
 function setupNavigationClick() {
   const navTree = document.getElementById("nav-tree");
 
   navTree.addEventListener("click", function (e) {
     const item = e.target.closest(".nav-item");
-    if (!item) return;
-
-    // Only respond if it's clickable
-    if (!item.classList.contains("clickable")) return;
+    if (!item || !item.classList.contains("clickable")) return;
 
     const lessonPath = item.dataset.lesson;
     if (!lessonPath) return;
 
     loadLesson(lessonPath);
 
-    // highlight selected
     if (currentSelected) {
       currentSelected.classList.remove("active");
     }
@@ -83,17 +78,17 @@ async function loadLesson(path) {
     console.error(err);
     document.getElementById("rules").innerHTML =
       "<p style='color:red'>Failed to load lesson</p>";
-    document.getElementById("vocab").innerHTML = "";
+    clearVocab();
   }
 }
 
-// Display lesson in 3-column layout
+// Display lesson
 function displayLesson(lesson) {
   const rulesPanel = document.getElementById("rules");
-  const vocabPanel = document.getElementById("vocab");
+  const tableBody = document.querySelector("#vocab-table tbody");
 
+  // Clear rules
   rulesPanel.innerHTML = "";
-  vocabPanel.innerHTML = "";
 
   // Lesson title
   const title = document.createElement("h2");
@@ -106,53 +101,52 @@ function displayLesson(lesson) {
     header.textContent = "Rules";
     rulesPanel.appendChild(header);
 
-    lesson.rules.forEach((rule) => {
+    lesson.rules.forEach(rule => {
       const div = document.createElement("div");
       div.className = "rule";
-
       div.innerHTML = `<h4>${rule.title}</h4><p>${rule.text}</p>`;
-
       if (rule.examples) {
         const ul = document.createElement("ul");
-        rule.examples.forEach((ex) => {
+        rule.examples.forEach(ex => {
           const li = document.createElement("li");
           li.textContent = ex;
           ul.appendChild(li);
         });
         div.appendChild(ul);
       }
-
       rulesPanel.appendChild(div);
     });
   }
 
-// Vocabulary
-if (lesson.vocab) {
-  const tableBody = document.querySelector("#vocab-table tbody");
+  // Vocabulary
+  tableBody.innerHTML = ""; // clear old rows
+  if (lesson.vocab) {
+    lesson.vocab.forEach(word => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${word.sk}</td><td>${word.en}</td>`;
+      tableBody.appendChild(tr);
+    });
+  }
+}
+
+// Setup search bar
+function setupVocabSearch() {
   const searchInput = document.getElementById("vocab-search");
-
-  // Clear previous rows
-  tableBody.innerHTML = "";
-
-  // Populate table rows
-  lesson.vocab.forEach((word) => {
-    const tr = document.createElement("tr");
-    tr.innerHTML = `<td>${word.sk}</td><td>${word.en}</td>`;
-    tableBody.appendChild(tr);
-  });
-
-  // Reset search input
-  searchInput.value = "";
-
-  // Add search functionality
-  searchInput.oninput = function () {
+  searchInput.addEventListener("input", function () {
     const filter = this.value.toLowerCase();
-    tableBody.querySelectorAll("tr").forEach((row) => {
+    const rows = document.querySelectorAll("#vocab-table tbody tr");
+    rows.forEach(row => {
       const sk = row.cells[0].textContent.toLowerCase();
       const en = row.cells[1].textContent.toLowerCase();
       row.style.display = sk.includes(filter) || en.includes(filter) ? "" : "none";
     });
-  };
+  });
+}
+
+// Clear vocab table
+function clearVocab() {
+  const tableBody = document.querySelector("#vocab-table tbody");
+  tableBody.innerHTML = "";
 }
 
 init();
