@@ -40,12 +40,15 @@ overflow:hidden;
 
 /* SIDEBAR */
 
-.sidebar{
-width:280px;
-background:#f0f0f0;   /* light background */
-color:black;
-overflow-y:auto;
-transition:width .3s ease;
+.sidebar {
+    width: 280px;
+    background: #dcdcdc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow-y: auto;
+    padding: 20px;
+    flex-shrink: 0;
+    color: black;
 }
 
 .sidebar.closed{
@@ -58,11 +61,10 @@ overflow:hidden;
 padding:10px;
 }
 
-.nav-item{
-padding:8px 10px;
-cursor:pointer;
-border-radius:4px;
-color:black;
+.nav-item {
+  position: relative;
+  padding-left: 20px;
+  color: black;
 }
 
 .nav-item:hover{
