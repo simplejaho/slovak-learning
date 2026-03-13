@@ -15,32 +15,21 @@
 }
 
 .nav-item {
-
-  padding: 6px 10px;
-  font-size: 14px;
-  border-radius: 6px;
-  margin: 2px 0;
-
+  padding: 6px 8px;
+  cursor: default;
 }
 
 .nav-item.clickable {
-
   cursor: pointer;
-
 }
 
 .nav-item.clickable:hover {
-
-  background-color: #f0f3ff;
-
+  background: #f0f0f0;
 }
 
 .nav-item.active {
-
-  background-color: #3b82f6;
-  color: white;
+  background: #dde8ff;
   font-weight: bold;
-
 }
 
 .rule {
