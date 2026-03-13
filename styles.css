@@ -1,4 +1,202 @@
-* {
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f5f6fa;
+}
+
+.container{
+display:flex;
+flex-direction:column;
+height:100vh;
+}
+
+header{
+display:flex;
+align-items:center;
+gap:15px;
+background:#667eea;
+color:white;
+padding:12px 20px;
+}
+
+header h1{
+margin:0;
+font-size:20px;
+}
+
+#menu-toggle{
+font-size:24px;
+background:none;
+border:none;
+color:white;
+cursor:pointer;
+}
+
+.main-content{
+display:flex;
+flex:1;
+overflow:hidden;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+width:280px;
+background:#1e1e2f;
+color:white;
+overflow-y:auto;
+transition:transform .3s ease;
+}
+
+.sidebar.closed{
+transform:translateX(-100%);
+}
+
+#nav-tree{
+padding:10px;
+}
+
+.nav-item{
+padding:8px 10px;
+cursor:pointer;
+border-radius:4px;
+}
+
+.nav-item:hover{
+background:#33334d;
+}
+
+.nav-item.active{
+background:#667eea;
+}
+
+
+/* MAIN CONTENT */
+
+.content{
+flex:1;
+overflow-y:auto;
+padding:20px;
+}
+
+
+/* EXERCISE PANEL */
+
+.exercise-panel{
+background:white;
+padding:20px;
+border-radius:8px;
+margin-bottom:20px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.flashcard-wide{
+display:grid;
+grid-template-columns:1fr 1fr;
+height:120px;
+border-radius:8px;
+overflow:hidden;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.flash-front{
+background:#667eea;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:1.4em;
+}
+
+.flash-back{
+background:#764ba2;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:1.4em;
+}
+
+#next-card{
+padding:8px 14px;
+cursor:pointer;
+border:none;
+background:#667eea;
+color:white;
+border-radius:4px;
+}
+
+
+/* LESSON COLUMNS */
+
+.lesson-columns{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:20px;
+}
+
+
+/* RULES PANEL */
+
+.rules-panel{
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.rule{
+margin-bottom:20px;
+}
+
+.rule h4{
+margin-bottom:5px;
+}
+
+
+/* VOCAB PANEL */
+
+.vocab-panel{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+/* VOCAB TABLE */
+
+#vocab-table{
+width:100%;
+border-collapse:collapse;
+}
+
+#vocab-table th,
+#vocab-table td{
+padding:8px;
+border-bottom:1px solid #ddd;
+text-align:left;
+}
+
+#vocab-table th{
+background:#f0f0f0;
+}
+
+#vocab-table tr:hover{
+background:#f8f8f8;
+}
+
+
+/* SEARCH BAR */
+
+#vocab-search{
+width:100%;
+padding:8px;
+margin-bottom:10px;
+border:1px solid #ccc;
+border-radius:4px;
+}* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
