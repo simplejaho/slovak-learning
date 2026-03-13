@@ -13,7 +13,7 @@ height:100vh;
 header{
 display:flex;
 align-items:center;
-gap:15px;
+gap:15px;sidebar
 background:#667eea;
 color:white;
 padding:12px 20px;
@@ -42,8 +42,8 @@ overflow:hidden;
 
 .sidebar{
 width:280px;
-background:#1e1e2f;
-color:#e4e4e4;
+background:#f0f0f0;   /* light background */
+color:black;
 overflow-y:auto;
 transition:width .3s ease;
 }
@@ -62,11 +62,11 @@ padding:10px;
 padding:8px 10px;
 cursor:pointer;
 border-radius:4px;
-color:#e4e4e4;
+color:black;
 }
 
 .nav-item:hover{
-background:#33334d;
+background:#dcdcdc;
 }
 
 .nav-item.active{
