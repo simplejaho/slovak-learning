@@ -54,8 +54,35 @@ header h1 {
 }
 
 .nav-item {
-    padding: 6px 8px;
-    cursor: default;
+  position: relative;
+  padding-left: 20px;
+}
+
+/* vertical line for children */
+.nav-item::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #ccc;
+}
+
+/* corner / foot for each item */
+.nav-item::after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  width: 12px;
+  height: 2px;
+  background-color: #ccc;
+}
+
+/* remove vertical line for top-level */
+.nav-item.level-0::before {
+  display: none;
 }
 
 .nav-item.clickable {
