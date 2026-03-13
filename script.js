@@ -1,113 +1,82 @@
 async function loadNavigation() {
 
-  const res = await fetch("data/navigation.json");
-  const data = await res.json();
+  const res = await fetch("data/navigation.json")
+  const data = await res.json()
 
-  const navTree = document.getElementById("nav-tree");
-  navTree.innerHTML = "";
+  const navTree = document.getElementById("nav-tree")
+  navTree.innerHTML = ""
 
-  data.topics.forEach(topic => {
-    navTree.appendChild(createNode(topic));
-  });
+  data.topics.forEach((topic, index) => {
+
+    const numbering = `${index + 1}`
+    navTree.appendChild(createNode(topic, numbering))
+
+  })
 
 }
 
-function createNode(node, level = 0) {
+function createNode(node, numbering, level = 0) {
 
-  const container = document.createElement("div");
-  container.className = "nav-node";
+  const container = document.createElement("div")
+  container.className = "nav-node"
 
-  const header = document.createElement("div");
-  header.className = "nav-header";
-  header.style.paddingLeft = `${level * 15}px`;
+  const item = document.createElement("div")
+  item.className = "nav-item"
 
-  container.appendChild(header);
+  item.style.paddingLeft = `${level * 20}px`
 
-  // Expand button
-  let childContainer = null;
+  item.innerText = `${numbering}. ${node.title}`
 
-  if (node.children) {
+  container.appendChild(item)
 
-    const expandBtn = document.createElement("span");
-    expandBtn.textContent = "▶ ";
-    expandBtn.style.cursor = "pointer";
-
-    header.appendChild(expandBtn);
-
-    childContainer = document.createElement("div");
-    childContainer.style.display = "none";
-
-    expandBtn.addEventListener("click", (e) => {
-
-      e.stopPropagation();
-
-      if (childContainer.style.display === "none") {
-        childContainer.style.display = "block";
-        expandBtn.textContent = "▼ ";
-      } else {
-        childContainer.style.display = "none";
-        expandBtn.textContent = "▶ ";
-      }
-
-    });
-
-  } else {
-
-    const spacer = document.createElement("span");
-    spacer.textContent = "  ";
-    header.appendChild(spacer);
-
-  }
-
-  // Title
-  const title = document.createElement("span");
-  title.textContent = node.title;
-  title.style.cursor = "pointer";
-
-  header.appendChild(title);
-
-  // Lesson click
+  // lesson click
   if (node.lesson) {
 
-    title.addEventListener("click", () => {
-      loadLesson(node.lesson);
-    });
+    item.style.cursor = "pointer"
+
+    item.addEventListener("click", () => {
+      loadLesson(node.lesson)
+    })
 
   }
 
-  // Children
+  // children
   if (node.children) {
 
-    node.children.forEach(child => {
-      childContainer.appendChild(createNode(child, level + 1));
-    });
+    node.children.forEach((child, index) => {
 
-    container.appendChild(childContainer);
+      const childNumber = `${numbering}.${index + 1}`
+
+      container.appendChild(
+        createNode(child, childNumber, level + 1)
+      )
+
+    })
 
   }
 
-  return container;
+  return container
 
 }
 
 async function loadLesson(path) {
 
-  const res = await fetch(path);
-  const lesson = await res.json();
+  const res = await fetch(path)
+  const lesson = await res.json()
 
-  displayLesson(lesson);
+  displayLesson(lesson)
 
 }
 
 function displayLesson(lesson) {
 
-  const content = document.getElementById("content");
+  const content = document.getElementById("content")
 
-  content.innerHTML = `<h2>${lesson.title}</h2>`;
+  content.innerHTML = `<h2>${lesson.title}</h2>`
 
   if (lesson.rules) {
 
-    content.innerHTML += `<h3>Rules</h3>`;
+    content.innerHTML += `<h3>Rules</h3>`
 
     lesson.rules.forEach(rule => {
 
@@ -116,27 +85,27 @@ function displayLesson(lesson) {
         <h4>${rule.title}</h4>
         <p>${rule.text}</p>
       </div>
-      `;
+      `
 
       if (rule.examples) {
 
-        content.innerHTML += "<ul>";
+        content.innerHTML += "<ul>"
 
         rule.examples.forEach(ex => {
-          content.innerHTML += `<li>${ex}</li>`;
-        });
+          content.innerHTML += `<li>${ex}</li>`
+        })
 
-        content.innerHTML += "</ul>";
+        content.innerHTML += "</ul>"
 
       }
 
-    });
+    })
 
   }
 
   if (lesson.vocab) {
 
-    content.innerHTML += `<h3>Vocabulary</h3>`;
+    content.innerHTML += `<h3>Vocabulary</h3>`
 
     lesson.vocab.forEach(word => {
 
@@ -144,12 +113,12 @@ function displayLesson(lesson) {
       <div class="vocab-item">
         <strong>${word.sk}</strong> – ${word.en}
       </div>
-      `;
+      `
 
-    });
+    })
 
   }
 
 }
 
-loadNavigation();
+loadNavigation()
