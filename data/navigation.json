@@ -1,40 +1,58 @@
 {
   "topics": [
     {
-      "title": "Nouns",
+      "title": "Verbs",
       "children": [
-        {
-          "title": "Genders",
-          "children": [
-            {
-              "title": "Masculine",
-              "lesson": "data/lessons/nouns/masculine-gender.json"
-            }
-          ]
-        },
-        {
-          "title": "Cases",
-          "children": [
-            {
-              "title": "Dative",
-              "lesson": "data/lessons/nouns/dative.json"
-            }
-          ]
-        }
+        { "title": "Recognising Aspect", "lesson": "data/lessons/verbs/recognising-aspect.json" },
+        { "title": "Present Tense Conjugation", "lesson": "data/lessons/verbs/present-tense.json" },
+        { "title": "Present Tense Conjugation (3rd Person Plural)", "lesson": "data/lessons/verbs/present-3pl.json" },
+        { "title": "Past Imperfect Conjugation", "lesson": "data/lessons/verbs/past-imperfect.json" },
+        { "title": "Past Perfect Conjugation", "lesson": "data/lessons/verbs/past-perfect.json" },
+        { "title": "Future Imperfect Conjugation", "lesson": "data/lessons/verbs/future-imperfect.json" },
+        { "title": "Future Perfect Conjugation", "lesson": "data/lessons/verbs/future-perfect.json" },
+        { "title": "Verb Prefixes Altering Meaning", "lesson": "data/lessons/verbs/prefixes.json" },
+        { "title": "Conditional Mood", "lesson": "data/lessons/verbs/conditional.json" },
+        { "title": "Imperative Mood", "lesson": "data/lessons/verbs/imperative.json" }
       ]
     },
     {
-      "title": "Verbs",
+      "title": "Nouns",
       "children": [
-        {
-          "title": "Present Tense",
-          "children": [
-            {
-              "title": "-ať verbs",
-              "lesson": "data/lessons/verbs/present-at.json"
-            }
-          ]
-        }
+        { "title": "Genders", "lesson": "data/lessons/nouns/genders.json" },
+        { "title": "Making Plurals", "lesson": "data/lessons/nouns/plurals.json" },
+        { "title": "Accusative Singular", "lesson": "data/lessons/nouns/acc-singular.json" },
+        { "title": "Accusative Plural", "lesson": "data/lessons/nouns/acc-plural.json" },
+        { "title": "Dative Singular", "lesson": "data/lessons/nouns/dat-singular.json" },
+        { "title": "Dative Plural", "lesson": "data/lessons/nouns/dat-plural.json" },
+        { "title": "Genitive Singular", "lesson": "data/lessons/nouns/gen-singular.json" },
+        { "title": "Genitive Plural", "lesson": "data/lessons/nouns/gen-plural.json" },
+        { "title": "Locative Singular", "lesson": "data/lessons/nouns/loc-singular.json" },
+        { "title": "Locative Plural", "lesson": "data/lessons/nouns/loc-plural.json" },
+        { "title": "Instrumental Singular", "lesson": "data/lessons/nouns/inst-singular.json" },
+        { "title": "Instrumental Plural", "lesson": "data/lessons/nouns/inst-plural.json" },
+        { "title": "Personal Pronouns", "lesson": "data/lessons/nouns/personal-pronouns.json" },
+        { "title": "Reflexive Pronouns", "lesson": "data/lessons/nouns/reflexive-pronouns.json" },
+        { "title": "Indefinite Pronouns", "lesson": "data/lessons/nouns/indefinite-pronouns.json" },
+        { "title": "Negative Pronouns", "lesson": "data/lessons/nouns/negative-pronouns.json" }
+      ]
+    },
+    {
+      "title": "Pronouns",
+      "children": [
+        { "title": "Nominative Singular", "lesson": "data/lessons/pronouns/nom-singular.json" },
+        { "title": "Nominative Plural", "lesson": "data/lessons/pronouns/nom-plural.json" },
+        { "title": "Accusative", "lesson": "data/lessons/pronouns/accusative.json" },
+        { "title": "Dative", "lesson": "data/lessons/pronouns/dative.json" },
+        { "title": "Genitive", "lesson": "data/lessons/pronouns/genitive.json" },
+        { "title": "Locative", "lesson": "data/lessons/pronouns/locative.json" },
+        { "title": "Instrumental", "lesson": "data/lessons/pronouns/instrumental.json" },
+        { "title": "Demonstrative Pronouns", "lesson": "data/lessons/pronouns/demonstrative.json" },
+        { "title": "Possessive Pronouns", "lesson": "data/lessons/pronouns/possessive.json" },
+        { "title": "Interrogative Pronouns", "lesson": "data/lessons/pronouns/interrogative.json" },
+        { "title": "Relative Pronouns", "lesson": "data/lessons/pronouns/relative.json" },
+        { "title": "Possessive Reflexive Pronouns", "lesson": "data/lessons/pronouns/possessive-reflexive.json" },
+        { "title": "Cardinals", "lesson": "data/lessons/pronouns/cardinals.json" },
+        { "title": "Ordinals", "lesson": "data/lessons/pronouns/ordinals.json" }
       ]
     }
   ]
