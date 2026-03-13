@@ -263,6 +263,39 @@ header h1 {
     display: none;
 }
 
+#vocab-search {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+#vocab-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#vocab-table th, #vocab-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#vocab-table th {
+    background-color: #667eea;
+    color: white;
+}
+
+#vocab-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#vocab-table tr:hover {
+    background-color: #f0f0f0;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .lesson-area {
