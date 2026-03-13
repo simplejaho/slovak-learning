@@ -1,0 +1,26 @@
+{
+  "title": "Present Tense Conjugation",
+
+  "rules": [
+    {
+      "title": "Basic Rule",
+      "text": "Present tense verbs change endings depending on the subject.",
+      "examples": [
+        "robím – I do",
+        "robíš – you do"
+      ]
+    }
+  ],
+
+  "vocab": [
+    { "sk": "robiť", "en": "to do" },
+    { "sk": "vidieť", "en": "to see" },
+    { "sk": "jesť", "en": "to eat" }
+  ],
+
+  "exercises": [
+    { "sk": "Ja robím.", "en": "I do." },
+    { "sk": "Ty vidíš.", "en": "You see." },
+    { "sk": "On je.", "en": "He is." }
+  ]
+}
