@@ -40,14 +40,18 @@ overflow:hidden;
 
 /* SIDEBAR */
 
-/* SIDEBAR */
-
 .sidebar{
 width:280px;
 background:#1e1e2f;
 color:#e4e4e4;
 overflow-y:auto;
-transition:transform .3s ease;
+transition:width .3s ease;
+}
+
+.sidebar.closed{
+width:0;
+padding:0;
+overflow:hidden;
 }
 
 #nav-tree{
