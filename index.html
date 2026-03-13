@@ -1,70 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Slovak Learning</title>
+
 <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
 
 <div class="container">
 
-  <header>
-    <h1>🇸🇰 Slovak Learning</h1>
-  </header>
+<header>
 
-  <div class="main-content">
+<button id="menu-toggle">☰</button>
 
-    <!-- Sidebar -->
-    <aside id="sidebar" class="sidebar">
-      <div id="nav-tree"></div>
-    </aside>
+<h1>🇸🇰 Slovak Learning</h1>
 
-    <!-- Lesson Area -->
-    <div class="lesson-area">
+</header>
 
-      <div id="exercise-panel" class="exercise-panel">
-      <h3>Exercises</h3>
-      
-        <div class="flashcard-container">
-          <div id="flashcard" class="flashcard">
-            <div class="card-front"></div>
-            <div class="card-back"></div>
-          </div>
-        </div>
-      
-        <button id="next-card">Next</button>
-      </div>
-      
-      <!-- Rules Panel -->
-      <div id="rules" class="rules-panel">
-        <p>Select a lesson from the sidebar</p>
-      </div>
 
-      <!-- Vocabulary Panel -->
-      <div id="vocab" class="vocab-panel">
-        <input type="text" id="vocab-search" placeholder="Search vocabulary..." />
-        <table id="vocab-table">
-          <thead>
-            <tr>
-              <th>Slovak</th>
-              <th>English</th>
-            </tr>
-          </thead>
-          <tbody>
-            <!-- dynamically filled -->
-          </tbody>
-        </table>
-      </div>
+<div class="main-content">
 
-    </div>
+<!-- SIDEBAR -->
 
-  </div>
+<aside id="sidebar" class="sidebar">
+
+<div id="nav-tree"></div>
+
+</aside>
+
+
+<!-- MAIN CONTENT -->
+
+<main class="content">
+
+<!-- EXERCISES -->
+
+<div id="exercise-panel" class="exercise-panel">
+
+<h2>Exercises</h2>
+
+<div id="flashcard" class="flashcard-wide">
+
+<div class="flash-front"></div>
+
+<div class="flash-back"></div>
 
 </div>
+
+<button id="next-card">Next</button>
+
+</div>
+
+
+<!-- RULES + VOCAB -->
+
+<div class="lesson-columns">
+
+<div id="rules" class="rules-panel">
+
+<p>Select a lesson from the sidebar.</p>
+
+</div>
+
+
+<div id="vocab" class="vocab-panel">
+
+</div>
+
+</div>
+
+</main>
+
+</div>
+
+</div>
+
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
