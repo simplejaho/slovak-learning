@@ -4,17 +4,59 @@
     box-sizing: border-box;
 }
 
-.nav-item {
+.sidebar {
 
-  padding: 6px 0;
-  font-size: 15px;
+  width: 280px;
+  background: #fafafa;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+  overflow-y: auto;
 
 }
 
-.nav-item:hover {
+.nav-item {
 
-  background-color: #f0f0f0;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  margin: 2px 0;
 
+}
+
+.nav-item.clickable {
+
+  cursor: pointer;
+
+}
+
+.nav-item.clickable:hover {
+
+  background-color: #f0f3ff;
+
+}
+
+.nav-item.active {
+
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+
+}
+
+.rule {
+
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+
+}
+
+.vocab-item {
+
+  padding: 4px 0;
+
+}
 }
 
 body {
@@ -164,19 +206,6 @@ header h1 {
     margin-bottom: 10px;
 }
 
-.rule {
-    background-color: #f9f9f9;
-    border-left: 4px solid #667eea;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 4px;
-}
-
-.rule p {
-    margin: 10px 0;
-    line-height: 1.6;
-}
-
 .examples {
     background-color: #fff;
     padding: 10px 15px;
@@ -253,11 +282,6 @@ header h1 {
     color: #667eea;
     display: block;
     margin-bottom: 4px;
-}
-
-.vocab-item em {
-    color: #666;
-    font-size: 0.9em;
 }
 
 /* Responsive Design */
