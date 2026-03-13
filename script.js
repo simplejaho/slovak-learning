@@ -1,4 +1,6 @@
 let currentSelected = null;
+let exercises = [];
+let currentExercise = 0;
 
 // Initialize app
 async function init() {
@@ -82,60 +84,87 @@ async function loadLesson(path) {
 
 // Display lesson in rules + vocab panels
 function displayLesson(lesson) {
+
   const rulesPanel = document.getElementById("rules");
   const vocabPanel = document.getElementById("vocab");
 
-  // Clear old content
+  const flashcard = document.getElementById("flashcard");
+  const front = flashcard.querySelector(".card-front");
+  const back = flashcard.querySelector(".card-back");
+  const nextBtn = document.getElementById("next-card");
+
+  // clear panels
   rulesPanel.innerHTML = "";
   vocabPanel.innerHTML = "";
 
-  // Lesson title
+  // reset flashcard
+  flashcard.classList.remove("flipped");
+
+  // =========================
+  // LESSON TITLE
+  // =========================
+
   const title = document.createElement("h2");
   title.textContent = lesson.title;
   rulesPanel.appendChild(title);
 
-  // === Rules Section ===
+  // =========================
+  // RULES
+  // =========================
+
   if (lesson.rules) {
+
     const header = document.createElement("h3");
     header.textContent = "Rules";
     rulesPanel.appendChild(header);
 
-    lesson.rules.forEach((rule) => {
+    lesson.rules.forEach(rule => {
+
       const div = document.createElement("div");
       div.className = "rule";
-      div.innerHTML = `<h4>${rule.title}</h4><p>${rule.text}</p>`;
+
+      div.innerHTML = `
+        <h4>${rule.title}</h4>
+        <p>${rule.text}</p>
+      `;
 
       if (rule.examples) {
+
         const ul = document.createElement("ul");
-        rule.examples.forEach((ex) => {
+
+        rule.examples.forEach(ex => {
           const li = document.createElement("li");
           li.textContent = ex;
           ul.appendChild(li);
         });
+
         div.appendChild(ul);
       }
 
       rulesPanel.appendChild(div);
+
     });
+
   }
 
-  // === Vocabulary Section ===
-  if (lesson.vocab) {
-    // create search input
-    const searchInput = document.createElement("input");
-    searchInput.type = "text";
-    searchInput.placeholder = "Search vocabulary...";
-    searchInput.id = "vocab-search";
-    searchInput.style.marginBottom = "10px";
-    searchInput.style.width = "100%";
-    searchInput.style.padding = "8px";
-    searchInput.style.borderRadius = "4px";
-    searchInput.style.border = "1px solid #ccc";
-    vocabPanel.appendChild(searchInput);
+  // =========================
+  // VOCAB TABLE
+  // =========================
 
-    // create table
+  if (lesson.vocab) {
+
+    const search = document.createElement("input");
+    search.type = "text";
+    search.placeholder = "Search vocabulary...";
+    search.style.width = "100%";
+    search.style.marginBottom = "10px";
+    search.style.padding = "8px";
+
+    vocabPanel.appendChild(search);
+
     const table = document.createElement("table");
     table.id = "vocab-table";
+
     table.innerHTML = `
       <thead>
         <tr>
@@ -145,27 +174,89 @@ function displayLesson(lesson) {
       </thead>
       <tbody></tbody>
     `;
+
     vocabPanel.appendChild(table);
 
-    const tableBody = table.querySelector("tbody");
+    const tbody = table.querySelector("tbody");
 
-    // populate table
-    lesson.vocab.forEach((word) => {
+    lesson.vocab.forEach(word => {
+
       const tr = document.createElement("tr");
-      tr.innerHTML = `<td>${word.sk}</td><td>${word.en}</td>`;
-      tableBody.appendChild(tr);
+
+      tr.innerHTML = `
+        <td>${word.sk}</td>
+        <td>${word.en}</td>
+      `;
+
+      tbody.appendChild(tr);
+
     });
 
-    // attach search filter
-    searchInput.addEventListener("input", function () {
+    // search filter
+
+    search.addEventListener("input", function () {
+
       const filter = this.value.toLowerCase();
-      tableBody.querySelectorAll("tr").forEach((row) => {
+
+      tbody.querySelectorAll("tr").forEach(row => {
+
         const sk = row.cells[0].textContent.toLowerCase();
         const en = row.cells[1].textContent.toLowerCase();
-        row.style.display = sk.includes(filter) || en.includes(filter) ? "" : "none";
+
+        row.style.display =
+          sk.includes(filter) || en.includes(filter)
+            ? ""
+            : "none";
+
       });
+
     });
+
   }
+
+  // =========================
+  // FLASHCARD EXERCISES
+  // =========================
+
+  if (lesson.exercises && lesson.exercises.length > 0) {
+
+    let current = 0;
+
+    function showCard() {
+
+      const ex = lesson.exercises[current];
+
+      front.textContent = ex.sk;
+      back.textContent = ex.en;
+
+      flashcard.classList.remove("flipped");
+
+    }
+
+    showCard();
+
+    flashcard.onclick = () => {
+      flashcard.classList.toggle("flipped");
+    };
+
+    nextBtn.onclick = () => {
+
+      current++;
+
+      if (current >= lesson.exercises.length) {
+        current = 0;
+      }
+
+      showCard();
+
+    };
+
+  } else {
+
+    front.textContent = "No exercises";
+    back.textContent = "";
+  }
+
 }
 
 // Initialize app
