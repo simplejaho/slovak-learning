@@ -98,22 +98,25 @@ async function loadLesson(path) {
   }
 
 }
-
 function displayLesson(lesson) {
 
-  const content = document.getElementById("content");
-  content.innerHTML = "";
+  const rulesPanel = document.getElementById("rules");
+  const vocabPanel = document.getElementById("vocab");
+
+  rulesPanel.innerHTML = "";
+  vocabPanel.innerHTML = "";
 
   const title = document.createElement("h2");
   title.textContent = lesson.title;
 
-  content.appendChild(title);
+  rulesPanel.appendChild(title);
 
   if (lesson.rules) {
 
     const header = document.createElement("h3");
     header.textContent = "Rules";
-    content.appendChild(header);
+
+    rulesPanel.appendChild(header);
 
     lesson.rules.forEach(rule => {
 
@@ -125,7 +128,24 @@ function displayLesson(lesson) {
         <p>${rule.text}</p>
       `;
 
-      content.appendChild(div);
+      if (rule.examples) {
+
+        const ul = document.createElement("ul");
+
+        rule.examples.forEach(ex => {
+
+          const li = document.createElement("li");
+          li.textContent = ex;
+
+          ul.appendChild(li);
+
+        });
+
+        div.appendChild(ul);
+
+      }
+
+      rulesPanel.appendChild(div);
 
     });
 
@@ -135,7 +155,8 @@ function displayLesson(lesson) {
 
     const header = document.createElement("h3");
     header.textContent = "Vocabulary";
-    content.appendChild(header);
+
+    vocabPanel.appendChild(header);
 
     lesson.vocab.forEach(word => {
 
@@ -144,7 +165,7 @@ function displayLesson(lesson) {
 
       div.innerHTML = `<strong>${word.sk}</strong> — ${word.en}`;
 
-      content.appendChild(div);
+      vocabPanel.appendChild(div);
 
     });
 
