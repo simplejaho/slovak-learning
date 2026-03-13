@@ -128,26 +128,26 @@ function displayLesson(lesson) {
 
 // Vocabulary
 if (lesson.vocab) {
-
-  const searchInput = document.getElementById("vocab-search");
   const tableBody = document.querySelector("#vocab-table tbody");
+  const searchInput = document.getElementById("vocab-search");
 
-  // clear old rows
+  // Clear previous rows
   tableBody.innerHTML = "";
 
-  // populate table
-  lesson.vocab.forEach(word => {
+  // Populate table rows
+  lesson.vocab.forEach((word) => {
     const tr = document.createElement("tr");
     tr.innerHTML = `<td>${word.sk}</td><td>${word.en}</td>`;
     tableBody.appendChild(tr);
   });
 
-  // add search function
-  searchInput.value = ""; // reset
-  searchInput.oninput = function() {
+  // Reset search input
+  searchInput.value = "";
+
+  // Add search functionality
+  searchInput.oninput = function () {
     const filter = this.value.toLowerCase();
-    const rows = tableBody.querySelectorAll("tr");
-    rows.forEach(row => {
+    tableBody.querySelectorAll("tr").forEach((row) => {
       const sk = row.cells[0].textContent.toLowerCase();
       const en = row.cells[1].textContent.toLowerCase();
       row.style.display = sk.includes(filter) || en.includes(filter) ? "" : "none";
