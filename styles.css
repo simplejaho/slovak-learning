@@ -4,50 +4,6 @@
     box-sizing: border-box;
 }
 
-.sidebar {
-
-  width: 280px;
-  background: #fafafa;
-  border-right: 1px solid #ddd;
-  padding: 10px;
-  overflow-y: auto;
-
-}
-
-.nav-item {
-  padding: 6px 8px;
-  cursor: default;
-}
-
-.nav-item.clickable {
-  cursor: pointer;
-}
-
-.nav-item.clickable:hover {
-  background: #f0f0f0;
-}
-
-.nav-item.active {
-  background: #dde8ff;
-  font-weight: bold;
-}
-
-.rule {
-
-  background: #f9f9f9;
-  padding: 10px;
-  border-radius: 6px;
-  margin-bottom: 10px;
-
-}
-
-.vocab-item {
-
-  padding: 4px 0;
-
-}
-}
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f5f5f5;
@@ -72,6 +28,7 @@ header h1 {
     margin: 0;
 }
 
+/* Main layout */
 .main-content {
     display: flex;
     gap: 20px;
@@ -96,6 +53,148 @@ header h1 {
     gap: 5px;
 }
 
+.nav-item {
+    padding: 6px 8px;
+    cursor: default;
+}
+
+.nav-item.clickable {
+    cursor: pointer;
+}
+
+.nav-item.clickable:hover {
+    background: #f0f0f0;
+}
+
+.nav-item.active {
+    background: #dde8ff;
+    font-weight: bold;
+}
+
+/* Lesson area: Rules + Vocab */
+.lesson-area {
+    display: grid;
+    grid-template-columns: 1fr 300px; /* Rules | Vocab */
+    width: 100%;
+    gap: 20px;
+}
+
+/* Rules panel */
+.rules-panel {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+
+/* Vocab panel */
+.vocab-panel {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    overflow-y: auto;
+}
+
+/* Rules styling */
+.rule {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.rule h4 {
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.rule p {
+    margin-bottom: 6px;
+}
+
+.examples {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.examples ul {
+    list-style-position: inside;
+    margin-left: 10px;
+}
+
+.examples li {
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.rule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    background: white;
+}
+
+.rule-table th {
+    background-color: #667eea;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.rule-table td {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+}
+
+.rule-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.rule-table tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Vocabulary styling */
+.vocab-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f5ff;
+    border-radius: 6px;
+}
+
+.vocab-section h4 {
+    color: #764ba2;
+    margin-top: 0;
+}
+
+.vocab-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.vocab-item {
+    background: white;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.vocab-item strong {
+    color: #667eea;
+    display: block;
+    margin-bottom: 4px;
+}
+
+/* Sidebar tree (topics/subtopics) */
 .topic-item,
 .subtopic-item {
     margin-bottom: 5px;
@@ -164,116 +263,13 @@ header h1 {
     display: none;
 }
 
-/* Content Area Styles */
-.content {
-    flex: 1;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    padding: 30px;
-    overflow-y: auto;
-}
-
-.content h2 {
-    color: #667eea;
-    margin-bottom: 20px;
-    font-size: 2em;
-    border-bottom: 3px solid #667eea;
-    padding-bottom: 10px;
-}
-
-.content h3 {
-    color: #764ba2;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    font-size: 1.3em;
-}
-
-.content h4 {
-    color: #555;
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-
-.examples {
-    background-color: #fff;
-    padding: 10px 15px;
-    border-radius: 4px;
-    margin: 10px 0;
-}
-
-.examples ul {
-    list-style-position: inside;
-    margin-left: 10px;
-}
-
-.examples li {
-    margin: 5px 0;
-    padding: 5px 0;
-}
-
-.rule-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 15px 0;
-    background: white;
-}
-
-.rule-table th {
-    background-color: #667eea;
-    color: white;
-    padding: 12px;
-    text-align: left;
-    font-weight: 600;
-}
-
-.rule-table td {
-    border: 1px solid #ddd;
-    padding: 10px 12px;
-}
-
-.rule-table tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.rule-table tr:hover {
-    background-color: #f0f0f0;
-}
-
-.vocab-section {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: #f0f5ff;
-    border-radius: 6px;
-}
-
-.vocab-section h4 {
-    color: #764ba2;
-    margin-top: 0;
-}
-
-.vocab-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
-    margin: 10px 0;
-}
-
-.vocab-item {
-    background: white;
-    padding: 12px;
-    border-radius: 4px;
-    border: 1px solid #ddd;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-
-.vocab-item strong {
-    color: #667eea;
-    display: block;
-    margin-bottom: 4px;
-}
-
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .lesson-area {
+        grid-template-columns: 1fr 250px;
+    }
+}
+
 @media (max-width: 768px) {
     .main-content {
         flex-direction: column;
@@ -287,7 +283,9 @@ header h1 {
         font-size: 1.8em;
     }
 
-    .content {
+    .rules-panel,
+    .vocab-panel {
+        width: 100%;
         padding: 20px;
     }
 
