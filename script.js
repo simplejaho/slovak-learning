@@ -1,42 +1,53 @@
+let currentSelected = null;
+
 async function loadNavigation() {
 
-  const res = await fetch("data/navigation.json")
-  const data = await res.json()
+  const res = await fetch("data/navigation.json");
+  const data = await res.json();
 
-  const navTree = document.getElementById("nav-tree")
-  navTree.innerHTML = ""
+  const navTree = document.getElementById("nav-tree");
+  navTree.innerHTML = "";
 
-  data.topics.forEach((topic, index) => {
+  data.topics.forEach((topic, i) => {
 
-    const numbering = `${index + 1}`
-    navTree.appendChild(createNode(topic, numbering))
+    const number = `${i + 1}`;
+    navTree.appendChild(createNode(topic, number));
 
-  })
+  });
 
 }
 
-function createNode(node, numbering, level = 0) {
+function createNode(node, number, level = 0) {
 
-  const container = document.createElement("div")
-  container.className = "nav-node"
+  const container = document.createElement("div");
 
-  const item = document.createElement("div")
-  item.className = "nav-item"
+  const item = document.createElement("div");
+  item.className = "nav-item";
+  item.style.paddingLeft = `${level * 18}px`;
 
-  item.style.paddingLeft = `${level * 20}px`
+  item.textContent = `${number}. ${node.title}`;
 
-  item.innerText = `${numbering}. ${node.title}`
-
-  container.appendChild(item)
+  container.appendChild(item);
 
   // lesson click
   if (node.lesson) {
 
-    item.style.cursor = "pointer"
+    item.classList.add("clickable");
 
-    item.addEventListener("click", () => {
-      loadLesson(node.lesson)
-    })
+    item.addEventListener("click", (e) => {
+
+      e.stopPropagation();
+
+      loadLesson(node.lesson);
+
+      if (currentSelected) {
+        currentSelected.classList.remove("active");
+      }
+
+      item.classList.add("active");
+      currentSelected = item;
+
+    });
 
   }
 
@@ -45,80 +56,103 @@ function createNode(node, numbering, level = 0) {
 
     node.children.forEach((child, index) => {
 
-      const childNumber = `${numbering}.${index + 1}`
+      const childNumber = `${number}.${index + 1}`;
 
-      container.appendChild(
-        createNode(child, childNumber, level + 1)
-      )
+      const childNode = createNode(child, childNumber, level + 1);
 
-    })
+      container.appendChild(childNode);
+
+    });
 
   }
 
-  return container
+  return container;
 
 }
 
 async function loadLesson(path) {
 
-  const res = await fetch(path)
-  const lesson = await res.json()
+  const res = await fetch(path);
+  const lesson = await res.json();
 
-  displayLesson(lesson)
+  displayLesson(lesson);
 
 }
 
 function displayLesson(lesson) {
 
-  const content = document.getElementById("content")
+  const content = document.getElementById("content");
 
-  content.innerHTML = `<h2>${lesson.title}</h2>`
+  content.innerHTML = "";
+
+  const title = document.createElement("h2");
+  title.textContent = lesson.title;
+
+  content.appendChild(title);
 
   if (lesson.rules) {
 
-    content.innerHTML += `<h3>Rules</h3>`
+    const rulesHeader = document.createElement("h3");
+    rulesHeader.textContent = "Rules";
+    content.appendChild(rulesHeader);
 
     lesson.rules.forEach(rule => {
 
-      content.innerHTML += `
-      <div class="rule">
-        <h4>${rule.title}</h4>
-        <p>${rule.text}</p>
-      </div>
-      `
+      const ruleDiv = document.createElement("div");
+      ruleDiv.className = "rule";
+
+      const ruleTitle = document.createElement("h4");
+      ruleTitle.textContent = rule.title;
+
+      const ruleText = document.createElement("p");
+      ruleText.textContent = rule.text;
+
+      ruleDiv.appendChild(ruleTitle);
+      ruleDiv.appendChild(ruleText);
 
       if (rule.examples) {
 
-        content.innerHTML += "<ul>"
+        const ul = document.createElement("ul");
 
         rule.examples.forEach(ex => {
-          content.innerHTML += `<li>${ex}</li>`
-        })
 
-        content.innerHTML += "</ul>"
+          const li = document.createElement("li");
+          li.textContent = ex;
+
+          ul.appendChild(li);
+
+        });
+
+        ruleDiv.appendChild(ul);
 
       }
 
-    })
+      content.appendChild(ruleDiv);
+
+    });
 
   }
 
   if (lesson.vocab) {
 
-    content.innerHTML += `<h3>Vocabulary</h3>`
+    const vocabHeader = document.createElement("h3");
+    vocabHeader.textContent = "Vocabulary";
+
+    content.appendChild(vocabHeader);
 
     lesson.vocab.forEach(word => {
 
-      content.innerHTML += `
-      <div class="vocab-item">
-        <strong>${word.sk}</strong> – ${word.en}
-      </div>
-      `
+      const vocabItem = document.createElement("div");
+      vocabItem.className = "vocab-item";
 
-    })
+      vocabItem.innerHTML = `<strong>${word.sk}</strong> — ${word.en}`;
+
+      content.appendChild(vocabItem);
+
+    });
 
   }
 
 }
 
-loadNavigation()
+loadNavigation();
