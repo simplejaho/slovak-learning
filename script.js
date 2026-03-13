@@ -126,19 +126,33 @@ function displayLesson(lesson) {
     });
   }
 
-  // Vocabulary
-  if (lesson.vocab) {
-    const header = document.createElement("h3");
-    header.textContent = "Vocabulary";
-    vocabPanel.appendChild(header);
+// Vocabulary
+if (lesson.vocab) {
 
-    lesson.vocab.forEach((word) => {
-      const div = document.createElement("div");
-      div.className = "vocab-item";
-      div.innerHTML = `<strong>${word.sk}</strong> — ${word.en}`;
-      vocabPanel.appendChild(div);
+  const searchInput = document.getElementById("vocab-search");
+  const tableBody = document.querySelector("#vocab-table tbody");
+
+  // clear old rows
+  tableBody.innerHTML = "";
+
+  // populate table
+  lesson.vocab.forEach(word => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${word.sk}</td><td>${word.en}</td>`;
+    tableBody.appendChild(tr);
+  });
+
+  // add search function
+  searchInput.value = ""; // reset
+  searchInput.oninput = function() {
+    const filter = this.value.toLowerCase();
+    const rows = tableBody.querySelectorAll("tr");
+    rows.forEach(row => {
+      const sk = row.cells[0].textContent.toLowerCase();
+      const en = row.cells[1].textContent.toLowerCase();
+      row.style.display = sk.includes(filter) || en.includes(filter) ? "" : "none";
     });
-  }
+  };
 }
 
 init();
