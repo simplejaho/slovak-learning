@@ -697,3 +697,60 @@ background:#fafafa;
 padding:20px;
 border-radius:8px;
 }
+
+.exercise-controls{
+display:flex;
+gap:10px;
+margin-bottom:12px;
+}
+
+.exercise-controls button{
+padding:8px 14px;
+border:none;
+border-radius:6px;
+background:#667eea;
+color:white;
+font-weight:600;
+cursor:pointer;
+transition:all .2s ease;
+}
+
+.exercise-controls button:hover{
+background:#5568d9;
+transform:translateY(-1px);
+}
+
+.exercise-controls button:active{
+transform:translateY(0px);
+}
+
+.flashcard-wide{
+display:grid;
+grid-template-columns:1fr 1fr;
+height:120px;
+border-radius:8px;
+overflow:hidden;
+margin-top:10px;
+}
+
+.flash-front{
+background:#667eea;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:1.4em;
+}
+
+.flash-back{
+background:#764ba2;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:1.4em;
+}
+
+.hidden{
+visibility:hidden;
+}
