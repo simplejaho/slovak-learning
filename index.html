@@ -1,85 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Slovak Learning</title>
 
 <link rel="stylesheet" href="styles.css">
-
 </head>
 
 <body>
 
-<div class="container">
-
-<header>
-
+<header class="header">
 <button id="menu-toggle">☰</button>
-
 <h1>🇸🇰 Slovak Learning</h1>
-
 </header>
 
-
-<div class="main-content">
+<div class="layout">
 
 <!-- SIDEBAR -->
 
 <aside id="sidebar" class="sidebar">
-
 <div id="nav-tree"></div>
-
 </aside>
-
 
 <!-- MAIN CONTENT -->
 
 <main class="content">
 
 <!-- EXERCISES -->
-  
-<div id="exercise-panel" class="exercise-panel">
+
+<section class="exercise-panel">
 
 <h2>Exercises</h2>
 
 <div class="exercise-controls">
-
 <button id="flip-direction">SK → EN</button>
-
 <button id="shuffle-cards">Shuffle</button>
-
 <button id="next-card">Next</button>
-
 </div>
 
-<div id="flashcard" class="flashcard-wide">
-
+<div class="flashcard">
 <div class="flash-front"></div>
-
 <div class="flash-back hidden"></div>
-
 </div>
 
-</div>
+</section>
 
-<!-- RULES + VOCAB -->
+<!-- LESSON -->
 
 <div class="lesson-columns">
 
 <div id="rules" class="rules-panel">
-
 <p>Select a lesson from the sidebar.</p>
-
 </div>
 
-
-<div id="vocab" class="vocab-panel">
-
-</div>
+<div id="vocab" class="vocab-panel"></div>
 
 </div>
 
@@ -87,11 +65,7 @@
 
 </div>
 
-</div>
-
-
 <script src="script.js"></script>
 
 </body>
-
 </html>
