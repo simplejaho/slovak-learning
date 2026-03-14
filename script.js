@@ -318,46 +318,103 @@ function displayLesson(lesson) {
   }
 
 
-  // ========================
-  // EXERCISES
-  // ========================
+// ========================
+// EXERCISES
+// ========================
 
-  if (lesson.exercises && lesson.exercises.length > 0) {
+const front = document.querySelector(".flash-front");
+const back = document.querySelector(".flash-back");
 
-    let current = 0;
+const nextBtn = document.getElementById("next-card");
+const shuffleBtn = document.getElementById("shuffle-cards");
+const directionBtn = document.getElementById("flip-direction");
 
-    function showCard() {
+if (lesson.exercises && lesson.exercises.length > 0) {
 
-      const ex = lesson.exercises[current];
+  let cards = [...lesson.exercises];
+  let index = 0;
+  let revealed = false;
+  let direction = "sk-en"; // default
 
-      front.textContent = ex.sk;
 
-      back.textContent = ex.en;
+  function showCard() {
 
+    const card = cards[index];
+
+    if (direction === "sk-en") {
+
+      front.textContent = card.sk;
+      back.textContent = card.en;
+
+      directionBtn.textContent = "SK → EN";
+
+    } else {
+
+      front.textContent = card.en;
+      back.textContent = card.sk;
+
+      directionBtn.textContent = "EN → SK";
+
+    }
+
+    back.classList.add("hidden");
+    revealed = false;
+
+  }
+
+
+  // NEXT BUTTON LOGIC
+
+  nextBtn.onclick = () => {
+
+    if (!revealed) {
+
+      back.classList.remove("hidden");
+      revealed = true;
+
+    } else {
+
+      index++;
+
+      if (index >= cards.length) index = 0;
+
+      showCard();
+
+    }
+
+  };
+
+
+  // SHUFFLE
+
+  shuffleBtn.onclick = () => {
+
+    cards = cards.sort(() => Math.random() - 0.5);
+
+    index = 0;
+
+    showCard();
+
+  };
+
+
+  // DIRECTION TOGGLE
+
+  directionBtn.onclick = () => {
+
+    if (direction === "sk-en") {
+      direction = "en-sk";
+    } else {
+      direction = "sk-en";
     }
 
     showCard();
 
-    nextBtn.onclick = () => {
+  };
 
-      current++;
 
-      if (current >= lesson.exercises.length) {
+  showCard();
 
-        current = 0;
-
-      }
-
-      showCard();
-
-    };
-
-  } else {
-
-    front.textContent = "No exercises";
-
-    back.textContent = "";
-
-  }
+}
 
 }
