@@ -3,7 +3,7 @@
     {
       "title": "Verbs",
       "children": [
-        { "title": "Recognising Aspect", "lesson": "data/lessons/verbs/recognising-aspect.json" },
+        { "title": "Complete vs Incomplete Verbs", "lesson": "data/lessons/verbs/complete-vs-incomplete.json" },
         { "title": "Present Tense Conjugation", "lesson": "data/lessons/verbs/present-tense.json" },
         { "title": "Present Tense Conjugation (3rd Person Plural)", "lesson": "data/lessons/verbs/present-3pl.json" },
         { "title": "Past Imperfect Conjugation", "lesson": "data/lessons/verbs/past-imperfect.json" },
