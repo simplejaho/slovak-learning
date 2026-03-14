@@ -1,1 +1,72 @@
+```json
+{
+  "title": "Perfective vs Imperfective Verbs (Dokonavé vs Nedokonavé Slovesá)",
 
+  "rules": [
+    {
+      "title": "Basic Concept",
+      "text": "Slovak verbs exist in aspect pairs. Imperfective (nedokonavé) verbs describe ongoing, repeated, or unfinished actions. Perfective (dokonavé) verbs describe completed actions with a clear result.",
+      "examples": [
+        "čítam knihu – I am reading a book (ongoing)",
+        "prečítam knihu – I will read the book completely"
+      ]
+    },
+    {
+      "title": "Short Verbs Are Usually Imperfective",
+      "text": "Short base verbs without prefixes are often imperfective. They describe general or repeated actions and can be used in the present tense.",
+      "examples": [
+        "čítať – to read (imperfective)",
+        "písať – to write (imperfective)",
+        "robiť – to do (imperfective)"
+      ]
+    },
+    {
+      "title": "Prefixes Usually Create Perfective Verbs",
+      "text": "Adding a prefix often turns an imperfective verb into a perfective one. These verbs usually describe a completed action and normally do not have a true present tense (their present form refers to the future).",
+      "examples": [
+        "čítať → prečítať – to read completely",
+        "písať → napísať – to write completely",
+        "robiť → urobiť – to finish doing"
+      ]
+    },
+    {
+      "title": "Verbs Ending in -ávať or -ovať Are Usually Imperfective",
+      "text": "Verbs with endings like -ávať or -ovať are typically imperfective, even when they contain a prefix. They often describe repeated or habitual actions.",
+      "examples": [
+        "dávať – to give repeatedly (imperfective)",
+        "odovzdávať – to hand over repeatedly (imperfective)",
+        "kupovať – to be buying / buy regularly (imperfective)"
+      ]
+    },
+    {
+      "title": "Perfective Verbs Cannot Describe Ongoing Present Actions",
+      "text": "Perfective verbs usually cannot describe something happening right now. Their present-tense form refers to the future completion of the action.",
+      "examples": [
+        "prečítam knihu – I will read the book (completely)",
+        "napíšem list – I will write the letter"
+      ]
+    }
+  ],
+
+  "vocab": [
+    { "sk": "čítať", "en": "to read (imperfective)" },
+    { "sk": "prečítať", "en": "to read completely (perfective)" },
+    { "sk": "písať", "en": "to write (imperfective)" },
+    { "sk": "napísať", "en": "to write completely (perfective)" },
+    { "sk": "robiť", "en": "to do (imperfective)" },
+    { "sk": "urobiť", "en": "to complete / to do fully (perfective)" },
+    { "sk": "dávať", "en": "to give repeatedly (imperfective)" },
+    { "sk": "odovzdávať", "en": "to hand over repeatedly (imperfective)" },
+    { "sk": "kupovať", "en": "to buy regularly / to be buying (imperfective)" }
+  ],
+
+  "exercises": [
+    { "sk": "Čítam knihu.", "en": "I am reading a book." },
+    { "sk": "Prečítam knihu zajtra.", "en": "I will read the book tomorrow (completely)." },
+    { "sk": "Píšem list.", "en": "I am writing a letter." },
+    { "sk": "Napíšem list večer.", "en": "I will write the letter in the evening." },
+    { "sk": "Kupujem chlieb.", "en": "I am buying bread." },
+    { "sk": "Urobím to zajtra.", "en": "I will do it tomorrow." }
+  ]
+}
+```
