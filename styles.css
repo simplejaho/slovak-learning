@@ -132,6 +132,15 @@ color:white;
 border-radius:4px;
 }
 
+.exercise-controls{
+display:flex;
+gap:10px;
+margin-bottom:10px;
+}
+
+.hidden{
+visibility:hidden;
+}
 
 /* LESSON COLUMNS */
 
