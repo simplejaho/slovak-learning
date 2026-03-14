@@ -317,7 +317,6 @@ function displayLesson(lesson) {
 
   }
 
-
 // ========================
 // EXERCISES
 // ========================
@@ -334,7 +333,7 @@ if (lesson.exercises && lesson.exercises.length > 0) {
   let cards = [...lesson.exercises];
   let index = 0;
   let revealed = false;
-  let direction = "sk-en"; // default
+  let direction = "sk-en";
 
 
   function showCard() {
@@ -345,14 +344,12 @@ if (lesson.exercises && lesson.exercises.length > 0) {
 
       front.textContent = card.sk;
       back.textContent = card.en;
-
       directionBtn.textContent = "SK → EN";
 
     } else {
 
       front.textContent = card.en;
       back.textContent = card.sk;
-
       directionBtn.textContent = "EN → SK";
 
     }
@@ -362,8 +359,6 @@ if (lesson.exercises && lesson.exercises.length > 0) {
 
   }
 
-
-  // NEXT BUTTON LOGIC
 
   nextBtn.onclick = () => {
 
@@ -385,28 +380,18 @@ if (lesson.exercises && lesson.exercises.length > 0) {
   };
 
 
-  // SHUFFLE
-
   shuffleBtn.onclick = () => {
 
-    cards = cards.sort(() => Math.random() - 0.5);
-
+    cards = [...cards].sort(() => Math.random() - 0.5);
     index = 0;
-
     showCard();
 
   };
 
 
-  // DIRECTION TOGGLE
-
   directionBtn.onclick = () => {
 
-    if (direction === "sk-en") {
-      direction = "en-sk";
-    } else {
-      direction = "sk-en";
-    }
+    direction = direction === "sk-en" ? "en-sk" : "sk-en";
 
     showCard();
 
@@ -414,7 +399,5 @@ if (lesson.exercises && lesson.exercises.length > 0) {
 
 
   showCard();
-
-}
 
 }
