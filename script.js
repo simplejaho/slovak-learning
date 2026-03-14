@@ -1,403 +1,271 @@
-let currentSelected = null;
+let currentSelected=null;
+let cards=[];
+let index=0;
+let revealed=false;
+let direction="sk-en";
 
-
-// ========================
-// INIT
-// ========================
-
-async function init() {
-
-  await loadNavigation();
-
-  setupNavigationClick();
-
-  setupMenu();
-
-}
+/* INIT */
 
 init();
 
+async function init(){
+await loadNavigation();
+setupMenu();
+setupNavigationClick();
+}
 
-// ========================
-// SIDEBAR TOGGLE
-// ========================
+/* SIDEBAR TOGGLE */
 
 function setupMenu(){
+const sidebar=document.getElementById("sidebar");
+document.getElementById("menu-toggle").onclick=()=>{
+sidebar.classList.toggle("closed");
+};
+}
 
-  const sidebar = document.getElementById("sidebar");
-  const toggle = document.getElementById("menu-toggle");
+/* LOAD NAV */
 
-  toggle.onclick = () => {
+async function loadNavigation(){
 
-    sidebar.classList.toggle("closed");
+const res=await fetch("data/navigation.json");
+const data=await res.json();
 
-  };
+const nav=document.getElementById("nav-tree");
+nav.innerHTML="";
+
+data.topics.forEach(topic=>{
+nav.appendChild(createNode(topic,0));
+});
 
 }
 
+/* CREATE NODE */
 
-// ========================
-// LOAD NAVIGATION
-// ========================
+function createNode(node,level){
 
-async function loadNavigation() {
+const wrapper=document.createElement("div");
 
-  const res = await fetch("data/navigation.json");
-  const data = await res.json();
+const item=document.createElement("div");
+item.className=`nav-item level-${level}`;
 
-  const navTree = document.getElementById("nav-tree");
+if(node.children){
 
-  navTree.innerHTML = "";
+const arrow=document.createElement("span");
+arrow.textContent="▶";
+arrow.className="expand";
 
-  data.topics.forEach((topic, i) => {
+arrow.onclick=(e)=>{
+e.stopPropagation();
+children.classList.toggle("hidden");
+arrow.textContent=children.classList.contains("hidden")?"▶":"▼";
+};
 
-    const node = createNode(topic, `${i + 1}`, 0);
-
-    navTree.appendChild(node);
-
-  });
-
-}
-
-
-// ========================
-// CREATE NAVIGATION NODE
-// ========================
-
-function createNode(node, number, level) {
-
-  const wrapper = document.createElement("div");
-
-  const item = document.createElement("div");
-  item.className = "nav-item level-" + level;
-
-  item.style.paddingLeft = `${level * 18}px`;
-
-  item.textContent = node.title;
-
-  // If it is a lesson
-  if (node.lesson) {
-
-    item.dataset.lesson = node.lesson;
-    item.classList.add("clickable");
-
-  }
-
-  wrapper.appendChild(item);
-
-
-  // Render children
-  if (node.children && node.children.length > 0) {
-
-    const childrenContainer = document.createElement("div");
-
-    node.children.forEach((child, index) => {
-
-      const childNode = createNode(child, `${number}.${index+1}`, level + 1);
-
-      childrenContainer.appendChild(childNode);
-
-    });
-
-    wrapper.appendChild(childrenContainer);
-
-  }
-
-  return wrapper;
+item.appendChild(arrow);
 
 }
 
+item.append(node.title);
 
-// ========================
-// SIDEBAR CLICK HANDLING
-// ========================
+if(node.lesson){
+item.dataset.lesson=node.lesson;
+}
 
-function setupNavigationClick() {
+wrapper.appendChild(item);
 
-  const navTree = document.getElementById("nav-tree");
+let children;
 
-  navTree.addEventListener("click", function(e) {
+if(node.children){
 
-    const item = e.target.closest(".nav-item");
+children=document.createElement("div");
 
-    if (!item) return;
+node.children.forEach(child=>{
+children.appendChild(createNode(child,level+1));
+});
 
-    const lessonPath = item.dataset.lesson;
-
-    if (!lessonPath) return;
-
-    loadLesson(lessonPath);
-
-    if (currentSelected) {
-
-      currentSelected.classList.remove("active");
-
-    }
-
-    item.classList.add("active");
-
-    currentSelected = item;
-
-  });
+wrapper.appendChild(children);
 
 }
 
-
-// ========================
-// LOAD LESSON
-// ========================
-
-async function loadLesson(path) {
-
-  try {
-
-    const res = await fetch(path);
-
-    if (!res.ok) throw new Error("Lesson not found");
-
-    const lesson = await res.json();
-
-    displayLesson(lesson);
-
-  } catch (err) {
-
-    console.error(err);
-
-    document.getElementById("rules").innerHTML =
-      "<p style='color:red'>Failed to load lesson</p>";
-
-  }
+return wrapper;
 
 }
 
+/* NAV CLICK */
 
-// ========================
-// DISPLAY LESSON
-// ========================
+function setupNavigationClick(){
 
-function displayLesson(lesson) {
+document.getElementById("nav-tree").addEventListener("click",e=>{
 
-  const rulesPanel = document.getElementById("rules");
-  const vocabPanel = document.getElementById("vocab");
+const item=e.target.closest(".nav-item");
+if(!item) return;
 
-  rulesPanel.innerHTML = "";
-  vocabPanel.innerHTML = "";
+const lesson=item.dataset.lesson;
+if(!lesson) return;
 
+loadLesson(lesson);
 
-  // ========================
-  // TITLE
-  // ========================
+if(currentSelected) currentSelected.classList.remove("active");
+item.classList.add("active");
+currentSelected=item;
 
-  const title = document.createElement("h2");
+});
 
-  title.textContent = lesson.title;
+}
 
-  rulesPanel.appendChild(title);
+/* LOAD LESSON */
 
+async function loadLesson(path){
 
-  // ========================
-  // RULES
-  // ========================
+const res=await fetch(path);
+const lesson=await res.json();
 
-  if (lesson.rules) {
+displayLesson(lesson);
 
-    const header = document.createElement("h3");
+}
 
-    header.textContent = "Rules";
+/* DISPLAY LESSON */
 
-    rulesPanel.appendChild(header);
+function displayLesson(lesson){
 
-    lesson.rules.forEach(rule => {
+renderRules(lesson);
+renderVocab(lesson);
+setupExercises(lesson);
 
-      const div = document.createElement("div");
+}
 
-      div.className = "rule";
+/* RULES */
 
-      div.innerHTML = `
-        <h4>${rule.title}</h4>
-        <p>${rule.text}</p>
-      `;
+function renderRules(lesson){
 
-      if (rule.examples) {
+const rules=document.getElementById("rules");
+rules.innerHTML=`<h2>${lesson.title}</h2>`;
 
-        const ul = document.createElement("ul");
+if(!lesson.rules) return;
 
-        rule.examples.forEach(ex => {
+lesson.rules.forEach(r=>{
 
-          const li = document.createElement("li");
+const div=document.createElement("div");
+div.className="rule";
 
-          li.textContent = ex;
+div.innerHTML=`<h4>${r.title}</h4><p>${r.text}</p>`;
 
-          ul.appendChild(li);
+if(r.examples){
 
-        });
+const ul=document.createElement("ul");
 
-        div.appendChild(ul);
+r.examples.forEach(ex=>{
+const li=document.createElement("li");
+li.textContent=ex;
+ul.appendChild(li);
+});
 
-      }
+div.appendChild(ul);
 
-      rulesPanel.appendChild(div);
+}
 
-    });
+rules.appendChild(div);
 
-  }
+});
 
+}
 
-  // ========================
-  // VOCAB TABLE
-  // ========================
+/* VOCAB */
 
-  if (lesson.vocab) {
+function renderVocab(lesson){
 
-    const search = document.createElement("input");
+const vocab=document.getElementById("vocab");
+vocab.innerHTML="";
 
-    search.id = "vocab-search";
+if(!lesson.vocab) return;
 
-    search.type = "text";
+const search=document.createElement("input");
+search.id="vocab-search";
+search.placeholder="Search vocabulary";
 
-    search.placeholder = "Search vocabulary...";
+vocab.appendChild(search);
 
-    vocabPanel.appendChild(search);
+const table=document.createElement("table");
+table.id="vocab-table";
 
+table.innerHTML="<thead><tr><th>Slovak</th><th>English</th></tr></thead><tbody></tbody>";
 
-    const table = document.createElement("table");
+vocab.appendChild(table);
 
-    table.id = "vocab-table";
+const body=table.querySelector("tbody");
 
-    table.innerHTML = `
-      <thead>
-        <tr>
-          <th>Slovak</th>
-          <th>English</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    `;
+lesson.vocab.forEach(w=>{
+const tr=document.createElement("tr");
+tr.innerHTML=`<td>${w.sk}</td><td>${w.en}</td>`;
+body.appendChild(tr);
+});
 
-    vocabPanel.appendChild(table);
+search.oninput=()=>{
+const f=search.value.toLowerCase();
+body.querySelectorAll("tr").forEach(r=>{
+r.style.display=
+r.innerText.toLowerCase().includes(f)?"":"none";
+});
+};
 
+}
 
-    const tbody = table.querySelector("tbody");
+/* EXERCISES */
 
+function setupExercises(lesson){
 
-    lesson.vocab.forEach(word => {
+const front=document.querySelector(".flash-front");
+const back=document.querySelector(".flash-back");
 
-      const tr = document.createElement("tr");
+cards=lesson.exercises?[...lesson.exercises]:[];
+index=0;
+revealed=false;
 
-      tr.innerHTML = `
-        <td>${word.sk}</td>
-        <td>${word.en}</td>
-      `;
+function show(){
 
-      tbody.appendChild(tr);
+if(cards.length===0){
+front.textContent="";
+back.textContent="";
+return;
+}
 
-    });
+const c=cards[index];
 
+if(direction==="sk-en"){
+front.textContent=c.sk;
+back.textContent=c.en;
+}else{
+front.textContent=c.en;
+back.textContent=c.sk;
+}
 
-    // SEARCH FILTER
+back.classList.add("hidden");
+revealed=false;
 
-    search.addEventListener("input", function () {
+}
 
-      const filter = this.value.toLowerCase();
+document.getElementById("next-card").onclick=()=>{
 
-      tbody.querySelectorAll("tr").forEach(row => {
+if(!revealed){
+back.classList.remove("hidden");
+revealed=true;
+}else{
+index=(index+1)%cards.length;
+show();
+}
 
-        const sk = row.cells[0].textContent.toLowerCase();
+};
 
-        const en = row.cells[1].textContent.toLowerCase();
+document.getElementById("shuffle-cards").onclick=()=>{
+cards.sort(()=>Math.random()-.5);
+index=0;
+show();
+};
 
-        row.style.display =
-          sk.includes(filter) || en.includes(filter)
-            ? ""
-            : "none";
+document.getElementById("flip-direction").onclick=()=>{
+direction=direction==="sk-en"?"en-sk":"sk-en";
+show();
+};
 
-      });
-
-    });
-
-  }
-
-// ========================
-// EXERCISES
-// ========================
-
-const front = document.querySelector(".flash-front");
-const back = document.querySelector(".flash-back");
-
-const nextBtn = document.getElementById("next-card");
-const shuffleBtn = document.getElementById("shuffle-cards");
-const directionBtn = document.getElementById("flip-direction");
-
-if (lesson.exercises && lesson.exercises.length > 0) {
-
-  let cards = [...lesson.exercises];
-  let index = 0;
-  let revealed = false;
-  let direction = "sk-en";
-
-
-  function showCard() {
-
-    const card = cards[index];
-
-    if (direction === "sk-en") {
-
-      front.textContent = card.sk;
-      back.textContent = card.en;
-      directionBtn.textContent = "SK → EN";
-
-    } else {
-
-      front.textContent = card.en;
-      back.textContent = card.sk;
-      directionBtn.textContent = "EN → SK";
-
-    }
-
-    back.classList.add("hidden");
-    revealed = false;
-
-  }
-
-
-  nextBtn.onclick = () => {
-
-    if (!revealed) {
-
-      back.classList.remove("hidden");
-      revealed = true;
-
-    } else {
-
-      index++;
-
-      if (index >= cards.length) index = 0;
-
-      showCard();
-
-    }
-
-  };
-
-
-  shuffleBtn.onclick = () => {
-
-    cards = [...cards].sort(() => Math.random() - 0.5);
-    index = 0;
-    showCard();
-
-  };
-
-
-  directionBtn.onclick = () => {
-
-    direction = direction === "sk-en" ? "en-sk" : "sk-en";
-
-    showCard();
-
-  };
-
-
-  showCard();
+show();
 
 }
