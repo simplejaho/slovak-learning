@@ -180,10 +180,6 @@ function displayLesson(lesson) {
   const rulesPanel = document.getElementById("rules");
   const vocabPanel = document.getElementById("vocab");
 
-  const front = document.querySelector(".flash-front");
-  const back = document.querySelector(".flash-back");
-  const nextBtn = document.getElementById("next-card");
-
   rulesPanel.innerHTML = "";
   vocabPanel.innerHTML = "";
 
