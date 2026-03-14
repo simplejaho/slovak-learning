@@ -1,6 +1,4 @@
 {
-  "title": "Perfective vs Imperfective Verbs (Dokonavé vs Nedokonavé Slovesá)",
-
   "rules": [
     {
       "title": "Basic Concept",
@@ -48,15 +46,142 @@
   ],
 
   "vocab": [
-    { "sk": "čítať", "en": "to read (imperfective)" },
-    { "sk": "prečítať", "en": "to read completely (perfective)" },
-    { "sk": "písať", "en": "to write (imperfective)" },
-    { "sk": "napísať", "en": "to write completely (perfective)" },
-    { "sk": "robiť", "en": "to do (imperfective)" },
-    { "sk": "urobiť", "en": "to complete / to do fully (perfective)" },
-    { "sk": "dávať", "en": "to give repeatedly (imperfective)" },
-    { "sk": "odovzdávať", "en": "to hand over repeatedly (imperfective)" },
-    { "sk": "kupovať", "en": "to buy regularly / to be buying (imperfective)" }
+    { "sk": "byť (imp)", "en": "to be" },
+    { "sk": "mať (imp)", "en": "to have" },
+    { "sk": "ísť (imp)", "en": "to go (one direction)" },
+    { "sk": "chodiť (imp)", "en": "to go repeatedly" },
+    { "sk": "robiť (imp)", "en": "to do" },
+    { "sk": "urobiť (perf)", "en": "to do / complete" },
+
+    { "sk": "pracovať (imp)", "en": "to work" },
+    { "sk": "odpracovať (perf)", "en": "to work (finish work)" },
+
+    { "sk": "hovoriť (imp)", "en": "to speak / say" },
+    { "sk": "povedať (perf)", "en": "to say" },
+
+    { "sk": "rozprávať (imp)", "en": "to talk" },
+    { "sk": "porozprávať (perf)", "en": "to talk (completely)" },
+
+    { "sk": "vidieť (imp)", "en": "to see" },
+    { "sk": "uvidieť (perf)", "en": "to see / notice" },
+
+    { "sk": "počuť (imp)", "en": "to hear" },
+    { "sk": "začuť (perf)", "en": "to hear suddenly" },
+
+    { "sk": "počúvať (imp)", "en": "to listen" },
+    { "sk": "vypočuť (perf)", "en": "to listen completely" },
+
+    { "sk": "jesť (imp)", "en": "to eat" },
+    { "sk": "zjesť (perf)", "en": "to eat completely" },
+
+    { "sk": "piť (imp)", "en": "to drink" },
+    { "sk": "vypiť (perf)", "en": "to drink completely" },
+
+    { "sk": "spať (imp)", "en": "to sleep" },
+    { "sk": "zaspať (perf)", "en": "to fall asleep" },
+
+    { "sk": "čakať (imp)", "en": "to wait" },
+    { "sk": "počkať (perf)", "en": "to wait (until finished)" },
+
+    { "sk": "myslieť (imp)", "en": "to think" },
+    { "sk": "pomyslieť (perf)", "en": "to think of / realize" },
+
+    { "sk": "vedieť (imp)", "en": "to know (a fact)" },
+
+    { "sk": "poznať (imp)", "en": "to know / recognize" },
+    { "sk": "spoznať (perf)", "en": "to get to know / recognize" },
+
+    { "sk": "chcieť (imp)", "en": "to want" },
+    { "sk": "môcť (imp)", "en": "can / be able to" },
+    { "sk": "musieť (imp)", "en": "must" },
+    { "sk": "smieť (imp)", "en": "may / be allowed" },
+
+    { "sk": "dávať (imp)", "en": "to give (repeatedly)" },
+    { "sk": "dať (perf)", "en": "to give" },
+
+    { "sk": "brať (imp)", "en": "to take" },
+    { "sk": "zobrať (perf)", "en": "to take / pick up" },
+    { "sk": "vziať (perf)", "en": "to take" },
+
+    { "sk": "kupovať (imp)", "en": "to buy" },
+    { "sk": "kúpiť (perf)", "en": "to buy" },
+
+    { "sk": "predávať (imp)", "en": "to sell" },
+    { "sk": "predať (perf)", "en": "to sell (complete)" },
+
+    { "sk": "učiť (imp)", "en": "to teach" },
+    { "sk": "naučiť (perf)", "en": "to teach / cause to learn" },
+
+    { "sk": "učiť sa (imp)", "en": "to learn" },
+    { "sk": "naučiť sa (perf)", "en": "to learn (finish learning)" },
+
+    { "sk": "študovať (imp)", "en": "to study" },
+    { "sk": "preštudovať (perf)", "en": "to study thoroughly" },
+
+    { "sk": "bývať (imp)", "en": "to reside" },
+
+    { "sk": "stáť (imp)", "en": "to stand" },
+    { "sk": "postáť (perf)", "en": "to stand briefly" },
+
+    { "sk": "sedieť (imp)", "en": "to sit" },
+    { "sk": "sadnúť si (perf)", "en": "to sit down" },
+
+    { "sk": "ležať (imp)", "en": "to lie down" },
+    { "sk": "ľahnúť si (perf)", "en": "to lie down (action)" },
+
+    { "sk": "behať (imp)", "en": "to run repeatedly" },
+    { "sk": "zabehnúť (perf)", "en": "to run somewhere / complete run" },
+
+    { "sk": "cestovať (imp)", "en": "to travel" },
+    { "sk": "vycestovať (perf)", "en": "to depart / travel out" },
+
+    { "sk": "volať (imp)", "en": "to call" },
+    { "sk": "zavolať (perf)", "en": "to call (once)" },
+
+    { "sk": "telefonovať (imp)", "en": "to phone" },
+    { "sk": "zatelefonovať (perf)", "en": "to phone (once)" },
+
+    { "sk": "písať (imp)", "en": "to write" },
+    { "sk": "napísať (perf)", "en": "to write (complete)" },
+
+    { "sk": "čítať (imp)", "en": "to read" },
+    { "sk": "prečítať (perf)", "en": "to read completely" },
+
+    { "sk": "nosiť (imp)", "en": "to carry repeatedly" },
+    { "sk": "odniesť (perf)", "en": "to carry away" },
+
+    { "sk": "niesť (imp)", "en": "to carry (one direction)" },
+    { "sk": "priniesť (perf)", "en": "to bring" },
+
+    { "sk": "otvárať (imp)", "en": "to open" },
+    { "sk": "otvoriť (perf)", "en": "to open (complete)" },
+
+    { "sk": "zatvárať (imp)", "en": "to close" },
+    { "sk": "zatvoriť (perf)", "en": "to close (complete)" },
+
+    { "sk": "hrať (imp)", "en": "to play" },
+    { "sk": "zahrať (perf)", "en": "to play (once)" },
+
+    { "sk": "hrať sa (imp)", "en": "to play (games)" },
+    { "sk": "zahrať sa (perf)", "en": "to play briefly" },
+
+    { "sk": "plávať (imp)", "en": "to swim" },
+    { "sk": "zaplávať (perf)", "en": "to swim (once / briefly)" },
+
+    { "sk": "variť (imp)", "en": "to cook" },
+    { "sk": "uvariť (perf)", "en": "to cook (finish)" },
+
+    { "sk": "umývať (imp)", "en": "to wash" },
+    { "sk": "umyť (perf)", "en": "to wash (complete)" },
+
+    { "sk": "sprchovať sa (imp)", "en": "to shower" },
+    { "sk": "osprchovať sa (perf)", "en": "to shower (complete)" },
+
+    { "sk": "obliekať sa (imp)", "en": "to get dressed" },
+    { "sk": "obliecť sa (perf)", "en": "to get dressed (finish)" },
+
+    { "sk": "vyzliekať sa (imp)", "en": "to undress" },
+    { "sk": "vyzliecť sa (perf)", "en": "to undress (finish)" }
   ],
 
   "exercises": [
