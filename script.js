@@ -66,40 +66,44 @@ async function loadNavigation() {
 
 function createNode(node, number, level) {
 
-  const container = document.createElement("div");
+  const wrapper = document.createElement("div");
 
   const item = document.createElement("div");
-
-  item.className = "nav-item";
+  item.className = "nav-item level-" + level;
 
   item.style.paddingLeft = `${level * 18}px`;
 
-  item.textContent = `${number}. ${node.title}`;
+  item.textContent = node.title;
 
+  // If it is a lesson
   if (node.lesson) {
 
     item.dataset.lesson = node.lesson;
-
     item.classList.add("clickable");
 
   }
 
-  container.appendChild(item);
+  wrapper.appendChild(item);
 
 
-  if (node.children) {
+  // Render children
+  if (node.children && node.children.length > 0) {
+
+    const childrenContainer = document.createElement("div");
 
     node.children.forEach((child, index) => {
 
-      const childNode = createNode(child, `${number}.${index + 1}`, level + 1);
+      const childNode = createNode(child, `${number}.${index+1}`, level + 1);
 
-      container.appendChild(childNode);
+      childrenContainer.appendChild(childNode);
 
     });
 
+    wrapper.appendChild(childrenContainer);
+
   }
 
-  return container;
+  return wrapper;
 
 }
 
