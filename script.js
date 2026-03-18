@@ -4,6 +4,8 @@ let index=0;
 let revealed=false;
 let direction="sk-en";
 
+const counter=document.getElementById("card-counter");
+
 /* INIT */
 
 init();
@@ -228,10 +230,13 @@ function show(){
 if(cards.length===0){
 front.textContent="";
 back.textContent="";
+counter.textContent="0 / 0";
 return;
 }
 
 const c=cards[index];
+
+counter.textContent = `${index + 1} / ${cards.length}`;
 
 if(direction==="sk-en"){
 front.textContent=c.sk;
