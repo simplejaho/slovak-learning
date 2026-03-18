@@ -229,3 +229,33 @@ text-align:left;
 #vocab-table th{
 background:#f2f2f2;
 }
+
+/* Rule tables */
+.rule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  font-size: 0.95em;
+}
+
+.rule-table th,
+.rule-table td {
+  border: 1px solid #667eea; /* Table borders */
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.rule-table th {
+  background-color: #667eea;
+  color: white;
+  font-weight: 600;
+}
+
+.rule-table tr:nth-child(even) {
+  background-color: #f0f4ff; /* light striped effect */
+}
+
+.rule-table tr:hover {
+  background-color: #dde8ff; /* hover highlight */
+  transition: background-color 0.2s;
+}
