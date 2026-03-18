@@ -184,12 +184,131 @@
     { "sk": "vyzliecť sa (perf)", "en": "to undress (finish)" }
   ],
 
-  "exercises": [
-    { "sk": "Čítam knihu.", "en": "I am reading a book." },
-    { "sk": "Prečítam knihu zajtra.", "en": "I will read the book tomorrow (completely)." },
-    { "sk": "Píšem list.", "en": "I am writing a letter." },
-    { "sk": "Napíšem list večer.", "en": "I will write the letter in the evening." },
-    { "sk": "Kupujem chlieb.", "en": "I am buying bread." },
-    { "sk": "Urobím to zajtra.", "en": "I will do it tomorrow." }
-  ]
+"exercises": [
+  { "sk": "byť", "en": "to be (imperfective)" },
+  { "sk": "mať", "en": "to have (imperfective)" },
+  { "sk": "ísť", "en": "to go (imperfective)" },
+  { "sk": "chodiť", "en": "to go repeatedly (imperfective)" },
+
+  { "sk": "robiť", "en": "to do (imperfective)" },
+  { "sk": "urobiť", "en": "to do / complete (perfective)" },
+
+  { "sk": "pracovať", "en": "to work (imperfective)" },
+  { "sk": "odpracovať", "en": "to work completely (perfective)" },
+
+  { "sk": "hovoriť", "en": "to speak (imperfective)" },
+  { "sk": "povedať", "en": "to say (perfective)" },
+
+  { "sk": "rozprávať", "en": "to talk (imperfective)" },
+  { "sk": "porozprávať", "en": "to talk through (perfective)" },
+
+  { "sk": "vidieť", "en": "to see (imperfective)" },
+  { "sk": "uvidieť", "en": "to notice / see (perfective)" },
+
+  { "sk": "počuť", "en": "to hear (imperfective)" },
+  { "sk": "začuť", "en": "to suddenly hear (perfective)" },
+
+  { "sk": "počúvať", "en": "to listen (imperfective)" },
+  { "sk": "vypočuť", "en": "to listen fully (perfective)" },
+
+  { "sk": "jesť", "en": "to eat (imperfective)" },
+  { "sk": "zjesť", "en": "to eat completely (perfective)" },
+
+  { "sk": "piť", "en": "to drink (imperfective)" },
+  { "sk": "vypiť", "en": "to drink completely (perfective)" },
+
+  { "sk": "spať", "en": "to sleep (imperfective)" },
+  { "sk": "zaspať", "en": "to fall asleep (perfective)" },
+
+  { "sk": "čakať", "en": "to wait (imperfective)" },
+  { "sk": "počkať", "en": "to wait until finished (perfective)" },
+
+  { "sk": "myslieť", "en": "to think (imperfective)" },
+  { "sk": "pomyslieť", "en": "to think / realize (perfective)" },
+
+  { "sk": "vedieť", "en": "to know a fact (imperfective)" },
+
+  { "sk": "poznať", "en": "to know / recognize (imperfective)" },
+  { "sk": "spoznať", "en": "to get to know / recognize (perfective)" },
+
+  { "sk": "chcieť", "en": "to want (imperfective)" },
+  { "sk": "môcť", "en": "can / be able to (imperfective)" },
+  { "sk": "musieť", "en": "must (imperfective)" },
+  { "sk": "smieť", "en": "may / be allowed (imperfective)" },
+
+  { "sk": "dávať", "en": "to give repeatedly (imperfective)" },
+  { "sk": "dať", "en": "to give (perfective)" },
+
+  { "sk": "brať", "en": "to take (imperfective)" },
+  { "sk": "zobrať", "en": "to take / pick up (perfective)" },
+  { "sk": "vziať", "en": "to take (perfective)" },
+
+  { "sk": "kupovať", "en": "to buy (imperfective)" },
+  { "sk": "kúpiť", "en": "to buy (perfective)" },
+
+  { "sk": "predávať", "en": "to sell (imperfective)" },
+  { "sk": "predať", "en": "to sell completely (perfective)" },
+
+  { "sk": "učiť", "en": "to teach (imperfective)" },
+  { "sk": "naučiť", "en": "to teach / cause to learn (perfective)" },
+
+  { "sk": "učiť sa", "en": "to learn (imperfective)" },
+  { "sk": "naučiť sa", "en": "to learn completely (perfective)" },
+
+  { "sk": "študovať", "en": "to study (imperfective)" },
+  { "sk": "preštudovať", "en": "to study thoroughly (perfective)" },
+
+  { "sk": "bývať", "en": "to reside (imperfective)" },
+
+  { "sk": "stáť", "en": "to stand (imperfective)" },
+  { "sk": "postáť", "en": "to stand briefly (perfective)" },
+
+  { "sk": "sedieť", "en": "to sit (imperfective)" },
+  { "sk": "sadnúť si", "en": "to sit down (perfective)" },
+
+  { "sk": "ležať", "en": "to lie (imperfective)" },
+  { "sk": "ľahnúť si", "en": "to lie down (perfective)" },
+
+  { "sk": "behať", "en": "to run repeatedly (imperfective)" },
+  { "sk": "zabehnúť", "en": "to run somewhere (perfective)" },
+
+  { "sk": "cestovať", "en": "to travel (imperfective)" },
+  { "sk": "vycestovať", "en": "to travel out / depart (perfective)" },
+
+  { "sk": "volať", "en": "to call (imperfective)" },
+  { "sk": "zavolať", "en": "to call once (perfective)" },
+
+  { "sk": "telefonovať", "en": "to phone (imperfective)" },
+  { "sk": "zatelefonovať", "en": "to phone once (perfective)" },
+
+  { "sk": "písať", "en": "to write (imperfective)" },
+  { "sk": "napísať", "en": "to write completely (perfective)" },
+
+  { "sk": "čítať", "en": "to read (imperfective)" },
+  { "sk": "prečítať", "en": "to read completely (perfective)" },
+
+  { "sk": "nosiť", "en": "to carry repeatedly (imperfective)" },
+  { "sk": "odniesť", "en": "to carry away (perfective)" },
+
+  { "sk": "niesť", "en": "to carry one direction (imperfective)" },
+  { "sk": "priniesť", "en": "to bring (perfective)" },
+
+  { "sk": "otvárať", "en": "to open (imperfective)" },
+  { "sk": "otvoriť", "en": "to open completely (perfective)" },
+
+  { "sk": "zatvárať", "en": "to close (imperfective)" },
+  { "sk": "zatvoriť", "en": "to close completely (perfective)" },
+
+  { "sk": "hrať", "en": "to play (imperfective)" },
+  { "sk": "zahrať", "en": "to play once (perfective)" },
+
+  { "sk": "plávať", "en": "to swim (imperfective)" },
+  { "sk": "zaplávať", "en": "to swim once (perfective)" },
+
+  { "sk": "variť", "en": "to cook (imperfective)" },
+  { "sk": "uvariť", "en": "to cook completely (perfective)" },
+
+  { "sk": "umývať", "en": "to wash (imperfective)" },
+  { "sk": "umyť", "en": "to wash completely (perfective)" }
+]
 }
