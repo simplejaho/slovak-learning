@@ -141,8 +141,8 @@ setupExercises(lesson);
 function renderRules(lesson){
 
 const rules=document.getElementById("rules");
-rules.innerHTML=`<h2>${lesson.title}</h2>`;
-
+rules.innerHTML="";
+  
 if(!lesson.rules) return;
 
 lesson.rules.forEach(r=>{
