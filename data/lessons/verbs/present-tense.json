@@ -1,26 +1,90 @@
 {
-  "title": "Present Tense Conjugation",
+  "title": "Present Tense Verb Conjugation",
 
   "rules": [
     {
-      "title": "Basic Rule",
-      "text": "Present tense verbs change endings depending on the subject.",
+      "title": "The 4 Main Verb Conjugation Patterns",
+      "text": "Most Slovak verbs follow one of four main conjugation patterns. These patterns are usually recognizable from the infinitive ending. The most important difference appears in the 3rd person plural (they form).",
       "examples": [
-        "robím – I do",
-        "robíš – you do"
-      ]
+        "Pozerajú televíziu. – They watch TV.",
+        "Hovoria po slovensky. – They speak Slovak.",
+        "Študujú doma. – They study at home.",
+        "Rozumejú tomu. – They understand it."
+      ],
+      "table": {
+        "headers": ["Type", "Infinitive Example", "1sg", "2sg", "3sg", "1pl", "2pl", "3pl (key ending)"],
+        "rows": [
+          ["-ať (pozerat type)", "pozerať", "pozerám", "pozeráš", "pozerá", "pozeráme", "pozeráte", "pozerajú"],
+          ["-iť (hovorit type)", "hovoriť", "hovorím", "hovoríš", "hovorí", "hovoríme", "hovoríte", "hovoria"],
+          ["-ovať (studovat type)", "študovať", "študujem", "študuješ", "študuje", "študujeme", "študujete", "študujú"],
+          ["-ieť (rozumiet type)", "rozumieť", "rozumiem", "rozumieš", "rozumie", "rozumieme", "rozumiete", "rozumejú"]
+        ]
+      }
+    },
+
+    {
+      "title": "How to Recognize the 3rd Person Plural",
+      "text": "The easiest way to classify Slovak verbs is by looking at their 3rd person plural form. Each verb group has a typical ending.",
+      "examples": [
+        "-ajú → pozerať → pozerajú",
+        "-ia → hovoriť → hovoria",
+        "-ujú → študovať → študujú",
+        "-ejú → rozumieť → rozumejú"
+      ],
+      "table": {
+        "headers": ["Verb Type", "3rd Person Plural Ending", "Example"],
+        "rows": [
+          ["-ať verbs", "-ajú", "pozerajú"],
+          ["-iť verbs", "-ia", "robia / hovoria"],
+          ["-ovať verbs", "-ujú", "pracujú / študujú"],
+          ["-ieť verbs", "-ejú", "rozumejú"]
+        ]
+      }
+    },
+
+    {
+      "title": "Irregular and Less Predictable Verbs",
+      "text": "Some verbs do not follow the four standard patterns exactly. These verbs often have stem changes or unusual endings. They must be memorized.",
+      "table": {
+        "headers": ["Infinitive", "1sg", "2sg", "3sg", "1pl", "2pl", "3pl"],
+        "rows": [
+          ["brať", "beriem", "berieš", "berie", "berieme", "beriete", "berú"],
+          ["chudnúť", "chudnem", "chudneš", "chudne", "chudneme", "chudnete", "chudnú"],
+          ["chytať", "chytám", "chytáš", "chytá", "chytáme", "chytáte", "chytajú"],
+          ["česať", "česem", "česeš", "čese", "česeme", "česete", "česú"],
+          ["hynúť", "hyniem", "hynieš", "hynie", "hynieme", "hyniete", "hynú"],
+          ["kričať", "kričím", "kričíš", "kričí", "kričíme", "kričíte", "kričia"],
+          ["niesť", "niesiem", "niesieš", "niesie", "niesieme", "niesiete", "nesú"],
+          ["pracovať", "pracujem", "pracuješ", "pracuje", "pracujeme", "pracujete", "pracujú"],
+          ["robiť", "robím", "robíš", "robí", "robíme", "robíte", "robia"],
+          ["rozumieť", "rozumiem", "rozumieš", "rozumie", "rozumieme", "rozumiete", "rozumejú"],
+          ["trieť", "triem", "trieš", "trie", "trieme", "triete", "trú"],
+          ["vidieť", "vidím", "vidíš", "vidí", "vidíme", "vidíte", "vidia"],
+          ["žať", "žnem", "žneš", "žne", "žneme", "žnete", "žnú"],
+          ["žuť", "žujem", "žuješ", "žuje", "žueme", "žuete", "žujú"]
+        ]
+      }
     }
   ],
 
   "vocab": [
+    { "sk": "pozerať", "en": "to watch" },
+    { "sk": "hovoriť", "en": "to speak" },
+    { "sk": "študovať", "en": "to study" },
+    { "sk": "rozumieť", "en": "to understand" },
     { "sk": "robiť", "en": "to do" },
+    { "sk": "pracovať", "en": "to work" },
     { "sk": "vidieť", "en": "to see" },
-    { "sk": "jesť", "en": "to eat" }
+    { "sk": "brať", "en": "to take" },
+    { "sk": "niesť", "en": "to carry" }
   ],
 
   "exercises": [
-    { "sk": "Ja robím.", "en": "I do." },
-    { "sk": "Ty vidíš.", "en": "You see." },
-    { "sk": "On je.", "en": "He is." }
+    { "sk": "Ja pozerám televíziu.", "en": "I watch TV." },
+    { "sk": "Ty hovoríš po slovensky.", "en": "You speak Slovak." },
+    { "sk": "On pracuje doma.", "en": "He works at home." },
+    { "sk": "My rozumieme tomu.", "en": "We understand it." },
+    { "sk": "Vy študujete večer.", "en": "You study in the evening." },
+    { "sk": "Oni robia veľa.", "en": "They do a lot." }
   ]
 }
