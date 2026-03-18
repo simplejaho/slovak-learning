@@ -140,38 +140,43 @@ setupExercises(lesson);
 
 /* RULES */
 
-function renderRules(lesson){
+function renderRules(lesson) {
+  const rules = document.getElementById("rules");
+  rules.innerHTML = "";
 
-const rules=document.getElementById("rules");
-rules.innerHTML="";
-  
-if(!lesson.rules) return;
+  if (!lesson.rules) return;
 
-lesson.rules.forEach(r=>{
+  lesson.rules.forEach(r => {
+    const div = document.createElement("div");
+    div.className = "rule";
 
-const div=document.createElement("div");
-div.className="rule";
+    // Title + Text
+    div.innerHTML = `<h4>${r.title}</h4><p>${r.text}</p>`;
 
-div.innerHTML=`<h4>${r.title}</h4><p>${r.text}</p>`;
+    // Render table if exists
+    if (r.table) {
+      const table = document.createElement("table");
+      table.className = "rule-table";
 
-if(r.examples){
+      // Headers
+      const thead = document.createElement("thead");
+      thead.innerHTML = `<tr>${r.table.headers.map(h => `<th>${h}</th>`).join("")}</tr>`;
+      table.appendChild(thead);
 
-const ul=document.createElement("ul");
+      // Rows
+      const tbody = document.createElement("tbody");
+      r.table.rows.forEach(row => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = row.map(cell => `<td>${cell}</td>`).join("");
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody);
 
-r.examples.forEach(ex=>{
-const li=document.createElement("li");
-li.textContent=ex;
-ul.appendChild(li);
-});
+      div.appendChild(table);
+    }
 
-div.appendChild(ul);
-
-}
-
-rules.appendChild(div);
-
-});
-
+    rules.appendChild(div);
+  });
 }
 
 /* VOCAB */
