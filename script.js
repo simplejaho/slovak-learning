@@ -102,6 +102,9 @@ if(!item) return;
 const lesson=item.dataset.lesson;
 if(!lesson) return;
 
+const title=item.textContent.trim();
+document.getElementById("lesson-title").textContent=title;
+
 loadLesson(lesson);
 
 if(currentSelected) currentSelected.classList.remove("active");
