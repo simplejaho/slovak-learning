@@ -4,47 +4,85 @@
   "rules": [
     {
       "title": "The 4 Main Verb Conjugation Patterns",
-      "text": "Most Slovak verbs follow one of four main conjugation patterns. These patterns are usually recognizable from the infinitive ending. The most important difference appears in the 3rd person plural (they form).",
-      "examples": [
-        "Pozerajú televíziu. – They watch TV.",
-        "Hovoria po slovensky. – They speak Slovak.",
-        "Študujú doma. – They study at home.",
-        "Rozumejú tomu. – They understand it."
-      ],
+      "text": "Most Slovak verbs follow one of four common conjugation patterns. These patterns are easiest to recognize from the infinitive ending and especially from the 3rd person plural form.",
       "table": {
-        "headers": ["Type", "Infinitive Example", "1sg", "2sg", "3sg", "1pl", "2pl", "3pl (key ending)"],
+        "headers": ["Type", "Infinitive Pattern", "3rd Person Plural Ending", "Example"],
         "rows": [
-          ["-ať (pozerat type)", "pozerať", "pozerám", "pozeráš", "pozerá", "pozeráme", "pozeráte", "pozerajú"],
-          ["-iť (hovorit type)", "hovoriť", "hovorím", "hovoríš", "hovorí", "hovoríme", "hovoríte", "hovoria"],
-          ["-ovať (studovat type)", "študovať", "študujem", "študuješ", "študuje", "študujeme", "študujete", "študujú"],
-          ["-ieť (rozumiet type)", "rozumieť", "rozumiem", "rozumieš", "rozumie", "rozumieme", "rozumiete", "rozumejú"]
+          ["Type 1", "-ať verbs", "-ajú", "pozerajú"],
+          ["Type 2", "-iť verbs", "-ia", "robia / hovoria"],
+          ["Type 3", "-ovať verbs", "-ujú", "pracujú / študujú"],
+          ["Type 4", "-ieť verbs", "-ejú", "rozumejú"]
         ]
       }
     },
 
     {
-      "title": "How to Recognize the 3rd Person Plural",
-      "text": "The easiest way to classify Slovak verbs is by looking at their 3rd person plural form. Each verb group has a typical ending.",
-      "examples": [
-        "-ajú → pozerať → pozerajú",
-        "-ia → hovoriť → hovoria",
-        "-ujú → študovať → študujú",
-        "-ejú → rozumieť → rozumejú"
-      ],
+      "title": "Type 1: -ať verbs (pozerať type)",
+      "text": "These verbs usually end in -ať. The stem remains stable and the endings follow a clear pattern.",
       "table": {
-        "headers": ["Verb Type", "3rd Person Plural Ending", "Example"],
+        "headers": ["Person", "Ending", "Example: pozerať"],
         "rows": [
-          ["-ať verbs", "-ajú", "pozerajú"],
-          ["-iť verbs", "-ia", "robia / hovoria"],
-          ["-ovať verbs", "-ujú", "pracujú / študujú"],
-          ["-ieť verbs", "-ejú", "rozumejú"]
+          ["1st sg", "-ám", "pozerám"],
+          ["2nd sg", "-áš", "pozeráš"],
+          ["3rd sg", "-á", "pozerá"],
+          ["1st pl", "-áme", "pozeráme"],
+          ["2nd pl", "-áte", "pozeráte"],
+          ["3rd pl", "-ajú", "pozerajú"]
+        ]
+      }
+    },
+
+    {
+      "title": "Type 2: -iť verbs (hovoriť / robiť type)",
+      "text": "Many verbs ending in -iť follow this pattern. The stem drops -iť and takes endings with -í / -ia.",
+      "table": {
+        "headers": ["Person", "Ending", "Example: hovoriť"],
+        "rows": [
+          ["1st sg", "-ím", "hovorím"],
+          ["2nd sg", "-íš", "hovoríš"],
+          ["3rd sg", "-í", "hovorí"],
+          ["1st pl", "-íme", "hovoríme"],
+          ["2nd pl", "-íte", "hovoríte"],
+          ["3rd pl", "-ia", "hovoria"]
+        ]
+      }
+    },
+
+    {
+      "title": "Type 3: -ovať verbs (pracovať / študovať type)",
+      "text": "Verbs ending in -ovať usually insert -uj- in the present tense stem.",
+      "table": {
+        "headers": ["Person", "Ending", "Example: pracovať"],
+        "rows": [
+          ["1st sg", "-ujem", "pracujem"],
+          ["2nd sg", "-uješ", "pracuješ"],
+          ["3rd sg", "-uje", "pracuje"],
+          ["1st pl", "-ujeme", "pracujeme"],
+          ["2nd pl", "-ujete", "pracujete"],
+          ["3rd pl", "-ujú", "pracujú"]
+        ]
+      }
+    },
+
+    {
+      "title": "Type 4: -ieť verbs (rozumieť type)",
+      "text": "These verbs change the stem slightly and use endings that create the 3rd plural -ejú.",
+      "table": {
+        "headers": ["Person", "Ending", "Example: rozumieť"],
+        "rows": [
+          ["1st sg", "-iem", "rozumiem"],
+          ["2nd sg", "-ieš", "rozumieš"],
+          ["3rd sg", "-ie", "rozumie"],
+          ["1st pl", "-ieme", "rozumieme"],
+          ["2nd pl", "-iete", "rozumiete"],
+          ["3rd pl", "-ejú", "rozumejú"]
         ]
       }
     },
 
     {
       "title": "Irregular and Less Predictable Verbs",
-      "text": "Some verbs do not follow the four standard patterns exactly. These verbs often have stem changes or unusual endings. They must be memorized.",
+      "text": "Some verbs change their stems or endings in ways that do not match the standard patterns. These must usually be memorized.",
       "table": {
         "headers": ["Infinitive", "1sg", "2sg", "3sg", "1pl", "2pl", "3pl"],
         "rows": [
@@ -70,10 +108,10 @@
   "vocab": [
     { "sk": "pozerať", "en": "to watch" },
     { "sk": "hovoriť", "en": "to speak" },
+    { "sk": "pracovať", "en": "to work" },
     { "sk": "študovať", "en": "to study" },
     { "sk": "rozumieť", "en": "to understand" },
     { "sk": "robiť", "en": "to do" },
-    { "sk": "pracovať", "en": "to work" },
     { "sk": "vidieť", "en": "to see" },
     { "sk": "brať", "en": "to take" },
     { "sk": "niesť", "en": "to carry" }
