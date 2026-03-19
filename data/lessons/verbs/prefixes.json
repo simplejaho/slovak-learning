@@ -1,0 +1,81 @@
+{
+  "title": "Slovak Verb Prefixes",
+
+  "rules": [
+    {
+      "title": "Understanding Prefixes",
+      "text": "Prefixes in Slovak modify the meaning of the verb, often indicating direction, completion, repetition, or negation. Many prefixes turn imperfective verbs into perfective ones, but some preserve the imperfective aspect. Use the table below to see common prefixes and their effects.",
+      "table": [
+        ["Prefix", "Meaning", "Example", "Root Word", "Root Meaning", "Combined Meaning"],
+        ["u-", "achieving goal/completion", "u-robiť", "robiť", "to do/make", "to complete/accomplish"],
+        ["pri-", "towards, attachment", "pri-ísť", "ísť", "to go", "to come (go towards)"],
+        ["po-", "brief/small action", "po-spať", "spať", "to sleep", "to sleep a little"],
+        ["roz-", "spreading, division", "roz-deliť", "deliť", "to divide", "to split apart/distribute"],
+        ["v-/vo-", "inward movement", "vo-jsť", "ísť", "to go", "to enter (go in)"],
+        ["za-", "behind, beginning", "za-čať", "čať", "(bound root)", "to begin"],
+        ["o-/ob-", "around, about", "ob-ísť", "ísť", "to go", "to go around"],
+        ["vz-", "upward, sudden", "vz-lietnuť", "lietať", "to fly", "to take off (fly up)"],
+        ["s-/so-", "together, down", "s-pojiť", "pojiť", "to join", "to connect together"],
+        ["nad-", "above, superiority", "nad-behnúť", "behnúť", "to run", "to run ahead/intercept"],
+        ["pod-", "under, secretly", "pod-liezť", "liezť", "to crawl", "to crawl under"],
+        ["bez-", "without, lacking", "bez-mocný", "moc", "power", "powerless"],
+        ["ne-", "negation", "ne-chcieť", "chcieť", "to want", "to not want"],
+        ["pro-", "forward, in favor", "pro-spievať", "spievať", "to sing/thrive", "to prosper"],
+        ["pre-", "through, over", "pre-biehať", "behať", "to run", "to run across/through"]
+      ]
+    },
+    {
+      "title": "Key Rules",
+      "text": "1. Most prefixed verbs are perfective.\n2. Some prefixes preserve imperfective meaning when combined with certain roots.\n3. Imperfective verbs indicate ongoing or repeated action; perfective verbs indicate completed action."
+    }
+  ],
+
+  "vocab": [
+    {"sk":"urobiť (perf)", "en":"to do / complete"},
+    {"sk":"robiť (imp)", "en":"to do"},
+    {"sk":"priísť (perf)", "en":"to come (go towards)"},
+    {"sk":"ísť (imp)", "en":"to go"},
+    {"sk":"pospať (perf)", "en":"to sleep a little"},
+    {"sk":"spať (imp)", "en":"to sleep"},
+    {"sk":"rozdeliť (perf)", "en":"to split apart / distribute"},
+    {"sk":"deliť (imp)", "en":"to divide"},
+    {"sk":"vojsť (perf)", "en":"to enter (go in)"},
+    {"sk":"ísť (imp)", "en":"to go"},
+    {"sk":"začať (perf)", "en":"to begin"},
+    {"sk":"čať (imp)", "en":"to begin (root)"},
+    {"sk":"obísť (perf)", "en":"to go around"},
+    {"sk":"ísť (imp)", "en":"to go"},
+    {"sk":"vzlietnuť (perf)", "en":"to take off (fly up)"},
+    {"sk":"lietať (imp)", "en":"to fly"},
+    {"sk":"spojiť (perf)", "en":"to connect together"},
+    {"sk":"pojiť (imp)", "en":"to join"},
+    {"sk":"nadbehnúť (perf)", "en":"to run ahead / intercept"},
+    {"sk":"behnúť (imp)", "en":"to run"},
+    {"sk":"podliezť (perf)", "en":"to crawl under"},
+    {"sk":"liezť (imp)", "en":"to crawl"},
+    {"sk":"nechcieť (imp)", "en":"to not want"},
+    {"sk":"chcieť (imp)", "en":"to want"},
+    {"sk":"prebiehať (imp)", "en":"to run across / through"},
+    {"sk":"behať (imp)", "en":"to run repeatedly"}
+  ],
+
+  "exercises": [
+    {"sk":"urobiť", "en":"to do / complete (perfective)"},
+    {"sk":"robiť", "en":"to do (imperfective)"},
+    {"sk":"priísť", "en":"to come / go towards (perfective)"},
+    {"sk":"ísť", "en":"to go (imperfective)"},
+    {"sk":"pospať", "en":"to sleep a little (perfective)"},
+    {"sk":"spať", "en":"to sleep (imperfective)"},
+    {"sk":"rozdeliť", "en":"to split apart / distribute (perfective)"},
+    {"sk":"deliť", "en":"to divide (imperfective)"},
+    {"sk":"vojsť", "en":"to enter / go in (perfective)"},
+    {"sk":"začať", "en":"to begin (perfective)"},
+    {"sk":"obísť", "en":"to go around (perfective)"},
+    {"sk":"vzlietnuť", "en":"to take off (fly up, perfective)"},
+    {"sk":"spojiť", "en":"to connect together (perfective)"},
+    {"sk":"nadbehnúť", "en":"to run ahead / intercept (perfective)"},
+    {"sk":"podliezť", "en":"to crawl under (perfective)"},
+    {"sk":"nechcieť", "en":"to not want (imperfective)"},
+    {"sk":"prebiehať", "en":"to run across / through (imperfective)"}
+  ]
+}
