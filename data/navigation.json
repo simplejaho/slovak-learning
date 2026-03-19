@@ -3,7 +3,7 @@
     {
       "title": "Verbs",
       "children": [
-        { "title": "Complete vs Incomplete Verbs", "lesson": "data/lessons/verbs/complete-vs-incomplete.json" },
+        { "title": "Complete vs Incomplete", "lesson": "data/lessons/verbs/complete-vs-incomplete.json" },
         { "title": "Prefixes", "lesson": "data/lessons/verbs/prefixes.json" },
         { "title": "Present Tense", "lesson": "data/lessons/verbs/present-tense.json" },
         { "title": "Past Imperfect", "lesson": "data/lessons/verbs/past-imperfect.json" },
