@@ -2,67 +2,31 @@
   "rules": [
     {
       "title": "Understanding Prefixes",
-      "text": "Prefixes in Slovak modify the meaning of the verb, often indicating direction, completion, repetition, or negation. Many prefixes turn imperfective verbs into perfective ones, but some preserve the imperfective aspect. Use the list below to see common prefixes and their effects.",
-      "prefixes": [
-        {"prefix":"u-", "meaning":"achieving goal/completion", "example":"urobiť", "root":"robiť", "rootMeaning":"to do/make", "combinedMeaning":"to complete/accomplish"},
-        {"prefix":"pri-", "meaning":"towards, attachment", "example":"priísť", "root":"ísť", "rootMeaning":"to go", "combinedMeaning":"to come (go towards)"},
-        {"prefix":"po-", "meaning":"brief/small action", "example":"pospať", "root":"spať", "rootMeaning":"to sleep", "combinedMeaning":"to sleep a little"},
-        {"prefix":"roz-", "meaning":"spreading, division", "example":"rozdeliť", "root":"deliť", "rootMeaning":"to divide", "combinedMeaning":"to split apart/distribute"},
-        {"prefix":"v-/vo-", "meaning":"inward movement", "example":"vojsť", "root":"ísť", "rootMeaning":"to go", "combinedMeaning":"to enter (go in)"},
-        {"prefix":"za-", "meaning":"behind, beginning", "example":"začať", "root":"čať", "rootMeaning":"(bound root)", "combinedMeaning":"to begin"},
-        {"prefix":"o-/ob-", "meaning":"around, about", "example":"obísť", "root":"ísť", "rootMeaning":"to go", "combinedMeaning":"to go around"},
-        {"prefix":"vz-", "meaning":"upward, sudden", "example":"vzlietnuť", "root":"lietať", "rootMeaning":"to fly", "combinedMeaning":"to take off (fly up)"},
-        {"prefix":"s-/so-", "meaning":"together, down", "example":"spojiť", "root":"pojiť", "rootMeaning":"to join", "combinedMeaning":"to connect together"},
-        {"prefix":"nad-", "meaning":"above, superiority", "example":"nadbehnúť", "root":"behnúť", "rootMeaning":"to run", "combinedMeaning":"to run ahead/intercept"},
-        {"prefix":"pod-", "meaning":"under, secretly", "example":"podliezť", "root":"liezť", "rootMeaning":"to crawl", "combinedMeaning":"to crawl under"},
-        {"prefix":"bez-", "meaning":"without, lacking", "example":"bez-mocný", "root":"moc", "rootMeaning":"power", "combinedMeaning":"powerless"},
-        {"prefix":"ne-", "meaning":"negation", "example":"nechcieť", "root":"chcieť", "rootMeaning":"to want", "combinedMeaning":"to not want"},
-        {"prefix":"pro-", "meaning":"forward, in favor", "example":"prospievať", "root":"spievať", "rootMeaning":"to sing/thrive", "combinedMeaning":"to prosper"},
-        {"prefix":"pre-", "meaning":"through, over", "example":"prebiehať", "root":"behať", "rootMeaning":"to run", "combinedMeaning":"to run across/through"}
-      ]
+      "text": "Prefixes in Slovak modify the meaning of the verb, often indicating direction, completion, repetition, or negation. Many prefixes turn imperfective verbs into perfective ones, but some preserve the imperfective aspect. Use the table below to see common prefixes and their effects.",
+      "table": {
+        "headers": ["Prefix", "Meaning", "Example", "Root", "Root Meaning", "Combined Meaning"],
+        "rows": [
+          ["u-", "achieving goal/completion", "urobiť", "robiť", "to do/make", "to complete/accomplish"],
+          ["pri-", "towards, attachment", "priísť", "ísť", "to go", "to come (go towards)"],
+          ["po-", "brief/small action", "pospať", "spať", "to sleep", "to sleep a little"],
+          ["roz-", "spreading, division", "rozdeliť", "deliť", "to divide", "to split apart/distribute"],
+          ["v-/vo-", "inward movement", "vojsť", "ísť", "to go", "to enter (go in)"],
+          ["za-", "behind, beginning", "začať", "čať", "(bound root)", "to begin"],
+          ["o-/ob-", "around, about", "obísť", "ísť", "to go", "to go around"],
+          ["vz-", "upward, sudden", "vzlietnuť", "lietať", "to fly", "to take off (fly up)"],
+          ["s-/so-", "together, down", "spojiť", "pojiť", "to join", "to connect together"],
+          ["nad-", "above, superiority", "nadbehnúť", "behnúť", "to run", "to run ahead/intercept"],
+          ["pod-", "under, secretly", "podliezť", "liezť", "to crawl", "to crawl under"],
+          ["bez-", "without, lacking", "bez-mocný", "moc", "power", "powerless"],
+          ["ne-", "negation", "nechcieť", "chcieť", "to want", "to not want"],
+          ["pro-", "forward, in favor", "prospievať", "spievať", "to sing/thrive", "to prosper"],
+          ["pre-", "through, over", "prebiehať", "behať", "to run", "to run across/through"]
+        ]
+      }
     },
     {
       "title": "Key Rules",
       "text": "1. Most prefixed verbs are perfective.\n2. Some prefixes preserve imperfective meaning when combined with certain roots.\n3. Imperfective verbs indicate ongoing or repeated action; perfective verbs indicate completed action."
     }
-  ],
-
-  "vocab": [
-    {"sk":"robiť (imp)", "en":"to do / make"},
-    {"sk":"urobiť (perf)", "en":"to complete / accomplish"},
-    {"sk":"rozdeliť (perf)", "en":"to split / divide completely"},
-    {"sk":"porobiť (perf)", "en":"to do some tasks (briefly)"},
-    
-    {"sk":"ísť (imp)", "en":"to go"},
-    {"sk":"priísť (perf)", "en":"to come (go towards)"},
-    {"sk":"vojsť (perf)", "en":"to enter (go in)"},
-    {"sk":"obísť (perf)", "en":"to go around"},
-    {"sk":"vyjsť (perf)", "en":"to go out / ascend"},
-    {"sk":"dojsť (perf)", "en":"to arrive / reach"},
-    
-    {"sk":"spať (imp)", "en":"to sleep"},
-    {"sk":"zaspať (perf)", "en":"to fall asleep"},
-    {"sk":"pospať (perf)", "en":"to sleep a little"},
-    {"sk":"uspávať (imp)", "en":"to put to sleep (imperfective)"}
-  ],
-
-  "exercises": [
-    {"sk":"urobiť", "en":"to do / complete (perfective)"},
-    {"sk":"robiť", "en":"to do (imperfective)"},
-    {"sk":"priísť", "en":"to come / go towards (perfective)"},
-    {"sk":"ísť", "en":"to go (imperfective)"},
-    {"sk":"pospať", "en":"to sleep a little (perfective)"},
-    {"sk":"spať", "en":"to sleep (imperfective)"},
-    {"sk":"rozdeliť", "en":"to split apart / distribute (perfective)"},
-    {"sk":"deliť", "en":"to divide (imperfective)"},
-    {"sk":"vojsť", "en":"to enter / go in (perfective)"},
-    {"sk":"začať", "en":"to begin (perfective)"},
-    {"sk":"obísť", "en":"to go around (perfective)"},
-    {"sk":"vzlietnuť", "en":"to take off (fly up, perfective)"},
-    {"sk":"spojiť", "en":"to connect together (perfective)"},
-    {"sk":"nadbehnúť", "en":"to run ahead / intercept (perfective)"},
-    {"sk":"podliezť", "en":"to crawl under (perfective)"},
-    {"sk":"nechcieť", "en":"to not want (imperfective)"},
-    {"sk":"prebiehať", "en":"to run across / through (imperfective)"}
   ]
 }
