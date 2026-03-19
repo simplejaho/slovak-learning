@@ -6,122 +6,20 @@
       "table": [
         ["Prefix", "Meaning", "Example", "Root Word", "Root Meaning", "Combined Meaning"],
         ["u-", "achieving goal/completion", "u-robiť", "robiť", "to do/make", "to complete/accomplish"],
-        ["pri-", "towards, attachment", "pri-ísť", "ísť", "to go", "to come (go towards)"],
-        ["po-", "brief/small action", "po-spať", "spať", "to sleep", "to sleep a little"],
-        ["roz-", "spreading, division", "roz-deliť", "deliť", "to divide", "to split apart/distribute"],
-        ["v-/vo-", "inward movement", "vo-jsť", "ísť", "to go", "to enter (go in)"],
-        ["za-", "behind, beginning", "za-čať", "čať", "(bound root)", "to begin"],
-        ["o-/ob-", "around, about", "ob-ísť", "ísť", "to go", "to go around"],
-        ["vz-", "upward, sudden", "vz-lietnuť", "lietať", "to fly", "to take off (fly up)"],
-        ["s-/so-", "together, down", "s-pojiť", "pojiť", "to join", "to connect together"],
-        ["nad-", "above, superiority", "nad-behnúť", "behnúť", "to run", "to run ahead/intercept"],
-        ["pod-", "under, secretly", "pod-liezť", "liezť", "to crawl", "to crawl under"],
-        ["bez-", "without, lacking", "bez-mocný", "moc", "power", "powerless"],
-        ["ne-", "negation", "ne-chcieť", "chcieť", "to want", "to not want"],
-        ["pro-", "forward, in favor", "pro-spievať", "spievať", "to sing/thrive", "to prosper"],
-        ["pre-", "through, over", "pre-biehať", "behať", "to run", "to run across/through"]
+        ["pri-", "towards, attachment", "pri-ísť", "ísť", "to go", "to come (go towards)"]
       ]
-    },
-    {
-      "title": "Key Rules",
-      "text": "1. Most prefixed verbs are perfective.\n2. Some prefixes preserve imperfective meaning when combined with certain roots.\n3. Imperfective verbs indicate ongoing or repeated action; perfective verbs indicate completed action."
     }
   ],
 
- "vocab": [
+  "vocab": [
     {"sk":"robiť (imp)", "en":"to do / make"},
     {"sk":"urobiť (perf)", "en":"to complete / accomplish"},
     {"sk":"rozdeliť (perf)", "en":"to split / divide completely"},
-    {"sk":"porobiť (perf)", "en":"to do some tasks (briefly)"},
-    
-    {"sk":"ísť (imp)", "en":"to go"},
-    {"sk":"priísť (perf)", "en":"to come (go towards)"},
-    {"sk":"vojsť (perf)", "en":"to enter (go in)"},
-    {"sk":"obísť (perf)", "en":"to go around"},
-    {"sk":"vyjsť (perf)", "en":"to go out / ascend"},
-    {"sk":"dojsť (perf)", "en":"to arrive / reach"},
-    
-    {"sk":"spať (imp)", "en":"to sleep"},
-    {"sk":"zaspať (perf)", "en":"to fall asleep"},
-    {"sk":"pospať (perf)", "en":"to sleep a little"},
-    {"sk":"uspávať (imp)", "en":"to put to sleep (imperfective)"},
-    
-    {"sk":"stáť (imp)", "en":"to stand"},
-    {"sk":"postáť (perf)", "en":"to stand briefly"},
-    {"sk":"vystať (perf)", "en":"to stand up / endure"},
-    {"sk":"zasťať (perf)", "en":"to block / stop by standing"},
-    
-    {"sk":"robiť (imp)", "en":"to do / make"},
-    {"sk":"doprácať (imp)", "en":"to work on until done"},
-    {"sk":"odpracovať (perf)", "en":"to finish work"},
-    
-    {"sk":"behať (imp)", "en":"to run repeatedly"},
-    {"sk":"zabehnúť (perf)", "en":"to run somewhere / complete run"},
-    {"sk":"nabiehať (imp)", "en":"to run towards / repeatedly"},
-    {"sk":"nadbehnúť (perf)", "en":"to run ahead / intercept"},
-    
-    {"sk":"pišať (imp)", "en":"to write"},
-    {"sk":"napísať (perf)", "en":"to write completely"},
-    {"sk":"prepisovať (imp)", "en":"to rewrite / copy repeatedly"},
-    {"sk":"prepísať (perf)", "en":"to rewrite completely"},
-    
-    {"sk":"čítať (imp)", "en":"to read"},
-    {"sk":"prečítať (perf)", "en":"to read completely"},
-    {"sk":"dočítať (perf)", "en":"to finish reading"},
-    {"sk":"vyčítať (imp)", "en":"to read out / repeatedly"},
-    
-    {"sk":"kupovať (imp)", "en":"to buy"},
-    {"sk":"kúpiť (perf)", "en":"to buy / complete purchase"},
-    {"sk":"dokupovať (imp)", "en":"to buy additional / repeatedly"},
-    {"sk":"nakúpiť (perf)", "en":"to shop / purchase completely"},
-    
-    {"sk":"učiť sa (imp)", "en":"to learn"},
-    {"sk":"naučiť sa (perf)", "en":"to finish learning"},
-    {"sk":"do-učiť sa (imp)", "en":"to continue learning / repeatedly"},
-    
-    {"sk":"sedieť (imp)", "en":"to sit"},
-    {"sk":"sadnúť si (perf)", "en":"to sit down (action)"},
-    {"sk":"vysedieť (perf)", "en":"to sit long enough to finish something"},
-    
-    {"sk":"ležať (imp)", "en":"to lie down"},
-    {"sk":"ľahnúť si (perf)", "en":"to lie down (action)"},
-    {"sk":"vyležať (perf)", "en":"to lie down long enough / finish resting"},
-    
-    {"sk":"hrať (imp)", "en":"to play"},
-    {"sk":"zahrať (perf)", "en":"to play once / complete"},
-    {"sk":"prehrávať (imp)", "en":"to lose repeatedly"},
-    
-    {"sk":"plávať (imp)", "en":"to swim"},
-    {"sk":"zaplávať (perf)", "en":"to swim once / briefly"},
-    {"sk":"vyplávať (perf)", "en":"to swim out / emerge"},
-    
-    {"sk":"umývať (imp)", "en":"to wash"},
-    {"sk":"umyť (perf)", "en":"to wash completely"},
-    {"sk":"do-umývať (imp)", "en":"to continue washing / repeatedly"},
-    
-    {"sk":"obliekať sa (imp)", "en":"to get dressed"},
-    {"sk":"obliecť sa (perf)", "en":"to get dressed (finish)"},
-    {"sk":"vyzliekať sa (imp)", "en":"to undress"},
-    {"sk":"vyzliecť sa (perf)", "en":"to undress (finish)"}
+    {"sk":"porobiť (perf)", "en":"to do some tasks (briefly)"}
   ],
 
   "exercises": [
     {"sk":"urobiť", "en":"to do / complete (perfective)"},
-    {"sk":"robiť", "en":"to do (imperfective)"},
-    {"sk":"priísť", "en":"to come / go towards (perfective)"},
-    {"sk":"ísť", "en":"to go (imperfective)"},
-    {"sk":"pospať", "en":"to sleep a little (perfective)"},
-    {"sk":"spať", "en":"to sleep (imperfective)"},
-    {"sk":"rozdeliť", "en":"to split apart / distribute (perfective)"},
-    {"sk":"deliť", "en":"to divide (imperfective)"},
-    {"sk":"vojsť", "en":"to enter / go in (perfective)"},
-    {"sk":"začať", "en":"to begin (perfective)"},
-    {"sk":"obísť", "en":"to go around (perfective)"},
-    {"sk":"vzlietnuť", "en":"to take off (fly up, perfective)"},
-    {"sk":"spojiť", "en":"to connect together (perfective)"},
-    {"sk":"nadbehnúť", "en":"to run ahead / intercept (perfective)"},
-    {"sk":"podliezť", "en":"to crawl under (perfective)"},
-    {"sk":"nechcieť", "en":"to not want (imperfective)"},
-    {"sk":"prebiehať", "en":"to run across / through (imperfective)"}
+    {"sk":"robiť", "en":"to do (imperfective)"}
   ]
 }
