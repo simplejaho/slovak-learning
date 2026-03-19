@@ -28,34 +28,82 @@
     }
   ],
 
-  "vocab": [
-    {"sk":"urobiť (perf)", "en":"to do / complete"},
-    {"sk":"robiť (imp)", "en":"to do"},
+ "vocab": [
+    {"sk":"robiť (imp)", "en":"to do / make"},
+    {"sk":"urobiť (perf)", "en":"to complete / accomplish"},
+    {"sk":"rozdeliť (perf)", "en":"to split / divide completely"},
+    {"sk":"porobiť (perf)", "en":"to do some tasks (briefly)"},
+    
+    {"sk":"ísť (imp)", "en":"to go"},
     {"sk":"priísť (perf)", "en":"to come (go towards)"},
-    {"sk":"ísť (imp)", "en":"to go"},
-    {"sk":"pospať (perf)", "en":"to sleep a little"},
-    {"sk":"spať (imp)", "en":"to sleep"},
-    {"sk":"rozdeliť (perf)", "en":"to split apart / distribute"},
-    {"sk":"deliť (imp)", "en":"to divide"},
     {"sk":"vojsť (perf)", "en":"to enter (go in)"},
-    {"sk":"ísť (imp)", "en":"to go"},
-    {"sk":"začať (perf)", "en":"to begin"},
-    {"sk":"čať (imp)", "en":"to begin (root)"},
     {"sk":"obísť (perf)", "en":"to go around"},
-    {"sk":"ísť (imp)", "en":"to go"},
-    {"sk":"vzlietnuť (perf)", "en":"to take off (fly up)"},
-    {"sk":"lietať (imp)", "en":"to fly"},
-    {"sk":"spojiť (perf)", "en":"to connect together"},
-    {"sk":"pojiť (imp)", "en":"to join"},
+    {"sk":"vyjsť (perf)", "en":"to go out / ascend"},
+    {"sk":"dojsť (perf)", "en":"to arrive / reach"},
+    
+    {"sk":"spať (imp)", "en":"to sleep"},
+    {"sk":"zaspať (perf)", "en":"to fall asleep"},
+    {"sk":"pospať (perf)", "en":"to sleep a little"},
+    {"sk":"uspávať (imp)", "en":"to put to sleep (imperfective)"},
+    
+    {"sk":"stáť (imp)", "en":"to stand"},
+    {"sk":"postáť (perf)", "en":"to stand briefly"},
+    {"sk":"vystať (perf)", "en":"to stand up / endure"},
+    {"sk":"zasťať (perf)", "en":"to block / stop by standing"},
+    
+    {"sk":"robiť (imp)", "en":"to do / make"},
+    {"sk":"doprácať (imp)", "en":"to work on until done"},
+    {"sk":"odpracovať (perf)", "en":"to finish work"},
+    
+    {"sk":"behať (imp)", "en":"to run repeatedly"},
+    {"sk":"zabehnúť (perf)", "en":"to run somewhere / complete run"},
+    {"sk":"nabiehať (imp)", "en":"to run towards / repeatedly"},
     {"sk":"nadbehnúť (perf)", "en":"to run ahead / intercept"},
-    {"sk":"behnúť (imp)", "en":"to run"},
-    {"sk":"podliezť (perf)", "en":"to crawl under"},
-    {"sk":"liezť (imp)", "en":"to crawl"},
-    {"sk":"nechcieť (imp)", "en":"to not want"},
-    {"sk":"chcieť (imp)", "en":"to want"},
-    {"sk":"prebiehať (imp)", "en":"to run across / through"},
-    {"sk":"behať (imp)", "en":"to run repeatedly"}
-  ],
+    
+    {"sk":"pišať (imp)", "en":"to write"},
+    {"sk":"napísať (perf)", "en":"to write completely"},
+    {"sk":"prepisovať (imp)", "en":"to rewrite / copy repeatedly"},
+    {"sk":"prepísať (perf)", "en":"to rewrite completely"},
+    
+    {"sk":"čítať (imp)", "en":"to read"},
+    {"sk":"prečítať (perf)", "en":"to read completely"},
+    {"sk":"dočítať (perf)", "en":"to finish reading"},
+    {"sk":"vyčítať (imp)", "en":"to read out / repeatedly"},
+    
+    {"sk":"kupovať (imp)", "en":"to buy"},
+    {"sk":"kúpiť (perf)", "en":"to buy / complete purchase"},
+    {"sk":"dokupovať (imp)", "en":"to buy additional / repeatedly"},
+    {"sk":"nakúpiť (perf)", "en":"to shop / purchase completely"},
+    
+    {"sk":"učiť sa (imp)", "en":"to learn"},
+    {"sk":"naučiť sa (perf)", "en":"to finish learning"},
+    {"sk":"do-učiť sa (imp)", "en":"to continue learning / repeatedly"},
+    
+    {"sk":"sedieť (imp)", "en":"to sit"},
+    {"sk":"sadnúť si (perf)", "en":"to sit down (action)"},
+    {"sk":"vysedieť (perf)", "en":"to sit long enough to finish something"},
+    
+    {"sk":"ležať (imp)", "en":"to lie down"},
+    {"sk":"ľahnúť si (perf)", "en":"to lie down (action)"},
+    {"sk":"vyležať (perf)", "en":"to lie down long enough / finish resting"},
+    
+    {"sk":"hrať (imp)", "en":"to play"},
+    {"sk":"zahrať (perf)", "en":"to play once / complete"},
+    {"sk":"prehrávať (imp)", "en":"to lose repeatedly"},
+    
+    {"sk":"plávať (imp)", "en":"to swim"},
+    {"sk":"zaplávať (perf)", "en":"to swim once / briefly"},
+    {"sk":"vyplávať (perf)", "en":"to swim out / emerge"},
+    
+    {"sk":"umývať (imp)", "en":"to wash"},
+    {"sk":"umyť (perf)", "en":"to wash completely"},
+    {"sk":"do-umývať (imp)", "en":"to continue washing / repeatedly"},
+    
+    {"sk":"obliekať sa (imp)", "en":"to get dressed"},
+    {"sk":"obliecť sa (perf)", "en":"to get dressed (finish)"},
+    {"sk":"vyzliekať sa (imp)", "en":"to undress"},
+    {"sk":"vyzliecť sa (perf)", "en":"to undress (finish)"}
+  ]
 
   "exercises": [
     {"sk":"urobiť", "en":"to do / complete (perfective)"},
