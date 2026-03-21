@@ -1,0 +1,467 @@
+{
+  "rules": [
+    {
+      "title": "Past Tense Formation - Basic Structure",
+      "text": "Slovak past tense is formed using the past participle (l-participle) + present tense of 'byť' (to be) as auxiliary. The participle agrees with gender and number: -l (masculine singular), -la (feminine singular), -lo (neuter singular), -li (masculine plural), -ly (feminine/neuter plural).",
+      "examples": [
+        "robil som – I did (masculine speaker)",
+        "robila som – I did (feminine speaker)",
+        "robili sme – we did"
+      ]
+    },
+    {
+      "title": "Past Tense Conjugation - 'robiť' (to do)",
+      "text": "Full conjugation table for imperfective verb 'robiť':",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA (I)", "robil som", "robila som", "robili sme"],
+          ["TY (you sg.)", "robil si", "robila si", "robili ste"],
+          ["ON/ONA/ONO (he/she/it)", "robil", "robila", "robilo"],
+          ["MY (we)", "robili sme", "robili sme", "robili sme"],
+          ["VY (you pl./formal)", "robili ste", "robili ste", "robili ste"],
+          ["ONI/ONY (they)", "robili", "robili", "robili"]
+        ]
+      },
+      "examples": [
+        "Ja som robil domácu úlohu – I did homework (masc.)",
+        "Ty si robila chybu – You made a mistake (fem.)",
+        "Oni robili projekt – They did a project"
+      ]
+    },
+    {
+      "title": "Past Tense Conjugation - 'napísať' (to write - perfective)",
+      "text": "Full conjugation table for perfective verb 'napísať':",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "napísal som", "napísala som", "napísali sme"],
+          ["TY", "napísal si", "napísala si", "napísali ste"],
+          ["ON/ONA/ONO", "napísal", "napísala", "napísalo"],
+          ["MY", "napísali sme", "napísali sme", "napísali sme"],
+          ["VY", "napísali ste", "napísali ste", "napísali ste"],
+          ["ONI/ONY", "napísali", "napísali", "napísali"]
+        ]
+      },
+      "examples": [
+        "Napísal som list – I wrote a letter (completed)",
+        "Napísala si email – You wrote an email (completed)",
+        "Napísali sme knihu – We wrote a book (completed)"
+      ]
+    },
+    {
+      "title": "Auxiliary Verb 'byť' - Often Omitted in 3rd Person",
+      "text": "In 3rd person (on, ona, ono, oni, ony), the auxiliary 'bol/bola/bolo/boli' is often omitted in standard speech. It's included for emphasis or clarity.",
+      "examples": [
+        "On robil – He did (standard)",
+        "On bol robil – He did (emphatic)",
+        "Ona čítala – She read",
+        "Oni pracovali – They worked"
+      ]
+    },
+    {
+      "title": "Reflexive Verbs in Past Tense",
+      "text": "Reflexive verbs use 'sa' or 'si' with past tense. The reflexive particle comes after the auxiliary verb (or after the participle in 3rd person). Word order: subject + auxiliary + reflexive + participle.",
+      "examples": [
+        "Učil som sa – I learned (masc.)",
+        "Učila som sa – I learned (fem.)",
+        "Umyl si sa – You washed yourself (masc.)",
+        "Umyla si sa – You washed yourself (fem.)",
+        "Učil sa – He learned",
+        "Učili sme sa – We learned"
+      ]
+    },
+    {
+      "title": "Reflexive Conjugation Table - 'učiť sa' (to learn)",
+      "text": "Full conjugation with reflexive particle:",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "učil som sa", "učila som sa", "učili sme sa"],
+          ["TY", "učil si sa", "učila si sa", "učili ste sa"],
+          ["ON/ONA/ONO", "učil sa", "učila sa", "učilo sa"],
+          ["MY", "učili sme sa", "učili sme sa", "učili sme sa"],
+          ["VY", "učili ste sa", "učili ste sa", "učili ste sa"],
+          ["ONI/ONY", "učili sa", "učili sa", "učili sa"]
+        ]
+      },
+      "examples": [
+        "Učil som sa slovenčinu – I learned Slovak (masc.)",
+        "Učila si sa celý deň – You studied all day (fem.)",
+        "Učili sa spolu – They studied together"
+      ]
+    },
+    {
+      "title": "Negation in Past Tense",
+      "text": "Add 'ne-' prefix to the participle. The auxiliary verb remains unchanged. In 3rd person, you can also negate the omitted auxiliary (nebol/nebola/neboli).",
+      "examples": [
+        "Nerobil som – I didn't do (masc.)",
+        "Nerobila som – I didn't do (fem.)",
+        "Nerobil si – You didn't do (masc.)",
+        "Nerobil – He didn't do",
+        "Nerobili sme – We didn't do"
+      ]
+    },
+    {
+      "title": "Negation Table - 'robiť' (to do)",
+      "text": "Full negation conjugation:",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "nerobil som", "nerobila som", "nerobili sme"],
+          ["TY", "nerobil si", "nerobila si", "nerobili ste"],
+          ["ON/ONA/ONO", "nerobil", "nerobila", "nerobilo"],
+          ["MY", "nerobili sme", "nerobili sme", "nerobili sme"],
+          ["VY", "nerobili ste", "nerobili ste", "nerobili ste"],
+          ["ONI/ONY", "nerobili", "nerobili", "nerobili"]
+        ]
+      },
+      "examples": [
+        "Nevidel som ho – I didn't see him",
+        "Nepočula si ma – You didn't hear me (fem.)",
+        "Nepracovali včera – They didn't work yesterday"
+      ]
+    },
+    {
+      "title": "Negation with Reflexives",
+      "text": "With reflexive verbs, negate the participle with 'ne-' prefix. The reflexive particle position remains the same.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "neučil som sa", "neučila som sa", "neučili sme sa"],
+          ["TY", "neučil si sa", "neučila si sa", "neučili ste sa"],
+          ["ON/ONA/ONO", "neučil sa", "neučila sa", "neučilo sa"],
+          ["MY", "neučili sme sa", "neučili sme sa", "neučili sme sa"],
+          ["VY", "neučili ste sa", "neučili ste sa", "neučili ste sa"],
+          ["ONI/ONY", "neučili sa", "neučili sa", "neučili sa"]
+        ]
+      },
+      "examples": [
+        "Neučil som sa – I didn't learn (masc.)",
+        "Neučila som sa – I didn't learn (fem.)",
+        "Neumyl si sa – You didn't wash yourself",
+        "Neučili sme sa – We didn't learn"
+      ]
+    },
+    {
+      "title": "Aspect in Past Tense - Imperfective",
+      "text": "Imperfective verbs in past tense describe ongoing, repeated, or habitual actions in the past without focus on completion. They answer 'what was happening' or 'what used to happen'.",
+      "examples": [
+        "Čítal som knihu – I was reading a book (ongoing)",
+        "Pracoval každý deň – He worked every day (habitual)",
+        "Učili sme sa slovenčinu – We were learning Slovak (process)"
+      ]
+    },
+    {
+      "title": "Aspect in Past Tense - Perfective",
+      "text": "Perfective verbs in past tense describe completed actions with a clear result or endpoint. They answer 'what happened' or 'what got done'.",
+      "examples": [
+        "Prečítal som knihu – I read the book (finished it)",
+        "Napísal list – He wrote a letter (completed)",
+        "Kúpili sme auto – We bought a car (completed action)"
+      ]
+    },
+    {
+      "title": "Aspect Pairs in Past Tense",
+      "text": "Most verbs come in aspect pairs. Use imperfective for process/duration, perfective for completion. Both use the same past tense formation rules.",
+      "table": {
+        "headers": ["Imperfective", "Meaning", "Perfective", "Meaning"],
+        "rows": [
+          ["písal som", "I was writing", "napísal som", "I wrote (completed)"],
+          ["jedol som", "I was eating", "zjedol som", "I ate it all up"],
+          ["čítal som", "I was reading", "prečítal som", "I read (finished)"],
+          ["robil som", "I was doing", "urobil som", "I did (completed)"],
+          ["učil som sa", "I was learning", "naučil som sa", "I learned (finished)"]
+        ]
+      },
+      "examples": [
+        "Písal som (imp.) – I was writing",
+        "Napísal som (perf.) – I wrote/finished writing",
+        "Jedol som (imp.) – I was eating",
+        "Zjedol som (perf.) – I ate it all up"
+      ]
+    },
+    {
+      "title": "Irregular Past Participle - 'ísť' (to go)",
+      "text": "The verb 'ísť' has irregular past participle 'išiel/išla/išlo/išli'.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "išiel som", "išla som", "išli sme"],
+          ["TY", "išiel si", "išla si", "išli ste"],
+          ["ON/ONA/ONO", "išiel", "išla", "išlo"],
+          ["MY", "išli sme", "išli sme", "išli sme"],
+          ["VY", "išli ste", "išli ste", "išli ste"],
+          ["ONI/ONY", "išli", "išli", "išli"]
+        ]
+      },
+      "examples": [
+        "Išiel som domov – I went home (masc.)",
+        "Išla som do školy – I went to school (fem.)",
+        "Išli sme na prechádzku – We went for a walk"
+      ]
+    },
+    {
+      "title": "Irregular Past Participle - 'jesť' (to eat)",
+      "text": "The verb 'jesť' has irregular past participle 'jedol/jedla/jedlo/jedli'.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "jedol som", "jedla som", "jedli sme"],
+          ["TY", "jedol si", "jedla si", "jedli ste"],
+          ["ON/ONA/ONO", "jedol", "jedla", "jedlo"],
+          ["MY", "jedli sme", "jedli sme", "jedli sme"],
+          ["VY", "jedli ste", "jedli ste", "jedli ste"],
+          ["ONI/ONY", "jedli", "jedli", "jedli"]
+        ]
+      },
+      "examples": [
+        "Jedol som obed – I ate lunch (masc.)",
+        "Jedla som večeru – I ate dinner (fem.)",
+        "Jedli sme pizzu – We ate pizza"
+      ]
+    },
+    {
+      "title": "Irregular Past Participle - 'piť' (to drink)",
+      "text": "The verb 'piť' has irregular past participle 'pil/pila/pilo/pili'.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "pil som", "pila som", "pili sme"],
+          ["TY", "pil si", "pila si", "pili ste"],
+          ["ON/ONA/ONO", "pil", "pila", "pilo"],
+          ["MY", "pili sme", "pili sme", "pili sme"],
+          ["VY", "pili ste", "pili ste", "pili ste"],
+          ["ONI/ONY", "pili", "pili", "pili"]
+        ]
+      },
+      "examples": [
+        "Pil som vodu – I drank water (masc.)",
+        "Pila som kávu – I drank coffee (fem.)",
+        "Pili sme čaj – We drank tea"
+      ]
+    },
+    {
+      "title": "Irregular Past Participle - 'byť' (to be)",
+      "text": "The verb 'byť' has irregular past participle 'bol/bola/bolo/boli'.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "bol som", "bola som", "boli sme"],
+          ["TY", "bol si", "bola si", "boli ste"],
+          ["ON/ONA/ONO", "bol", "bola", "bolo"],
+          ["MY", "boli sme", "boli sme", "boli sme"],
+          ["VY", "boli ste", "boli ste", "boli ste"],
+          ["ONI/ONY", "boli", "boli", "boli"]
+        ]
+      },
+      "examples": [
+        "Bol som doma – I was at home (masc.)",
+        "Bola som unavená – I was tired (fem.)",
+        "Boli sme šťastní – We were happy"
+      ]
+    },
+    {
+      "title": "Irregular Past Participle - 'môcť' (can/to be able)",
+      "text": "The verb 'môcť' has irregular past participle 'mohol/mohla/mohlo/mohli'.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "mohol som", "mohla som", "mohli sme"],
+          ["TY", "mohol si", "mohla si", "mohli ste"],
+          ["ON/ONA/ONO", "mohol", "mohla", "mohlo"],
+          ["MY", "mohli sme", "mohli sme", "mohli sme"],
+          ["VY", "mohli ste", "mohli ste", "mohli ste"],
+          ["ONI/ONY", "mohli", "mohli", "mohli"]
+        ]
+      },
+      "examples": [
+        "Mohol som prísť – I could come (masc.)",
+        "Mohla som pomôcť – I could help (fem.)",
+        "Mohli sme zostať – We could stay"
+      ]
+    },
+    {
+      "title": "Irregular Verbs - 'vedieť' (to know)",
+      "text": "The verb 'vedieť' has past participle 'vedel/vedela/vedelo/vedeli'.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "vedel som", "vedela som", "vedeli sme"],
+          ["TY", "vedel si", "vedela si", "vedeli ste"],
+          ["ON/ONA/ONO", "vedel", "vedela", "vedelo"],
+          ["MY", "vedeli sme", "vedeli sme", "vedeli sme"],
+          ["VY", "vedeli ste", "vedeli ste", "vedeli ste"],
+          ["ONI/ONY", "vedeli", "vedeli", "vedeli"]
+        ]
+      },
+      "examples": [
+        "Vedel som odpoveď – I knew the answer (masc.)",
+        "Vedela som pravdu – I knew the truth (fem.)",
+        "Vedeli sme to – We knew it"
+      ]
+    },
+    {
+      "title": "Irregular Verbs - Consonant Changes",
+      "text": "Some verbs undergo consonant changes in past participle: niesť→niesol, viesť→viedol, piecť→piekol. These follow regular conjugation patterns but with modified stems.",
+      "table": {
+        "headers": ["Infinitive", "Past Participle (masc.)", "Past Participle (fem.)", "Past Participle (plural)"],
+        "rows": [
+          ["niesť (to carry)", "niesol", "niesla", "niesli"],
+          ["viesť (to lead)", "viedol", "viedla", "viedli"],
+          ["piecť (to bake)", "piekol", "piekla", "piekli"],
+          ["môcť (can)", "mohol", "mohla", "mohli"],
+          ["ľahnúť si (to lie down)", "ľahol si", "ľahla si", "ľahli si"]
+        ]
+      },
+      "examples": [
+        "Niesol som tašku – I carried a bag (masc.)",
+        "Viedla som skupinu – I led a group (fem.)",
+        "Piekli sme koláč – We baked a cake"
+      ]
+    }
+  ],
+
+  "vocab": [],
+
+  "exercises": [
+    { "sk": "Ja som robil", "en": "I did (masculine)" },
+    { "sk": "Ja som robila", "en": "I did (feminine)" },
+    { "sk": "Ty si robil", "en": "You did (masculine)" },
+    { "sk": "Ty si robila", "en": "You did (feminine)" },
+    { "sk": "On robil", "en": "He did" },
+    { "sk": "Ona robila", "en": "She did" },
+    { "sk": "My sme robili", "en": "We did" },
+    { "sk": "Vy ste robili", "en": "You (plural) did" },
+    { "sk": "Oni robili", "en": "They did" },
+    { "sk": "Ja som nerobil", "en": "I didn't do (masculine)" },
+    { "sk": "Ja som nerobila", "en": "I didn't do (feminine)" },
+    { "sk": "Ty si nerobil", "en": "You didn't do (masculine)" },
+    { "sk": "Ty si nerobila", "en": "You didn't do (feminine)" },
+    { "sk": "On nerobil", "en": "He didn't do" },
+    { "sk": "Ona nerobila", "en": "She didn't do" },
+    { "sk": "My sme nerobili", "en": "We didn't do" },
+    { "sk": "Vy ste nerobili", "en": "You (plural) didn't do" },
+    { "sk": "Oni nerobili", "en": "They didn't do" },
+    
+    { "sk": "Ja som urobil", "en": "I completed (masculine)" },
+    { "sk": "Ja som urobila", "en": "I completed (feminine)" },
+    { "sk": "Ty si urobil", "en": "You completed (masculine)" },
+    { "sk": "Ty si urobila", "en": "You completed (feminine)" },
+    { "sk": "On urobil", "en": "He completed" },
+    { "sk": "Ona urobila", "en": "She completed" },
+    { "sk": "My sme urobili", "en": "We completed" },
+    { "sk": "Vy ste urobili", "en": "You (plural) completed" },
+    { "sk": "Oni urobili", "en": "They completed" },
+    { "sk": "Ja som neurobil", "en": "I didn't complete (masculine)" },
+    { "sk": "Ja som neurobila", "en": "I didn't complete (feminine)" },
+    { "sk": "Ty si neurobil", "en": "You didn't complete (masculine)" },
+    { "sk": "Ty si neurobila", "en": "You didn't complete (feminine)" },
+    { "sk": "On neurobil", "en": "He didn't complete" },
+    { "sk": "Ona neurobila", "en": "She didn't complete" },
+    { "sk": "My sme neurobili", "en": "We didn't complete" },
+    { "sk": "Vy ste neurobili", "en": "You (plural) didn't complete" },
+    { "sk": "Oni neurobili", "en": "They didn't complete" },
+    
+    { "sk": "Ja som mal", "en": "I had (masculine)" },
+    { "sk": "Ja som mala", "en": "I had (feminine)" },
+    { "sk": "Ty si mal", "en": "You had (masculine)" },
+    { "sk": "Ty si mala", "en": "You had (feminine)" },
+    { "sk": "On mal", "en": "He had" },
+    { "sk": "Ona mala", "en": "She had" },
+    { "sk": "My sme mali", "en": "We had" },
+    { "sk": "Vy ste mali", "en": "You (plural) had" },
+    { "sk": "Oni mali", "en": "They had" },
+    { "sk": "Ja som nemal", "en": "I didn't have (masculine)" },
+    { "sk": "Ja som nemala", "en": "I didn't have (feminine)" },
+    { "sk": "Ty si nemal", "en": "You didn't have (masculine)" },
+    { "sk": "Ty si nemala", "en": "You didn't have (feminine)" },
+    { "sk": "On nemal", "en": "He didn't have" },
+    { "sk": "Ona nemala", "en": "She didn't have" },
+    { "sk": "My sme nemali", "en": "We didn't have" },
+    { "sk": "Vy ste nemali", "en": "You (plural) didn't have" },
+    { "sk": "Oni nemali", "en": "They didn't have" },
+    
+    { "sk": "Ja som išiel", "en": "I went (masculine)" },
+    { "sk": "Ja som išla", "en": "I went (feminine)" },
+    { "sk": "Ty si išiel", "en": "You went (masculine)" },
+    { "sk": "Ty si išla", "en": "You went (feminine)" },
+    { "sk": "On išiel", "en": "He went" },
+    { "sk": "Ona išla", "en": "She went" },
+    { "sk": "My sme išli", "en": "We went" },
+    { "sk": "Vy ste išli", "en": "You (plural) went" },
+    { "sk": "Oni išli", "en": "They went" },
+    { "sk": "Ja som nešiel", "en": "I didn't go (masculine)" },
+    { "sk": "Ja som nešla", "en": "I didn't go (feminine)" },
+    { "sk": "Ty si nešiel", "en": "You didn't go (masculine)" },
+    { "sk": "Ty si nešla", "en": "You didn't go (feminine)" },
+    { "sk": "On nešiel", "en": "He didn't go" },
+    { "sk": "Ona nešla", "en": "She didn't go" },
+    { "sk": "My sme nešli", "en": "We didn't go" },
+    { "sk": "Vy ste nešli", "en": "You (plural) didn't go" },
+    { "sk": "Oni nešli", "en": "They didn't go" },
+    
+    { "sk": "Ja som chodil", "en": "I used to go (masculine)" },
+    { "sk": "Ja som chodila", "en": "I used to go (feminine)" },
+    { "sk": "Ty si chodil", "en": "You used to go (masculine)" },
+    { "sk": "Ty si chodila", "en": "You used to go (feminine)" },
+    { "sk": "On chodil", "en": "He used to go" },
+    { "sk": "Ona chodila", "en": "She used to go" },
+    { "sk": "My sme chodili", "en": "We used to go" },
+    { "sk": "Vy ste chodili", "en": "You (plural) used to go" },
+    { "sk": "Oni chodili", "en": "They used to go" },
+    { "sk": "Ja som nechodil", "en": "I didn't use to go (masculine)" },
+    { "sk": "Ja som nechodila", "en": "I didn't use to go (feminine)" },
+    { "sk": "Ty si nechodil", "en": "You didn't use to go (masculine)" },
+    { "sk": "Ty si nechodila", "en": "You didn't use to go (feminine)" },
+    { "sk": "On nechodil", "en": "He didn't use to go" },
+    { "sk": "Ona nechodila", "en": "She didn't use to go" },
+    { "sk": "My sme nechodili", "en": "We didn't use to go" },
+    { "sk": "Vy ste nechodili", "en": "You (plural) didn't use to go" },
+    { "sk": "Oni nechodili", "en": "They didn't use to go" },
+    
+    { "sk": "Ja som pracoval", "en": "I worked (masculine)" },
+    { "sk": "Ja som pracovala", "en": "I worked (feminine)" },
+    { "sk": "Ty si pracoval", "en": "You worked (masculine)" },
+    { "sk": "Ty si pracovala", "en": "You worked (feminine)" },
+    { "sk": "On pracoval", "en": "He worked" },
+    { "sk": "Ona pracovala", "en": "She worked" },
+    { "sk": "My sme pracovali", "en": "We worked" },
+    { "sk": "Vy ste pracovali", "en": "You (plural) worked" },
+    { "sk": "Oni pracovali", "en": "They worked" },
+    { "sk": "Ja som nepracoval", "en": "I didn't work (masculine)" },
+    { "sk": "Ja som nepracovala", "en": "I didn't work (feminine)" },
+    { "sk": "Ty si nepracoval", "en": "You didn't work (masculine)" },
+    { "sk": "Ty si nepracovala", "en": "You didn't work (feminine)" },
+    { "sk": "On nepracoval", "en": "He didn't work" },
+    { "sk": "Ona nepracovala", "en": "She didn't work" },
+    { "sk": "My sme nepracovali", "en": "We didn't work" },
+    { "sk": "Vy ste nepracovali", "en": "You (plural) didn't work" },
+    { "sk": "Oni nepracovali", "en": "They didn't work" },
+    
+    { "sk": "Ja som odpracoval", "en": "I finished working (masculine)" },
+    { "sk": "Ja som odpracovala", "en": "I finished working (feminine)" },
+    { "sk": "Ty si odpracoval", "en": "You finished working (masculine)" },
+    { "sk": "Ty si odpracovala", "en": "You finished working (feminine)" },
+    { "sk": "On odpracoval", "en": "He finished working" },
+    { "sk": "Ona odpracovala", "en": "She finished working" },
+    { "sk": "My sme odpracovali", "en": "We finished working" },
+    { "sk": "Vy ste odpracovali", "en": "You (plural) finished working" },
+    { "sk": "Oni odpracovali", "en": "They finished working" },
+    { "sk": "Ja som neodpracoval", "en": "I didn't finish working (masculine)" },
+    { "sk": "Ja som neodpracovala", "en": "I didn't finish working (feminine)" },
+    { "sk": "Ty si neodpracoval", "en": "You didn't finish working (masculine)" },
+    { "sk": "Ty si neodpracovala", "en": "You didn't finish working (feminine)" },
+    { "sk": "On neodpracoval", "en": "He didn't finish working" },
+    { "sk": "Ona neodpracovala", "en": "She didn't finish working" },
+    { "sk": "My sme neodpracovali", "en": "We didn't finish working" },
+    { "sk": "Vy ste neodpracovali", "en": "You (plural) didn't finish working" },
+    { "sk": "Oni neodpracovali", "en": "They didn't finish working" },
+    
+    { "sk": "Ja som hovoril", "en": "I spoke (masculine)" },
+    { "sk": "Ja som hovorila", "en": "I spoke (feminine)" },
+    { "sk": "Ty si hovoril", "en": "You spoke (masculine)" },
+    { "sk": "Ty si hovorila", "en": "You spoke (feminine)" },
+    { "sk": "On hovoril", "en": "He spoke" },
+    { "sk": "Ona hovorila", "en": "She spoke" },
+    { "sk": "My sme hovorili", "en": "We spoke" },
