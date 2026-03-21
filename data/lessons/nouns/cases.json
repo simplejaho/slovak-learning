@@ -1,0 +1,365 @@
+{
+  "rules": [
+    {
+      "title": "Slovak Cases - Complete Overview",
+      "text": "Slovak has 7 grammatical cases that indicate the function of nouns in sentences. Each case answers specific questions and is triggered by certain verbs, prepositions, or grammatical contexts.",
+      "table": {
+        "headers": ["Case", "Questions", "Primary Functions", "Key Triggers"],
+        "rows": [
+          ["Nominative (N)", "kto? čo?", "Subject, predicate nominative", "No prepositions"],
+          ["Genitive (G)", "koho? čoho?", "Possession, negation, quantity", "bez, do, od, z, u, okolo, počas"],
+          ["Dative (D)", "komu? čomu?", "Indirect object, recipient", "k/ku, proti, vďaka, kvôli"],
+          ["Accusative (A)", "koho? čo?", "Direct object", "na, za, cez, pre, o, v (motion)"],
+          ["Locative (L)", "o kom? o čom?", "Location, topic", "v/vo, na, o, po, pri"],
+          ["Instrumental (I)", "s kým? s čím?", "Means, accompaniment", "s/so, medzi, pred, nad, pod, za"]
+        ]
+      },
+      "examples": [
+        "Nominative: Muž pracuje – The man works",
+        "Genitive: Nemám psa – I don't have a dog",
+        "Dative: Pomáham priateľovi – I help a friend",
+        "Accusative: Vidím dom – I see a house",
+        "Locative: Som v meste – I'm in the city",
+        "Instrumental: Píšem perom – I write with a pen"
+      ]
+    },
+    {
+      "title": "Nominative Case - Subject and Identity",
+      "text": "The nominative is the basic dictionary form. Used for: 1) Subject of sentence, 2) Predicate nominative (after 'byť' = to be), 3) Direct address/vocative function.",
+      "examples": [
+        "Subject: Študent číta knihu – The student reads a book",
+        "Predicate: Ja som učiteľ – I am a teacher",
+        "Predicate: To je moja sestra – That is my sister",
+        "Address: Dobrý deň, pán Novák! – Good day, Mr. Novák!",
+        "Multiple subjects: Otec a matka pracujú – Father and mother work"
+      ]
+    },
+    {
+      "title": "Genitive Case - Possession",
+      "text": "The genitive expresses possession (whose?), similar to English 's or 'of'. Word order: possessed + possessor.",
+      "examples": [
+        "Dom otca – Father's house (the house of father)",
+        "Kniha študenta – The student's book",
+        "Koniec ulice – The end of the street",
+        "Farba auta – The color of the car",
+        "Dcéra učiteľa – The teacher's daughter",
+        "Dvere domu – The doors of the house"
+      ]
+    },
+    {
+      "title": "Genitive Case - Negation",
+      "text": "After negated verbs, the direct object changes from accusative to genitive. This is a crucial rule in Slovak.",
+      "examples": [
+        "Positive: Mám psa (A) – I have a dog",
+        "Negative: Nemám psa (G) – I don't have a dog",
+        "Positive: Vidím auto (A) – I see a car",
+        "Negative: Nevidím auta (G) – I don't see a car",
+        "Positive: Poznám túto ženu (A) – I know this woman",
+        "Negative: Nepoznám túto ženu (G) – I don't know this woman"
+      ]
+    },
+    {
+      "title": "Genitive Case - Quantity and Numbers",
+      "text": "The genitive is used after numbers 5 and above, and after quantity expressions.",
+      "examples": [
+        "päť mužov – five men (genitive plural)",
+        "desať žien – ten women (genitive plural)",
+        "dvadsať rokov – twenty years",
+        "veľa peňazí – a lot of money (genitive)",
+        "málo času – little time (genitive)",
+        "dosť vody – enough water (genitive)",
+        "koľko ľudí? – how many people? (genitive)"
+      ]
+    },
+    {
+      "title": "Genitive Prepositions",
+      "text": "Common prepositions that require genitive case.",
+      "table": {
+        "headers": ["Preposition", "Meaning", "Example", "Translation"],
+        "rows": [
+          ["bez", "without", "bez peňazí", "without money"],
+          ["do", "to, into, until", "do mesta", "to the city"],
+          ["od", "from", "od učiteľa", "from the teacher"],
+          ["z/zo", "from, out of", "z domu", "from home"],
+          ["u", "at (someone's place)", "u priateľa", "at a friend's"],
+          ["okolo", "around", "okolo stola", "around the table"],
+          ["počas", "during", "počas dňa", "during the day"],
+          ["pre", "for (reason)", "pre teba", "for you"],
+          ["mimo", "outside", "mimo mesta", "outside the city"],
+          ["blízko", "near", "blízko školy", "near the school"]
+        ]
+      },
+      "examples": [
+        "Idem do obchodu – I'm going to the store",
+        "Prichádzam od doktora – I'm coming from the doctor",
+        "Bez teba – Without you",
+        "Okolo domu – Around the house"
+      ]
+    },
+    {
+      "title": "Dative Case - Indirect Object",
+      "text": "The dative indicates the indirect object (to whom/for whom something is given or done). Common with verbs of giving, helping, saying.",
+      "examples": [
+        "Dávam knihu priateľovi – I give a book to a friend",
+        "Pomáham matke – I help mother",
+        "Hovorím učiteľovi – I'm speaking to the teacher",
+        "Kupujem darček sestre – I'm buying a gift for sister",
+        "Píšem list otcovi – I'm writing a letter to father",
+        "Volám bratovi – I'm calling brother"
+      ]
+    },
+    {
+      "title": "Verbs Requiring Dative",
+      "text": "Common verbs that take dative case for their object.",
+      "table": {
+        "headers": ["Verb", "Meaning", "Example", "Translation"],
+        "rows": [
+          ["pomáhať", "to help", "Pomáham priateľovi", "I help a friend"],
+          ["veriť", "to believe", "Verím ti", "I believe you"],
+          ["rozumieť", "to understand", "Rozumiem mu", "I understand him"],
+          ["ďakovať", "to thank", "Ďakujem ti", "I thank you"],
+          ["volať", "to call", "Volám sestre", "I call sister"],
+          ["hovoriť", "to speak/say", "Hovorím učiteľovi", "I speak to teacher"],
+          ["radiť", "to advise", "Radím ti", "I advise you"],
+          ["závidieť", "to envy", "Závidím mu", "I envy him"],
+          ["vyhovieť", "to suit", "Vyhovuje mi to", "It suits me"],
+          ["patriť", "to belong", "Patrí mi", "It belongs to me"]
+        ]
+      },
+      "examples": [
+        "Pomôžem ti – I'll help you",
+        "Verím priateľovi – I believe my friend",
+        "Nerozumiem mu – I don't understand him",
+        "Ďakujem vám – Thank you (formal)"
+      ]
+    },
+    {
+      "title": "Dative Prepositions",
+      "text": "Prepositions that require dative case.",
+      "table": {
+        "headers": ["Preposition", "Meaning", "Example", "Translation"],
+        "rows": [
+          ["k/ku", "to, toward", "Idem k doktorovi", "I'm going to the doctor"],
+          ["proti", "against", "Proti pravidlám", "Against the rules"],
+          ["vďaka", "thanks to", "Vďaka tebe", "Thanks to you"],
+          ["kvôli", "because of", "Kvôli tebe", "Because of you"],
+          ["naproti", "opposite", "Naproti domu", "Opposite the house"]
+        ]
+      },
+      "examples": [
+        "Idem k priateľovi – I'm going to a friend's",
+        "Vďaka učiteľovi – Thanks to the teacher",
+        "Kvôli dažďu – Because of the rain",
+        "Proti vetru – Against the wind"
+      ]
+    },
+    {
+      "title": "Accusative Case - Direct Object",
+      "text": "The accusative marks the direct object (whom/what the action directly affects). This is the most common case after nominative.",
+      "examples": [
+        "Vidím muža – I see a man",
+        "Čítam knihu – I'm reading a book",
+        "Kupujem auto – I'm buying a car",
+        "Poznám učiteľa – I know the teacher",
+        "Mám psa – I have a dog",
+        "Volám sestru – I'm calling sister"
+      ]
+    },
+    {
+      "title": "Accusative with Motion Prepositions",
+      "text": "Accusative is used with prepositions indicating motion or direction (where to?).",
+      "table": {
+        "headers": ["Preposition", "Meaning", "Example", "Translation"],
+        "rows": [
+          ["na", "to, onto", "Idem na poštu", "I'm going to the post office"],
+          ["do", "into (with A)", "Vstúpim do miestnosti", "I'll enter the room"],
+          ["za", "behind, for", "Idem za dom", "I'm going behind the house"],
+          ["cez", "across, through", "Cez ulicu", "Across the street"],
+          ["pre", "for (purpose)", "Pre teba", "For you"],
+          ["o", "about, for", "Prosím o pomoc", "I ask for help"],
+          ["v/vo", "into (motion)", "Idem vo štvrtok", "I'm going on Thursday"]
+        ]
+      },
+      "examples": [
+        "Idem na trh – I'm going to the market",
+        "Dávam knihu na stôl – I put the book on the table",
+        "Cez most – Across the bridge",
+        "Pre mňa – For me"
+      ]
+    },
+    {
+      "title": "Accusative - Time Expressions",
+      "text": "Accusative is used for time expressions answering 'when?' or 'for how long?'",
+      "examples": [
+        "Idem v pondelok – I'm going on Monday",
+        "Celý deň – All day (accusative)",
+        "Budúci týždeň – Next week",
+        "Minulý rok – Last year",
+        "Každú stredu – Every Wednesday",
+        "Túto sobotu – This Saturday",
+        "Celú noc – All night"
+      ]
+    },
+    {
+      "title": "Locative Case - Location (Static)",
+      "text": "Locative indicates static location (where? - no motion) and is ALWAYS used with a preposition. Never appears without a preposition.",
+      "examples": [
+        "Som v meste – I'm in the city (static)",
+        "Kniha je na stole – The book is on the table",
+        "Bývam v Bratislave – I live in Bratislava",
+        "Sedím pri okne – I'm sitting by the window",
+        "Pracujem v škole – I work at school",
+        "Je to v krabici – It's in the box"
+      ]
+    },
+    {
+      "title": "Locative Prepositions - Location",
+      "text": "Common prepositions requiring locative for static location.",
+      "table": {
+        "headers": ["Preposition", "Meaning", "Example", "Translation"],
+        "rows": [
+          ["v/vo", "in", "V meste", "In the city"],
+          ["na", "on, at", "Na stole", "On the table"],
+          ["pri", "at, by, near", "Pri dome", "By the house"],
+          ["po", "after, on (surface)", "Po obede", "After lunch"],
+          ["o", "about", "O tebe", "About you"]
+        ]
+      },
+      "examples": [
+        "V škole – In school",
+        "Na ulici – On the street",
+        "Pri rieke – By the river",
+        "Po večeri – After dinner",
+        "Hovorím o filme – I'm talking about a movie"
+      ]
+    },
+    {
+      "title": "Locative vs Accusative - Motion vs Location",
+      "text": "Key distinction: Accusative = motion/direction (where to?), Locative = static location (where?).",
+      "table": {
+        "headers": ["Context", "Case", "Example", "Translation"],
+        "rows": [
+          ["Motion TO", "Accusative", "Idem na poštu", "I'm going to the post office"],
+          ["Location AT", "Locative", "Som na pošte", "I'm at the post office"],
+          ["Motion TO", "Accusative", "Idem do mesta", "I'm going to the city"],
+          ["Location IN", "Locative", "Som v meste", "I'm in the city"],
+          ["Motion ONTO", "Accusative", "Dávam knihu na stôl", "I put the book on the table"],
+          ["Location ON", "Locative", "Kniha je na stole", "The book is on the table"]
+        ]
+      },
+      "examples": [
+        "Idem na trh (A) – I'm going to the market (motion)",
+        "Som na trhu (L) – I'm at the market (location)",
+        "Idem do obchodu (G with 'do') – I'm going to the store",
+        "Som v obchode (L) – I'm in the store"
+      ]
+    },
+    {
+      "title": "Instrumental Case - Means and Tools",
+      "text": "Instrumental expresses the means or tool by which an action is performed (with what?).",
+      "examples": [
+        "Píšem perom – I write with a pen",
+        "Režem nožom – I cut with a knife",
+        "Idem autobusom – I go by bus",
+        "Platím kartou – I pay with a card",
+        "Otváram kľúčom – I open with a key",
+        "Pracujem počítačom – I work with a computer"
+      ]
+    },
+    {
+      "title": "Instrumental Case - Accompaniment",
+      "text": "Instrumental expresses accompaniment (with whom?).",
+      "examples": [
+        "Idem s priateľom – I'm going with a friend",
+        "Hovorím so sestrou – I'm talking with sister",
+        "Stretávam sa s učiteľom – I'm meeting with the teacher",
+        "Pracujem s kolegom – I work with a colleague",
+        "Bývam s rodičmi – I live with parents",
+        "Tancujem s ňou – I dance with her"
+      ]
+    },
+    {
+      "title": "Instrumental Case - Professions and States",
+      "text": "Instrumental is used after 'byť' (to be) for professions, roles, and temporary states.",
+      "examples": [
+        "Som učiteľom – I am a teacher",
+        "Je lekárom – He is a doctor",
+        "Bola študentkou – She was a student",
+        "Stane sa prezidentom – He will become president",
+        "Je mojím priateľom – He is my friend",
+        "Bol dobrým človekom – He was a good person"
+      ]
+    },
+    {
+      "title": "Instrumental Prepositions",
+      "text": "Common prepositions requiring instrumental case.",
+      "table": {
+        "headers": ["Preposition", "Meaning", "Example", "Translation"],
+        "rows": [
+          ["s/so", "with", "S priateľom", "With a friend"],
+          ["medzi", "between, among", "Medzi domami", "Between houses"],
+          ["pred", "in front of, before", "Pred školou", "In front of school"],
+          ["nad", "above, over", "Nad mestom", "Above the city"],
+          ["pod", "under, below", "Pod stolom", "Under the table"],
+          ["za", "behind", "Za domom", "Behind the house"]
+        ]
+      },
+      "examples": [
+        "Idem s bratom – I'm going with brother",
+        "Medzi nami – Between us",
+        "Pred domom – In front of the house",
+        "Nad hlavou – Above the head",
+        "Pod mostom – Under the bridge"
+      ]
+    },
+    {
+      "title": "Prepositions with Multiple Cases",
+      "text": "Some prepositions can take different cases depending on meaning (motion vs. location).",
+      "table": {
+        "headers": ["Preposition", "With Accusative (motion)", "With Locative (location)", "With Instrumental"],
+        "rows": [
+          ["na", "Idem na poštu (to)", "Som na pošte (at)", "—"],
+          ["v/vo", "Vo štvrtok (time)", "V meste (in)", "—"],
+          ["za", "Idem za dom (behind-motion)", "—", "Za domom (behind-location)"],
+          ["pred", "Idem pred dom (motion)", "—", "Pred domom (location)"],
+          ["nad", "Dávam nad stôl (motion)", "—", "Nad stolom (location)"],
+          ["pod", "Dávam pod stôl (motion)", "—", "Pod stolom (location)"]
+        ]
+      },
+      "examples": [
+        "na + A: Idem na trh – I'm going to the market",
+        "na + L: Som na trhu – I'm at the market",
+        "za + A: Idem za dom – I'm going behind the house",
+        "za + I: Som za domom – I'm behind the house"
+      ]
+    },
+    {
+      "title": "Case Selection Quick Guide",
+      "text": "Decision tree for choosing the correct case.",
+      "table": {
+        "headers": ["Question", "Answer", "Case to Use"],
+        "rows": [
+          ["Is it the subject?", "Yes", "Nominative"],
+          ["After 'byť' for identity?", "Yes", "Nominative"],
+          ["Shows possession?", "Yes", "Genitive"],
+          ["After negated verb?", "Yes", "Genitive (for object)"],
+          ["After bez, do, od, z, u?", "Yes", "Genitive"],
+          ["Indirect object (to whom)?", "Yes", "Dative"],
+          ["After k, proti, vďaka?", "Yes", "Dative"],
+          ["Direct object?", "Yes", "Accusative"],
+          ["Motion (where to)?", "Yes", "Accusative (with na, za, etc.)"],
+          ["Static location (where)?", "Yes", "Locative (with v, na, pri)"],
+          ["About a topic?", "Yes", "Locative (with o)"],
+          ["With what tool/means?", "Yes", "Instrumental"],
+          ["With whom (accompaniment)?", "Yes", "Instrumental (with s/so)"],
+          ["Profession after 'byť'?", "Yes", "Instrumental"]
+        ]
+      },
+      "examples": []
+    }
+  ],
+
+  "vocab": [],
+
+  "exercises": []
+}
