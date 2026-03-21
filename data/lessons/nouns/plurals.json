@@ -1,0 +1,366 @@
+{
+  "rules": [
+    {
+      "title": "Plural Formation - Overview",
+      "text": "Slovak plural formation in nominative case varies by gender and the type of consonant ending the noun stem. The patterns are generally predictable once you know the noun's gender and stem type (hard vs. soft consonants).",
+      "examples": [
+        "Masculine: muž → muži (men)",
+        "Feminine: žena → ženy (women)",
+        "Neuter: mesto → mestá (cities)"
+      ]
+    },
+    {
+      "title": "Complete Plural Endings Summary",
+      "text": "Quick reference table for all nominative plural patterns by gender.",
+      "table": {
+        "headers": ["Gender", "Singular Pattern", "Plural Ending", "Example Singular", "Example Plural"],
+        "rows": [
+          ["Masculine", "hard consonant", "+i", "muž", "muži"],
+          ["Masculine", "hard consonant", "+y", "hrad", "hrady"],
+          ["Masculine", "soft consonant", "+ia", "učiteľ", "učitelia"],
+          ["Feminine", "-a (hard)", "a → y", "žena", "ženy"],
+          ["Feminine", "-a (soft)", "a → e", "ulica", "ulice"],
+          ["Feminine", "consonant", "+i", "kosť", "kosti"],
+          ["Neuter", "-o", "o → á", "mesto", "mestá"],
+          ["Neuter", "-e", "e → ia", "srdce", "srdcia"]
+        ]
+      },
+      "examples": []
+    },
+    {
+      "title": "Masculine Plurals - Hard Consonants with +i",
+      "text": "Masculine animate nouns (people, animals) with hard consonant stems typically add -i in plural. Hard consonants: p, b, t, d, n, l, s, z.",
+      "table": {
+        "headers": ["Singular", "Plural", "Meaning", "Pattern"],
+        "rows": [
+          ["muž", "muži", "man/men", "muž + i"],
+          ["študent", "študenti", "student/students", "študent + i"],
+          ["pes", "psi", "dog/dogs", "pes + i"],
+          ["syn", "synovia", "son/sons", "irregular"],
+          ["priateľ", "priatelia", "friend/friends", "soft → ia"],
+          ["doktor", "doktori", "doctor/doctors", "doktor + i"],
+          ["profesor", "profesori", "professor/professors", "profesor + i"]
+        ]
+      },
+      "examples": [
+        "muž → muži (men)",
+        "študent → študenti (students)",
+        "pes → psi (dogs)",
+        "doktor → doktori (doctors)"
+      ]
+    },
+    {
+      "title": "Masculine Plurals - Hard Consonants with +y",
+      "text": "Masculine inanimate nouns (objects) with hard consonant stems typically add -y in plural. Also used after velars (k, g, h, ch).",
+      "table": {
+        "headers": ["Singular", "Plural", "Meaning", "Pattern"],
+        "rows": [
+          ["hrad", "hrady", "castle/castles", "hrad + y"],
+          ["stôl", "stoly", "table/tables", "stôl + y"],
+          ["dom", "domy", "house/houses", "dom + y"],
+          ["park", "parky", "park/parks", "park + y"],
+          ["obchod", "obchody", "shop/shops", "obchod + y"],
+          ["telefón", "telefóny", "phone/phones", "telefón + y"],
+          ["počítač", "počítače", "computer/computers", "č → č + e"]
+        ]
+      },
+      "examples": [
+        "hrad → hrady (castles)",
+        "stôl → stoly (tables)",
+        "dom → domy (houses)",
+        "park → parky (parks)"
+      ]
+    },
+    {
+      "title": "Masculine Plurals - Soft Consonants with +ia",
+      "text": "Masculine nouns ending in soft consonants (j, c, dz, č, dž, š, ž, ť, ď, ň, ľ) add -ia in plural. This applies to both animate and inanimate.",
+      "table": {
+        "headers": ["Singular", "Plural", "Meaning", "Pattern"],
+        "rows": [
+          ["učiteľ", "učitelia", "teacher/teachers", "učiteľ + ia"],
+          ["kôň", "kone", "horse/horses", "irregular"],
+          ["nôž", "nože", "knife/knives", "nôž + e"],
+          ["plač", "plače", "crying/cryings", "plač + e"],
+          ["stroj", "stroje", "machine/machines", "stroj + e"],
+          ["mesiac", "mesiace", "month/months", "mesiac + e"],
+          ["otec", "otcovia", "father/fathers", "irregular"]
+        ]
+      },
+      "examples": [
+        "učiteľ → učitelia (teachers)",
+        "stroj → stroje (machines)",
+        "mesiac → mesiace (months)",
+        "Note: Some soft consonant nouns take -e instead of -ia"
+      ]
+    },
+    {
+      "title": "Masculine Plurals - Irregular Forms",
+      "text": "Some common masculine nouns have irregular plural forms that must be memorized.",
+      "table": {
+        "headers": ["Singular", "Plural", "Meaning", "Notes"],
+        "rows": [
+          ["syn", "synovia", "son/sons", "adds -ovia"],
+          ["otec", "otcovia", "father/fathers", "adds -ovia"],
+          ["brat", "bratia", "brother/brothers", "irregular"],
+          ["človek", "ľudia", "person/people", "completely different word"],
+          ["kôň", "kone", "horse/horses", "ň → n + e"],
+          ["deň", "dni", "day/days", "irregular"],
+          ["rok", "roky", "year/years", "regular +y"],
+          ["priateľ", "priatelia", "friend/friends", "adds -ia"]
+        ]
+      },
+      "examples": [
+        "syn → synovia (sons)",
+        "človek → ľudia (people) - completely irregular",
+        "brat → bratia (brothers)",
+        "deň → dni (days)"
+      ]
+    },
+    {
+      "title": "Feminine Plurals - Type 'žena' (hard -a)",
+      "text": "Feminine nouns ending in -a with hard consonant stems change -a to -y in plural.",
+      "table": {
+        "headers": ["Singular", "Plural", "Meaning", "Pattern"],
+        "rows": [
+          ["žena", "ženy", "woman/women", "a → y"],
+          ["kniha", "knihy", "book/books", "a → y"],
+          ["škola", "školy", "school/schools", "a → y"],
+          ["ruka", "ruky", "hand/hands", "a → y"],
+          ["hlava", "hlavy", "head/heads", "a → y"],
+          ["voda", "vody", "water/waters", "a → y"],
+          ["mapa", "mapy", "map/maps", "a → y"]
+        ]
+      },
+      "examples": [
+        "žena → ženy (women)",
+        "kniha → knihy (books)",
+        "škola → školy (schools)",
+        "ruka → ruky (hands)"
+      ]
+    },
+    {
+      "title": "Feminine Plurals - Type 'ulica' (soft -a)",
+      "text": "Feminine nouns ending in -a with soft consonant stems (c, dz, j) change -a to -e in plural.",
+      "table": {
+        "headers": ["Singular", "Plural", "Meaning", "Pattern"],
+        "rows": [
+          ["ulica", "ulice", "street/streets", "a → e"],
+          ["práca", "práce", "work/works", "a → e"],
+          ["stanica", "stanice", "station/stations", "a → e"],
+          ["polícia", "polície", "police", "a → e"],
+          ["lekcia", "lekcie", "lesson/lessons", "a → e"],
+          ["revolúcia", "revolúcie", "revolution/revolutions", "a → e"],
+          ["dlaň", "dlane", "palm/palms", "ň → n + e"]
+        ]
+      },
+      "examples": [
+        "ulica → ulice (streets)",
+        "práca → práce (works)",
+        "stanica → stanice (stations)",
+        "lekcia → lekcie (lessons)"
+      ]
+    },
+    {
+      "title": "Feminine Plurals - Consonant Endings",
+      "text": "Feminine nouns ending in consonants (no -a) add -i in plural.",
+      "table": {
+        "headers": ["Singular", "Plural", "Meaning", "Pattern"],
+        "rows": [
+          ["kosť", "kosti", "bone/bones", "+ i"],
+          ["noc", "noci", "night/nights", "+ i"],
+          ["vec", "veci", "thing/things", "+ i"],
+          ["radosť", "radosti", "joy/joys", "+ i"],
+          ["mladosť", "mladosti", "youth/youths", "+ i"],
+          ["milosť", "milosti", "mercy/mercies", "+ i"],
+          ["správa", "správy", "message/messages", "a → y (regular -a type)"]
+        ]
+      },
+      "examples": [
+        "kosť → kosti (bones)",
+        "noc → noci (nights)",
+        "vec → veci (things)",
+        "radosť → radosti (joys)"
+      ]
+    },
+    {
+      "title": "Neuter Plurals - Type 'mesto' (-o ending)",
+      "text": "Neuter nouns ending in -o change -o to -á in plural. This is the most common neuter pattern.",
+      "table": {
+        "headers": ["Singular", "Plural", "Meaning", "Pattern"],
+        "rows": [
+          ["mesto", "mestá", "city/cities", "o → á"],
+          ["okno", "okná", "window/windows", "o → á"],
+          ["slovo", "slová", "word/words", "o → á"],
+          ["auto", "autá", "car/cars", "o → á"],
+          ["pero", "perá", "pen/pens", "o → á"],
+          ["číslo", "čísla", "number/numbers", "o → á"],
+          ["kino", "kiná", "cinema/cinemas", "o → á"]
+        ]
+      },
+      "examples": [
+        "mesto → mestá (cities)",
+        "okno → okná (windows)",
+        "slovo → slová (words)",
+        "auto → autá (cars)"
+      ]
+    },
+    {
+      "title": "Neuter Plurals - Type 'srdce' (-e ending)",
+      "text": "Neuter nouns ending in -e change -e to -ia in plural.",
+      "table": {
+        "headers": ["Singular", "Plural", "Meaning", "Pattern"],
+        "rows": [
+          ["srdce", "srdcia", "heart/hearts", "e → ia"],
+          ["pole", "polia", "field/fields", "e → ia"],
+          ["more", "moria", "sea/seas", "e → ia"],
+          ["dievča", "dievčatá", "girl/girls", "irregular"],
+          ["kura", "kurčatá", "chicken/chickens", "irregular"],
+          ["vajce", "vajcia", "egg/eggs", "e → ia"],
+          ["slnce", "slnká", "sun/suns", "irregular"]
+        ]
+      },
+      "examples": [
+        "srdce → srdcia (hearts)",
+        "pole → polia (fields)",
+        "more → moria (seas)",
+        "vajce → vajcia (eggs)"
+      ]
+    },
+    {
+      "title": "Neuter Plurals - Verbal Nouns (-nie, -tie)",
+      "text": "Neuter verbal nouns ending in -nie or -tie change -e to -ia in plural.",
+      "table": {
+        "headers": ["Singular", "Plural", "Meaning", "Pattern"],
+        "rows": [
+          ["čítanie", "čítania", "reading/readings", "e → ia"],
+          ["písanie", "písania", "writing/writings", "e → ia"],
+          ["stretnutie", "stretnutia", "meeting/meetings", "e → ia"],
+          ["cvičenie", "cvičenia", "exercise/exercises", "e → ia"],
+          ["rozhodnutie", "rozhodnutia", "decision/decisions", "e → ia"],
+          ["varenie", "varenia", "cooking/cookings", "e → ia"],
+          ["učenie", "učenia", "teaching/teachings", "e → ia"]
+        ]
+      },
+      "examples": [
+        "čítanie → čítania (readings)",
+        "stretnutie → stretnutia (meetings)",
+        "cvičenie → cvičenia (exercises)",
+        "rozhodnutie → rozhodnutia (decisions)"
+      ]
+    },
+    {
+      "title": "Neuter Plurals - Irregular Forms",
+      "text": "Some neuter nouns have irregular plural forms, especially those referring to young beings.",
+      "table": {
+        "headers": ["Singular", "Plural", "Meaning", "Notes"],
+        "rows": [
+          ["dieťa", "deti", "child/children", "completely irregular"],
+          ["dievča", "dievčatá", "girl/girls", "adds -tá"],
+          ["kura", "kurčatá", "chicken/chickens", "adds -čatá"],
+          ["mláďa", "mláďatá", "young animal/young animals", "adds -tá"],
+          ["slnce", "slnká", "sun/suns", "irregular"],
+          ["oko", "oči", "eye/eyes", "completely irregular"],
+          ["ucho", "uši", "ear/ears", "completely irregular"]
+        ]
+      },
+      "examples": [
+        "dieťa → deti (children) - most common irregular",
+        "oko → oči (eyes)",
+        "ucho → uši (ears)",
+        "dievča → dievčatá (girls)"
+      ]
+    },
+    {
+      "title": "Consonant Changes in Plurals",
+      "text": "Some consonants change when plural endings are added, following Slovak phonetic rules.",
+      "table": {
+        "headers": ["Consonant Change", "Example Singular", "Example Plural", "Reason"],
+        "rows": [
+          ["k → c", "ruka", "ruky (no change)", "before -y, k stays"],
+          ["h → z", "noha", "nohy (no change)", "before -y, h stays"],
+          ["ch → š", "mucha", "muchy (no change)", "before -y, ch stays"],
+          ["k → ci", "žiak", "žiaci", "before -i, k → c"],
+          ["h → zi", "kniha", "knihy (no change)", "depends on pattern"],
+          ["g → zi", "pedagóg", "pedagógovia", "irregular plural"],
+          ["c → ci", "otec", "otcovia", "irregular"]
+        ]
+      },
+      "examples": [
+        "žiak → žiaci (students) - k changes to c before i",
+        "otec → otcovia (fathers) - irregular",
+        "Most consonants remain unchanged in standard patterns"
+      ]
+    },
+    {
+      "title": "Foreign Word Plurals",
+      "text": "Foreign loanwords generally follow Slovak plural patterns based on their adopted gender and ending.",
+      "table": {
+        "headers": ["Singular", "Plural", "Gender", "Pattern", "Origin"],
+        "rows": [
+          ["autobus", "autobusy", "M", "+y", "Latin -us"],
+          ["múzeum", "múzeá", "N", "o → á", "Latin -um"],
+          ["garáž", "garáže", "F", "+e", "French"],
+          ["pizza", "pizze", "F", "a → e", "Italian"],
+          ["kino", "kiná", "N", "o → á", "Greek"],
+          ["vírus", "vírusy", "M", "+y", "Latin"],
+          ["album", "albumy", "N", "um → y", "Latin"],
+          ["email", "emaily", "M", "+y", "English"]
+        ]
+      },
+      "examples": [
+        "autobus → autobusy (buses)",
+        "múzeum → múzeá (museums)",
+        "pizza → pizze (pizzas)",
+        "email → emaily (emails)"
+      ]
+    },
+    {
+      "title": "Diminutive Plurals",
+      "text": "Diminutive forms follow the plural patterns of their gender, typically neuter.",
+      "table": {
+        "headers": ["Singular", "Plural", "Meaning", "Pattern"],
+        "rows": [
+          ["dievčatko", "dievčatká", "little girl/little girls", "o → á"],
+          ["psíčatko", "psíčatká", "little dog/little dogs", "o → á"],
+          ["domček", "domčeky", "little house/little houses", "+y"],
+          ["knižka", "knižky", "little book/little books", "a → y"],
+          ["stolík", "stolíky", "little table/little tables", "+y"],
+          ["autíčko", "autíčka", "little car/little cars", "o → á"]
+        ]
+      },
+      "examples": [
+        "dievčatko → dievčatká (little girls)",
+        "domček → domčeky (little houses)",
+        "knižka → knižky (little books)",
+        "autíčko → autíčka (little cars)"
+      ]
+    },
+    {
+      "title": "Quick Plural Formation Guide",
+      "text": "Step-by-step guide to forming plurals based on noun characteristics.",
+      "table": {
+        "headers": ["Step", "Question", "Answer → Plural Ending"],
+        "rows": [
+          ["1", "What gender?", "M/F/N → see next steps"],
+          ["2a", "Masculine + hard consonant?", "Animate: +i, Inanimate: +y"],
+          ["2b", "Masculine + soft consonant?", "+ia or +e"],
+          ["3a", "Feminine ending in -a (hard)?", "a → y"],
+          ["3b", "Feminine ending in -a (soft)?", "a → e"],
+          ["3c", "Feminine ending in consonant?", "+i"],
+          ["4a", "Neuter ending in -o?", "o → á"],
+          ["4b", "Neuter ending in -e?", "e → ia"]
+        ]
+      },
+      "examples": [
+        "muž (M, hard) → muži (+i for animate)",
+        "žena (F, -a hard) → ženy (a → y)",
+        "mesto (N, -o) → mestá (o → á)",
+        "ulica (F, -a soft) → ulice (a → e)"
+      ]
+    }
+  ],
+
+  "vocab": [],
+
+  "exercises": []
+}
