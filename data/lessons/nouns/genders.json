@@ -1,14 +1,240 @@
 {
-  "title": "Masculine Nouns",
   "rules": [
     {
-      "title": "Masculine nouns usually end in a consonant",
-      "text": "Most masculine nouns in Slovak end with a consonant."
+      "title": "Determining Noun Gender - Overview",
+      "text": "Slovak nouns have three genders: masculine (M), feminine (F), and neuter (N). Gender is usually predictable from the noun's ending, though there are exceptions. Knowing gender is essential for proper declension and agreement with adjectives and verbs.",
+      "examples": [
+        "Masculine: muž (man), stôl (table), učiteľ (teacher)",
+        "Feminine: žena (woman), ulica (street), kosť (bone)",
+        "Neuter: mesto (city), dieťa (child), srdce (heart)"
+      ]
+    },
+    {
+      "title": "Masculine Noun Endings",
+      "text": "Masculine nouns typically end in consonants. They can be animate (people, animals) or inanimate (objects, concepts).",
+      "table": {
+        "headers": ["Ending Type", "Examples", "Notes"],
+        "rows": [
+          ["Hard consonants (p, b, t, d, k, g, ch, h, m, n, r, l, s, z)", "muž, dom, stôl, hrad, pes, syn", "Most common masculine pattern"],
+          ["Soft consonants (j, c, dz, č, dž, š, ž, ť, ď, ň, ľ)", "učiteľ, kôň, nôž, plač, stroj", "Soft masculine pattern"],
+          ["-a (animate only)", "starosta, sudca, kolega, turista", "Masculine despite -a ending (people)"],
+          ["-o (diminutives)", "chlapisko, psisko", "Augmentative forms, masculine"],
+          ["-us", "autobus, vírus, génius", "Foreign words, masculine"]
+        ]
+      },
+      "examples": [
+        "muž (man) - hard consonant",
+        "učiteľ (teacher) - soft consonant",
+        "starosta (mayor) - ends in -a but masculine",
+        "autobus (bus) - foreign word in -us"
+      ]
+    },
+    {
+      "title": "Feminine Noun Endings",
+      "text": "Feminine nouns most commonly end in -a, but can also end in consonants (especially soft consonants).",
+      "table": {
+        "headers": ["Ending Type", "Examples", "Notes"],
+        "rows": [
+          ["-a (hard stem)", "žena, kniha, škola, voda, ruka", "Most common feminine pattern"],
+          ["-a (soft stem)", "ulica, práca, stanica, polícia", "After soft consonants c, dz, j"],
+          ["Soft consonants (no -a)", "kosť, noc, vec, radosť, mladosť", "Feminine without -a"],
+          ["-osť", "radosť, mladosť, múdrosť, láskavosť", "Abstract nouns, always feminine"],
+          ["-cia, -sia", "lekcia, revolúcia, demokracia", "Foreign words, feminine"],
+          ["-áž", "garáž, masáž, sabotáž", "French loanwords, feminine"]
+        ]
+      },
+      "examples": [
+        "žena (woman) - typical -a ending",
+        "ulica (street) - soft stem + -a",
+        "kosť (bone) - consonant ending",
+        "radosť (joy) - abstract noun in -osť",
+        "garáž (garage) - French loanword"
+      ]
+    },
+    {
+      "title": "Neuter Noun Endings",
+      "text": "Neuter nouns typically end in -o or -e. This is the most predictable gender category.",
+      "table": {
+        "headers": ["Ending Type", "Examples", "Notes"],
+        "rows": [
+          ["-o", "mesto, okno, slovo, auto, pero", "Most common neuter pattern"],
+          ["-e", "srdce, pole, more, dievča, kura", "Neuter with -e ending"],
+          ["-ie", "vysvedčenie, stretnutie, cvičenie", "Verbal nouns, neuter"],
+          ["-um", "múzeum, centrum, fórum, štúdium", "Latin loanwords, neuter"],
+          ["-ä (diminutives)", "dievčatko, psíčatko", "Diminutives, neuter"],
+          ["-cia (some)", "kino, metro, espresso", "Foreign words ending in -o"]
+        ]
+      },
+      "examples": [
+        "mesto (city) - typical -o ending",
+        "srdce (heart) - -e ending",
+        "stretnutie (meeting) - verbal noun",
+        "múzeum (museum) - Latin loanword",
+        "dievčatko (little girl) - diminutive"
+      ]
+    },
+    {
+      "title": "Masculine Nouns Ending in -a",
+      "text": "Some masculine nouns end in -a, but they refer to male persons or roles. These decline like feminine nouns but take masculine agreement.",
+      "table": {
+        "headers": ["Noun", "Meaning", "Gender", "Why Masculine"],
+        "rows": [
+          ["starosta", "mayor", "M", "Male person/role"],
+          ["sudca", "judge", "M", "Male person/role"],
+          ["kolega", "colleague (male)", "M", "Male person"],
+          ["turista", "tourist (male)", "M", "Male person"],
+          ["sluga", "servant (male)", "M", "Male person"],
+          ["vojvoda", "duke", "M", "Male title"],
+          ["hrdina", "hero (male)", "M", "Male person"]
+        ]
+      },
+      "examples": [
+        "Starosta pracuje – The mayor (he) works (masculine verb agreement)",
+        "Vidím sudcu – I see the judge (accusative like feminine)",
+        "Kolega je tu – The colleague (he) is here",
+        "Note: These decline like feminine -a nouns but use masculine adjectives/verbs"
+      ]
+    },
+    {
+      "title": "Foreign Word Patterns",
+      "text": "Foreign loanwords often follow predictable gender patterns based on their endings.",
+      "table": {
+        "headers": ["Ending", "Gender", "Examples", "Origin"],
+        "rows": [
+          ["-us", "M", "autobus, vírus, génius, cirkus", "Latin"],
+          ["-um", "N", "múzeum, centrum, fórum, album", "Latin"],
+          ["-cia, -sia", "F", "lekcia, revolúcia, demokracia", "Latin/Greek"],
+          ["-áž", "F", "garáž, masáž, sabotáž, kamuфláž", "French"],
+          ["-ing", "M", "marketing, meeting, shopping", "English"],
+          ["-o (foreign)", "N", "kino, metro, espresso, piano", "Various"],
+          ["-a (foreign)", "F", "pizza, pasta, opera, drama", "Italian/Latin"],
+          ["-ér", "M", "inžinier, bankér, kaderník", "French/German"]
+        ]
+      },
+      "examples": [
+        "autobus (bus) - masculine",
+        "múzeum (museum) - neuter",
+        "garáž (garage) - feminine",
+        "kino (cinema) - neuter",
+        "pizza (pizza) - feminine"
+      ]
+    },
+    {
+      "title": "Abstract Nouns in -osť",
+      "text": "Abstract nouns formed with the suffix -osť are always feminine, regardless of the root word's gender.",
+      "table": {
+        "headers": ["Noun", "Root", "Meaning"],
+        "rows": [
+          ["radosť", "rád (glad)", "joy"],
+          ["mladosť", "mladý (young)", "youth"],
+          ["múdrosť", "múdry (wise)", "wisdom"],
+          ["láskavosť", "láskavý (kind)", "kindness"],
+          ["starosť", "starý (old/care)", "worry, care"],
+          ["dôležitosť", "dôležitý (important)", "importance"],
+          ["možnosť", "možný (possible)", "possibility"]
+        ]
+      },
+      "examples": [
+        "Radosť je dôležitá – Joy is important",
+        "Múdrosť prichádza s vekom – Wisdom comes with age",
+        "Mám starosť – I have a worry",
+        "All -osť nouns are feminine"
+      ]
+    },
+    {
+      "title": "Diminutives and Augmentatives",
+      "text": "Diminutive and augmentative forms follow specific gender patterns.",
+      "table": {
+        "headers": ["Type", "Suffix", "Gender", "Example", "Original"],
+        "rows": [
+          ["Diminutive", "-ko", "N", "dievčatko", "dievča (girl)"],
+          ["Diminutive", "-ko", "N", "psíčatko", "pes (dog)"],
+          ["Diminutive", "-ček", "M", "domček", "dom (house)"],
+          ["Diminutive", "-ka", "F", "knižka", "kniha (book)"],
+          ["Diminutive", "-ik", "M", "stolík", "stôl (table)"],
+          ["Augmentative", "-isko", "M", "chlapisko", "chlap (guy)"],
+          ["Augmentative", "-isko", "M", "psisko", "pes (dog)"]
+        ]
+      },
+      "examples": [
+        "dievčatko (little girl) - neuter diminutive",
+        "domček (little house) - masculine diminutive",
+        "knižka (little book) - feminine diminutive",
+        "chlapisko (big guy) - masculine augmentative"
+      ]
+    },
+    {
+      "title": "Verbal Nouns (Gerunds)",
+      "text": "Nouns derived from verbs with the suffix -nie/-tie are always neuter.",
+      "table": {
+        "headers": ["Verbal Noun", "Verb", "Meaning"],
+        "rows": [
+          ["čítanie", "čítať", "reading"],
+          ["písanie", "písať", "writing"],
+          ["stretnutie", "stretnúť", "meeting"],
+          ["cvičenie", "cvičiť", "exercise"],
+          ["učenie", "učiť", "teaching/learning"],
+          ["varenie", "variť", "cooking"],
+          ["rozhodnutie", "rozhodnúť", "decision"]
+        ]
+      },
+      "examples": [
+        "Čítanie je zábavné – Reading is fun",
+        "Stretnutie bolo dobré – The meeting was good",
+        "Cvičenie je zdravé – Exercise is healthy",
+        "All -nie/-tie verbal nouns are neuter"
+      ]
+    },
+    {
+      "title": "Exceptions and Tricky Cases",
+      "text": "Some nouns don't follow the standard patterns and must be memorized.",
+      "table": {
+        "headers": ["Noun", "Ending Suggests", "Actual Gender", "Reason"],
+        "rows": [
+          ["dlaň", "consonant → M/F", "F", "Body part, irregular"],
+          ["deň", "consonant → M", "M", "Regular but note soft ň"],
+          ["cesta", "-a → F", "F", "Regular feminine"],
+          ["dieťa", "-a → F", "N", "Exception: child is neuter"],
+          ["meno", "-o → N", "N", "Regular neuter"],
+          ["rameno", "-o → N", "N", "Regular neuter (shoulder)"],
+          ["slovo", "-o → N", "N", "Regular neuter (word)"]
+        ]
+      },
+      "examples": [
+        "dieťa (child) - ends in -a but neuter, not feminine",
+        "starosta (mayor) - ends in -a but masculine (male person)",
+        "kosť (bone) - feminine despite consonant ending",
+        "deň (day) - masculine with soft consonant"
+      ]
+    },
+    {
+      "title": "Quick Gender Identification Rules",
+      "text": "Summary of the most reliable rules for determining gender at a glance.",
+      "table": {
+        "headers": ["If the noun ends in...", "It's probably...", "Reliability"],
+        "rows": [
+          ["consonant (not soft)", "Masculine", "90%"],
+          ["soft consonant (ť, ď, ň, ľ, etc.)", "Masculine or Feminine", "Check context"],
+          ["-a (person/role)", "Check if male → M, female → F", "Context-dependent"],
+          ["-a (not person)", "Feminine", "95%"],
+          ["-o", "Neuter", "99%"],
+          ["-e", "Neuter", "95%"],
+          ["-osť", "Feminine", "100%"],
+          ["-nie, -tie", "Neuter", "100%"],
+          ["-us", "Masculine", "95%"],
+          ["-um", "Neuter", "100%"]
+        ]
+      },
+      "examples": [
+        "If it ends in -o or -e → almost certainly neuter",
+        "If it ends in -osť → always feminine",
+        "If it ends in -a → usually feminine (unless it's a male person)",
+        "If it ends in consonant → usually masculine"
+      ]
     }
   ],
-  "vocab": [
-    { "sk": "chlap", "en": "man" },
-    { "sk": "dom", "en": "house" },
-    { "sk": "stôl", "en": "table" }
-  ]
+
+  "vocab": [],
+
+  "exercises": []
 }
