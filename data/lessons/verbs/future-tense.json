@@ -1,0 +1,364 @@
+{
+  "rules": [
+    {
+      "title": "Future Tense Formation - Basic Structure",
+      "text": "Slovak has two ways to form the future tense: 1) For PERFECTIVE verbs, use the present tense conjugation (which has future meaning). 2) For IMPERFECTIVE verbs, use the future auxiliary 'budem' (will be) + infinitive.",
+      "examples": [
+        "Prečítam knihu – I will read the book (perfective, present form = future meaning)",
+        "Budem čítať knihu – I will be reading the book (imperfective, auxiliary + infinitive)",
+        "Napíšem list – I will write a letter (perfective)"
+      ]
+    },
+    {
+      "title": "Future Tense - Perfective Verbs",
+      "text": "Perfective verbs use their present tense conjugation to express future meaning. They describe completed actions that will happen in the future.",
+      "table": {
+        "headers": ["Person", "urobiť (to complete)", "napísať (to write)", "prečítať (to read)"],
+        "rows": [
+          ["JA (I)", "urobím", "napíšem", "prečítam"],
+          ["TY (you sg.)", "urobíš", "napíšeš", "prečítaš"],
+          ["ON/ONA/ONO", "urobí", "napíše", "prečíta"],
+          ["MY (we)", "urobíme", "napíšeme", "prečítame"],
+          ["VY (you pl.)", "urobíte", "napíšete", "prečítate"],
+          ["ONI/ONY (they)", "urobia", "napíšu", "prečítajú"]
+        ]
+      },
+      "examples": [
+        "Urobím to zajtra – I will do it tomorrow",
+        "Napíšeš mi email? – Will you write me an email?",
+        "Prečítame knihu – We will read the book"
+      ]
+    },
+    {
+      "title": "Future Auxiliary 'byť' - Conjugation",
+      "text": "The future auxiliary 'budem' (I will be) is used with imperfective infinitives to form the future tense.",
+      "table": {
+        "headers": ["Person", "Future Auxiliary", "Example with 'robiť'"],
+        "rows": [
+          ["JA", "budem", "budem robiť"],
+          ["TY", "budeš", "budeš robiť"],
+          ["ON/ONA/ONO", "bude", "bude robiť"],
+          ["MY", "budeme", "budeme robiť"],
+          ["VY", "budete", "budete robiť"],
+          ["ONI/ONY", "budú", "budú robiť"]
+        ]
+      },
+      "examples": [
+        "Budem pracovať – I will be working",
+        "Budeš študovať? – Will you be studying?",
+        "Budeme čakať – We will be waiting"
+      ]
+    },
+    {
+      "title": "Future Tense - Imperfective Verbs",
+      "text": "Imperfective verbs form the future with 'budem' + infinitive. This describes ongoing or repeated actions in the future.",
+      "table": {
+        "headers": ["Person", "robiť (to do)", "pracovať (to work)", "čítať (to read)"],
+        "rows": [
+          ["JA", "budem robiť", "budem pracovať", "budem čítať"],
+          ["TY", "budeš robiť", "budeš pracovať", "budeš čítať"],
+          ["ON/ONA/ONO", "bude robiť", "bude pracovať", "bude čítať"],
+          ["MY", "budeme robiť", "budeme pracovať", "budeme čítať"],
+          ["VY", "budete robiť", "budete pracovať", "budete čítať"],
+          ["ONI/ONY", "budú robiť", "budú pracovať", "budú čítať"]
+        ]
+      },
+      "examples": [
+        "Budem robiť domácu úlohu – I will be doing homework",
+        "Budeš pracovať zajtra? – Will you be working tomorrow?",
+        "Budú čítať celý deň – They will be reading all day"
+      ]
+    },
+    {
+      "title": "Aspect in Future Tense - Perfective vs Imperfective",
+      "text": "Choose perfective for completed future actions with a clear endpoint. Choose imperfective for ongoing, repeated, or habitual future actions.",
+      "table": {
+        "headers": ["Imperfective (ongoing)", "Meaning", "Perfective (completed)", "Meaning"],
+        "rows": [
+          ["budem písať", "I will be writing", "napíšem", "I will write (complete)"],
+          ["budem jesť", "I will be eating", "zjem", "I will eat (finish)"],
+          ["budem čítať", "I will be reading", "prečítam", "I will read (finish)"],
+          ["budem pracovať", "I will be working", "odpracujem", "I will finish working"],
+          ["budem sa učiť", "I will be learning", "naučím sa", "I will learn (master)"]
+        ]
+      },
+      "examples": [
+        "Budem čítať knihu (ongoing process)",
+        "Prečítam knihu (will finish reading it)",
+        "Budeme pracovať celý deň (duration)",
+        "Odpracujeme osem hodín (completion)"
+      ]
+    },
+    {
+      "title": "Reflexive Verbs in Future Tense - Perfective",
+      "text": "Perfective reflexive verbs use present tense conjugation + reflexive particle 'sa/si' for future meaning. The reflexive particle comes after the verb.",
+      "table": {
+        "headers": ["Person", "naučiť sa (to learn)", "umyť sa (to wash)", "obliecť sa (to dress)"],
+        "rows": [
+          ["JA", "naučím sa", "umyjem sa", "oblečiem sa"],
+          ["TY", "naučíš sa", "umyješ sa", "oblečieš sa"],
+          ["ON/ONA/ONO", "naučí sa", "umyje sa", "oblečie sa"],
+          ["MY", "naučíme sa", "umyjeme sa", "oblečieme sa"],
+          ["VY", "naučíte sa", "umyjete sa", "oblečiete sa"],
+          ["ONI/ONY", "naučia sa", "umyjú sa", "oblečú sa"]
+        ]
+      },
+      "examples": [
+        "Naučím sa slovenčinu – I will learn Slovak",
+        "Umyješ sa ráno? – Will you wash in the morning?",
+        "Oblečieme sa rýchlo – We will get dressed quickly"
+      ]
+    },
+    {
+      "title": "Reflexive Verbs in Future Tense - Imperfective",
+      "text": "Imperfective reflexive verbs use 'budem' + reflexive particle + infinitive. The reflexive particle comes between the auxiliary and infinitive.",
+      "table": {
+        "headers": ["Person", "učiť sa (to learn)", "umývať sa (to wash)", "obliekať sa (to dress)"],
+        "rows": [
+          ["JA", "budem sa učiť", "budem sa umývať", "budem sa obliekať"],
+          ["TY", "budeš sa učiť", "budeš sa umývať", "budeš sa obliekať"],
+          ["ON/ONA/ONO", "bude sa učiť", "bude sa umývať", "bude sa obliekať"],
+          ["MY", "budeme sa učiť", "budeme sa umývať", "budeme sa obliekať"],
+          ["VY", "budete sa učiť", "budete sa umývať", "budete sa obliekať"],
+          ["ONI/ONY", "budú sa učiť", "budú sa umývať", "budú sa obliekať"]
+        ]
+      },
+      "examples": [
+        "Budem sa učiť celý deň – I will be learning all day",
+        "Budeš sa umývať večer? – Will you be washing in the evening?",
+        "Budú sa obliekať pomaly – They will be getting dressed slowly"
+      ]
+    },
+    {
+      "title": "Negation in Future Tense - Perfective Verbs",
+      "text": "Add 'ne-' prefix to the perfective verb. The conjugation pattern remains the same.",
+      "table": {
+        "headers": ["Person", "urobiť (to do)", "Negation", "napísať (to write)", "Negation"],
+        "rows": [
+          ["JA", "urobím", "neurobím", "napíšem", "nenapíšem"],
+          ["TY", "urobíš", "neurobíš", "napíšeš", "nenapíšeš"],
+          ["ON/ONA/ONO", "urobí", "neurobí", "napíše", "nenapíše"],
+          ["MY", "urobíme", "neurobíme", "napíšeme", "nenapíšeme"],
+          ["VY", "urobíte", "neurobíte", "napíšete", "nenapíšete"],
+          ["ONI/ONY", "urobia", "neurobia", "napíšu", "nenapíšu"]
+        ]
+      },
+      "examples": [
+        "Neurobím to – I won't do it",
+        "Nenapíšeš mi? – Won't you write to me?",
+        "Neprečítame knihu – We won't read the book"
+      ]
+    },
+    {
+      "title": "Negation in Future Tense - Imperfective Verbs",
+      "text": "Add 'ne-' prefix to the auxiliary 'budem' → 'nebudem'. The infinitive remains unchanged.",
+      "table": {
+        "headers": ["Person", "Positive", "Negative"],
+        "rows": [
+          ["JA", "budem robiť", "nebudem robiť"],
+          ["TY", "budeš robiť", "nebudeš robiť"],
+          ["ON/ONA/ONO", "bude robiť", "nebude robiť"],
+          ["MY", "budeme robiť", "nebudeme robiť"],
+          ["VY", "budete robiť", "nebudete robiť"],
+          ["ONI/ONY", "budú robiť", "nebudú robiť"]
+        ]
+      },
+      "examples": [
+        "Nebudem pracovať – I won't be working",
+        "Nebudeš čítať? – Won't you be reading?",
+        "Nebudeme čakať – We won't be waiting"
+      ]
+    },
+    {
+      "title": "Negation with Reflexive Verbs - Perfective",
+      "text": "Add 'ne-' prefix to the perfective reflexive verb. The reflexive particle position remains after the verb.",
+      "table": {
+        "headers": ["Person", "Positive", "Negative"],
+        "rows": [
+          ["JA", "naučím sa", "nenaučím sa"],
+          ["TY", "naučíš sa", "nenaučíš sa"],
+          ["ON/ONA/ONO", "naučí sa", "nenaučí sa"],
+          ["MY", "naučíme sa", "nenaučíme sa"],
+          ["VY", "naučíte sa", "nenaučíte sa"],
+          ["ONI/ONY", "naučia sa", "nenaučia sa"]
+        ]
+      },
+      "examples": [
+        "Nenaučím sa to – I won't learn it",
+        "Neumyješ sa? – Won't you wash yourself?",
+        "Neoblečieme sa – We won't get dressed"
+      ]
+    },
+    {
+      "title": "Negation with Reflexive Verbs - Imperfective",
+      "text": "Add 'ne-' prefix to the auxiliary 'budem' → 'nebudem'. The reflexive particle and infinitive remain unchanged.",
+      "table": {
+        "headers": ["Person", "Positive", "Negative"],
+        "rows": [
+          ["JA", "budem sa učiť", "nebudem sa učiť"],
+          ["TY", "budeš sa učiť", "nebudeš sa učiť"],
+          ["ON/ONA/ONO", "bude sa učiť", "nebude sa učiť"],
+          ["MY", "budeme sa učiť", "nebudeme sa učiť"],
+          ["VY", "budete sa učiť", "nebudete sa učiť"],
+          ["ONI/ONY", "budú sa učiť", "nebudú sa učiť"]
+        ]
+      },
+      "examples": [
+        "Nebudem sa učiť – I won't be learning",
+        "Nebudeš sa umývať? – Won't you be washing?",
+        "Nebudú sa obliekať – They won't be getting dressed"
+      ]
+    },
+    {
+      "title": "Irregular Future Forms - 'ísť' (to go)",
+      "text": "The verb 'ísť' has an irregular perfective future form 'pôjdem' (I will go). This is one of the most common irregular future forms.",
+      "table": {
+        "headers": ["Person", "Perfective Future", "Negative", "Imperfective Future"],
+        "rows": [
+          ["JA", "pôjdem", "nepôjdem", "budem chodiť"],
+          ["TY", "pôjdeš", "nepôjdeš", "budeš chodiť"],
+          ["ON/ONA/ONO", "pôjde", "nepôjde", "bude chodiť"],
+          ["MY", "pôjdeme", "nepôjdeme", "budeme chodiť"],
+          ["VY", "pôjdete", "nepôjdete", "budete chodiť"],
+          ["ONI/ONY", "pôjdu", "nepôjdu", "budú chodiť"]
+        ]
+      },
+      "examples": [
+        "Pôjdem domov – I will go home",
+        "Pôjdeš do školy? – Will you go to school?",
+        "Nepôjdeme na prechádzku – We won't go for a walk",
+        "Budú chodiť každý deň – They will go every day (habitual)"
+      ]
+    },
+    {
+      "title": "Irregular Future Forms - 'prísť' (to come)",
+      "text": "The verb 'prísť' (to come) has irregular future conjugation 'prídem'.",
+      "table": {
+        "headers": ["Person", "Perfective Future", "Negative"],
+        "rows": [
+          ["JA", "prídem", "neprídem"],
+          ["TY", "prídeš", "neprídeš"],
+          ["ON/ONA/ONO", "príde", "nepríde"],
+          ["MY", "prídem", "neprídem"],
+          ["VY", "prídete", "neprídete"],
+          ["ONI/ONY", "prídu", "neprídu"]
+        ]
+      },
+      "examples": [
+        "Prídem zajtra – I will come tomorrow",
+        "Prídeš na večeru? – Will you come to dinner?",
+        "Neprídu na stretnutie – They won't come to the meeting"
+      ]
+    },
+    {
+      "title": "Irregular Future Forms - 'jesť' (to eat)",
+      "text": "The perfective form 'zjesť' (to eat up) has the future conjugation 'zjem'.",
+      "table": {
+        "headers": ["Person", "Perfective Future", "Negative", "Imperfective Future"],
+        "rows": [
+          ["JA", "zjem", "nezjem", "budem jesť"],
+          ["TY", "zješ", "nezješ", "budeš jesť"],
+          ["ON/ONA/ONO", "zje", "nezje", "bude jesť"],
+          ["MY", "zjeme", "nezjeme", "budeme jesť"],
+          ["VY", "zjete", "nezjete", "budete jesť"],
+          ["ONI/ONY", "zjedia", "nezjedia", "budú jesť"]
+        ]
+      },
+      "examples": [
+        "Zjem obed – I will eat lunch",
+        "Zješ to všetko? – Will you eat all of it?",
+        "Budem jesť pomaly – I will be eating slowly"
+      ]
+    },
+    {
+      "title": "Irregular Future Forms - 'piť' (to drink)",
+      "text": "The perfective form 'vypiť' (to drink up) has the future conjugation 'vypijem'.",
+      "table": {
+        "headers": ["Person", "Perfective Future", "Negative", "Imperfective Future"],
+        "rows": [
+          ["JA", "vypijem", "nevypijem", "budem piť"],
+          ["TY", "vypiješ", "nevypiješ", "budeš piť"],
+          ["ON/ONA/ONO", "vypije", "nevypije", "bude piť"],
+          ["MY", "vypijeme", "nevypijeme", "budeme piť"],
+          ["VY", "vypijete", "nevypijete", "budete piť"],
+          ["ONI/ONY", "vypijú", "nevypijú", "budú piť"]
+        ]
+      },
+      "examples": [
+        "Vypijem kávu – I will drink coffee",
+        "Vypiješ čaj? – Will you drink tea?",
+        "Budeme piť vodu – We will be drinking water"
+      ]
+    },
+    {
+      "title": "Irregular Future Forms - 'vedieť' (to know)",
+      "text": "The verb 'vedieť' has future conjugation 'budem vedieť' (imperfective only - knowing is a state, not a completed action).",
+      "table": {
+        "headers": ["Person", "Future", "Negative"],
+        "rows": [
+          ["JA", "budem vedieť", "nebudem vedieť"],
+          ["TY", "budeš vedieť", "nebudeš vedieť"],
+          ["ON/ONA/ONO", "bude vedieť", "nebude vedieť"],
+          ["MY", "budeme vedieť", "nebudeme vedieť"],
+          ["VY", "budete vedieť", "nebudete vedieť"],
+          ["ONI/ONY", "budú vedieť", "nebudú vedieť"]
+        ]
+      },
+      "examples": [
+        "Budem vedieť odpoveď – I will know the answer",
+        "Budeš vedieť slovenčinu? – Will you know Slovak?",
+        "Nebudú vedieť nič – They won't know anything"
+      ]
+    },
+    {
+      "title": "Irregular Future Forms - 'môcť' (can/to be able)",
+      "text": "The verb 'môcť' has future conjugation 'budem môcť'.",
+      "table": {
+        "headers": ["Person", "Future", "Negative"],
+        "rows": [
+          ["JA", "budem môcť", "nebudem môcť"],
+          ["TY", "budeš môcť", "nebudeš môcť"],
+          ["ON/ONA/ONO", "bude môcť", "nebude môcť"],
+          ["MY", "budeme môcť", "nebudeme môcť"],
+          ["VY", "budete môcť", "nebudete môcť"],
+          ["ONI/ONY", "budú môcť", "nebudú môcť"]
+        ]
+      },
+      "examples": [
+        "Budem môcť prísť – I will be able to come",
+        "Budeš môcť pomôcť? – Will you be able to help?",
+        "Nebudeme môcť zostať – We won't be able to stay"
+      ]
+    },
+    {
+      "title": "Common Irregular Perfective Future Verbs",
+      "text": "Several common verbs have irregular perfective future forms that must be memorized.",
+      "table": {
+        "headers": ["Infinitive", "Meaning", "1st Person Singular", "3rd Person Plural"],
+        "rows": [
+          ["pôjsť/ísť", "to go", "pôjdem", "pôjdu"],
+          ["prísť", "to come", "prídem", "prídu"],
+          ["odísť", "to leave", "odídem", "odídu"],
+          ["vojsť", "to enter", "vojdem", "vojdu"],
+          ["vyjsť", "to exit", "vyjdem", "vyjdu"],
+          ["nájsť", "to find", "nájdem", "nájdu"],
+          ["zjesť", "to eat up", "zjem", "zjedia"],
+          ["vypiť", "to drink up", "vypijem", "vypijú"],
+          ["vziať", "to take", "vezmem", "vezmú"],
+          ["sadnúť si", "to sit down", "sadnem si", "sadnú si"]
+        ]
+      },
+      "examples": [
+        "Pôjdem do obchodu – I will go to the store",
+        "Prídu o piatej – They will come at five",
+        "Nájdem riešenie – I will find a solution",
+        "Vezmem si knihu – I will take a book"
+      ]
+    }
+  ],
+
+  "vocab": [],
+
+  "exercises": []
+}
+
