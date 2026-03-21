@@ -3,13 +3,11 @@
     {
       "title": "Verbs",
       "children": [
-        { "title": "Complete vs Incomplete", "lesson": "data/lessons/verbs/complete-vs-incomplete.json" },
+        { "title": "Aspect", "lesson": "data/lessons/verbs/aspect.json" },
         { "title": "Prefixes", "lesson": "data/lessons/verbs/prefixes.json" },
-        { "title": "Present", "lesson": "data/lessons/verbs/present-tense.json" },
-        { "title": "Past Imperfect", "lesson": "data/lessons/verbs/past-imperfect.json" },
-        { "title": "Past Perfect", "lesson": "data/lessons/verbs/past-perfect.json" },
-        { "title": "Future Imperfect", "lesson": "data/lessons/verbs/future-imperfect.json" },
-        { "title": "Future Perfect", "lesson": "data/lessons/verbs/future-perfect.json" },
+        { "title": "Present Tense", "lesson": "data/lessons/verbs/present-tense.json" },
+        { "title": "Past Tense", "lesson": "data/lessons/verbs/past-perfect.json" },
+        { "title": "Future Tense", "lesson": "data/lessons/verbs/future-imperfect.json" },
         { "title": "Conditional", "lesson": "data/lessons/verbs/conditional.json" },
         { "title": "Imperative", "lesson": "data/lessons/verbs/imperative.json" }
       ]
