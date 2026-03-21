@@ -1,0 +1,395 @@
+{
+  "rules": [
+    {
+      "title": "Imperative Formation - Basic Structure",
+      "text": "Slovak imperative is used for commands, requests, and instructions. It has three forms: 2nd person singular (ty), 1st person plural (my - 'let's'), and 2nd person plural/formal (vy). The imperative is formed from the present tense stem with specific endings.",
+      "examples": [
+        "Rob! – Do! (singular informal)",
+        "Robme! – Let's do!",
+        "Robte! – Do! (plural/formal)"
+      ]
+    },
+    {
+      "title": "Imperative Endings - Regular Pattern",
+      "text": "Most verbs follow this pattern: Remove present tense ending, add imperative endings. Singular (ty): no ending or -Ø, 1st plural (my): -me, 2nd plural (vy): -te.",
+      "table": {
+        "headers": ["Person", "Ending", "Example (robiť)", "Example (písať)"],
+        "rows": [
+          ["TY (you sg.)", "-Ø or consonant", "rob", "píš"],
+          ["MY (we/let's)", "-me", "robme", "píšme"],
+          ["VY (you pl./formal)", "-te", "robte", "píšte"]
+        ]
+      },
+      "examples": [
+        "Rob! – Do! (singular)",
+        "Robme! – Let's do!",
+        "Robte! – Do! (plural/formal)"
+      ]
+    },
+    {
+      "title": "Imperative Conjugation - 'robiť' (to do)",
+      "text": "Full imperative conjugation for 'robiť'. Based on present tense stem 'rob-'.",
+      "table": {
+        "headers": ["Person", "Imperative Form", "Meaning"],
+        "rows": [
+          ["TY", "rob", "Do! (singular informal)"],
+          ["MY", "robme", "Let's do!"],
+          ["VY", "robte", "Do! (plural/formal)"]
+        ]
+      },
+      "examples": [
+        "Rob to! – Do it!",
+        "Robme to spolu! – Let's do it together!",
+        "Robte to rýchlo! – Do it quickly! (formal/plural)"
+      ]
+    },
+    {
+      "title": "Imperative Conjugation - 'písať' (to write)",
+      "text": "Imperative for 'písať'. Note the consonant change š in the stem.",
+      "table": {
+        "headers": ["Person", "Imperative Form", "Meaning"],
+        "rows": [
+          ["TY", "píš", "Write! (singular)"],
+          ["MY", "píšme", "Let's write!"],
+          ["VY", "píšte", "Write! (plural/formal)"]
+        ]
+      },
+      "examples": [
+        "Píš mi! – Write to me!",
+        "Píšme list! – Let's write a letter!",
+        "Píšte správu! – Write a message! (formal)"
+      ]
+    },
+    {
+      "title": "Imperative Conjugation - 'čítať' (to read)",
+      "text": "Imperative for 'čítať'. Based on present stem 'číta-'.",
+      "table": {
+        "headers": ["Person", "Imperative Form", "Meaning"],
+        "rows": [
+          ["TY", "čítaj", "Read! (singular)"],
+          ["MY", "čítajme", "Let's read!"],
+          ["VY", "čítajte", "Read! (plural/formal)"]
+        ]
+      },
+      "examples": [
+        "Čítaj knihu! – Read a book!",
+        "Čítajme spolu! – Let's read together!",
+        "Čítajte pozorne! – Read carefully! (formal)"
+      ]
+    },
+    {
+      "title": "Imperative with -aj Ending",
+      "text": "Verbs with present tense ending in -a/-á add -j in singular imperative, -jme in 1st plural, -jte in 2nd plural.",
+      "table": {
+        "headers": ["Infinitive", "Present (3rd sg.)", "Imperative TY", "Imperative MY", "Imperative VY"],
+        "rows": [
+          ["čítať", "číta", "čítaj", "čítajme", "čítajte"],
+          ["volať", "volá", "volaj", "volajme", "volajte"],
+          ["pracovať", "pracuje", "pracuj", "pracujme", "pracujte"],
+          ["študovať", "študuje", "študuj", "študujme", "študujte"],
+          ["kupovať", "kupuje", "kupuj", "kupujme", "kupujte"]
+        ]
+      },
+      "examples": [
+        "Čítaj! – Read!",
+        "Volaj mi! – Call me!",
+        "Pracuj viac! – Work more!",
+        "Študujme! – Let's study!"
+      ]
+    },
+    {
+      "title": "Imperative with Consonant Stem",
+      "text": "Verbs with consonant-ending stems in present tense typically have no ending in singular imperative.",
+      "table": {
+        "headers": ["Infinitive", "Present (1st sg.)", "Imperative TY", "Imperative MY", "Imperative VY"],
+        "rows": [
+          ["robiť", "robím", "rob", "robme", "robte"],
+          ["hovoriť", "hovorím", "hovor", "hovorme", "hovorte"],
+          ["vidieť", "vidím", "vidz", "vidzme", "vidzte"],
+          ["myslieť", "myslím", "mysli", "myslime", "myslite"],
+          ["prosíť", "prosím", "pros", "prosme", "proste"]
+        ]
+      },
+      "examples": [
+        "Rob! – Do!",
+        "Hovor pravdu! – Speak the truth!",
+        "Vidz! – See!",
+        "Mysli! – Think!"
+      ]
+    },
+    {
+      "title": "Perfective vs Imperfective in Imperative",
+      "text": "Perfective imperatives command a single completed action. Imperfective imperatives command ongoing, repeated, or general actions.",
+      "table": {
+        "headers": ["Imperfective", "Meaning", "Perfective", "Meaning"],
+        "rows": [
+          ["Píš!", "Write! (general)", "Napíš!", "Write it! (complete it)"],
+          ["Čítaj!", "Read! (general)", "Prečítaj!", "Read it through!"],
+          ["Rob!", "Do! (general)", "Urob!", "Do it! (complete it)"],
+          ["Jedz!", "Eat! (general)", "Zjedz!", "Eat it up!"],
+          ["Uč sa!", "Learn! (general)", "Nauč sa!", "Learn it! (master it)"]
+        ]
+      },
+      "examples": [
+        "Píš mi často! – Write to me often! (repeated action)",
+        "Napíš mi zajtra! – Write to me tomorrow! (single action)",
+        "Čítaj každý deň! – Read every day! (habitual)",
+        "Prečítaj túto knihu! – Read this book through! (complete)"
+      ]
+    },
+    {
+      "title": "Reflexive Verbs in Imperative - Word Order",
+      "text": "Reflexive particle (sa/si) comes AFTER the imperative verb form. Word order: Imperative + sa/si.",
+      "table": {
+        "headers": ["Person", "učiť sa (to learn)", "umývať sa (to wash)", "obliekať sa (to dress)"],
+        "rows": [
+          ["TY", "uč sa", "umývaj sa", "obliekaj sa"],
+          ["MY", "učme sa", "umývajme sa", "obliekajme sa"],
+          ["VY", "učte sa", "umývajte sa", "obliekajte sa"]
+        ]
+      },
+      "examples": [
+        "Uč sa! – Learn!",
+        "Umývaj sa! – Wash yourself!",
+        "Obliekaj sa rýchlo! – Get dressed quickly!",
+        "Učme sa spolu! – Let's learn together!"
+      ]
+    },
+    {
+      "title": "Reflexive Imperative - Perfective Forms",
+      "text": "Perfective reflexive imperatives: verb + sa/si for completed actions.",
+      "table": {
+        "headers": ["Person", "naučiť sa (to learn)", "umyť sa (to wash)", "obliecť sa (to dress)"],
+        "rows": [
+          ["TY", "nauč sa", "umyj sa", "obleč sa"],
+          ["MY", "naučme sa", "umyjme sa", "oblečme sa"],
+          ["VY", "naučte sa", "umyjte sa", "oblečte sa"]
+        ]
+      },
+      "examples": [
+        "Nauč sa to! – Learn it! (master it)",
+        "Umyj sa! – Wash yourself! (complete action)",
+        "Obleč sa! – Get dressed! (complete action)",
+        "Naučme sa slovenčinu! – Let's learn Slovak!"
+      ]
+    },
+    {
+      "title": "Negation in Imperative",
+      "text": "Add 'ne-' prefix to the imperative form. Reflexive particle stays after the verb. Negative imperatives often express prohibitions.",
+      "table": {
+        "headers": ["Person", "Positive", "Negative", "Meaning"],
+        "rows": [
+          ["TY", "rob", "nerob", "Don't do!"],
+          ["MY", "robme", "nerobme", "Let's not do!"],
+          ["VY", "robte", "nerobte", "Don't do! (formal)"],
+          ["TY", "píš", "nepíš", "Don't write!"],
+          ["TY", "čítaj", "nečítaj", "Don't read!"]
+        ]
+      },
+      "examples": [
+        "Nerob to! – Don't do it!",
+        "Nepíš mi! – Don't write to me!",
+        "Nečítaj! – Don't read!",
+        "Nerobme to! – Let's not do it!"
+      ]
+    },
+    {
+      "title": "Negation with Reflexives",
+      "text": "Add 'ne-' prefix to imperative. Reflexive particle stays after the verb: ne-imperative + sa/si.",
+      "table": {
+        "headers": ["Person", "Positive", "Negative", "Meaning"],
+        "rows": [
+          ["TY", "uč sa", "neuč sa", "Don't learn!"],
+          ["MY", "učme sa", "neučme sa", "Let's not learn!"],
+          ["VY", "učte sa", "neučte sa", "Don't learn! (formal)"],
+          ["TY", "umývaj sa", "neumývaj sa", "Don't wash yourself!"],
+          ["TY", "obleč sa", "neobleč sa", "Don't get dressed!"]
+        ]
+      },
+      "examples": [
+        "Neuč sa to! – Don't learn that!",
+        "Neumývaj sa! – Don't wash yourself!",
+        "Neobleč sa! – Don't get dressed!",
+        "Neučme sa to! – Let's not learn that!"
+      ]
+    },
+    {
+      "title": "Irregular Imperative - 'byť' (to be)",
+      "text": "The verb 'byť' has irregular imperative forms.",
+      "table": {
+        "headers": ["Person", "Imperative Form", "Meaning"],
+        "rows": [
+          ["TY", "buď", "Be!"],
+          ["MY", "buďme", "Let's be!"],
+          ["VY", "buďte", "Be! (plural/formal)"]
+        ]
+      },
+      "examples": [
+        "Buď dobrý! – Be good!",
+        "Buď ticho! – Be quiet!",
+        "Buďme priateľmi! – Let's be friends!",
+        "Buďte trpezliví! – Be patient! (formal)"
+      ]
+    },
+    {
+      "title": "Irregular Imperative - 'mať' (to have)",
+      "text": "The verb 'mať' has irregular imperative forms.",
+      "table": {
+        "headers": ["Person", "Imperative Form", "Meaning"],
+        "rows": [
+          ["TY", "maj", "Have!"],
+          ["MY", "majme", "Let's have!"],
+          ["VY", "majte", "Have! (plural/formal)"]
+        ]
+      },
+      "examples": [
+        "Maj sa! – Take care! (literally: Have yourself!)"],
+        "Maj trpezlivosť! – Have patience!",
+        "Majme nádej! – Let's have hope!",
+        "Majte sa dobre! – Take care! (formal)"
+      ]
+    },
+    {
+      "title": "Irregular Imperative - 'ísť' (to go)",
+      "text": "The verb 'ísť' has irregular imperative forms based on 'choď-'.",
+      "table": {
+        "headers": ["Person", "Imperative Form", "Meaning"],
+        "rows": [
+          ["TY", "choď", "Go!"],
+          ["MY", "choďme", "Let's go!"],
+          ["VY", "choďte", "Go! (plural/formal)"]
+        ]
+      },
+      "examples": [
+        "Choď domov! – Go home!",
+        "Choď preč! – Go away!",
+        "Choďme! – Let's go!",
+        "Choďte rýchlo! – Go quickly! (formal)"
+      ]
+    },
+    {
+      "title": "Irregular Imperative - 'prísť' (to come)",
+      "text": "The verb 'prísť' has irregular imperative forms based on 'poď-'.",
+      "table": {
+        "headers": ["Person", "Imperative Form", "Meaning"],
+        "rows": [
+          ["TY", "poď", "Come!"],
+          ["MY", "poďme", "Let's come!"],
+          ["VY", "poďte", "Come! (plural/formal)"]
+        ]
+      },
+      "examples": [
+        "Poď sem! – Come here!",
+        "Poď so mnou! – Come with me!",
+        "Poďme! – Let's come!/Let's go!",
+        "Poďte dnu! – Come in! (formal)"
+      ]
+    },
+    {
+      "title": "Irregular Imperative - 'jesť' (to eat)",
+      "text": "The verb 'jesť' has irregular imperative forms based on 'jedz-'.",
+      "table": {
+        "headers": ["Person", "Imperative Form", "Meaning"],
+        "rows": [
+          ["TY", "jedz", "Eat!"],
+          ["MY", "jedzme", "Let's eat!"],
+          ["VY", "jedzte", "Eat! (plural/formal)"]
+        ]
+      },
+      "examples": [
+        "Jedz! – Eat!",
+        "Jedz pomaly! – Eat slowly!",
+        "Jedzme! – Let's eat!",
+        "Jedzte viac! – Eat more! (formal)"
+      ]
+    },
+    {
+      "title": "Irregular Imperative - 'piť' (to drink)",
+      "text": "The verb 'piť' has irregular imperative forms based on 'pi-'.",
+      "table": {
+        "headers": ["Person", "Imperative Form", "Meaning"],
+        "rows": [
+          ["TY", "pi", "Drink!"],
+          ["MY", "pime", "Let's drink!"],
+          ["VY", "pite", "Drink! (plural/formal)"]
+        ]
+      },
+      "examples": [
+        "Pi vodu! – Drink water!",
+        "Pi pomaly! – Drink slowly!",
+        "Pime čaj! – Let's drink tea!",
+        "Pite viac! – Drink more! (formal)"
+      ]
+    },
+    {
+      "title": "Irregular Imperative - 'vedieť' (to know)",
+      "text": "The verb 'vedieť' has irregular imperative forms based on 'vedz-'.",
+      "table": {
+        "headers": ["Person", "Imperative Form", "Meaning"],
+        "rows": [
+          ["TY", "vedz", "Know!"],
+          ["MY", "vedzme", "Let's know!"],
+          ["VY", "vedzte", "Know! (plural/formal)"]
+        ]
+      },
+      "examples": [
+        "Vedz to! – Know it!",
+        "Vedz, že... – Know that...",
+        "Vedzme pravdu! – Let's know the truth!",
+        "Vedzte to! – Know it! (formal)"
+      ]
+    },
+    {
+      "title": "Common Irregular Imperatives",
+      "text": "Summary of the most common irregular imperative forms that must be memorized.",
+      "table": {
+        "headers": ["Infinitive", "Meaning", "TY form", "MY form", "VY form"],
+        "rows": [
+          ["byť", "to be", "buď", "buďme", "buďte"],
+          ["mať", "to have", "maj", "majme", "majte"],
+          ["ísť", "to go", "choď", "choďme", "choďte"],
+          ["prísť", "to come", "poď", "poďme", "poďte"],
+          ["jesť", "to eat", "jedz", "jedzme", "jedzte"],
+          ["piť", "to drink", "pi", "pime", "pite"],
+          ["vedieť", "to know", "vedz", "vedzme", "vedzte"],
+          ["stáť", "to stand", "stoj", "stojme", "stojte"],
+          ["dať", "to give", "daj", "dajme", "dajte"],
+          ["vziať", "to take", "vezmi", "vezmime", "vezmite"]
+        ]
+      },
+      "examples": [
+        "Buď dobrý! – Be good!",
+        "Choď domov! – Go home!",
+        "Poď sem! – Come here!",
+        "Jedz! – Eat!",
+        "Daj mi to! – Give it to me!",
+        "Vezmi si to! – Take it!"
+      ]
+    },
+    {
+      "title": "Polite Requests with Imperative",
+      "text": "Add 'prosím' (please) or 'prosím ťa/vás' to make imperatives more polite. Can come before or after the imperative.",
+      "examples": [
+        "Prosím, rob to! – Please, do it!",
+        "Rob to, prosím! – Do it, please!",
+        "Prosím ťa, pomôž mi! – Please help me! (informal)",
+        "Prosím vás, počkajte! – Please wait! (formal)",
+        "Poď sem, prosím! – Come here, please!"
+      ]
+    },
+    {
+      "title": "Softening Imperatives",
+      "text": "Use modal particles or conditional forms to soften commands. 'Môžeš' (can you) or conditional makes requests less direct.",
+      "examples": [
+        "Môžeš mi pomôcť? – Can you help me? (softer than 'Pomôž mi!')",
+        "Mohol by si mi pomôcť? – Could you help me? (conditional, very polite)",
+        "Pomohol by si mi? – Would you help me?",
+        "Prosím ťa, môžeš to urobiť? – Please, can you do it?"
+      ]
+    }
+  ],
+
+  "vocab": [],
+
+  "exercises": []
+}
