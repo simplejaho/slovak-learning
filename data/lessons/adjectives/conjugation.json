@@ -1,0 +1,377 @@
+
+
+{
+  "rules": [
+    {
+      "title": "Slovak Adjectives - Overview",
+      "text": "Slovak adjectives describe nouns and must agree with them in gender (masculine, feminine, neuter), number (singular, plural), and case (all 7 cases). Adjectives typically come before the noun they modify. They decline similarly to pronouns but with distinct patterns for hard and soft stems.",
+      "examples": [
+        "dobrý muž (good man - masculine)",
+        "dobrá žena (good woman - feminine)",
+        "dobré dieťa (good child - neuter)",
+        "dobrí ľudia (good people - plural)",
+        "veľký dom (big house)",
+        "malá mačka (small cat)"
+      ]
+    },
+    {
+      "title": "Hard-Stem Adjectives - Complete Declension",
+      "text": "Hard-stem adjectives (ending in -ý/-á/-é) are the most common type. The stem ends in a hard consonant. This is the standard declension pattern.",
+      "table": {
+        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M)", "Plural (F/N)"],
+        "rows": [
+          ["Nominative", "dobrý", "dobrá", "dobré", "dobrí", "dobré"],
+          ["Genitive", "dobrého", "dobrej", "dobrého", "dobrých", "dobrých"],
+          ["Dative", "dobrému", "dobrej", "dobrému", "dobrým", "dobrým"],
+          ["Accusative", "dobrého/dobrý", "dobrú", "dobré", "dobrých", "dobré"],
+          ["Locative", "dobrom", "dobrej", "dobrom", "dobrých", "dobrých"],
+          ["Instrumental", "dobrým", "dobrou", "dobrým", "dobrými", "dobrými"]
+        ]
+      },
+      "examples": [
+        "Nominative: Dobrý muž je tu - A good man is here",
+        "Genitive: Dom dobrého muža - The house of a good man",
+        "Dative: Dám to dobrému mužovi - I'll give it to a good man",
+        "Accusative: Vidím dobrého muža - I see a good man (animate)",
+        "Locative: O dobrom mužovi - About a good man",
+        "Instrumental: S dobrým mužom - With a good man"
+      ]
+    },
+    {
+      "title": "Soft-Stem Adjectives - Complete Declension",
+      "text": "Soft-stem adjectives end in -í in all genders in nominative singular. The stem ends in a soft consonant (like c, dz, j, ď, ť, ň, ľ, š, ž, č). Common examples: cudzí (foreign), páví (peacock's), jarní (spring).",
+      "table": {
+        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (all)"],
+        "rows": [
+          ["Nominative", "cudzí", "cudzia", "cudzie", "cudzí"],
+          ["Genitive", "cudzieho", "cudzej", "cudzieho", "cudzích"],
+          ["Dative", "cudziemu", "cudzej", "cudziemu", "cudzím"],
+          ["Accusative", "cudzieho/cudzí", "cudziu", "cudzie", "cudzích/cudzie"],
+          ["Locative", "cudzom", "cudzej", "cudzom", "cudzích"],
+          ["Instrumental", "cudzím", "cudzou", "cudzím", "cudzími"]
+        ]
+      },
+      "examples": [
+        "Nominative: Cudzí muž - A foreign man",
+        "Genitive: Jazyk cudzieho muža - The language of a foreign man",
+        "Dative: Cudziemu mužovi - To a foreign man",
+        "Accusative: Vidím cudzieho muža - I see a foreign man",
+        "Locative: O cudzom mužovi - About a foreign man",
+        "Instrumental: S cudzím mužom - With a foreign man"
+      ]
+    },
+    {
+      "title": "Possessive Adjectives - 'môj/tvoj/svoj'",
+      "text": "Possessive adjectives (my, your, his/her/its own) decline like adjectives with full gender and case agreement. 'Svoj' is reflexive possessive (one's own).",
+      "table": {
+        "headers": ["Case", "môj (M)", "moja (F)", "moje (N)", "moji/moje (Pl)"],
+        "rows": [
+          ["Nominative", "môj", "moja", "moje", "moji/moje"],
+          ["Genitive", "môjho", "mojej", "môjho", "mojich"],
+          ["Dative", "môjmu", "mojej", "môjmu", "mojim"],
+          ["Accusative", "môjho/môj", "moju", "moje", "mojich/moje"],
+          ["Locative", "mojom", "mojej", "mojom", "mojich"],
+          ["Instrumental", "mojím", "mojou", "mojím", "mojimi"]
+        ]
+      },
+      "examples": [
+        "môj dom - my house",
+        "moja kniha - my book",
+        "tvoj priateľ - your friend",
+        "svoj dom - one's own house (reflexive)",
+        "Vidím svojho brata - I see my (own) brother",
+        "Hovorím o svojej sestre - I'm talking about my (own) sister"
+      ]
+    },
+    {
+      "title": "Masculine Animate vs Inanimate Accusative",
+      "text": "Masculine adjectives have two accusative forms: animate (for people and animals) uses genitive form, inanimate (for objects) uses nominative form.",
+      "table": {
+        "headers": ["Type", "Nominative", "Accusative", "Example"],
+        "rows": [
+          ["Animate", "dobrý muž", "dobrého muža", "Vidím dobrého muža (I see a good man)"],
+          ["Animate", "starý pes", "starého psa", "Vidím starého psa (I see an old dog)"],
+          ["Inanimate", "nový dom", "nový dom", "Vidím nový dom (I see a new house)"],
+          ["Inanimate", "veľký stôl", "veľký stôl", "Vidím veľký stôl (I see a big table)"]
+        ]
+      },
+      "examples": [
+        "Animate: Poznám dobrého učiteľa - I know a good teacher",
+        "Animate: Mám malého psa - I have a small dog",
+        "Inanimate: Mám nový auto - I have a new car",
+        "Inanimate: Vidím starý dom - I see an old house"
+      ]
+    },
+    {
+      "title": "Plural Masculine Personal vs Non-Personal",
+      "text": "In nominative plural, masculine adjectives distinguish between personal (people) ending in -í and non-personal (animals, objects) ending in -é.",
+      "table": {
+        "headers": ["Type", "Singular", "Plural Nominative", "Example"],
+        "rows": [
+          ["Personal", "dobrý muž", "dobrí muži", "Dobrí muži sú tu (Good men are here)"],
+          ["Personal", "mladý študent", "mladí študenti", "Mladí študenti (Young students)"],
+          ["Non-personal", "starý pes", "staré psy", "Staré psy (Old dogs)"],
+          ["Non-personal", "nový dom", "nové domy", "Nové domy (New houses)"]
+        ]
+      },
+      "examples": [
+        "Personal: Dobrí ľudia - Good people",
+        "Personal: Mladí chlapci - Young boys",
+        "Non-personal: Veľké domy - Big houses",
+        "Non-personal: Malé mačky - Small cats",
+        "Personal: Starí priatelia - Old friends",
+        "Non-personal: Nové autá - New cars"
+      ]
+    },
+    {
+      "title": "Adjective Degrees - Positive, Comparative, Superlative",
+      "text": "Slovak adjectives have three degrees of comparison. Comparative adds -ší/-šia/-šie, superlative adds naj- prefix to comparative.",
+      "table": {
+        "headers": ["Positive", "Comparative", "Superlative", "Translation"],
+        "rows": [
+          ["dobrý", "lepší", "najlepší", "good - better - best"],
+          ["veľký", "väčší", "najväčší", "big - bigger - biggest"],
+          ["malý", "menší", "najmenší", "small - smaller - smallest"],
+          ["starý", "starší", "najstarší", "old - older - oldest"],
+          ["mladý", "mladší", "najmladší", "young - younger - youngest"],
+          ["pekný", "peknejší", "najpeknejší", "nice - nicer - nicest"]
+        ]
+      },
+      "examples": [
+        "Positive: To je dobrý film - That's a good movie",
+        "Comparative: To je lepší film - That's a better movie",
+        "Superlative: To je najlepší film - That's the best movie",
+        "Comparative: Mám väčší dom - I have a bigger house",
+        "Superlative: Mám najväčší dom - I have the biggest house"
+      ]
+    },
+    {
+      "title": "Irregular Comparatives",
+      "text": "Some common adjectives have irregular comparative and superlative forms that must be memorized.",
+      "table": {
+        "headers": ["Positive", "Comparative", "Superlative", "Translation"],
+        "rows": [
+          ["dobrý", "lepší", "najlepší", "good - better - best"],
+          ["zlý", "horší", "najhorší", "bad - worse - worst"],
+          ["veľký", "väčší", "najväčší", "big - bigger - biggest"],
+          ["malý", "menší", "najmenší", "small - smaller - smallest"],
+          ["veľa", "viac", "najviac", "much - more - most"],
+          ["málo", "menej", "najmenej", "little - less - least"]
+        ]
+      },
+      "examples": [
+        "Lepší deň - A better day",
+        "Najhorší výsledok - The worst result",
+        "Väčšia kniha - A bigger book",
+        "Menšie dieťa - A smaller child",
+        "Viac peňazí - More money",
+        "Najmenej problémov - The fewest problems"
+      ]
+    },
+    {
+      "title": "Comparative Declension",
+      "text": "Comparative adjectives decline through all cases like regular adjectives, maintaining the -ší/-šia/-šie pattern.",
+      "table": {
+        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural"],
+        "rows": [
+          ["Nominative", "lepší", "lepšia", "lepšie", "lepší/lepšie"],
+          ["Genitive", "lepšieho", "lepšej", "lepšieho", "lepších"],
+          ["Dative", "lepšiemu", "lepšej", "lepšiemu", "lepším"],
+          ["Accusative", "lepšieho/lepší", "lepšiu", "lepšie", "lepších/lepšie"],
+          ["Locative", "lepšom", "lepšej", "lepšom", "lepších"],
+          ["Instrumental", "lepším", "lepšou", "lepším", "lepšími"]
+        ]
+      },
+      "examples": [
+        "Nominative: Lepší deň - A better day",
+        "Genitive: Bez lepšieho riešenia - Without a better solution",
+        "Dative: K lepšiemu výsledku - Toward a better result",
+        "Accusative: Vidím lepšieho študenta - I see a better student",
+        "Locative: O lepšom živote - About a better life",
+        "Instrumental: S lepším prístupom - With a better approach"
+      ]
+    },
+    {
+      "title": "Short-Form Adjectives (Predicative)",
+      "text": "Some adjectives have short forms used only predicatively (after 'to be'). These don't decline and are used in nominative only. Common in formal/literary style.",
+      "table": {
+        "headers": ["Long Form", "Short Form (M/F/N)", "Example"],
+        "rows": [
+          ["istý (certain)", "ist", "Som si ist - I am certain"],
+          ["rád (glad)", "rád/rada/rado", "Som rád - I am glad (M)"],
+          ["schopný (capable)", "schopen", "Je schopen - He is capable"],
+          ["zdravý (healthy)", "zdrav", "Je zdrav - He is healthy"],
+          ["hoden (worthy)", "hoden/hodna/hodno", "Je hoden - He is worthy"]
+        ]
+      },
+      "examples": [
+        "Som rád, že si tu - I'm glad you're here",
+        "Je schopný to urobiť - He is capable of doing it",
+        "Som si istý - I am certain",
+        "Nie je hoden dôvery - He is not worthy of trust"
+      ]
+    },
+    {
+      "title": "Adjectives from Nouns - Possessive Type",
+      "text": "Possessive adjectives derived from nouns (father's, mother's, dog's) use special endings and decline differently. Formed with -ov/-in suffixes.",
+      "table": {
+        "headers": ["Noun", "Possessive Adjective", "Example", "Translation"],
+        "rows": [
+          ["otec (father)", "otcov", "otcov dom", "father's house"],
+          ["mama (mom)", "mamin", "mamin auto", "mom's car"],
+          ["pes (dog)", "psov", "psov obojok", "dog's collar"],
+          ["sestra (sister)", "sestrin", "sestrin priateľ", "sister's friend"],
+          ["brat (brother)", "bratov", "bratov bicykel", "brother's bicycle"]
+        ]
+      },
+      "examples": [
+        "Otcov dom je veľký - Father's house is big",
+        "Mamin kabát - Mom's coat",
+        "Bratova kniha - Brother's book",
+        "Sestrina izba - Sister's room",
+        "Psov obojok - Dog's collar"
+      ]
+    },
+    {
+      "title": "Adjectives with Prepositions",
+      "text": "Some adjectives require specific prepositions and cases. The adjective agrees with the noun, while the preposition governs the case.",
+      "table": {
+        "headers": ["Adjective", "Preposition + Case", "Example", "Translation"],
+        "rows": [
+          ["hrdý", "na + Accusative", "hrdý na syna", "proud of son"],
+          ["spokojný", "s + Instrumental", "spokojný s prácou", "satisfied with work"],
+          ["schopný", "Genitive (no prep)", "schopný práce", "capable of work"],
+          ["plný", "Genitive (no prep)", "plný vody", "full of water"],
+          ["podobný", "Dative (no prep)", "podobný otcovi", "similar to father"],
+          ["verný", "Dative (no prep)", "verný priateľovi", "faithful to friend"]
+        ]
+      },
+      "examples": [
+        "Som hrdý na svojho syna - I'm proud of my son",
+        "Je spokojný s výsledkom - He's satisfied with the result",
+        "Nie je schopný tejto práce - He's not capable of this work",
+        "Pohár plný vody - A glass full of water",
+        "Je podobný svojmu otcovi - He's similar to his father"
+      ]
+    },
+    {
+      "title": "Color Adjectives",
+      "text": "Color adjectives follow standard declension patterns. Some have irregular comparatives or special forms.",
+      "table": {
+        "headers": ["Color", "Masculine", "Feminine", "Neuter", "Example"],
+        "rows": [
+          ["red", "červený", "červená", "červené", "červený dom (red house)"],
+          ["blue", "modrý", "modrá", "modré", "modré nebo (blue sky)"],
+          ["green", "zelený", "zelená", "zelené", "zelená tráva (green grass)"],
+          ["white", "biely", "biela", "biele", "biely sneh (white snow)"],
+          ["black", "čierny", "čierna", "čierne", "čierna mačka (black cat)"],
+          ["yellow", "žltý", "žltá", "žlté", "žltý kvet (yellow flower)"]
+        ]
+      },
+      "examples": [
+        "Červené auto - A red car",
+        "Modrá obloha - Blue sky",
+        "Zelené oči - Green eyes",
+        "Biela košeľa - White shirt",
+        "Čierne vlasy - Black hair",
+        "Žltá ruža - Yellow rose"
+      ]
+    },
+    {
+      "title": "Adjective Word Order",
+      "text": "Adjectives typically precede the noun they modify. Multiple adjectives follow a natural order: opinion > size > age > color > origin > material.",
+      "table": {
+        "headers": ["Order", "Type", "Example", "Full Phrase"],
+        "rows": [
+          ["1", "Opinion", "krásny", "krásny veľký starý dom"],
+          ["2", "Size", "veľký", "(beautiful big old house)"],
+          ["3", "Age", "starý", ""],
+          ["1", "Opinion", "pekná", "pekná malá modrá kniha"],
+          ["2", "Size", "malá", "(nice small blue book)"],
+          ["3", "Color", "modrá", ""]
+        ]
+      },
+      "examples": [
+        "Krásny veľký dom - A beautiful big house",
+        "Malá stará kniha - A small old book",
+        "Nový červený bicykel - A new red bicycle",
+        "Pekná mladá žena - A pretty young woman",
+        "Veľký čierny pes - A big black dog"
+      ]
+    },
+    {
+      "title": "Adjective Summary Table - Hard Stems",
+      "text": "Complete declension summary for hard-stem adjectives (most common type). Use the stem + endings shown.",
+      "table": {
+        "headers": ["Case", "Gender", "Singular", "Plural"],
+        "rows": [
+          ["Nominative", "M", "-ý", "-í (personal) / -é (non-personal)"],
+          ["Nominative", "F", "-á", "-é"],
+          ["Nominative", "N", "-é", "-é"],
+          ["Genitive", "M", "+ého", "+ých"],
+          ["Genitive", "F", "+ej", "+ých"],
+          ["Genitive", "N", "+ého", "+ých"],
+          ["Dative", "M", "+ému", "+ým"],
+          ["Dative", "F", "+ej", "+ým"],
+          ["Dative", "N", "+ému", "+ým"],
+          ["Accusative", "M", "+ého (anim) / -ý (inanim)", "+ých (anim) / -é (inanim)"],
+          ["Accusative", "F", "+ú", "+é"],
+          ["Accusative", "N", "-é", "-é"],
+          ["Locative", "M", "+om", "+ých"],
+          ["Locative", "F", "+ej", "+ých"],
+          ["Locative", "N", "+om", "+ých"],
+          ["Instrumental", "M", "+ým", "+ými"],
+          ["Instrumental", "F", "+ou", "+ými"],
+          ["Instrumental", "N", "+ým", "+ými"]
+        ]
+      },
+      "examples": []
+    },
+    {
+      "title": "Common Adjective Patterns",
+      "text": "Recognition guide for identifying adjective types and their declension patterns.",
+      "table": {
+        "headers": ["Pattern", "Ending", "Type", "Example"],
+        "rows": [
+          ["Hard stem", "-ý/-á/-é", "Standard", "dobrý, nový, starý"],
+          ["Soft stem", "-í/-ia/-ie", "Soft consonant", "cudzí, jarní, letní"],
+          ["Possessive", "-ov/-in", "From nouns", "otcov, mamin, bratov"],
+          ["Comparative", "-ší/-šia/-šie", "Comparison", "lepší, väčší, menší"],
+          ["Short form", "no ending", "Predicative only", "rád, zdrav, schopen"]
+        ]
+      },
+      "examples": [
+        "Hard: nový dom (new house)",
+        "Soft: cudzí jazyk (foreign language)",
+        "Possessive: otcov dom (father's house)",
+        "Comparative: lepší výsledok (better result)",
+        "Short: Som rád (I'm glad)"
+      ]
+    }
+  ],
+
+  "vocab": [
+    {"slovak": "dobrý", "english": "good", "type": "adjective"},
+    {"slovak": "zlý", "english": "bad", "type": "adjective"},
+    {"slovak": "veľký", "english": "big", "type": "adjective"},
+    {"slovak": "malý", "english": "small", "type": "adjective"},
+    {"slovak": "starý", "english": "old", "type": "adjective"},
+    {"slovak": "mladý", "english": "young", "type": "adjective"},
+    {"slovak": "nový", "english": "new", "type": "adjective"},
+    {"slovak": "pekný", "english": "nice/pretty", "type": "adjective"},
+    {"slovak": "krásny", "english": "beautiful", "type": "adjective"},
+    {"slovak": "cudzí", "english": "foreign", "type": "adjective"},
+    {"slovak": "červený", "english": "red", "type": "adjective"},
+    {"slovak": "modrý", "english": "blue", "type": "adjective"},
+    {"slovak": "zelený", "english": "green", "type": "adjective"},
+    {"slovak": "biely", "english": "white", "type": "adjective"},
+    {"slovak": "čierny", "english": "black", "type": "adjective"},
+    {"slovak": "žltý", "english": "yellow", "type": "adjective"},
+    {"slovak": "lepší", "english": "better", "type": "comparative"},
+    {"slovak": "horší", "english": "worse", "type": "comparative"},
+    {"slovak": "väčší", "english": "bigger", "type": "comparative"},
+    {"slovak": "menší", "english": "smaller", "type": "comparative"}
+  ],
+
+  "exercises": []
+}
