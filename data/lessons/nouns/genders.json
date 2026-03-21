@@ -648,7 +648,7 @@
       { "sk": "originál", "en": "original (M)" },
       { "sk": "verzia", "en": "version (F)" },
       { "sk": "vydanie", "en": "edition (N)" },
-      { "sk: "typ", "en": "type (M)" },
+      { "sk": "typ", "en": "type (M)" },
     
       { "sk": "druh", "en": "kind (M)" },
       { "sk": "kategória", "en": "category (F)" },
@@ -1063,7 +1063,6 @@
       { "sk": "funkcia", "en": "function (F)" },
       { "sk": "úloha", "en": "role (F)" },
      
-      { "sk": "úloha, "en": "role (F)" },
       { "sk": "pozícia", "en": "position (F)" },
       { "sk": "post", "en": "post (M)" },
       { "sk": "miesto", "en": "position (N)" },
