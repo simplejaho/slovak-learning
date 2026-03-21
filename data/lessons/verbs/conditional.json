@@ -1,0 +1,370 @@
+{
+  "rules": [
+    {
+      "title": "Conditional Tense Formation - Basic Structure",
+      "text": "Slovak conditional is formed using the past participle (l-participle) + conditional auxiliary 'by'. The participle agrees with gender and number: -l (masculine singular), -la (feminine singular), -lo (neuter singular), -li (masculine plural), -ly (feminine/neuter plural). The conditional particle 'by' changes form based on person.",
+      "examples": [
+        "robil by som – I would do (masculine)",
+        "robila by som – I would do (feminine)",
+        "robili by sme – we would do"
+      ]
+    },
+    {
+      "title": "Conditional Auxiliary 'by' - Forms",
+      "text": "The conditional particle 'by' combines with present tense forms of 'byť' (to be). Word order: participle + by + personal ending.",
+      "table": {
+        "headers": ["Person", "Conditional Auxiliary", "Full Form"],
+        "rows": [
+          ["JA (I)", "by som", "by + som"],
+          ["TY (you sg.)", "by si", "by + si"],
+          ["ON/ONA/ONO (he/she/it)", "by", "by (no ending)"],
+          ["MY (we)", "by sme", "by + sme"],
+          ["VY (you pl./formal)", "by ste", "by + ste"],
+          ["ONI/ONY (they)", "by", "by (no ending)"]
+        ]
+      },
+      "examples": [
+        "Ja by som – I would",
+        "Ty by si – You would",
+        "On/Ona by – He/She would",
+        "My by sme – We would"
+      ]
+    },
+    {
+      "title": "Conditional Conjugation - 'robiť' (to do)",
+      "text": "Full conjugation table for 'robiť' in conditional. Word order: participle + by + personal ending.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "robil by som", "robila by som", "robili by sme"],
+          ["TY", "robil by si", "robila by si", "robili by ste"],
+          ["ON/ONA/ONO", "robil by", "robila by", "robilo by"],
+          ["MY", "robili by sme", "robili by sme", "robili by sme"],
+          ["VY", "robili by ste", "robili by ste", "robili by ste"],
+          ["ONI/ONY", "robili by", "robili by", "robili by"]
+        ]
+      },
+      "examples": [
+        "Robil by som to – I would do it (masc.)",
+        "Robila by si to? – Would you do it? (fem.)",
+        "Robili by sme to – We would do it"
+      ]
+    },
+    {
+      "title": "Conditional Conjugation - 'napísať' (to write - perfective)",
+      "text": "Perfective verbs in conditional describe completed hypothetical actions.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "napísal by som", "napísala by som", "napísali by sme"],
+          ["TY", "napísal by si", "napísala by si", "napísali by ste"],
+          ["ON/ONA/ONO", "napísal by", "napísala by", "napísalo by"],
+          ["MY", "napísali by sme", "napísali by sme", "napísali by sme"],
+          ["VY", "napísali by ste", "napísali by ste", "napísali by ste"],
+          ["ONI/ONY", "napísali by", "napísali by", "napísali by"]
+        ]
+      },
+      "examples": [
+        "Napísal by som list – I would write a letter (completed)",
+        "Napísala by si email – You would write an email (completed)",
+        "Napísali by sme knihu – We would write a book (completed)"
+      ]
+    },
+    {
+      "title": "Word Order with 'by' - Standard Sentences",
+      "text": "Standard word order: Subject + Participle + by + Personal Ending. The particle 'by' comes immediately after the participle and before the personal ending (som, si, sme, ste). In 3rd person, only 'by' is used with no personal ending.",
+      "examples": [
+        "Ja robil by som – I would do (masc.)",
+        "Ty robila by si – You would do (fem.)",
+        "On robil by – He would do",
+        "My robili by sme – We would do"
+      ]
+    },
+    {
+      "title": "Word Order with 'by' - Questions and Emphasis",
+      "text": "In questions or for emphasis, 'by' can move to second position in the sentence (after the first stressed element). The personal ending stays with 'by'.",
+      "examples": [
+        "Robil by som to – I would do it (statement)",
+        "By som to robil? – Would I do it? (question, emphasis on 'by')",
+        "Ty by si to robila? – Would you do it? (question)",
+        "Kedy by si to robil? – When would you do it?"
+      ]
+    },
+    {
+      "title": "Conditional of 'byť' (to be)",
+      "text": "The verb 'byť' in conditional uses 'bol/bola/bolo/boli' + by + personal ending.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "bol by som", "bola by som", "boli by sme"],
+          ["TY", "bol by si", "bola by si", "boli by ste"],
+          ["ON/ONA/ONO", "bol by", "bola by", "bolo by"],
+          ["MY", "boli by sme", "boli by sme", "boli by sme"],
+          ["VY", "boli by ste", "boli by ste", "boli by ste"],
+          ["ONI/ONY", "boli by", "boli by", "boli by"]
+        ]
+      },
+      "examples": [
+        "Bol by som šťastný – I would be happy (masc.)",
+        "Bola by som unavená – I would be tired (fem.)",
+        "Boli by sme doma – We would be at home"
+      ]
+    },
+    {
+      "title": "Reflexive Verbs in Conditional - Word Order",
+      "text": "CRITICAL WORD ORDER: Participle + reflexive particle (sa/si) + by + personal ending. The reflexive particle comes BETWEEN the participle and 'by', NOT after the personal ending.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "učil sa by som", "učila sa by som", "učili sa by sme"],
+          ["TY", "učil sa by si", "učila sa by si", "učili sa by ste"],
+          ["ON/ONA/ONO", "učil sa by", "učila sa by", "učilo sa by"],
+          ["MY", "učili sa by sme", "učili sa by sme", "učili sa by sme"],
+          ["VY", "učili sa by ste", "učili sa by ste", "učili sa by ste"],
+          ["ONI/ONY", "učili sa by", "učili sa by", "učili sa by"]
+        ]
+      },
+      "examples": [
+        "Učil sa by som slovenčinu – I would learn Slovak (masc.)",
+        "Učila sa by si viac – You would learn more (fem.)",
+        "Učili sa by sme spolu – We would learn together"
+      ]
+    },
+    {
+      "title": "Reflexive Conjugation Table - 'učiť sa' (to learn)",
+      "text": "Full conjugation showing reflexive particle placement: participle + sa/si + by + personal ending.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "učil sa by som", "učila sa by som", "učili sa by sme"],
+          ["TY", "učil sa by si", "učila sa by si", "učili sa by ste"],
+          ["ON/ONA/ONO", "učil sa by", "učila sa by", "učilo sa by"],
+          ["MY", "učili sa by sme", "učili sa by sme", "učili sa by sme"],
+          ["VY", "učili sa by ste", "učili sa by ste", "učili sa by ste"],
+          ["ONI/ONY", "učili sa by", "učili sa by", "učili sa by"]
+        ]
+      },
+      "examples": [
+        "Učil sa by som každý deň – I would learn every day",
+        "Umyl sa by si ráno – You would wash in the morning",
+        "Obliekli sa by sme rýchlo – We would get dressed quickly"
+      ]
+    },
+    {
+      "title": "Reflexive Word Order - Alternative Positions",
+      "text": "In questions or with emphasis, 'by + personal ending' can move to second position, but the reflexive particle ALWAYS stays immediately after the participle.",
+      "examples": [
+        "Učil sa by som – I would learn (standard)",
+        "By som sa učil – I would learn (emphasis on 'by', but 'sa' stays with participle)",
+        "Umyl sa by si? – Would you wash yourself?",
+        "By si sa umyl? – Would you wash yourself? (emphasis)"
+      ]
+    },
+    {
+      "title": "Negation in Conditional",
+      "text": "Add 'ne-' prefix to the participle. The word order with 'by' remains the same: ne-participle + by + personal ending.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "nerobil by som", "nerobila by som", "nerobili by sme"],
+          ["TY", "nerobil by si", "nerobila by si", "nerobili by ste"],
+          ["ON/ONA/ONO", "nerobil by", "nerobila by", "nerobilo by"],
+          ["MY", "nerobili by sme", "nerobili by sme", "nerobili by sme"],
+          ["VY", "nerobili by ste", "nerobili by ste", "nerobili by ste"],
+          ["ONI/ONY", "nerobili by", "nerobili by", "nerobili by"]
+        ]
+      },
+      "examples": [
+        "Nerobil by som to – I wouldn't do it",
+        "Nevidela by si ma – You wouldn't see me (fem.)",
+        "Nepracovali by sme – We wouldn't work"
+      ]
+    },
+    {
+      "title": "Negation with Reflexives",
+      "text": "Add 'ne-' prefix to the participle. Word order: ne-participle + reflexive particle + by + personal ending.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "neučil sa by som", "neučila sa by som", "neučili sa by sme"],
+          ["TY", "neučil sa by si", "neučila sa by si", "neučili sa by ste"],
+          ["ON/ONA/ONO", "neučil sa by", "neučila sa by", "neučilo sa by"],
+          ["MY", "neučili sa by sme", "neučili sa by sme", "neučili sa by sme"],
+          ["VY", "neučili sa by ste", "neučili sa by ste", "neučili sa by ste"],
+          ["ONI/ONY", "neučili sa by", "neučili sa by", "neučili sa by"]
+        ]
+      },
+      "examples": [
+        "Neučil sa by som – I wouldn't learn (masc.)",
+        "Neumyla sa by si – You wouldn't wash yourself (fem.)",
+        "Neobliekli sa by sme – We wouldn't get dressed"
+      ]
+    },
+    {
+      "title": "Aspect in Conditional - Imperfective",
+      "text": "Imperfective verbs in conditional describe ongoing or repeated hypothetical actions without focus on completion.",
+      "examples": [
+        "Čítal by som knihu – I would be reading a book (ongoing)",
+        "Pracoval by každý deň – He would work every day (habitual)",
+        "Učili by sme sa slovenčinu – We would be learning Slovak (process)"
+      ]
+    },
+    {
+      "title": "Aspect in Conditional - Perfective",
+      "text": "Perfective verbs in conditional describe completed hypothetical actions with a clear result.",
+      "examples": [
+        "Prečítal by som knihu – I would read the book (finish it)",
+        "Napísal by list – He would write a letter (complete it)",
+        "Kúpili by sme auto – We would buy a car (completed action)"
+      ]
+    },
+    {
+      "title": "Aspect Pairs in Conditional",
+      "text": "Use imperfective for hypothetical process/duration, perfective for hypothetical completion.",
+      "table": {
+        "headers": ["Imperfective", "Meaning", "Perfective", "Meaning"],
+        "rows": [
+          ["písal by som", "I would be writing", "napísal by som", "I would write (complete)"],
+          ["jedol by som", "I would be eating", "zjedol by som", "I would eat it all"],
+          ["čítal by som", "I would be reading", "prečítal by som", "I would read (finish)"],
+          ["robil by som", "I would be doing", "urobil by som", "I would do (complete)"],
+          ["učil sa by som", "I would be learning", "naučil sa by som", "I would learn (master)"]
+        ]
+      },
+      "examples": [
+        "Písal by som (imp.) – I would be writing",
+        "Napísal by som (perf.) – I would write/finish writing",
+        "Jedol by som (imp.) – I would be eating",
+        "Zjedol by som (perf.) – I would eat it all up"
+      ]
+    },
+    {
+      "title": "Irregular Conditional - 'ísť' (to go)",
+      "text": "The verb 'ísť' uses irregular past participle 'išiel/išla/išlo/išli' in conditional.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "išiel by som", "išla by som", "išli by sme"],
+          ["TY", "išiel by si", "išla by si", "išli by ste"],
+          ["ON/ONA/ONO", "išiel by", "išla by", "išlo by"],
+          ["MY", "išli by sme", "išli by sme", "išli by sme"],
+          ["VY", "išli by ste", "išli by ste", "išli by ste"],
+          ["ONI/ONY", "išli by", "išli by", "išli by"]
+        ]
+      },
+      "examples": [
+        "Išiel by som domov – I would go home (masc.)",
+        "Išla by som do školy – I would go to school (fem.)",
+        "Išli by sme na prechádzku – We would go for a walk"
+      ]
+    },
+    {
+      "title": "Irregular Conditional - 'jesť' (to eat)",
+      "text": "The verb 'jesť' uses irregular past participle 'jedol/jedla/jedlo/jedli' in conditional.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "jedol by som", "jedla by som", "jedli by sme"],
+          ["TY", "jedol by si", "jedla by si", "jedli by ste"],
+          ["ON/ONA/ONO", "jedol by", "jedla by", "jedlo by"],
+          ["MY", "jedli by sme", "jedli by sme", "jedli by sme"],
+          ["VY", "jedli by ste", "jedli by ste", "jedli by ste"],
+          ["ONI/ONY", "jedli by", "jedli by", "jedli by"]
+        ]
+      },
+      "examples": [
+        "Jedol by som obed – I would eat lunch (masc.)",
+        "Jedla by som večeru – I would eat dinner (fem.)",
+        "Jedli by sme pizzu – We would eat pizza"
+      ]
+    },
+    {
+      "title": "Irregular Conditional - 'piť' (to drink)",
+      "text": "The verb 'piť' uses irregular past participle 'pil/pila/pilo/pili' in conditional.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "pil by som", "pila by som", "pili by sme"],
+          ["TY", "pil by si", "pila by si", "pili by ste"],
+          ["ON/ONA/ONO", "pil by", "pila by", "pilo by"],
+          ["MY", "pili by sme", "pili by sme", "pili by sme"],
+          ["VY", "pili by ste", "pili by ste", "pili by ste"],
+          ["ONI/ONY", "pili by", "pili by", "pili by"]
+        ]
+      },
+      "examples": [
+        "Pil by som vodu – I would drink water (masc.)",
+        "Pila by som kávu – I would drink coffee (fem.)",
+        "Pili by sme čaj – We would drink tea"
+      ]
+    },
+    {
+      "title": "Irregular Conditional - 'môcť' (can/to be able)",
+      "text": "The verb 'môcť' uses irregular past participle 'mohol/mohla/mohlo/mohli' in conditional.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "mohol by som", "mohla by som", "mohli by sme"],
+          ["TY", "mohol by si", "mohla by si", "mohli by ste"],
+          ["ON/ONA/ONO", "mohol by", "mohla by", "mohlo by"],
+          ["MY", "mohli by sme", "mohli by sme", "mohli by sme"],
+          ["VY", "mohli by ste", "mohli by ste", "mohli by ste"],
+          ["ONI/ONY", "mohli by", "mohli by", "mohli by"]
+        ]
+      },
+      "examples": [
+        "Mohol by som prísť – I could come (masc.)",
+        "Mohla by som pomôcť – I could help (fem.)",
+        "Mohli by sme zostať – We could stay"
+      ]
+    },
+    {
+      "title": "Irregular Conditional - 'vedieť' (to know)",
+      "text": "The verb 'vedieť' uses past participle 'vedel/vedela/vedelo/vedeli' in conditional.",
+      "table": {
+        "headers": ["Person", "Masculine", "Feminine", "Plural"],
+        "rows": [
+          ["JA", "vedel by som", "vedela by som", "vedeli by sme"],
+          ["TY", "vedel by si", "vedela by si", "vedeli by ste"],
+          ["ON/ONA/ONO", "vedel by", "vedela by", "vedelo by"],
+          ["MY", "vedeli by sme", "vedeli by sme", "vedeli by sme"],
+          ["VY", "vedeli by ste", "vedeli by ste", "vedeli by ste"],
+          ["ONI/ONY", "vedeli by", "vedeli by", "vedeli by"]
+        ]
+      },
+      "examples": [
+        "Vedel by som odpoveď – I would know the answer (masc.)",
+        "Vedela by som pravdu – I would know the truth (fem.)",
+        "Vedeli by sme to – We would know it"
+      ]
+    },
+    {
+      "title": "Common Irregular Verbs in Conditional",
+      "text": "Several common verbs have irregular past participles that must be memorized for conditional use.",
+      "table": {
+        "headers": ["Infinitive", "Meaning", "Past Participle (masc.)", "Conditional Example"],
+        "rows": [
+          ["ísť", "to go", "išiel", "išiel by som"],
+          ["jesť", "to eat", "jedol", "jedol by som"],
+          ["piť", "to drink", "pil", "pil by som"],
+          ["byť", "to be", "bol", "bol by som"],
+          ["môcť", "can/be able", "mohol", "mohol by som"],
+          ["vedieť", "to know", "vedel", "vedel by som"],
+          ["niesť", "to carry", "niesol", "niesol by som"],
+          ["viesť", "to lead", "viedol", "viedol by som"],
+          ["piecť", "to bake", "piekol", "piekol by som"]
+        ]
+      },
+      "examples": [
+        "Išiel by som domov – I would go home",
+        "Jedol by som obed – I would eat lunch",
+        "Mohol by som pomôcť – I could help",
+        "Vedel by som to – I would know it"
+      ]
+    }
+  ],
+
+  "vocab": [],
+
+  "exercises": []
+}
