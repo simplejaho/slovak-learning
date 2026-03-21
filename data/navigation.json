@@ -6,8 +6,8 @@
         { "title": "Aspect", "lesson": "data/lessons/verbs/aspect.json" },
         { "title": "Prefixes", "lesson": "data/lessons/verbs/prefixes.json" },
         { "title": "Present Tense", "lesson": "data/lessons/verbs/present-tense.json" },
-        { "title": "Past Tense", "lesson": "data/lessons/verbs/past-perfect.json" },
-        { "title": "Future Tense", "lesson": "data/lessons/verbs/future-imperfect.json" },
+        { "title": "Past Tense", "lesson": "data/lessons/verbs/past-tense.json" },
+        { "title": "Future Tense", "lesson": "data/lessons/verbs/future-tense.json" },
         { "title": "Conditional", "lesson": "data/lessons/verbs/conditional.json" },
         { "title": "Imperative", "lesson": "data/lessons/verbs/imperative.json" }
       ]
