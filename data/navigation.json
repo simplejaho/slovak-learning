@@ -25,16 +25,16 @@
     {
       "title": "Adjectives",
       "children": [
-        { "title": "Conjugation", "lesson": "data/lessons/pronouns/conjugation.json" },
-        { "title": "Adjectival Pronouns", "lesson": "data/lessons/pronouns/adjectival-pronouns.json" },
-        { "title": "Demonstrative Pronouns", "lesson": "data/lessons/pronouns/demonstrative.json" },
-        { "title": "Possessive Pronouns", "lesson": "data/lessons/pronouns/possessive.json" },
-        { "title": "Interrogative Pronouns", "lesson": "data/lessons/pronouns/interrogative.json" },
-        { "title": "Relative Pronouns", "lesson": "data/lessons/pronouns/relative.json" },
-        { "title": "Possessive Reflexive Pronouns", "lesson": "data/lessons/pronouns/possessive-reflexive.json" },
-        { "title": "Comparatives", "lesson": "data/lessons/pronouns/comparatives.json" },
-        { "title": "Cardinals", "lesson": "data/lessons/pronouns/cardinals.json" },
-        { "title": "Ordinals", "lesson": "data/lessons/pronouns/ordinals.json" }
+        { "title": "Conjugation", "lesson": "data/lessons/adjectives/conjugation.json" },
+        { "title": "Adjectival Pronouns", "lesson": "data/lessons/adjectives/adjectival-pronouns.json" },
+        { "title": "Demonstrative Pronouns", "lesson": "data/lessons/adjectives/demonstrative.json" },
+        { "title": "Possessive Pronouns", "lesson": "data/lessons/adjectives/possessive.json" },
+        { "title": "Interrogative Pronouns", "lesson": "data/lessons/adjectives/interrogative.json" },
+        { "title": "Relative Pronouns", "lesson": "data/lessons/adjectives/relative.json" },
+        { "title": "Possessive Reflexive Pronouns", "lesson": "data/lessons/adjectives/possessive-reflexive.json" },
+        { "title": "Comparatives", "lesson": "data/lessons/adjectives/comparatives.json" },
+        { "title": "Cardinals", "lesson": "data/lessons/adjectives/cardinals.json" },
+        { "title": "Ordinals", "lesson": "data/lessons/adjectives/ordinals.json" }
       ]
     },
     {
