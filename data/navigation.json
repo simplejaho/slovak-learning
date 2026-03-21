@@ -19,11 +19,7 @@
         { "title": "Plurals", "lesson": "data/lessons/nouns/plurals.json" },
         { "title": "Cases", "lesson": "data/lessons/nouns/cases.json" },
         { "title": "Conjugation", "lesson": "data/lessons/nouns/conjugation.json" },
-        { "title": "Substantive Pronouns", "lesson": "data/lessons/nouns/substantive-pronouns.json" },
-        { "title": "Personal Pronouns", "lesson": "data/lessons/nouns/personal-pronouns.json" },
-        { "title": "Reflexive Pronouns", "lesson": "data/lessons/nouns/reflexive-pronouns.json" },
-        { "title": "Indefinite Pronouns", "lesson": "data/lessons/nouns/indefinite-pronouns.json" },
-        { "title": "Negative Pronouns", "lesson": "data/lessons/nouns/negative-pronouns.json" }
+        { "title": "Substantive Pronouns", "lesson": "data/lessons/nouns/substantive-pronouns.json" }
       ]
     },
     {
