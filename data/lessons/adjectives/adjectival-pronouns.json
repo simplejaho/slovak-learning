@@ -1,3 +1,4 @@
+
 {
   "rules": [
     {
@@ -12,404 +13,217 @@
       ]
     },
     {
-      "title": "Demonstrative Pronouns - 'tento/táto/toto' (this)",
-      "text": "The demonstrative pronoun 'tento' (this) is used for objects close to the speaker. It declines like a hard-stem adjective with the prefix 'ten-/tá-/to-'.",
+      "title": "Possessive Pronouns - Complete Declension Table",
+      "text": "All possessive pronouns showing ownership. Note: 'jeho' (his/its), 'jej' (her), and 'ich' (their) are invariable and never change form.",
       "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M)", "Plural (F/N)"],
+        "headers": ["Word (EN)", "Gender", "Nominative", "Genitive", "Dative", "Accusative", "Locative", "Instrumental"],
         "rows": [
-          ["Nominative", "tento", "táto", "toto", "títo", "tieto"],
-          ["Genitive", "tohto", "tejto", "tohto", "týchto", "týchto"],
-          ["Dative", "tomuto", "tejto", "tomuto", "týmto", "týmto"],
-          ["Accusative", "tohto/tento", "túto", "toto", "týchto", "tieto"],
-          ["Locative", "tomto", "tejto", "tomto", "týchto", "týchto"],
-          ["Instrumental", "týmto", "touto", "týmto", "týmito", "týmito"]
+          ["my", "Masculine", "môj", "môjho", "môjmu", "môjho/môj", "mojom", "mojím"],
+          ["", "Feminine", "moja", "mojej", "mojej", "moju", "mojej", "mojou"],
+          ["", "Neuter", "moje", "môjho", "môjmu", "moje", "mojom", "mojím"],
+          ["", "Plural (M pers)", "moji", "mojich", "mojim", "mojich", "mojich", "mojimi"],
+          ["", "Plural (other)", "moje", "mojich", "mojim", "moje", "mojich", "mojimi"],
+          ["your (sg)", "Masculine", "tvoj", "tvojho", "tvojmu", "tvojho/tvoj", "tvojom", "tvojím"],
+          ["", "Feminine", "tvoja", "tvojej", "tvojej", "tvoju", "tvojej", "tvojou"],
+          ["", "Neuter", "tvoje", "tvojho", "tvojmu", "tvoje", "tvojom", "tvojím"],
+          ["", "Plural (M pers)", "tvoji", "tvojich", "tvojim", "tvojich", "tvojich", "tvojimi"],
+          ["", "Plural (other)", "tvoje", "tvojich", "tvojim", "tvoje", "tvojich", "tvojimi"],
+          ["one's own", "Masculine", "svoj", "svojho", "svojmu", "svojho/svoj", "svojom", "svojím"],
+          ["", "Feminine", "svoja", "svojej", "svojej", "svoju", "svojej", "svojou"],
+          ["", "Neuter", "svoje", "svojho", "svojmu", "svoje", "svojom", "svojím"],
+          ["", "Plural (M pers)", "svoji", "svojich", "svojim", "svojich", "svojich", "svojimi"],
+          ["", "Plural (other)", "svoje", "svojich", "svojim", "svoje", "svojich", "svojimi"],
+          ["our", "Masculine", "náš", "nášho", "nášmu", "nášho/náš", "našom", "naším"],
+          ["", "Feminine", "naša", "našej", "našej", "našu", "našej", "našou"],
+          ["", "Neuter", "naše", "nášho", "nášmu", "naše", "našom", "naším"],
+          ["", "Plural (M pers)", "naši", "našich", "našim", "našich", "našich", "našimi"],
+          ["", "Plural (other)", "naše", "našich", "našim", "naše", "našich", "našimi"],
+          ["your (pl/formal)", "Masculine", "váš", "vášho", "vášmu", "vášho/váš", "vašom", "vaším"],
+          ["", "Feminine", "vaša", "vašej", "vašej", "vašu", "vašej", "vašou"],
+          ["", "Neuter", "vaše", "vášho", "vášmu", "vaše", "vašom", "vaším"],
+          ["", "Plural (M pers)", "vaši", "vašich", "vašim", "vašich", "vašich", "vašimi"],
+          ["", "Plural (other)", "vaše", "vašich", "vašim", "vaše", "vašich", "vašimi"],
+          ["his/its", "All genders", "jeho", "jeho", "jeho", "jeho", "jeho", "jeho"],
+          ["her", "All genders", "jej", "jej", "jej", "jej", "jej", "jej"],
+          ["their", "All genders", "ich", "ich", "ich", "ich", "ich", "ich"]
         ]
       },
       "examples": [
-        "Nominative: Tento muž je dobrý - This man is good",
-        "Genitive: Cena tohto domu - The price of this house",
-        "Dative: Dám to tomuto mužovi - I'll give it to this man",
-        "Accusative: Vidím tohto muža - I see this man",
-        "Locative: V tomto dome - In this house",
-        "Instrumental: S týmto mužom - With this man"
+        "Môj brat je tu - My brother is here",
+        "Vidím svojho brata - I see my (own) brother",
+        "Jeho dom je veľký - His house is big (invariable)",
+        "V našom dome - In our house",
+        "S vaším otcom - With your father"
       ]
     },
     {
-      "title": "Demonstrative Pronouns - 'ten/tá/to' (that)",
-      "text": "The demonstrative pronoun 'ten' (that) is used for objects farther from the speaker or previously mentioned. It's the most common demonstrative.",
+      "title": "Demonstrative Pronouns - Complete Declension Table",
+      "text": "Demonstrative pronouns pointing to objects at different distances: 'ten' (that), 'tento' (this), 'tamten' (that over there).",
       "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M)", "Plural (F/N)"],
+        "headers": ["Word (EN)", "Gender", "Nominative", "Genitive", "Dative", "Accusative", "Locative", "Instrumental"],
         "rows": [
-          ["Nominative", "ten", "tá", "to", "tí", "tie"],
-          ["Genitive", "toho", "tej", "toho", "tých", "tých"],
-          ["Dative", "tomu", "tej", "tomu", "tým", "tým"],
-          ["Accusative", "toho/ten", "tú", "to", "tých", "tie"],
-          ["Locative", "tom", "tej", "tom", "tých", "tých"],
-          ["Instrumental", "tým", "tou", "tým", "tými", "tými"]
+          ["that", "Masculine", "ten", "toho", "tomu", "toho/ten", "tom", "tým"],
+          ["", "Feminine", "tá", "tej", "tej", "tú", "tej", "tou"],
+          ["", "Neuter", "to", "toho", "tomu", "to", "tom", "tým"],
+          ["", "Plural (M pers)", "tí", "tých", "tým", "tých", "tých", "tými"],
+          ["", "Plural (other)", "tie", "tých", "tým", "tie", "tých", "tými"],
+          ["this", "Masculine", "tento", "tohto", "tomuto", "tohto/tento", "tomto", "týmto"],
+          ["", "Feminine", "táto", "tejto", "tejto", "túto", "tejto", "touto"],
+          ["", "Neuter", "toto", "tohto", "tomuto", "toto", "tomto", "týmto"],
+          ["", "Plural (M pers)", "títo", "týchto", "týmto", "týchto", "týchto", "týmito"],
+          ["", "Plural (other)", "tieto", "týchto", "týmto", "tieto", "týchto", "týmito"],
+          ["that (far)", "Masculine", "tamten", "tamtoho", "tamtomu", "tamtoho/tamten", "tamtom", "tamtým"],
+          ["", "Feminine", "tamtá", "tamtej", "tamtej", "tamtú", "tamtej", "tamtou"],
+          ["", "Neuter", "tamto", "tamtoho", "tamtomu", "tamto", "tamtom", "tamtým"],
+          ["", "Plural (M pers)", "tamtí", "tamtých", "tamtým", "tamtých", "tamtých", "tamtými"],
+          ["", "Plural (other)", "tamtie", "tamtých", "tamtým", "tamtie", "tamtých", "tamtými"]
         ]
       },
       "examples": [
-        "Nominative: Ten muž je môj priateľ - That man is my friend",
-        "Genitive: Bez toho muža - Without that man",
-        "Dative: K tomu domu - To that house",
-        "Accusative: Vidím toho muža - I see that man",
-        "Locative: V tom dome - In that house",
-        "Instrumental: S tým mužom - With that man"
+        "Ten muž je môj priateľ - That man is my friend",
+        "Tento dom je nový - This house is new",
+        "V tomto dome - In this house",
+        "Tamten dom je veľký - That house over there is big",
+        "S tým mužom - With that man"
       ]
     },
     {
-      "title": "Demonstrative Pronouns - 'tamten/tamtá/tamto' (that over there)",
-      "text": "The demonstrative pronoun 'tamten' (that over there) emphasizes distance. It combines 'tam' (there) with 'ten' and declines similarly.",
+      "title": "Interrogative Pronouns - Complete Declension Table",
+      "text": "Interrogative pronouns used to ask questions: 'ktorý' (which, what) and 'čí' (whose).",
       "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M)", "Plural (F/N)"],
+        "headers": ["Word (EN)", "Gender", "Nominative", "Genitive", "Dative", "Accusative", "Locative", "Instrumental"],
         "rows": [
-          ["Nominative", "tamten", "tamtá", "tamto", "tamtí", "tamtie"],
-          ["Genitive", "tamtoho", "tamtej", "tamtoho", "tamtých", "tamtých"],
-          ["Dative", "tamtomu", "tamtej", "tamtomu", "tamtým", "tamtým"],
-          ["Accusative", "tamtoho/tamten", "tamtú", "tamto", "tamtých", "tamtie"],
-          ["Locative", "tamtom", "tamtej", "tamtom", "tamtých", "tamtých"],
-          ["Instrumental", "tamtým", "tamtou", "tamtým", "tamtými", "tamtými"]
+          ["which/what", "Masculine", "ktorý", "ktorého", "ktorému", "ktorého/ktorý", "ktorom", "ktorým"],
+          ["", "Feminine", "ktorá", "ktorej", "ktorej", "ktorú", "ktorej", "ktorou"],
+          ["", "Neuter", "ktoré", "ktorého", "ktorému", "ktoré", "ktorom", "ktorým"],
+          ["", "Plural (M pers)", "ktorí", "ktorých", "ktorým", "ktorých", "ktorých", "ktorými"],
+          ["", "Plural (other)", "ktoré", "ktorých", "ktorým", "ktoré", "ktorých", "ktorými"],
+          ["whose", "Masculine", "čí", "čieho", "čiemu", "čieho/čí", "čom", "čím"],
+          ["", "Feminine", "čia", "čej", "čej", "čiu", "čej", "čou"],
+          ["", "Neuter", "čie", "čieho", "čiemu", "čie", "čom", "čím"],
+          ["", "Plural (M pers)", "čí", "čích", "čím", "čích", "čích", "čími"],
+          ["", "Plural (other)", "čie", "čích", "čím", "čie", "čích", "čími"]
         ]
       },
       "examples": [
-        "Nominative: Tamten dom je veľký - That house over there is big",
-        "Genitive: Majiteľ tamtoho domu - The owner of that house over there",
-        "Dative: Idem k tamtomu domu - I'm going to that house over there",
-        "Accusative: Vidíš tamten dom? - Do you see that house over there?",
-        "Locative: V tamtom dome - In that house over there",
-        "Instrumental: S tamtým mužom - With that man over there"
+        "Ktorý muž? - Which man?",
+        "Ktorú knihu chceš? - Which book do you want?",
+        "V ktorom dome bývate? - In which house do you live?",
+        "Čí je to dom? - Whose house is it?",
+        "Čiu knihu čítaš? - Whose book are you reading?",
+        "S ktorým priateľom ideš? - With which friend are you going?"
       ]
     },
     {
-      "title": "Possessive Pronouns - 'môj/moja/moje' (my, mine)",
-      "text": "The possessive pronoun 'môj' (my, mine) shows ownership by the first person singular. It declines like a soft-stem adjective.",
+      "title": "Relative Pronouns - Complete Declension Table",
+      "text": "Relative pronouns used to introduce relative clauses: 'ktorý' (who, which, that) and 'čí' (whose). They decline identically to interrogative pronouns.",
       "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M)", "Plural (F/N)"],
+        "headers": ["Word (EN)", "Gender", "Nominative", "Genitive", "Dative", "Accusative", "Locative", "Instrumental"],
         "rows": [
-          ["Nominative", "môj", "moja", "moje", "moji", "moje"],
-          ["Genitive", "môjho", "mojej", "môjho", "mojich", "mojich"],
-          ["Dative", "môjmu", "mojej", "môjmu", "mojim", "mojim"],
-          ["Accusative", "môjho/môj", "moju", "moje", "mojich", "moje"],
-          ["Locative", "mojom", "mojej", "mojom", "mojich", "mojich"],
-          ["Instrumental", "mojím", "mojou", "mojím", "mojimi", "mojimi"]
+          ["who/which/that", "Masculine", "ktorý", "ktorého", "ktorému", "ktorého/ktorý", "ktorom", "ktorým"],
+          ["", "Feminine", "ktorá", "ktorej", "ktorej", "ktorú", "ktorej", "ktorou"],
+          ["", "Neuter", "ktoré", "ktorého", "ktorému", "ktoré", "ktorom", "ktorým"],
+          ["", "Plural (M pers)", "ktorí", "ktorých", "ktorým", "ktorých", "ktorých", "ktorými"],
+          ["", "Plural (other)", "ktoré", "ktorých", "ktorým", "ktoré", "ktorých", "ktorými"],
+          ["whose", "Masculine", "čí", "čieho", "čiemu", "čieho/čí", "čom", "čím"],
+          ["", "Feminine", "čia", "čej", "čej", "čiu", "čej", "čou"],
+          ["", "Neuter", "čie", "čieho", "čiemu", "čie", "čom", "čím"],
+          ["", "Plural (M pers)", "čí", "čích", "čím", "čích", "čích", "čími"],
+          ["", "Plural (other)", "čie", "čích", "čím", "čie", "čích", "čími"]
         ]
       },
       "examples": [
-        "Nominative: Môj brat je tu - My brother is here",
-        "Genitive: Dom môjho brata - My brother's house",
-        "Dative: Dám to môjmu bratovi - I'll give it to my brother",
-        "Accusative: Vidím môjho brata - I see my brother",
-        "Locative: V mojom dome - In my house",
-        "Instrumental: S mojím bratom - With my brother"
+        "Muž, ktorý pracuje - The man who works",
+        "Žena, ktorú vidím - The woman whom I see",
+        "Dom, v ktorom bývam - The house in which I live",
+        "Priateľ, s ktorým idem - The friend with whom I go",
+        "Muž, čí dom je veľký - The man whose house is big",
+        "Dieťa, čiu matku vidím - The child whose mother I see"
       ]
     },
     {
-      "title": "Possessive Pronouns - 'tvoj/tvoja/tvoje' (your, yours)",
-      "text": "The possessive pronoun 'tvoj' (your, yours - singular informal) shows ownership by the second person singular. Declines identically to 'môj'.",
-      "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M)", "Plural (F/N)"],
-        "rows": [
-          ["Nominative", "tvoj", "tvoja", "tvoje", "tvoji", "tvoje"],
-          ["Genitive", "tvojho", "tvojej", "tvojho", "tvojich", "tvojich"],
-          ["Dative", "tvojmu", "tvojej", "tvojmu", "tvojim", "tvojim"],
-          ["Accusative", "tvojho/tvoj", "tvoju", "tvoje", "tvojich", "tvoje"],
-          ["Locative", "tvojom", "tvojej", "tvojom", "tvojich", "tvojich"],
-          ["Instrumental", "tvojím", "tvojou", "tvojím", "tvojimi", "tvojimi"]
-        ]
-      },
-      "examples": [
-        "Nominative: Tvoj dom je pekný - Your house is nice",
-        "Genitive: Farba tvojho domu - The color of your house",
-        "Dative: K tvojmu domu - To your house",
-        "Accusative: Vidím tvoj dom - I see your house",
-        "Locative: Vo tvojom dome - In your house",
-        "Instrumental: S tvojím bratom - With your brother"
-      ]
-    },
-    {
-      "title": "Possessive Pronouns - 'náš/naša/naše' (our, ours)",
-      "text": "The possessive pronoun 'náš' (our, ours) shows ownership by the first person plural. It declines like a soft-stem adjective.",
-      "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M)", "Plural (F/N)"],
-        "rows": [
-          ["Nominative", "náš", "naša", "naše", "naši", "naše"],
-          ["Genitive", "nášho", "našej", "nášho", "našich", "našich"],
-          ["Dative", "nášmu", "našej", "nášmu", "našim", "našim"],
-          ["Accusative", "nášho/náš", "našu", "naše", "našich", "naše"],
-          ["Locative", "našom", "našej", "našom", "našich", "našich"],
-          ["Instrumental", "naším", "našou", "naším", "našimi", "našimi"]
-        ]
-      },
-      "examples": [
-        "Nominative: Náš dom je veľký - Our house is big",
-        "Genitive: Záhrada nášho domu - The garden of our house",
-        "Dative: K nášmu domu - To our house",
-        "Accusative: Vidíš náš dom? - Do you see our house?",
-        "Locative: V našom dome - In our house",
-        "Instrumental: S naším otcom - With our father"
-      ]
-    },
-    {
-      "title": "Possessive Pronouns - 'váš/vaša/vaše' (your, yours - plural/formal)",
-      "text": "The possessive pronoun 'váš' (your, yours - plural or formal) shows ownership by the second person plural or formal singular. Declines like 'náš'.",
-      "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M)", "Plural (F/N)"],
-        "rows": [
-          ["Nominative", "váš", "vaša", "vaše", "vaši", "vaše"],
-          ["Genitive", "vášho", "vašej", "vášho", "vašich", "vašich"],
-          ["Dative", "vášmu", "vašej", "vášmu", "vašim", "vašim"],
-          ["Accusative", "vášho/váš", "vašu", "vaše", "vašich", "vaše"],
-          ["Locative", "vašom", "vašej", "vašom", "vašich", "vašich"],
-          ["Instrumental", "vaším", "vašou", "vaším", "vašimi", "vašimi"]
-        ]
-      },
-      "examples": [
-        "Nominative: Váš dom je krásny - Your house is beautiful",
-        "Genitive: Strecha vášho domu - The roof of your house",
-        "Dative: K vášmu domu - To your house",
-        "Accusative: Obdivujem váš dom - I admire your house",
-        "Locative: Vo vašom dome - In your house",
-        "Instrumental: S vaším synom - With your son"
-      ]
-    },
-    {
-      "title": "Possessive Reflexive Pronoun - 'svoj/svoja/svoje' (one's own)",
-      "text": "The reflexive possessive pronoun 'svoj' (one's own) refers back to the subject of the sentence. It's used for all persons and numbers. Declines like 'môj'.",
-      "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M)", "Plural (F/N)"],
-        "rows": [
-          ["Nominative", "svoj", "svoja", "svoje", "svoji", "svoje"],
-          ["Genitive", "svojho", "svojej", "svojho", "svojich", "svojich"],
-          ["Dative", "svojmu", "svojej", "svojmu", "svojim", "svojim"],
-          ["Accusative", "svojho/svoj", "svoju", "svoje", "svojich", "svoje"],
-          ["Locative", "svojom", "svojej", "svojom", "svojich", "svojich"],
-          ["Instrumental", "svojím", "svojou", "svojím", "svojimi", "svojimi"]
-        ]
-      },
+      "title": "Key Usage Rules - Possessive Reflexive 'svoj'",
+      "text": "The reflexive possessive 'svoj' (one's own) is special because it refers back to the subject of the sentence, regardless of person or number. Use 'svoj' when the possessor is the subject; use 'jeho/jej/ich' when referring to someone else's possession.",
       "examples": [
         "Vidím svoj dom - I see my (own) house",
         "Vidíš svoj dom - You see your (own) house",
         "Vidí svoj dom - He/she sees his/her (own) house",
-        "Hovorím o svojom bratovi - I'm talking about my (own) brother",
-        "Idem so svojím otcom - I'm going with my (own) father",
-        "Milujú svoje deti - They love their (own) children"
+        "Vidíme svoj dom - We see our (own) house",
+        "Vidím jeho dom - I see his house (someone else's)",
+        "Hovorí o svojom bratovi - He talks about his (own) brother",
+        "Hovorí o jeho bratovi - He talks about his (someone else's) brother"
       ]
     },
     {
-      "title": "Third Person Possessive - 'jeho/jej/ich' (his/her/their)",
-      "text": "Third person possessive forms are invariable (don't decline). 'Jeho' (his, its), 'jej' (her), 'ich' (their) remain unchanged in all cases.",
-      "table": {
-        "headers": ["Person", "Form", "Example", "Translation"],
-        "rows": [
-          ["3rd sg. M/N", "jeho", "jeho dom", "his/its house"],
-          ["3rd sg. M/N", "jeho", "v jeho dome", "in his/its house"],
-          ["3rd sg. M/N", "jeho", "s jeho bratom", "with his brother"],
-          ["3rd sg. F", "jej", "jej dom", "her house"],
-          ["3rd sg. F", "jej", "v jej dome", "in her house"],
-          ["3rd sg. F", "jej", "s jej sestrou", "with her sister"],
-          ["3rd pl.", "ich", "ich dom", "their house"],
-          ["3rd pl.", "ich", "v ich dome", "in their house"],
-          ["3rd pl.", "ich", "s ich rodičmi", "with their parents"]
-        ]
-      },
+      "title": "Key Usage Rules - Invariable Third Person Forms",
+      "text": "Unlike other possessive pronouns, third person forms 'jeho' (his/its), 'jej' (her), and 'ich' (their) NEVER change regardless of case, gender, or number of the noun they modify. They remain constant in all situations.",
       "examples": [
         "Nominative: Jeho brat je tu - His brother is here",
         "Genitive: Dom jeho brata - His brother's house",
         "Dative: Dám to jeho bratovi - I'll give it to his brother",
-        "Jej sestra je pekná - Her sister is pretty",
-        "Ich rodičia sú milí - Their parents are nice",
-        "Hovorím o jeho práci - I'm talking about his work"
+        "Accusative: Vidím jeho brata - I see his brother",
+        "Locative: V jeho dome - In his house",
+        "Instrumental: S jeho bratom - With his brother",
+        "Jej sestra, jej sestry, jej sestre - Her sister (all cases use 'jej')",
+        "Ich rodičia, ich rodičov, ich rodičom - Their parents (all cases use 'ich')"
       ]
     },
     {
-      "title": "Interrogative Pronoun - 'ktorý/ktorá/ktoré' (which, what)",
-      "text": "The interrogative pronoun 'ktorý' (which, what) asks about selection from a group. It declines like a hard-stem adjective.",
-      "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M)", "Plural (F/N)"],
-        "rows": [
-          ["Nominative", "ktorý", "ktorá", "ktoré", "ktorí", "ktoré"],
-          ["Genitive", "ktorého", "ktorej", "ktorého", "ktorých", "ktorých"],
-          ["Dative", "ktorému", "ktorej", "ktorému", "ktorým", "ktorým"],
-          ["Accusative", "ktorého/ktorý", "ktorú", "ktoré", "ktorých", "ktoré"],
-          ["Locative", "ktorom", "ktorej", "ktorom", "ktorých", "ktorých"],
-          ["Instrumental", "ktorým", "ktorou", "ktorým", "ktorými", "ktorými"]
-        ]
-      },
+      "title": "Key Usage Rules - Animate vs Inanimate Accusative",
+      "text": "In accusative case, masculine pronouns have two forms: animate (for people and animals) uses the genitive form, while inanimate (for objects) uses the nominative form.",
       "examples": [
-        "Nominative: Ktorý muž? - Which man?",
-        "Genitive: Ktorého muža vidíš? - Which man do you see?",
-        "Dative: Ktorému mužovi to dáš? - To which man will you give it?",
-        "Accusative: Ktorú knihu chceš? - Which book do you want?",
-        "Locative: V ktorom dome bývate? - In which house do you live?",
-        "Instrumental: S ktorým priateľom ideš? - With which friend are you going?"
+        "Animate: Vidím toho muža - I see that man (toho = genitive form)",
+        "Animate: Vidím môjho brata - I see my brother (môjho = genitive form)",
+        "Animate: Ktorého psa máš? - Which dog do you have? (ktorého = genitive)",
+        "Inanimate: Vidím ten dom - I see that house (ten = nominative form)",
+        "Inanimate: Vidím môj dom - I see my house (môj = nominative form)",
+        "Inanimate: Ktorý dom? - Which house? (ktorý = nominative)"
       ]
     },
     {
-      "title": "Interrogative Pronoun - 'čí/čia/čie' (whose)",
-      "text": "The interrogative pronoun 'čí' (whose) asks about possession. It declines like a soft-stem adjective.",
-      "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M)", "Plural (F/N)"],
-        "rows": [
-          ["Nominative", "čí", "čia", "čie", "čí", "čie"],
-          ["Genitive", "čieho", "čej", "čieho", "čích", "čích"],
-          ["Dative", "čiemu", "čej", "čiemu", "čím", "čím"],
-          ["Accusative", "čieho/čí", "čiu", "čie", "čích", "čie"],
-          ["Locative", "čom", "čej", "čom", "čích", "čích"],
-          ["Instrumental", "čím", "čou", "čím", "čími", "čími"]
-        ]
-      },
+      "title": "Key Usage Rules - Personal vs Non-Personal Plural",
+      "text": "In nominative plural, masculine pronouns distinguish between personal (people) and non-personal (animals, objects). Personal forms typically end in -í, while non-personal end in -é.",
       "examples": [
-        "Nominative: Čí je to dom? - Whose house is it?",
-        "Genitive: Čieho brata vidíš? - Whose brother do you see?",
-        "Dative: Čiemu dieťaťu to dáš? - To whose child will you give it?",
-        "Accusative: Čiu knihu čítaš? - Whose book are you reading?",
-        "Locative: V čom dome bývate? - In whose house do you live?",
-        "Instrumental: S čím bratom hovoríš? - With whose brother are you talking?"
+        "Personal: tí muži - those men (tí = personal)",
+        "Personal: moji bratia - my brothers (moji = personal)",
+        "Personal: ktorí študenti - which students (ktorí = personal)",
+        "Non-personal: tie domy - those houses (tie = non-personal)",
+        "Non-personal: moje psy - my dogs (moje = non-personal)",
+        "Non-personal: ktoré autá - which cars (ktoré = non-personal)"
       ]
     },
     {
-      "title": "Relative Pronoun - 'ktorý/ktorá/ktoré' (who, which, that)",
-      "text": "The relative pronoun 'ktorý' (who, which, that) introduces relative clauses. It declines identically to the interrogative 'ktorý' and agrees with its antecedent.",
+      "title": "Summary - Declension Patterns",
+      "text": "Quick reference guide showing which pronouns follow which declension patterns.",
       "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M)", "Plural (F/N)"],
+        "headers": ["Pattern Type", "Pronouns", "Key Features"],
         "rows": [
-          ["Nominative", "ktorý", "ktorá", "ktoré", "ktorí", "ktoré"],
-          ["Genitive", "ktorého", "ktorej", "ktorého", "ktorých", "ktorých"],
-          ["Dative", "ktorému", "ktorej", "ktorému", "ktorým", "ktorým"],
-          ["Accusative", "ktorého/ktorý", "ktorú", "ktoré", "ktorých", "ktoré"],
-          ["Locative", "ktorom", "ktorej", "ktorom", "ktorých", "ktorých"],
-          ["Instrumental", "ktorým", "ktorou", "ktorým", "ktorými", "ktorými"]
-        ]
-      },
-      "examples": [
-        "Nominative: Muž, ktorý pracuje - The man who works",
-        "Genitive: Muž, ktorého poznám - The man whom I know",
-        "Dative: Muž, ktorému som dal knihu - The man to whom I gave a book",
-        "Accusative: Žena, ktorú vidím - The woman whom I see",
-        "Locative: Dom, v ktorom bývam - The house in which I live",
-        "Instrumental: Priateľ, s ktorým idem - The friend with whom I go"
-      ]
-    },
-    {
-      "title": "Relative Pronoun - 'čí/čia/čie' (whose)",
-      "text": "The relative pronoun 'čí' (whose) introduces relative clauses showing possession. It declines like the interrogative 'čí'.",
-      "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M)", "Plural (F/N)"],
-        "rows": [
-          ["Nominative", "čí", "čia", "čie", "čí", "čie"],
-          ["Genitive", "čieho", "čej", "čieho", "čích", "čích"],
-          ["Dative", "čiemu", "čej", "čiemu", "čím", "čím"],
-          ["Accusative", "čieho/čí", "čiu", "čie", "čích", "čie"],
-          ["Locative", "čom", "čej", "čom", "čích", "čích"],
-          ["Instrumental", "čím", "čou", "čím", "čími", "čími"]
-        ]
-      },
-      "examples": [
-        "Muž, čí dom je veľký - The man whose house is big",
-        "Žena, čieho syna poznám - The woman whose son I know",
-        "Priateľ, čiemu bratovi som pomohol - The friend to whose brother I helped",
-        "Dieťa, čiu matku vidím - The child whose mother I see",
-        "Rodina, v čom dome bývame - The family in whose house we live",
-        "Človek, s čím synom pracujem - The person with whose son I work"
-      ]
-    },
-    {
-      "title": "Demonstrative Pronouns - Summary Table",
-      "text": "Complete declension pattern summary for demonstrative pronouns. Pattern applies to tento/ten/tamten with appropriate stem.",
-      "table": {
-        "headers": ["Case", "Gender", "Singular", "Plural"],
-        "rows": [
-          ["Nominative", "M", "ten/tento/tamten", "tí/títo/tamtí (personal) / tie/tieto/tamtie (non-pers)"],
-          ["Nominative", "F", "tá/táto/tamtá", "tie/tieto/tamtie"],
-          ["Nominative", "N", "to/toto/tamto", "tie/tieto/tamtie"],
-          ["Genitive", "M", "toho/tohto/tamtoho", "tých/týchto/tamtých"],
-          ["Genitive", "F", "tej/tejto/tamtej", "tých/týchto/tamtých"],
-          ["Genitive", "N", "toho/tohto/tamtoho", "tých/týchto/tamtých"],
-          ["Dative", "M", "tomu/tomuto/tamtomu", "tým/týmto/tamtým"],
-          ["Dative", "F", "tej/tejto/tamtej", "tým/týmto/tamtým"],
-          ["Dative", "N", "tomu/tomuto/tamtomu", "tým/týmto/tamtým"],
-          ["Accusative", "M", "toho/tohto/tamtoho (anim) / ten/tento/tamten (inanim)", "tých/týchto/tamtých (anim) / tie/tieto/tamtie (inanim)"],
-          ["Accusative", "F", "tú/túto/tamtú", "tie/tieto/tamtie"],
-          ["Accusative", "N", "to/toto/tamto", "tie/tieto/tamtie"],
-          ["Locative", "M", "tom/tomto/tamtom", "tých/týchto/tamtých"],
-          ["Locative", "F", "tej/tejto/tamtej", "tých/týchto/tamtých"],
-          ["Locative", "N", "tom/tomto/tamtom", "tých/týchto/tamtých"],
-          ["Instrumental", "M", "tým/týmto/tamtým", "tými/týmito/tamtými"],
-          ["Instrumental", "F", "tou/touto/tamtou", "tými/týmito/tamtými"],
-          ["Instrumental", "N", "tým/týmto/tamtým", "tými/týmito/tamtými"]
+          ["Soft-stem adjective", "môj, tvoj, svoj, náš, váš", "Decline fully through all cases with gender agreement"],
+          ["Hard-stem adjective", "ten, tento, tamten, ktorý", "Decline fully through all cases with gender agreement"],
+          ["Soft-stem adjective", "čí", "Decline fully through all cases with gender agreement"],
+          ["Invariable", "jeho, jej, ich", "Never change form regardless of case, gender, or number"],
+          ["Reflexive", "svoj", "Refers back to subject; used for all persons"]
         ]
       },
       "examples": []
-    },
-    {
-      "title": "Possessive Pronouns - Summary Table (môj/tvoj/svoj pattern)",
-      "text": "Complete declension pattern for possessive pronouns môj, tvoj, svoj (and similarly náš, váš with different stems).",
-      "table": {
-        "headers": ["Case", "Gender", "Singular", "Plural"],
-        "rows": [
-          ["Nominative", "M", "môj/tvoj/svoj", "moji/tvoji/svoji (personal) / moje/tvoje/svoje (non-pers)"],
-          ["Nominative", "F", "moja/tvoja/svoja", "moje/tvoje/svoje"],
-          ["Nominative", "N", "moje/tvoje/svoje", "moje/tvoje/svoje"],
-          ["Genitive", "M", "môjho/tvojho/svojho", "mojich/tvojich/svojich"],
-          ["Genitive", "F", "mojej/tvojej/svojej", "mojich/tvojich/svojich"],
-          ["Genitive", "N", "môjho/tvojho/svojho", "mojich/tvojich/svojich"],
-          ["Dative", "M", "môjmu/tvojmu/svojmu", "mojim/tvojim/svojim"],
-          ["Dative", "F", "mojej/tvojej/svojej", "mojim/tvojim/svojim"],
-          ["Dative", "N", "môjmu/tvojmu/svojmu", "mojim/tvojim/svojim"],
-          ["Accusative", "M", "môjho/tvojho/svojho (anim) / môj/tvoj/svoj (inanim)", "mojich/tvojich/svojich (anim) / moje/tvoje/svoje (inanim)"],
-          ["Accusative", "F", "moju/tvoju/svoju", "moje/tvoje/svoje"],
-          ["Accusative", "N", "moje/tvoje/svoje", "moje/tvoje/svoje"],
-          ["Locative", "M", "mojom/tvojom/svojom", "mojich/tvojich/svojich"],
-          ["Locative", "F", "mojej/tvojej/svojej", "mojich/tvojich/svojich"],
-          ["Locative", "N", "mojom/tvojom/svojom", "mojich/tvojich/svojich"],
-          ["Instrumental", "M", "mojím/tvojím/svojím", "mojimi/tvojimi/svojimi"],
-          ["Instrumental", "F", "mojou/tvojou/svojou", "mojimi/tvojimi/svojimi"],
-          ["Instrumental", "N", "mojím/tvojím/svojím", "mojimi/tvojimi/svojimi"]
-        ]
-      },
-      "examples": []
-    },
-    {
-      "title": "Interrogative/Relative Pronouns - Summary Table (ktorý pattern)",
-      "text": "Complete declension pattern for interrogative and relative pronoun 'ktorý' (which, who, that).",
-      "table": {
-        "headers": ["Case", "Gender", "Singular", "Plural"],
-        "rows": [
-          ["Nominative", "M", "ktorý", "ktorí (personal) / ktoré (non-personal)"],
-          ["Nominative", "F", "ktorá", "ktoré"],
-          ["Nominative", "N", "ktoré", "ktoré"],
-          ["Genitive", "M", "ktorého", "ktorých"],
-          ["Genitive", "F", "ktorej", "ktorých"],
-          ["Genitive", "N", "ktorého", "ktorých"],
-          ["Dative", "M", "ktorému", "ktorým"],
-          ["Dative", "F", "ktorej", "ktorým"],
-          ["Dative", "N", "ktorému", "ktorým"],
-          ["Accusative", "M", "ktorého (anim) / ktorý (inanim)", "ktorých (anim) / ktoré (inanim)"],
-          ["Accusative", "F", "ktorú", "ktoré"],
-          ["Accusative", "N", "ktoré", "ktoré"],
-          ["Locative", "M", "ktorom", "ktorých"],
-          ["Locative", "F", "ktorej", "ktorých"],
-          ["Locative", "N", "ktorom", "ktorých"],
-          ["Instrumental", "M", "ktorým", "ktorými"],
-          ["Instrumental", "F", "ktorou", "ktorými"],
-          ["Instrumental", "N", "ktorým", "ktorými"]
-        ]
-      },
-      "examples": []
-    },
-    {
-      "title": "Interrogative/Relative Pronouns - Summary Table (čí pattern)",
-      "text": "Complete declension pattern for interrogative and relative pronoun 'čí' (whose).",
-      "table": {
-        "headers": ["Case", "Gender", "Singular", "Plural"],
-        "rows": [
-          ["Nominative", "M", "čí", "čí (personal) / čie (non-personal)"],
-          ["Nominative", "F", "čia", "čie"],
-          ["Nominative", "N", "čie", "čie"],
-          ["Genitive", "M", "čieho", "čích"],
-          ["Genitive", "F", "čej", "čích"],
-          ["Genitive", "N", "čieho", "čích"],
-          ["Dative", "M", "čiemu", "čím"],
-          ["Dative", "F", "čej", "čím"],
-          ["Dative", "N", "čiemu", "čím"],
-          ["Accusative", "M", "čieho (anim) / čí (inanim)", "čích (anim) / čie (i
+    }
+  ],
+
+  "vocab": [
+    {"slovak": "môj/moja/moje", "english": "my, mine", "type": "possessive pronoun"},
+    {"slovak": "tvoj/tvoja/tvoje", "english": "your, yours (sg)", "type": "possessive pronoun"},
+    {"slovak": "svoj/svoja/svoje", "english": "one's own", "type": "reflexive possessive"},
+    {"slovak": "náš/naša/naše", "english": "our, ours", "type": "possessive pronoun"},
+    {"slovak": "váš/vaša/vaše", "english": "your, yours (pl/formal)", "type": "possessive pronoun"},
+    {"slovak": "jeho", "english": "his, its", "type": "possessive pronoun (invariable)"},
+    {"slovak": "jej", "english": "her", "type": "possessive pronoun (invariable)"},
+    {"slovak": "ich", "english": "their", "type": "possessive pronoun (invariable)"},
+    {"slovak": "ten/tá/to", "english": "that", "type": "demonstrative pronoun"},
+    {"slovak": "tento/táto/toto", "english": "this", "type": "demonstrative pronoun"},
+    {"slovak": "tamten/tamtá/tamto", "english": "that over there", "type": "demonstrative pronoun"},
+    {"slovak": "ktorý/ktorá/ktoré", "english": "which, what, who, that", "type": "interrogative/relative pronoun"},
+    {"slovak": "čí/čia/čie", "english": "whose", "type": "interrogative/relative pronoun"}
+  ],
+
+  "exercises": []
+}
