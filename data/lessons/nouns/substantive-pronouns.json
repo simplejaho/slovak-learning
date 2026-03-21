@@ -1,1 +1,344 @@
+{
+  "rules": [
+    {
+      "title": "Substantive Pronouns - Overview",
+      "text": "Substantive pronouns in Slovak decline through all 7 cases just like nouns. They include personal pronouns (I, you, he, she, we, they), reflexive pronouns (myself, yourself), possessive pronouns used as nouns (mine, yours), demonstrative pronouns (this, that), interrogative pronouns (who, what), indefinite pronouns (someone, something), and negative pronouns (nobody, nothing).",
+      "examples": [
+        "Personal: ja (I), ty (you), on (he), ona (she), my (we), vy (you pl.), oni (they)",
+        "Reflexive: sa/si (oneself)",
+        "Indefinite: niekto (someone), niečo (something), dakto (somebody)",
+        "Negative: nikto (nobody), nič (nothing)"
+      ]
+    },
+    {
+      "title": "Personal Pronouns - Complete Declension",
+      "text": "Personal pronouns decline through all cases. Note: 1st and 2nd person have no gender distinction. 3rd person distinguishes masculine, feminine, and neuter.",
+      "table": {
+        "headers": ["Case", "ja (I)", "ty (you sg.)", "on (he)", "ona (she)", "ono (it)", "my (we)", "vy (you pl.)", "oni (they M)", "ony (they F/N)"],
+        "rows": [
+          ["Nominative", "ja", "ty", "on", "ona", "ono", "my", "vy", "oni", "ony"],
+          ["Genitive", "mňa/ma", "teba/ťa", "neho/ho", "nej", "neho/ho", "nás", "vás", "nich", "nich"],
+          ["Dative", "mne/mi", "tebe/ti", "nemu/mu", "nej", "nemu/mu", "nám", "vám", "nim", "nim"],
+          ["Accusative", "mňa/ma", "teba/ťa", "neho/ho", "ju", "neho/ho", "nás", "vás", "nich", "ich"],
+          ["Locative", "mne", "tebe", "ňom", "nej", "ňom", "nás", "vás", "nich", "nich"],
+          ["Instrumental", "mnou", "tebou", "ním", "ňou", "ním", "nami", "vami", "nimi", "nimi"]
+        ]
+      },
+      "examples": [
+        "Nominative: Ja som tu – I am here",
+        "Genitive: Bez mňa – Without me",
+        "Dative: Daj mi to – Give it to me",
+        "Accusative: Vidíš ma? – Do you see me?",
+        "Locative: O mne – About me",
+        "Instrumental: So mnou – With me"
+      ]
+    },
+    {
+      "title": "Personal Pronouns - Long vs Short Forms",
+      "text": "1st and 2nd person pronouns have long (stressed) and short (unstressed/clitic) forms in genitive, dative, and accusative. Short forms are more common in everyday speech.",
+      "table": {
+        "headers": ["Case", "Long Form", "Short Form", "Usage"],
+        "rows": [
+          ["Genitive (I)", "mňa", "ma", "Bez mňa (stressed) / Vidí ma (unstressed)"],
+          ["Genitive (you)", "teba", "ťa", "Bez teba / Vidí ťa"],
+          ["Dative (I)", "mne", "mi", "K mne (stressed) / Daj mi (unstressed)"],
+          ["Dative (you)", "tebe", "ti", "K tebe / Daj ti"],
+          ["Accusative (I)", "mňa", "ma", "Pre mňa / Vidí ma"],
+          ["Accusative (you)", "teba", "ťa", "Pre teba / Vidí ťa"]
+        ]
+      },
+      "examples": [
+        "Long (stressed): Bez mňa to neurobíš – Without ME you won't do it",
+        "Short (unstressed): Vidí ma – He sees me",
+        "Long: Daj to mne! – Give it to ME!",
+        "Short: Daj mi to – Give it to me"
+      ]
+    },
+    {
+      "title": "Third Person Pronouns - Prepositional Forms",
+      "text": "3rd person pronouns add 'n-' prefix after prepositions. This is mandatory and prevents confusion.",
+      "table": {
+        "headers": ["Case", "Without Preposition", "With Preposition", "Example"],
+        "rows": [
+          ["Genitive", "ho (him/it)", "neho", "Vidím ho / Bez neho"],
+          ["Dative", "mu (him/it)", "nemu", "Dám mu / K nemu"],
+          ["Accusative", "ho (him/it)", "neho", "Vidím ho / Pre neho"],
+          ["Locative", "—", "ňom", "O ňom (always with prep.)"],
+          ["Instrumental", "ním", "ním", "S ním (always with n-)"]
+        ]
+      },
+      "examples": [
+        "Without prep: Vidím ho – I see him",
+        "With prep: Hovorím o ňom – I'm talking about him",
+        "Without prep: Dám mu knihu – I'll give him a book",
+        "With prep: Idem k nemu – I'm going to him",
+        "Without prep: Poznám ju – I know her",
+        "With prep: Hovorím o nej – I'm talking about her"
+      ]
+    },
+    {
+      "title": "Reflexive Pronoun 'sa/si'",
+      "text": "The reflexive pronoun 'sa/si' refers back to the subject (myself, yourself, himself, herself, etc.). It has only accusative (sa) and dative (si) forms, no nominative. Used with reflexive verbs.",
+      "table": {
+        "headers": ["Case", "Form", "Example", "Translation"],
+        "rows": [
+          ["Accusative", "sa", "Umývam sa", "I wash myself"],
+          ["Dative", "si", "Kúpim si auto", "I'll buy myself a car"],
+          ["Accusative", "sa", "Učí sa", "He/she learns (himself/herself)"],
+          ["Dative", "si", "Zobral si knihu", "He took a book (for himself)"]
+        ]
+      },
+      "examples": [
+        "Umývam sa – I wash myself",
+        "Učíš sa – You learn (yourself)",
+        "Kúpil si auto – You bought yourself a car",
+        "Zobral si to – He took it (for himself)",
+        "Pamätám si – I remember (to myself)",
+        "Myslím si – I think (to myself)"
+      ]
+    },
+    {
+      "title": "Possessive Pronouns as Substantives",
+      "text": "Possessive pronouns can function as nouns (mine, yours, his, hers, ours, theirs) and decline like adjectives with gender agreement.",
+      "table": {
+        "headers": ["Case", "môj (mine M)", "moja (mine F)", "moje (mine N)", "moji (mine Pl)"],
+        "rows": [
+          ["Nominative", "môj", "moja", "moje", "moji/moje"],
+          ["Genitive", "môjho", "mojej", "môjho", "mojich"],
+          ["Dative", "môjmu", "mojej", "môjmu", "mojim"],
+          ["Accusative", "môjho/môj", "moju", "moje", "mojich/moje"],
+          ["Locative", "mojom", "mojej", "mojom", "mojich"],
+          ["Instrumental", "mojím", "mojou", "mojím", "mojimi"]
+        ]
+      },
+      "examples": [
+        "To je môj – That's mine (masculine)",
+        "To je moja – That's mine (feminine)",
+        "Vidím tvojho – I see yours (masculine animate)",
+        "Hovorím o svojom – I'm talking about mine"
+      ]
+    },
+    {
+      "title": "Demonstrative Pronouns - 'ten/tá/to' (this/that)",
+      "text": "Demonstrative pronouns 'ten' (this/that masculine), 'tá' (feminine), 'to' (neuter) decline through all cases.",
+      "table": {
+        "headers": ["Case", "ten (M)", "tá (F)", "to (N)", "tí/tie (Pl)"],
+        "rows": [
+          ["Nominative", "ten", "tá", "to", "tí (M)/tie (F/N)"],
+          ["Genitive", "toho", "tej", "toho", "tých"],
+          ["Dative", "tomu", "tej", "tomu", "tým"],
+          ["Accusative", "toho/ten", "tú", "to", "tých/tie"],
+          ["Locative", "tom", "tej", "tom", "tých"],
+          ["Instrumental", "tým", "tou", "tým", "tými"]
+        ]
+      },
+      "examples": [
+        "Nominative: Ten je dobrý – That one is good",
+        "Genitive: Cena toho – The price of that",
+        "Dative: Dám to tomu – I'll give it to that one",
+        "Accusative: Vidím toho – I see that one",
+        "Locative: O tom – About that",
+        "Instrumental: S tým – With that"
+      ]
+    },
+    {
+      "title": "Interrogative Pronouns - 'kto/čo' (who/what)",
+      "text": "Interrogative pronouns 'kto' (who) and 'čo' (what) decline through all cases.",
+      "table": {
+        "headers": ["Case", "kto (who)", "čo (what)"],
+        "rows": [
+          ["Nominative", "kto", "čo"],
+          ["Genitive", "koho", "čoho"],
+          ["Dative", "komu", "čomu"],
+          ["Accusative", "koho", "čo"],
+          ["Locative", "kom", "čom"],
+          ["Instrumental", "kým", "čím"]
+        ]
+      },
+      "examples": [
+        "Nominative: Kto je to? – Who is it?",
+        "Genitive: Koho vidíš? – Whom do you see?",
+        "Dative: Komu to dáš? – To whom will you give it?",
+        "Accusative: Koho poznáš? – Whom do you know?",
+        "Locative: O kom hovoríš? – About whom are you talking?",
+        "Instrumental: S kým ideš? – With whom are you going?"
+      ]
+    },
+    {
+      "title": "Indefinite Pronouns - 'niekto/niečo' (someone/something)",
+      "text": "Indefinite pronouns 'niekto' (someone) and 'niečo' (something) decline like 'kto' and 'čo' with the prefix 'nie-'.",
+      "table": {
+        "headers": ["Case", "niekto (someone)", "niečo (something)"],
+        "rows": [
+          ["Nominative", "niekto", "niečo"],
+          ["Genitive", "niekoho", "niečoho"],
+          ["Dative", "niekomu", "niečomu"],
+          ["Accusative", "niekoho", "niečo"],
+          ["Locative", "niekom", "niečom"],
+          ["Instrumental", "niekým", "niečím"]
+        ]
+      },
+      "examples": [
+        "Nominative: Niekto je tu – Someone is here",
+        "Genitive: Hľadám niekoho – I'm looking for someone",
+        "Dative: Dám to niekomu – I'll give it to someone",
+        "Accusative: Vidím niekoho – I see someone",
+        "Locative: Hovorím o niekom – I'm talking about someone",
+        "Instrumental: Idem s niekým – I'm going with someone"
+      ]
+    },
+    {
+      "title": "Indefinite Pronouns - 'dakto/dačo' (somebody/something)",
+      "text": "Alternative indefinite pronouns 'dakto' (somebody) and 'dačo' (something) - more colloquial than 'niekto/niečo'.",
+      "table": {
+        "headers": ["Case", "dakto (somebody)", "dačo (something)"],
+        "rows": [
+          ["Nominative", "dakto", "dačo"],
+          ["Genitive", "dakoho", "dačoho"],
+          ["Dative", "dakomu", "dačomu"],
+          ["Accusative", "dakoho", "dačo"],
+          ["Locative", "dakom", "dačom"],
+          ["Instrumental", "dakým", "dačím"]
+        ]
+      },
+      "examples": [
+        "Dakto volal – Somebody called",
+        "Potrebujem dačo – I need something",
+        "Hovoril som s dakým – I spoke with somebody",
+        "Myslím na dakoho – I'm thinking about somebody"
+      ]
+    },
+    {
+      "title": "Negative Pronouns - 'nikto/nič' (nobody/nothing)",
+      "text": "Negative pronouns 'nikto' (nobody) and 'nič' (nothing) decline like 'kto' and 'čo' with the prefix 'ni-'. Used with negative verbs.",
+      "table": {
+        "headers": ["Case", "nikto (nobody)", "nič (nothing)"],
+        "rows": [
+          ["Nominative", "nikto", "nič"],
+          ["Genitive", "nikoho", "ničoho"],
+          ["Dative", "nikomu", "ničomu"],
+          ["Accusative", "nikoho", "nič"],
+          ["Locative", "nikom", "ničom"],
+          ["Instrumental", "nikým", "ničím"]
+        ]
+      },
+      "examples": [
+        "Nominative: Nikto tu nie je – Nobody is here",
+        "Genitive: Nevidím nikoho – I don't see anybody",
+        "Dative: Nedám to nikomu – I won't give it to anybody",
+        "Accusative: Nepoznám nikoho – I don't know anybody",
+        "Locative: Nehovorím o nikom – I'm not talking about anybody",
+        "Instrumental: Neidem s nikým – I'm not going with anybody"
+      ]
+    },
+    {
+      "title": "Indefinite Pronouns - 'každý' (everyone/each)",
+      "text": "The pronoun 'každý' (everyone, each, every) declines like an adjective with gender agreement.",
+      "table": {
+        "headers": ["Case", "každý (M)", "každá (F)", "každé (N)", "každí (Pl)"],
+        "rows": [
+          ["Nominative", "každý", "každá", "každé", "každí/každé"],
+          ["Genitive", "každého", "každej", "každého", "každých"],
+          ["Dative", "každému", "každej", "každému", "každým"],
+          ["Accusative", "každého/každý", "každú", "každé", "každých/každé"],
+          ["Locative", "každom", "každej", "každom", "každých"],
+          ["Instrumental", "každým", "každou", "každým", "každými"]
+        ]
+      },
+      "examples": [
+        "Každý to vie – Everyone knows it",
+        "Hovorím s každým – I talk with everyone",
+        "Dám to každému – I'll give it to everyone",
+        "Vidím každého – I see everyone"
+      ]
+    },
+    {
+      "title": "Indefinite Pronouns - 'všetko' (everything)",
+      "text": "The pronoun 'všetko' (everything, all) declines through all cases.",
+      "table": {
+        "headers": ["Case", "všetko (everything)"],
+        "rows": [
+          ["Nominative", "všetko"],
+          ["Genitive", "všetkého"],
+          ["Dative", "všetkému"],
+          ["Accusative", "všetko"],
+          ["Locative", "všetkom"],
+          ["Instrumental", "všetkým"]
+        ]
+      },
+      "examples": [
+        "Nominative: Všetko je tu – Everything is here",
+        "Genitive: Cena všetkého – The price of everything",
+        "Dative: Rozumiem všetkému – I understand everything",
+        "Accusative: Vidím všetko – I see everything",
+        "Locative: O všetkom – About everything",
+        "Instrumental: So všetkým – With everything"
+      ]
+    },
+    {
+      "title": "Relative Pronoun - 'ktorý' (who/which/that)",
+      "text": "The relative pronoun 'ktorý' (who, which, that) introduces relative clauses and declines like an adjective.",
+      "table": {
+        "headers": ["Case", "ktorý (M)", "ktorá (F)", "ktoré (N)", "ktorí (Pl)"],
+        "rows": [
+          ["Nominative", "ktorý", "ktorá", "ktoré", "ktorí/ktoré"],
+          ["Genitive", "ktorého", "ktorej", "ktorého", "ktorých"],
+          ["Dative", "ktorému", "ktorej", "ktorému", "ktorým"],
+          ["Accusative", "ktorého/ktorý", "ktorú", "ktoré", "ktorých/ktoré"],
+          ["Locative", "ktorom", "ktorej", "ktorom", "ktorých"],
+          ["Instrumental", "ktorým", "ktorou", "ktorým", "ktorými"]
+        ]
+      },
+      "examples": [
+        "Muž, ktorý pracuje – The man who works",
+        "Žena, ktorú vidím – The woman whom I see",
+        "Dom, v ktorom bývam – The house in which I live",
+        "Priateľ, s ktorým idem – The friend with whom I go"
+      ]
+    },
+    {
+      "title": "Pronoun 'sám' (self, alone)",
+      "text": "The emphatic pronoun 'sám' (self, alone, by oneself) declines like an adjective and emphasizes the subject.",
+      "table": {
+        "headers": ["Case", "sám (M)", "sama (F)", "samo (N)", "sami (Pl)"],
+        "rows": [
+          ["Nominative", "sám", "sama", "samo", "sami/samy"],
+          ["Genitive", "samého", "samej", "samého", "samých"],
+          ["Dative", "samému", "samej", "samému", "samým"],
+          ["Accusative", "samého/sám", "samu", "samo", "samých/samy"],
+          ["Locative", "samom", "samej", "samom", "samých"],
+          ["Instrumental", "samým", "samou", "samým", "samými"]
+        ]
+      },
+      "examples": [
+        "Urobil som to sám – I did it myself",
+        "Ona je sama doma – She is alone at home",
+        "Hovoril som so samým prezidentom – I spoke with the president himself",
+        "Sami to vieme – We know it ourselves"
+      ]
+    },
+    {
+      "title": "Pronoun Usage Summary",
+      "text": "Quick reference for when to use each pronoun type.",
+      "table": {
+        "headers": ["Pronoun Type", "Usage", "Example"],
+        "rows": [
+          ["Personal", "Refer to people/things", "Ja som tu (I am here)"],
+          ["Reflexive", "Action reflects back to subject", "Umývam sa (I wash myself)"],
+          ["Possessive", "Show ownership as noun", "To je môj (That's mine)"],
+          ["Demonstrative", "Point to specific things", "Ten je dobrý (That one is good)"],
+          ["Interrogative", "Ask questions", "Kto je to? (Who is it?)"],
+          ["Indefinite", "Refer to unspecified things", "Niekto volal (Someone called)"],
+          ["Negative", "Negate existence", "Nikto tu nie je (Nobody is here)"],
+          ["Relative", "Connect clauses", "Muž, ktorý... (The man who...)"],
+          ["Emphatic", "Emphasize subject", "Sám to urobím (I'll do it myself)"]
+        ]
+      },
+      "examples": []
+    }
+  ],
 
+  "vocab": [],
+
+  "exercises": []
+}
