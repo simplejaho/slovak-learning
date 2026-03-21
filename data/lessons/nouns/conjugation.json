@@ -1,0 +1,357 @@
+{
+  "rules": [
+    {
+      "title": "Slovak Noun Cases - Overview",
+      "text": "Slovak has 7 grammatical cases that change noun endings based on their function in a sentence. Each case answers specific questions and is used in particular contexts. Nouns are also categorized by gender: masculine (M), feminine (F), and neuter (N).",
+      "table": {
+        "headers": ["Case", "Abbreviation", "Questions", "Primary Uses"],
+        "rows": [
+          ["Nominative", "N", "kto? čo? (who? what?)", "Subject of sentence"],
+          ["Genitive", "G", "koho? čoho? (whose? of what?)", "Possession, negation, quantity"],
+          ["Dative", "D", "komu? čomu? (to whom? to what?)", "Indirect object, recipient"],
+          ["Accusative", "A", "koho? čo? (whom? what?)", "Direct object"],
+          ["Locative", "L", "o kom? o čom? (about whom? about what?)", "Location, topic (with prepositions)"],
+          ["Instrumental", "I", "s kým? s čím? (with whom? with what?)", "Means, accompaniment"]
+        ]
+      },
+      "examples": [
+        "Nominative: Muž je tu – The man is here",
+        "Genitive: Dom muža – The man's house",
+        "Dative: Dám mužovi knihu – I'll give the man a book",
+        "Accusative: Vidím muža – I see the man",
+        "Locative: Hovorím o mužovi – I'm talking about the man",
+        "Instrumental: Idem s mužom – I'm going with the man"
+      ]
+    },
+    {
+      "title": "Complete Declension Table - All Cases",
+      "text": "Summary of noun endings across all cases, genders, and numbers. Note: (H) = hard consonant ending, (H-) = soft consonant ending, +vowel = add vowel, vowel→vowel = replace vowel.",
+      "table": {
+        "headers": ["Case", "Gender", "Singular", "Plural"],
+        "rows": [
+          ["Nominative", "M", "—", "+i / +y / +ia(H)"],
+          ["Nominative", "F", "—", "a → y"],
+          ["Nominative", "N", "—", "o → a, e → ia"],
+          ["Genitive", "M", "+a", "+ov"],
+          ["Genitive", "F", "a → y", "remove vowel"],
+          ["Genitive", "N", "o/e → a", "remove vowel"],
+          ["Dative", "M", "+u", "+om"],
+          ["Dative", "F", "a → e", "+am"],
+          ["Dative", "N", "+u", "+am"],
+          ["Accusative", "M", "(H)+a/(H-)e", "(H)+a/(H-)e"],
+          ["Accusative", "F", "a → u", "+y/e"],
+          ["Accusative", "N", "—", "—"],
+          ["Locative", "M", "(H)ovi/(H-)e", "+och"],
+          ["Locative", "F", "a → e/i", "+ach"],
+          ["Locative", "N", "o/e → e, e → i", "+ach"],
+          ["Instrumental", "M", "+om", "+mi"],
+          ["Instrumental", "F", "+ou", "+ami"],
+          ["Instrumental", "N", "+om", "+ami"]
+        ]
+      },
+      "examples": []
+    },
+    {
+      "title": "Masculine Nouns - Hard Consonants",
+      "text": "Masculine nouns ending in hard consonants (p, b, t, d, k, g, ch, h, m, n, r, l, s, z). Example: 'muž' (man).",
+      "table": {
+        "headers": ["Case", "Singular", "Plural", "Example Singular", "Example Plural"],
+        "rows": [
+          ["Nominative", "muž", "muži", "muž", "muži"],
+          ["Genitive", "muža", "mužov", "muža", "mužov"],
+          ["Dative", "mužovi", "mužom", "mužovi", "mužom"],
+          ["Accusative", "muža", "mužov", "muža", "mužov"],
+          ["Locative", "mužovi", "mužoch", "o mužovi", "o mužoch"],
+          ["Instrumental", "mužom", "mužmi", "s mužom", "s mužmi"]
+        ]
+      },
+      "examples": [
+        "Nominative: Muž pracuje – The man works",
+        "Genitive: Dom muža – The man's house",
+        "Dative: Dám mužovi knihu – I'll give the man a book",
+        "Accusative: Vidím muža – I see the man",
+        "Locative: Hovorím o mužovi – I'm talking about the man",
+        "Instrumental: Idem s mužom – I'm going with the man"
+      ]
+    },
+    {
+      "title": "Masculine Nouns - Soft Consonants",
+      "text": "Masculine nouns ending in soft consonants (j, c, dz, č, dž, š, ž, ť, ď, ň, ľ). Example: 'učiteľ' (teacher).",
+      "table": {
+        "headers": ["Case", "Singular", "Plural", "Example Singular", "Example Plural"],
+        "rows": [
+          ["Nominative", "učiteľ", "učitelia", "učiteľ", "učitelia"],
+          ["Genitive", "učiteľa", "učiteľov", "učiteľa", "učiteľov"],
+          ["Dative", "učiteľovi", "učiteľom", "učiteľovi", "učiteľom"],
+          ["Accusative", "učiteľa", "učiteľov", "učiteľa", "učiteľov"],
+          ["Locative", "učiteľovi", "učiteľoch", "o učiteľovi", "o učiteľoch"],
+          ["Instrumental", "učiteľom", "učiteľmi", "s učiteľom", "s učiteľmi"]
+        ]
+      },
+      "examples": [
+        "Nominative: Učiteľ učí – The teacher teaches",
+        "Genitive: Kniha učiteľa – The teacher's book",
+        "Dative: Dám učiteľovi pero – I'll give the teacher a pen",
+        "Accusative: Vidím učiteľa – I see the teacher"
+      ]
+    },
+    {
+      "title": "Masculine Inanimate Nouns",
+      "text": "Masculine inanimate nouns (objects, not people/animals) have different accusative forms. Example: 'stôl' (table).",
+      "table": {
+        "headers": ["Case", "Singular", "Plural", "Example Singular", "Example Plural"],
+        "rows": [
+          ["Nominative", "stôl", "stoly", "stôl", "stoly"],
+          ["Genitive", "stola", "stolov", "stola", "stolov"],
+          ["Dative", "stolu", "stolom", "stolu", "stolom"],
+          ["Accusative", "stôl", "stoly", "stôl", "stoly"],
+          ["Locative", "stole", "stoloch", "na stole", "na stoloch"],
+          ["Instrumental", "stolom", "stolmi", "so stolom", "so stolmi"]
+        ]
+      },
+      "examples": [
+        "Nominative: Stôl je veľký – The table is big",
+        "Genitive: Noha stola – The table's leg",
+        "Accusative: Vidím stôl – I see the table (same as nominative for inanimates)",
+        "Locative: Kniha je na stole – The book is on the table"
+      ]
+    },
+    {
+      "title": "Feminine Nouns - Type 'žena'",
+      "text": "Feminine nouns ending in -a. Example: 'žena' (woman).",
+      "table": {
+        "headers": ["Case", "Singular", "Plural", "Example Singular", "Example Plural"],
+        "rows": [
+          ["Nominative", "žena", "ženy", "žena", "ženy"],
+          ["Genitive", "ženy", "žien", "ženy", "žien"],
+          ["Dative", "žene", "ženám", "žene", "ženám"],
+          ["Accusative", "ženu", "ženy", "ženu", "ženy"],
+          ["Locative", "žene", "ženách", "o žene", "o ženách"],
+          ["Instrumental", "ženou", "ženami", "so ženou", "so ženami"]
+        ]
+      },
+      "examples": [
+        "Nominative: Žena pracuje – The woman works",
+        "Genitive: Kniha ženy – The woman's book",
+        "Dative: Dám žene kvetinu – I'll give the woman a flower",
+        "Accusative: Vidím ženu – I see the woman",
+        "Locative: Hovorím o žene – I'm talking about the woman",
+        "Instrumental: Idem so ženou – I'm going with the woman"
+      ]
+    },
+    {
+      "title": "Feminine Nouns - Type 'ulica'",
+      "text": "Feminine nouns ending in -a with soft consonants before -a. Example: 'ulica' (street).",
+      "table": {
+        "headers": ["Case", "Singular", "Plural", "Example Singular", "Example Plural"],
+        "rows": [
+          ["Nominative", "ulica", "ulice", "ulica", "ulice"],
+          ["Genitive", "ulice", "ulíc", "ulice", "ulíc"],
+          ["Dative", "ulici", "uliciam", "ulici", "uliciam"],
+          ["Accusative", "ulicu", "ulice", "ulicu", "ulice"],
+          ["Locative", "ulici", "uliciach", "na ulici", "na uliciach"],
+          ["Instrumental", "ulicou", "ulicami", "s ulicou", "s ulicami"]
+        ]
+      },
+      "examples": [
+        "Nominative: Ulica je dlhá – The street is long",
+        "Genitive: Koniec ulice – The end of the street",
+        "Locative: Bývam na ulici – I live on the street",
+        "Instrumental: Idem ulicou – I'm going along the street"
+      ]
+    },
+    {
+      "title": "Feminine Nouns - Consonant Ending",
+      "text": "Feminine nouns ending in consonants (no -a). Example: 'kosť' (bone).",
+      "table": {
+        "headers": ["Case", "Singular", "Plural", "Example Singular", "Example Plural"],
+        "rows": [
+          ["Nominative", "kosť", "kosti", "kosť", "kosti"],
+          ["Genitive", "kosti", "kostí", "kosti", "kostí"],
+          ["Dative", "kosti", "kostiam", "kosti", "kostiam"],
+          ["Accusative", "kosť", "kosti", "kosť", "kosti"],
+          ["Locative", "kosti", "kostiach", "o kosti", "o kostiach"],
+          ["Instrumental", "kosťou", "kosťami", "s kosťou", "s kosťami"]
+        ]
+      },
+      "examples": [
+        "Nominative: Kosť je tvrdá – The bone is hard",
+        "Genitive: Kúsok kosti – A piece of bone",
+        "Dative: Dám psovi kosť – I'll give the dog a bone",
+        "Accusative: Mám kosť – I have a bone"
+      ]
+    },
+    {
+      "title": "Neuter Nouns - Type 'mesto'",
+      "text": "Neuter nouns ending in -o. Example: 'mesto' (city).",
+      "table": {
+        "headers": ["Case", "Singular", "Plural", "Example Singular", "Example Plural"],
+        "rows": [
+          ["Nominative", "mesto", "mestá", "mesto", "mestá"],
+          ["Genitive", "mesta", "miest", "mesta", "miest"],
+          ["Dative", "mestu", "mestám", "mestu", "mestám"],
+          ["Accusative", "mesto", "mestá", "mesto", "mestá"],
+          ["Locative", "meste", "mestách", "v meste", "v mestách"],
+          ["Instrumental", "mestom", "mestami", "s mestom", "s mestami"]
+        ]
+      },
+      "examples": [
+        "Nominative: Mesto je veľké – The city is big",
+        "Genitive: Centrum mesta – The city center",
+        "Dative: Idem k mestu – I'm going to the city",
+        "Accusative: Vidím mesto – I see the city",
+        "Locative: Bývam v meste – I live in the city",
+        "Instrumental: Som spokojný s mestom – I'm satisfied with the city"
+      ]
+    },
+    {
+      "title": "Neuter Nouns - Type 'srdce'",
+      "text": "Neuter nouns ending in -e. Example: 'srdce' (heart).",
+      "table": {
+        "headers": ["Case", "Singular", "Plural", "Example Singular", "Example Plural"],
+        "rows": [
+          ["Nominative", "srdce", "srdcia", "srdce", "srdcia"],
+          ["Genitive", "srdca", "sŕdc", "srdca", "sŕdc"],
+          ["Dative", "srdcu", "srdciam", "srdcu", "srdciam"],
+          ["Accusative", "srdce", "srdcia", "srdce", "srdcia"],
+          ["Locative", "srdci", "srdciach", "v srdci", "v srdciach"],
+          ["Instrumental", "srdcom", "srdcami", "so srdcom", "so srdcami"]
+        ]
+      },
+      "examples": [
+        "Nominative: Srdce bije – The heart beats",
+        "Genitive: Tlkot srdca – The heartbeat",
+        "Locative: V srdci – In the heart",
+        "Instrumental: So srdcom – With heart"
+      ]
+    },
+    {
+      "title": "Nominative Case - Subject",
+      "text": "The nominative case is the basic dictionary form. It's used for the subject of a sentence (who/what performs the action).",
+      "examples": [
+        "Muž pracuje – The man works",
+        "Žena číta – The woman reads",
+        "Dieťa spí – The child sleeps",
+        "Študenti sa učia – The students are learning"
+      ]
+    },
+    {
+      "title": "Genitive Case - Possession and Negation",
+      "text": "The genitive case expresses possession (whose?), quantity, and is used after negated verbs. Also used with certain prepositions (bez, do, od, z, u, okolo).",
+      "examples": [
+        "Dom otca – Father's house (possession)",
+        "Nemám psa – I don't have a dog (negation)",
+        "Kúsok chleba – A piece of bread (quantity)",
+        "Bez peňazí – Without money (preposition)",
+        "Od učiteľa – From the teacher"
+      ]
+    },
+    {
+      "title": "Dative Case - Indirect Object",
+      "text": "The dative case indicates the indirect object (to whom/what something is given or done). Used with certain verbs and prepositions (k, ku, proti, vďaka).",
+      "examples": [
+        "Dám mužovi knihu – I'll give the man a book",
+        "Pomôžem žene – I'll help the woman",
+        "Idem k doktorovi – I'm going to the doctor",
+        "Vďaka priateľovi – Thanks to a friend"
+      ]
+    },
+    {
+      "title": "Accusative Case - Direct Object",
+      "text": "The accusative case marks the direct object (whom/what the action affects). Also used with certain prepositions (na, za, cez, pre, o). For masculine animate nouns, accusative = genitive. For masculine inanimate, accusative = nominative.",
+      "examples": [
+        "Vidím muža – I see the man (animate = genitive form)",
+        "Vidím stôl – I see the table (inanimate = nominative form)",
+        "Čítam knihu – I'm reading a book",
+        "Idem na poštu – I'm going to the post office",
+        "Čakám na autobus – I'm waiting for the bus"
+      ]
+    },
+    {
+      "title": "Locative Case - Location and Topic",
+      "text": "The locative case is always used with prepositions and indicates location (where?) or topic (about what?). Common prepositions: v/vo (in), na (on/at), o (about), po (after), pri (at/by).",
+      "examples": [
+        "V meste – In the city",
+        "Na stole – On the table",
+        "O mužovi – About the man",
+        "Pri dome – At/by the house",
+        "Po obede – After lunch"
+      ]
+    },
+    {
+      "title": "Instrumental Case - Means and Accompaniment",
+      "text": "The instrumental case expresses means (with what?), accompaniment (with whom?), and is used with certain verbs (byť = to be with professions). Common prepositions: s/so (with), medzi (between), pred (before), nad (above), pod (under), za (behind).",
+      "examples": [
+        "Píšem perom – I write with a pen (means)",
+        "Idem s priateľom – I'm going with a friend (accompaniment)",
+        "Som učiteľom – I am a teacher (profession)",
+        "Medzi domami – Between houses",
+        "Pred školou – In front of the school"
+      ]
+    },
+    {
+      "title": "Animate vs Inanimate Masculine",
+      "text": "Masculine nouns are divided into animate (people, animals) and inanimate (objects). This affects the accusative case: animate accusative = genitive form, inanimate accusative = nominative form.",
+      "table": {
+        "headers": ["Type", "Nominative", "Accusative", "Example"],
+        "rows": [
+          ["Animate", "muž", "muža", "Vidím muža (I see the man)"],
+          ["Animate", "pes", "psa", "Vidím psa (I see the dog)"],
+          ["Inanimate", "stôl", "stôl", "Vidím stôl (I see the table)"],
+          ["Inanimate", "dom", "dom", "Vidím dom (I see the house)"]
+        ]
+      },
+      "examples": [
+        "Animate: Volám otca – I'm calling father (otca = accusative)",
+        "Inanimate: Kupujem dom – I'm buying a house (dom = nominative form)"
+      ]
+    },
+    {
+      "title": "Plural Nominative Patterns",
+      "text": "Plural nominative endings vary by gender and consonant type (hard vs soft).",
+      "table": {
+        "headers": ["Gender", "Pattern", "Example Singular", "Example Plural"],
+        "rows": [
+          ["Masculine hard", "+i", "muž", "muži"],
+          ["Masculine hard", "+y", "hrad", "hrady"],
+          ["Masculine soft", "+ia", "učiteľ", "učitelia"],
+          ["Feminine -a", "a → y", "žena", "ženy"],
+          ["Feminine -a soft", "a → e", "ulica", "ulice"],
+          ["Neuter -o", "o → á", "mesto", "mestá"],
+          ["Neuter -e", "e → ia", "srdce", "srdcia"]
+        ]
+      },
+      "examples": [
+        "muž → muži (men)",
+        "žena → ženy (women)",
+        "mesto → mestá (cities)",
+        "učiteľ → učitelia (teachers)"
+      ]
+    },
+    {
+      "title": "Genitive Plural - Vowel Removal",
+      "text": "Feminine and neuter genitive plural often involves removing the final vowel from the nominative singular and sometimes adding consonant changes.",
+      "table": {
+        "headers": ["Gender", "Nominative Singular", "Genitive Plural", "Pattern"],
+        "rows": [
+          ["Feminine", "žena", "žien", "remove -a, add -ien"],
+          ["Feminine", "ulica", "ulíc", "remove -a"],
+          ["Feminine", "kosť", "kostí", "add -í"],
+          ["Neuter", "mesto", "miest", "remove -o, add -iest"],
+          ["Neuter", "srdce", "sŕdc", "remove -e"],
+          ["Masculine", "muž", "mužov", "add -ov"]
+        ]
+      },
+      "examples": [
+        "päť žien – five women",
+        "desať miest – ten cities",
+        "skupina mužov – a group of men",
+        "veľa ulíc – many streets"
+      ]
+    }
+  ],
+
+  "vocab": [],
+
+  "exercises": []
+}
