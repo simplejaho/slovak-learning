@@ -1,4 +1,3 @@
-
 {
   "rules": [
     {
@@ -415,3 +414,61 @@
           ["both", "obaja (m) / obe (f/n)", "Both", "obaja bratia (both brothers)"],
           ["pair", "pár", "A couple", "pár dní (a couple of days)"]
         ]
+      },
+      "examples": [
+        "Dvoje dverí - Two doors (as a pair)",
+        "Troje detí - Three children (as a group)",
+        "Obaja bratia - Both brothers",
+        "Obe sestry - Both sisters",
+        "Pár dní - A couple of days",
+        "Dvoje topánok - Two pairs of shoes",
+        "Štvoro ľudí - Four people (as a group)"
+      ]
+    },
+    {
+      "title": "Summary - Cardinal Number Behavior",
+      "text": "Quick reference comparing how different cardinal numbers behave grammatically in Slovak.",
+      "table": {
+        "headers": ["Feature", "jeden (1)", "dva/tri/štyri (2-4)", "päť+ (5+)"],
+        "rows": [
+          ["Gender agreement", "Full (m/f/n)", "Limited (dva: m/f-n; tri/štyri: pers/non-pers)", "None"],
+          ["Case declension", "Full like adjective", "Limited oblique cases", "Full but no gender"],
+          ["Noun case (Nom)", "Nominative singular", "Nominative plural", "Genitive plural"],
+          ["Noun case (Gen)", "Genitive singular", "Genitive plural", "Genitive plural"],
+          ["Noun case (Dat)", "Dative singular", "Dative plural", "Dative plural"],
+          ["Noun case (Acc)", "Accusative singular", "Accusative plural", "Genitive plural"],
+          ["Noun case (Loc)", "Locative singular", "Locative plural", "Locative plural"],
+          ["Noun case (Ins)", "Instrumental singular", "Instrumental plural", "Instrumental plural"],
+          ["Animate distinction", "Yes (accusative)", "Yes (nominative/accusative)", "No"],
+          ["Substantive use", "Common", "Common", "Common"],
+          ["Example", "jeden muž", "dva muži", "päť mužov"]
+        ]
+      },
+      "examples": []
+    }
+  ],
+
+  "vocab": [
+    {"slovak": "jeden/jedna/jedno", "english": "one", "type": "cardinal"},
+    {"slovak": "dva/dve", "english": "two", "type": "cardinal"},
+    {"slovak": "tri", "english": "three", "type": "cardinal"},
+    {"slovak": "štyri", "english": "four", "type": "cardinal"},
+    {"slovak": "päť", "english": "five", "type": "cardinal"},
+    {"slovak": "šesť", "english": "six", "type": "cardinal"},
+    {"slovak": "sedem", "english": "seven", "type": "cardinal"},
+    {"slovak": "osem", "english": "eight", "type": "cardinal"},
+    {"slovak": "deväť", "english": "nine", "type": "cardinal"},
+    {"slovak": "desať", "english": "ten", "type": "cardinal"},
+    {"slovak": "jedenásť", "english": "eleven", "type": "cardinal"},
+    {"slovak": "dvanásť", "english": "twelve", "type": "cardinal"},
+    {"slovak": "dvadsať", "english": "twenty", "type": "cardinal"},
+    {"slovak": "tridsať", "english": "thirty", "type": "cardinal"},
+    {"slovak": "sto", "english": "one hundred", "type": "cardinal"},
+    {"slovak": "tisíc", "english": "one thousand", "type": "cardinal"},
+    {"slovak": "dvoje", "english": "two (collective)", "type": "collective"},
+    {"slovak": "troje", "english": "three (collective)", "type": "collective"},
+    {"slovak": "obaja/obe", "english": "both", "type": "collective"}
+  ],
+
+  "exercises": []
+}
