@@ -20,7 +20,7 @@
         { "title": "Cases", "lesson": "data/lessons/nouns/cases.json" },
         { "title": "Conjugation", "lesson": "data/lessons/nouns/conjugation.json" },
         { "title": "Substantive Pronouns", "lesson": "data/lessons/nouns/substantive-pronouns.json" },
-        { "title": "Substantive Pronouns", "lesson": "data/lessons/nouns/cardinals.json" }
+        { "title": "Cardinals", "lesson": "data/lessons/nouns/cardinals.json" }
       ]
     },
     {
