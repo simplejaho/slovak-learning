@@ -1,0 +1,296 @@
+{
+  "rules": [
+    {
+      "title": "Ordinals Behaving Like Adjectives - Overview",
+      "text": "Ordinal numbers (first, second, third, etc.) function as adjectives when they modify nouns by indicating position, rank, or order in a sequence. Like other adjectives, ordinals come before the noun they modify and agree with it in number. They answer the question 'which one?' by specifying order.",
+      "examples": [
+        "The first impression is often the most lasting.",
+        "She won first prize in the competition.",
+        "They live on the third floor.",
+        "This is my fifth attempt."
+      ]
+    },
+    {
+      "title": "First - Ordinal as Adjective",
+      "text": "'First' is the most common ordinal adjective, indicating the initial position in a sequence. It can modify singular or plural nouns and often implies importance or priority beyond mere position.",
+      "table": {
+        "headers": ["Sentence", "Noun Modified", "Function", "Notes"],
+        "rows": [
+          ["The first impression is often the most lasting.", "impression", "Describes position in sequence", "Singular noun"],
+          ["She won first prize in the competition.", "prize", "Indicates rank/position", "Implies highest value"],
+          ["This is my first attempt at baking bread.", "attempt", "Shows initial occurrence", "Temporal sequence"],
+          ["The first three students will receive awards.", "students", "Modifies plural noun", "Can modify groups"],
+          ["First place goes to the winner.", "place", "Indicates ranking", "Competition context"]
+        ]
+      },
+      "examples": [
+        "The first day of school is always exciting.",
+        "He made a first impression that lasted.",
+        "First base is closest to home plate.",
+        "She's in her first year of college."
+      ]
+    },
+    {
+      "title": "Second - Ordinal as Adjective",
+      "text": "'Second' indicates the position immediately following the first. It's commonly used in comparisons, rankings, and when presenting alternatives or options.",
+      "table": {
+        "headers": ["Sentence", "Noun Modified", "Function", "Notes"],
+        "rows": [
+          ["He finished in second place.", "place", "Indicates ranking", "Competition result"],
+          ["This is my second cup of coffee today.", "cup", "Counts occurrence", "Temporal sequence"],
+          ["The second option seems more practical.", "option", "Identifies alternative", "Comparison context"],
+          ["She lives on the second floor.", "floor", "Spatial position", "Building level"],
+          ["The second chapter is more interesting.", "chapter", "Sequential position", "Book structure"]
+        ]
+      },
+      "examples": [
+        "Second thoughts made her reconsider.",
+        "He's my second cousin.",
+        "The second half of the game was better.",
+        "This is our second meeting this month."
+      ]
+    },
+    {
+      "title": "Third - Ordinal as Adjective",
+      "text": "'Third' indicates the position after the second. It's frequently used for rankings, floors, repeated occurrences, and sequential items.",
+      "table": {
+        "headers": ["Sentence", "Noun Modified", "Function", "Notes"],
+        "rows": [
+          ["They live on the third floor.", "floor", "Spatial position", "Building level"],
+          ["This is the third time I've explained this.", "time", "Counts repetition", "Emphasizes frequency"],
+          ["He came in third in the race.", "third (position)", "Indicates rank", "Competition result"],
+          ["The third quarter showed improvement.", "quarter", "Temporal division", "Business/sports context"],
+          ["Third base is near the dugout.", "base", "Spatial position", "Baseball field"]
+        ]
+      },
+      "examples": [
+        "The third chapter introduces the villain.",
+        "She's in her third trimester.",
+        "Third gear is for higher speeds.",
+        "The third option is the cheapest."
+      ]
+    },
+    {
+      "title": "Fourth - Ordinal as Adjective",
+      "text": "'Fourth' indicates the position after the third. Commonly used for academic years, quarters, sequential events, and rankings.",
+      "table": {
+        "headers": ["Sentence", "Noun Modified", "Function", "Notes"],
+        "rows": [
+          ["July is the fourth month with 31 days.", "month", "Sequential position", "Calendar context"],
+          ["This is our fourth meeting this week.", "meeting", "Counts occurrence", "Frequency emphasis"],
+          ["She's in her fourth year of medical school.", "year", "Academic progress", "Educational context"],
+          ["The fourth quarter is crucial.", "quarter", "Temporal division", "Business/sports"],
+          ["Fourth place still gets a ribbon.", "place", "Ranking position", "Competition"]
+        ]
+      },
+      "examples": [
+        "The fourth floor has the best view.",
+        "This is my fourth revision.",
+        "Fourth gear is the smoothest.",
+        "The Fourth of July is a holiday."
+      ]
+    },
+    {
+      "title": "Fifth - Ordinal as Adjective",
+      "text": "'Fifth' indicates the position after the fourth. Used for numbered works, revisions, counting items, and sequential positions.",
+      "table": {
+        "headers": ["Sentence", "Noun Modified", "Function", "Notes"],
+        "rows": [
+          ["Beethoven's Fifth Symphony is iconic.", "Symphony", "Identifies numbered work", "Classical music"],
+          ["This is the fifth draft of my essay.", "draft", "Shows revision progress", "Writing process"],
+          ["He drank his fifth glass of water.", "glass", "Counts consumption", "Quantity tracking"],
+          ["The fifth grade is challenging.", "grade", "Educational level", "School system"],
+          ["Fifth Avenue is famous for shopping.", "Avenue", "Street identification", "Proper noun modifier"]
+        ]
+      },
+      "examples": [
+        "The fifth element is surprise.",
+        "She's my fifth caller today.",
+        "Fifth place earns a certificate.",
+        "The fifth inning was scoreless."
+      ]
+    },
+    {
+      "title": "Sixth through Tenth - Ordinals as Adjectives",
+      "text": "Higher ordinals (sixth, seventh, eighth, ninth, tenth) follow the same adjectival pattern, modifying nouns to indicate their position in longer sequences.",
+      "table": {
+        "headers": ["Ordinal", "Example Sentence", "Noun Modified", "Context"],
+        "rows": [
+          ["Sixth", "The sixth sense is intuition.", "sense", "Abstract concept"],
+          ["Seventh", "The seventh day is for rest.", "day", "Weekly cycle"],
+          ["Eighth", "The eighth grade is middle school.", "grade", "Education"],
+          ["Ninth", "The ninth inning decided the game.", "inning", "Baseball"],
+          ["Tenth", "The tenth anniversary is special.", "anniversary", "Milestone"],
+          ["Sixth", "She lives on the sixth floor.", "floor", "Building level"],
+          ["Seventh", "This is my seventh attempt.", "attempt", "Repetition"],
+          ["Eighth", "The eighth chapter is the climax.", "chapter", "Book structure"]
+        ]
+      },
+      "examples": [
+        "The sixth month is June.",
+        "Seventh heaven means perfect happiness.",
+        "The eighth wonder of the world.",
+        "Ninth place is still respectable.",
+        "The tenth commandment warns against coveting."
+      ]
+    },
+    {
+      "title": "Last - Ordinal as Adjective",
+      "text": "'Last' is a special ordinal indicating the final position in a sequence. It implies finality and often suggests importance, urgency, or no future opportunities.",
+      "table": {
+        "headers": ["Sentence", "Noun Modified", "Function", "Notes"],
+        "rows": [
+          ["That was the last piece of cake.", "piece", "Indicates finality", "Nothing remains"],
+          ["She had the last word in the argument.", "word", "Shows conclusion", "Final statement"],
+          ["This is my last chance to apply.", "chance", "Emphasizes urgency", "No more opportunities"],
+          ["The last train leaves at midnight.", "train", "Final option", "Time constraint"],
+          ["Last place is still an achievement.", "place", "Lowest ranking", "Competition context"]
+        ]
+      },
+      "examples": [
+        "The last day of school is exciting.",
+        "He spent his last dollar.",
+        "Last call for boarding!",
+        "The last chapter ties everything together."
+      ]
+    },
+    {
+      "title": "Ordinals with Plural Nouns",
+      "text": "Ordinals can modify plural nouns when referring to groups or ranges. The ordinal remains singular while the noun is plural.",
+      "table": {
+        "headers": ["Example", "Ordinal", "Plural Noun", "Meaning"],
+        "rows": [
+          ["The first three students", "first", "students", "Students ranked 1-3"],
+          ["The last five pages", "last", "pages", "Final five pages"],
+          ["The second two chapters", "second", "chapters", "Chapters 3-4"],
+          ["The next ten days", "next", "days", "Following ten days"],
+          ["The first few attempts", "first", "attempts", "Initial several attempts"]
+        ]
+      },
+      "examples": [
+        "The first two winners receive prizes.",
+        "The last three items are on sale.",
+        "The next several weeks will be busy.",
+        "The first few years were difficult."
+      ]
+    },
+    {
+      "title": "Ordinals in Compound Modifiers",
+      "text": "Ordinals can combine with other adjectives or nouns to create compound modifiers, often hyphenated when preceding the noun.",
+      "table": {
+        "headers": ["Compound Modifier", "Example Sentence", "Function"],
+        "rows": [
+          ["first-place", "She won the first-place trophy.", "Ranking + noun"],
+          ["second-hand", "He bought a second-hand car.", "Ordinal + noun"],
+          ["third-party", "We need third-party verification.", "Ordinal + noun"],
+          ["first-class", "They flew first-class tickets.", "Ordinal + noun"],
+          ["second-rate", "That's a second-rate performance.", "Ordinal + noun"],
+          ["last-minute", "It was a last-minute decision.", "Ordinal + noun"]
+        ]
+      },
+      "examples": [
+        "First-degree burns are minor.",
+        "Second-generation immigrants face unique challenges.",
+        "Third-world countries need support.",
+        "Last-ditch effort to save the project."
+      ]
+    },
+    {
+      "title": "Ordinals in Idiomatic Expressions",
+      "text": "Many ordinals appear in fixed expressions and idioms where they function as adjectives but carry special meanings beyond simple position.",
+      "table": {
+        "headers": ["Expression", "Meaning", "Example Sentence"],
+        "rows": [
+          ["first impression", "initial judgment", "First impressions matter in interviews."],
+          ["second nature", "automatic behavior", "Driving became second nature to her."],
+          ["third wheel", "unwanted extra person", "I felt like a third wheel on their date."],
+          ["fifth wheel", "unnecessary addition", "He's a fifth wheel on this project."],
+          ["last resort", "final option", "Surgery is the last resort."],
+          ["last straw", "final provocation", "That insult was the last straw."],
+          ["second thought", "reconsideration", "She had second thoughts about quitting."]
+        ]
+      },
+      "examples": [
+        "At first glance, it seemed easy.",
+        "Second opinions are valuable in medicine.",
+        "The third time's the charm.",
+        "Last but not least, thank you all."
+      ]
+    },
+    {
+      "title": "Ordinals vs Cardinals - Grammatical Comparison",
+      "text": "Understanding when numbers function as ordinals (adjectives showing position) versus cardinals (showing quantity) is essential for proper usage.",
+      "table": {
+        "headers": ["Type", "Function", "Example", "Question Answered"],
+        "rows": [
+          ["Cardinal", "Shows quantity", "I have three books.", "How many?"],
+          ["Ordinal", "Shows position", "The third book is best.", "Which one?"],
+          ["Cardinal", "Counts items", "Five students passed.", "How many?"],
+          ["Ordinal", "Indicates rank", "The fifth student won.", "Which one?"],
+          ["Cardinal", "States amount", "Two cups of coffee", "How many?"],
+          ["Ordinal", "Shows sequence", "The second cup was better.", "Which one?"]
+        ]
+      },
+      "examples": [
+        "Cardinal: I read ten pages. / Ordinal: I stopped at the tenth page.",
+        "Cardinal: She has four children. / Ordinal: Her fourth child was born yesterday.",
+        "Cardinal: We need six volunteers. / Ordinal: The sixth volunteer gets a prize."
+      ]
+    },
+    {
+      "title": "Position of Ordinal Adjectives",
+      "text": "Ordinals typically appear before the noun they modify, following the standard English adjective word order. When multiple adjectives are present, ordinals usually come first.",
+      "table": {
+        "headers": ["Pattern", "Example", "Word Order"],
+        "rows": [
+          ["Ordinal + Noun", "first attempt", "Standard position"],
+          ["Ordinal + Adjective + Noun", "first successful attempt", "Ordinal before descriptive"],
+          ["Article + Ordinal + Noun", "the third floor", "After article"],
+          ["Possessive + Ordinal + Noun", "my second chance", "After possessive"],
+          ["Ordinal + Number + Noun", "first three winners", "Ordinal before cardinal"],
+          ["Demonstrative + Ordinal + Noun", "this fifth revision", "After demonstrative"]
+        ]
+      },
+      "examples": [
+        "The first big mistake was costly.",
+        "Her second beautiful painting sold quickly.",
+        "Our third annual meeting is next week.",
+        "That last difficult question stumped everyone."
+      ]
+    },
+    {
+      "title": "Summary - Ordinals as Adjectives",
+      "text": "Quick reference guide for understanding ordinal numbers functioning as adjectives in English grammar.",
+      "table": {
+        "headers": ["Feature", "Description", "Example"],
+        "rows": [
+          ["Primary function", "Modify nouns to show position/order", "the first day"],
+          ["Position", "Before the noun", "third attempt"],
+          ["Agreement", "No gender/number agreement in English", "first man, first woman, first children"],
+          ["With articles", "Follow articles (a, an, the)", "the second time"],
+          ["With possessives", "Follow possessive adjectives", "my fifth try"],
+          ["Question answered", "Which one? (not how many?)", "Which book? The third one."],
+          ["Can modify plurals", "Yes, for groups/ranges", "the first three students"],
+          ["In compounds", "Often hyphenated", "first-class, second-hand"]
+        ]
+      },
+      "examples": []
+    }
+  ],
+
+  "vocab": [
+    {"english": "first", "type": "ordinal", "usage": "initial position, most common"},
+    {"english": "second", "type": "ordinal", "usage": "after first, comparisons"},
+    {"english": "third", "type": "ordinal", "usage": "after second, rankings"},
+    {"english": "fourth", "type": "ordinal", "usage": "quarters, academic years"},
+    {"english": "fifth", "type": "ordinal", "usage": "numbered works, revisions"},
+    {"english": "sixth", "type": "ordinal", "usage": "higher sequences"},
+    {"english": "seventh", "type": "ordinal", "usage": "weekly cycles"},
+    {"english": "eighth", "type": "ordinal", "usage": "middle positions"},
+    {"english": "ninth", "type": "ordinal", "usage": "near completion"},
+    {"english": "tenth", "type": "ordinal", "usage": "milestones, decades"},
+    {"english": "last", "type": "ordinal", "usage": "final position, urgency"}
+  ],
+
+  "exercises": []
+}
