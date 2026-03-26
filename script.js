@@ -33,23 +33,32 @@ async function loadNavigation(){
 	const data=await res.json();
 	const nav=document.getElementById("nav-tree");
 	nav.innerHTML="";
-	
-	// Flatten lessons in order
+
+	// Flatten lessons in order - FIXED to handle your structure
 	allLessons = [];
 	function collectLessons(node) {
 		if (node.lesson) {
 			allLessons.push(node.lesson);
 		}
 		if (node.children) {
-			node.children.forEach(collectLessons);
+			node.children.forEach(child => collectLessons(child));
 		}
 	}
-	data.topics.forEach(collectLessons);
-	
+
+	// Process each top-level topic
+	data.topics.forEach(topic => {
+		collectLessons(topic);
+	});
+
+	// DEBUG: Log the lesson order
+	console.log("Lessons in order:", allLessons);
+	console.log("Total lessons found:", allLessons.length);
+
 	data.topics.forEach(topic=>{
 		nav.appendChild(createNode(topic,0));
 	});
 }
+
 
 /* CREATE NODE */
 function createNode(node,level){
