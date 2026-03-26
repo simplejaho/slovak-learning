@@ -262,3 +262,21 @@ background:#f2f2f2;
   background-color: #dde8ff; /* hover highlight */
   transition: background-color 0.2s;
 }
+
+// Add touch support for flashcards (add to setupExercises function)
+let touchStartX = 0;
+const flashcard = document.querySelector('.flashcard');
+
+flashcard.addEventListener('touchstart', (e) => {
+  touchStartX = e.touches.clientX;
+});
+
+flashcard.addEventListener('touchend', (e) => {
+  const touchEndX = e.changedTouches.clientX;
+  const diff = touchStartX - touchEndX;
+
+  // Swipe left = next card
+  if (diff > 50) {
+    document.getElementById('next-card').click();
+  }
+});
