@@ -109,8 +109,8 @@ async function loadLesson(path) {
 /* DISPLAY LESSON */
 function displayLesson(lesson) {
 	renderRules(lesson);
+	renderSummary(lesson);
 	renderVocab(lesson);
-	// Reset to exercises mode when loading a new lesson
 	exerciseMode = "exercises";
 	updateModeToggle();
 	loadCards();
@@ -152,7 +152,6 @@ function loadCards() {
 	if (exerciseMode === "exercises") {
 		cards = currentLessonData.exercises ? [...currentLessonData.exercises] : [];
 	} else {
-		// Vocab mode — convert vocab into flashcard format
 		cards = currentLessonData.vocab
 			? currentLessonData.vocab.map(w => ({ sk: w.sk, en: w.en }))
 			: [];
@@ -189,6 +188,30 @@ function showCard() {
 
 	back.classList.add("hidden");
 	revealed = false;
+}
+
+/* SUMMARY */
+function renderSummary(lesson) {
+	const rules = document.getElementById("rules");
+	if (!lesson.summary || lesson.summary.length === 0) return;
+
+	const container = document.createElement("div");
+	container.className = "summary-box";
+
+	const heading = document.createElement("h3");
+	heading.textContent = "Quick Summary";
+	container.appendChild(heading);
+
+	const ul = document.createElement("ul");
+	ul.className = "summary-list";
+	lesson.summary.forEach(item => {
+		const li = document.createElement("li");
+		li.textContent = item;
+		ul.appendChild(li);
+	});
+	container.appendChild(ul);
+
+	rules.prepend(container);
 }
 
 /* RULES */
