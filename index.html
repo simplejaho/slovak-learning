@@ -1,79 +1,66 @@
+
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Slovak Learning</title>
-
-<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Slovak Learning</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+	<header class="header">
+		<button id="menu-toggle">☰</button>
+		<h1>🇸🇰 Slovak Learning</h1>
+	</header>
 
-<header class="header">
-<button id="menu-toggle">☰</button>
-<h1>🇸🇰 Slovak Learning</h1>
-</header>
+	<div class="layout">
+		<!-- SIDEBAR -->
+		<aside id="sidebar" class="sidebar">
+			<div id="nav-tree"></div>
+		</aside>
 
-<div class="layout">
+		<!-- MAIN CONTENT -->
+		<main class="content">
+			<!-- EXERCISES -->
+			<section class="exercise-panel">
+				<div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
+					<h2 style="margin:0;">Exercises</h2>
+					<div id="mode-toggle" style="display:flex; gap:6px; margin-left:12px;">
+						<button class="mode-btn" data-mode="exercises"
+							style="padding:5px 12px; border:1px solid #667eea; border-radius:4px; cursor:pointer; background:#667eea; color:white; font-weight:600; font-size:13px;">
+							Exercises
+						</button>
+						<button class="mode-btn" data-mode="vocab"
+							style="padding:5px 12px; border:1px solid #667eea; border-radius:4px; cursor:pointer; background:white; color:#667eea; font-weight:600; font-size:13px;">
+							Vocab
+						</button>
+					</div>
+				</div>
+				<div class="exercise-controls">
+					<button id="flip-direction">SK → EN</button>
+					<button id="shuffle-cards">Shuffle</button>
+					<button id="next-card">Next</button>
+					<span id="card-counter">0 / 0</span>
+				</div>
+				<div class="flashcard">
+					<div class="flash-front"></div>
+					<div class="flash-back hidden"></div>
+				</div>
+			</section>
 
-<!-- SIDEBAR -->
+			<!-- LESSON -->
+			<div class="lesson-columns">
+				<div class="rules-panel">
+					<h2 id="lesson-title">Select a lesson</h2>
+					<div id="rules"></div>
+				</div>
+				<div id="vocab" class="vocab-panel"></div>
+			</div>
+		</main>
+	</div>
 
-<aside id="sidebar" class="sidebar">
-<div id="nav-tree"></div>
-</aside>
-
-<!-- MAIN CONTENT -->
-
-<main class="content">
-
-<!-- EXERCISES -->
-
-<section class="exercise-panel">
-
-<h2>Exercises</h2>
-
-<div class="exercise-controls">
-
-<button id="flip-direction">SK → EN</button>
-<button id="shuffle-cards">Shuffle</button>
-<button id="next-card">Next</button>
-
-<span id="card-counter">0 / 0</span>
-
-</div>
-
-<div class="flashcard">
-<div class="flash-front"></div>
-<div class="flash-back hidden"></div>
-</div>
-
-</section>
-
-<!-- LESSON -->
-
-<div class="lesson-columns">
-
-<div class="rules-panel">
-
-<h2 id="lesson-title">Select a lesson</h2>
-
-<div id="rules"></div>
-
-</div>
-
-<div id="vocab" class="vocab-panel"></div>
-
-</div>
-
-</main>
-
-</div>
-
-<script src="script.js"></script>
-
+	<script src="script.js"></script>
 </body>
 </html>
+
+
