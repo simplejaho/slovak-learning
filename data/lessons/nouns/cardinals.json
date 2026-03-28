@@ -1,4 +1,23 @@
 {
+  "summary": [
+    "jeden (1): declines like adjective with full gender agreement (jeden/jedna/jedno)",
+    "dva (2): three-way distinction — dvaja (M personal), dva (M non-personal), dve (F/N)",
+    "tri (3) / štyri (4): personal vs non-personal in nominative (traja/tri, štyria/štyri)",
+    "5+: decline through all cases but NO gender distinction — same form for all genders",
+    "Noun case with 1 (Nom) → Nominative singular (jeden muž)",
+    "Noun case with 2-4 (Nom) → Nominative plural (dva muži)",
+    "Noun case with 5+ (Nom/Acc) → Genitive plural (päť mužov)",
+    "Oblique cases (G/D/L/I): 2-4 and 5+ both govern the same case as the numeral on the noun",
+    "5+ declension pattern: -ich (G/L), -im (D), -imi (I) — e.g. piatich, piatim, piatimi",
+    "11-19 formed with -násť, 20-90 with -dsať/-desiat — all decline like 5+",
+    "Compound numbers (21-99): only the units part declines, noun follows the units rule",
+    "sto (100): irregular — sta (G), stu (D), ste (L), stoma (I)",
+    "tisíc (1000): mostly indeclinable in practice",
+    "Animate distinction: jeden (Acc), dva/tri/štyri (Nom + Acc) — 5+ has none",
+    "Collective numerals: dvoje, troje, štvoro, pätoro — for groups/pairs/kinds",
+    "obaja/obe = both (M personal / F-N)"
+  ],
+  
   "rules": [
     {
       "title": "Slovak Cardinal Numbers - Overview",
