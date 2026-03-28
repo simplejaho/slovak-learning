@@ -1,5 +1,19 @@
-
 {
+  "summary": [
+    "6 cases: Nominative (subject), Genitive (possession/negation), Dative (indirect object), Accusative (direct object), Locative (location), Instrumental (means/accompaniment)",
+    "Masculine hard (muž): -a (G), -ovi (D), -a (A animate), -ovi (L), -om (I) | Pl: -i, -ov, -om, -ov, -och, -mi",
+    "Masculine soft (učiteľ): same endings as hard, but Nom plural → -ia",
+    "Masculine inanimate (stôl): Accusative = Nominative (not -a) | Loc: -e, Dat: -u",
+    "Feminine -a hard (žena): -y (G), -e (D), -u (A), -e (L), -ou (I) | Pl: -y, -ien, -ám, -y, -ách, -ami",
+    "Feminine -a soft (ulica): -e (G), -i (D), -u (A), -i (L), -ou (I) | Pl: -e, -íc, -iam, -e, -iach, -ami",
+    "Feminine consonant (kosť): -i (G/D/L), kosť (A=N), -ou (I) | Pl: -i, -í, -iam, -i, -iach, -ami",
+    "Neuter -o (mesto): -a (G), -u (D), =N (A), -e (L), -om (I) | Pl: -á, -iest, -ám, -á, -ách, -ami",
+    "Neuter -e (srdce): -a (G), -u (D), =N (A), -i (L), -om (I) | Pl: -ia, -dc, -iam, -ia, -iach, -ami",
+    "Animate masculine Acc = Gen (Vidím muža), Inanimate masculine Acc = Nom (Vidím stôl)",
+    "Dative & Locative singular often share the same ending for feminines (-e or -i)",
+    "Instrumental singular: -om (M/N), -ou (F) | Plural: -mi (M), -ami (F/N)"
+  ],
+
   "rules": [
     {
       "title": "Complete Declension Table - All Cases",
@@ -206,16 +220,3 @@
     {
       "title": "Nominative Case - Subject",
       "text": "The nominative case is the basic dictionary form. It's used for the subject of a sentence (who/what performs the action).",
-      "examples": [
-        "Muž pracuje – The man works",
-        "Žena číta – The woman reads",
-        "Dieťa spí – The child sleeps",
-        "Študenti sa učia – The students are learning"
-      ]
-    }
-  ],
-
-  "vocab": [],
-
-  "exercises": []
-}
