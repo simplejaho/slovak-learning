@@ -1,4 +1,21 @@
+
 {
+  "summary": [
+    "Personal pronouns: ja, ty, on/ona/ono, my, vy, oni/ony — decline through all 6 cases",
+    "Long vs short forms: mňa/ma, teba/ťa, mne/mi, tebe/ti — short forms for unstressed positions",
+    "3rd person adds n- after prepositions: ho → neho, mu → nemu, ju → nej (mandatory)",
+    "Reflexive: sa (accusative) / si (dative) — no nominative, refers back to subject",
+    "Demonstrative ten/tá/to: toho (G), tomu (D), toho/ten (A), tom (L), tým (I)",
+    "Interrogative kto: koho (G/A), komu (D), kom (L), kým (I)",
+    "Interrogative čo: čoho (G), čomu (D), čo (A), čom (L), čím (I)",
+    "Indefinite = nie- + kto/čo: niekto/niečo, dakto/dačo — same declension pattern",
+    "Negative = ni- + kto/čo: nikto/nič — always used with negated verb",
+    "každý (everyone) and ktorý (which) decline like adjectives with gender agreement",
+    "všetko (everything): všetkého (G), všetkému (D), všetkom (L), všetkým (I)",
+    "sám (self/alone): emphatic pronoun, declines like adjective — sám/sama/samo",
+    "Possessive pronouns as nouns: môj/moja/moje decline like adjectives"
+  ],
+
   "rules": [
     {
       "title": "Substantive Pronouns - Overview",
@@ -342,3 +359,4 @@
 
   "exercises": []
 }
+
