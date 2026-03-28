@@ -1,4 +1,21 @@
 {
+  "summary": [
+    "Masculine animate + hard consonant → +i (muž → muži)",
+    "Masculine inanimate + hard consonant → +y (hrad → hrady)",
+    "Masculine + soft consonant → +ia or +e (učiteľ → učitelia, stroj → stroje)",
+    "Feminine -a (hard stem) → a → y (žena → ženy)",
+    "Feminine -a (soft stem) → a → e (ulica → ulice)",
+    "Feminine consonant ending → +i (kosť → kosti)",
+    "Neuter -o → o → á (mesto → mestá)",
+    "Neuter -e → e → ia (srdce → srdcia)",
+    "Verbal nouns (-nie/-tie) → e → ia (stretnutie → stretnutia)",
+    "Key irregulars: človek → ľudia, dieťa → deti, oko → oči, ucho → uši",
+    "Masculine -ovia for family: syn → synovia, otec → otcovia",
+    "k → c before -i (žiak → žiaci)",
+    "Foreign -us → +y (autobus → autobusy), -um → á (múzeum → múzeá)",
+    "Diminutives follow their gender's plural pattern"
+  ],
+
   "rules": [
     {
       "title": "Plural Formation - Overview",
