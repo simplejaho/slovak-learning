@@ -1,4 +1,24 @@
+
 {
+  "summary": [
+    "Consonant ending → Masculine (90%)",
+    "Soft consonant (ť, ď, ň, ľ) → Masculine or Feminine (check context)",
+    "-a ending (not a person) → Feminine (95%)",
+    "-a ending (male person/role) → Masculine (e.g. starosta, sudca)",
+    "-o ending → Neuter (99%)",
+    "-e ending → Neuter (95%)",
+    "-osť ending → Always Feminine (100%)",
+    "-nie / -tie ending → Always Neuter (100%) — verbal nouns",
+    "-us ending → Masculine (95%) — Latin loanwords",
+    "-um ending → Always Neuter (100%) — Latin loanwords",
+    "-cia / -sia ending → Feminine — foreign words",
+    "-áž ending → Feminine — French loanwords",
+    "-ing ending → Masculine — English loanwords",
+    "Diminutives: -ko → Neuter, -ček/-ik → Masculine, -ka → Feminine",
+    "Augmentatives: -isko → Masculine",
+    "Exception: dieťa (child) ends in -a but is Neuter"
+  ],
+
   "rules": [
     {
       "title": "Determining Noun Gender - Overview",
