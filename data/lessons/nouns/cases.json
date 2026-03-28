@@ -1,4 +1,21 @@
 {
+  "summary": [
+    "6 cases (+ Nominative as base): Nominative, Genitive, Dative, Accusative, Locative, Instrumental",
+    "Nominative (kto? čo?) → subject of sentence, after 'byť' for identity",
+    "Genitive (koho? čoho?) → possession, negation, quantity (5+), after: bez, do, od, z, u, okolo, počas",
+    "Dative (komu? čomu?) → indirect object (to whom), after: k/ku, proti, vďaka, kvôli",
+    "Accusative (koho? čo?) → direct object, motion/direction (where to?), after: na, za, cez, pre",
+    "Locative (o kom? o čom?) → static location (where?), topic — ALWAYS with preposition: v, na, pri, po, o",
+    "Instrumental (s kým? s čím?) → means/tool, accompaniment, professions after 'byť', after: s/so, medzi, pred, nad, pod, za",
+    "Negated verb → object switches from Accusative to Genitive (Mám psa → Nemám psa)",
+    "Numbers 5+ and quantity words (veľa, málo, dosť, koľko) → Genitive plural",
+    "Motion (where to?) → Accusative vs. Location (where?) → Locative (Idem na poštu vs. Som na pošte)",
+    "Some prepositions take multiple cases: na/v (A or L), za/pred/nad/pod (A or I)",
+    "Dative verbs to memorize: pomáhať, veriť, rozumieť, ďakovať, volať, hovoriť, radiť, patriť",
+    "Instrumental for professions: Som učiteľom, Je lekárom, Bol študentom",
+    "Locative never appears without a preposition"
+  ],
+
   "rules": [
     {
       "title": "Slovak Cases - Complete Overview",
