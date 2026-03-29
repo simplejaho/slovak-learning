@@ -13,7 +13,7 @@
     "Dative & Locative singular often share the same ending for feminines (-e or -i)",
     "Instrumental singular: -om (M/N), -ou (F) | Plural: -mi (M), -ami (F/N)"
   ],
-
+  
   "rules": [
     {
       "title": "Complete Declension Table - All Cases",
@@ -220,3 +220,16 @@
     {
       "title": "Nominative Case - Subject",
       "text": "The nominative case is the basic dictionary form. It's used for the subject of a sentence (who/what performs the action).",
+      "examples": [
+        "Muž pracuje – The man works",
+        "Žena číta – The woman reads",
+        "Dieťa spí – The child sleeps",
+        "Študenti sa učia – The students are learning"
+      ]
+    }
+  ],
+
+  "vocab": [],
+
+  "exercises": []
+}
