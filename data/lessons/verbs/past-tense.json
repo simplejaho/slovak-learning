@@ -1,87 +1,86 @@
+
 {
-  "summary": "Slovak past tense uses the l-participle + auxiliary 'byť'. The participle agrees in gender/number (-l, -la, -lo, -li). The auxiliary is omitted in 3rd person. Negation adds 'ne-' to the participle. Reflexive 'sa/si' follows the auxiliary. Aspect matters: imperfective = ongoing/habitual, perfective = completed.",
+  "summary": [
+    "Past tense = l-participle + auxiliary byť (som/si/sme/ste)",
+    "Participle endings: -l (M), -la (F), -lo (N), -li (plural)",
+    "3rd person has NO auxiliary: robil (he did), robila (she did), robili (they did)",
+    "1st/2nd person: participle + som/si/sme/ste — robil som, robila si, robili sme",
+    "Negation: ne- on the participle — nerobil som, nerobila, nerobili sme",
+    "Reflexive sa/si comes AFTER the auxiliary: učil som sa, učili sme sa",
+    "Aspect matters: písal som (was writing, imperfective) vs napísal som (wrote/finished, perfective)",
+    "Key irregulars: bol (byť), išiel/išla (ísť), jedol (jesť), pil (piť), mohol (môcť), vedel (vedieť)",
+    "Plural is always -li regardless of gender: robili sme, robili ste, robili",
+    "Gender only matters in singular: robil (he), robila (she), robilo (it)"
+  ],
+
   "rules": [
     {
-      "title": "Past Tense Formation",
-      "text": "Past participle (l-form) + auxiliary 'byť'. Participle endings: -l (masc sg), -la (fem sg), -lo (neuter sg), -li (plural). Auxiliary omitted in 3rd person.",
+      "title": "How Past Tense Works",
+      "text": "Take the l-participle (from infinitive: drop -ť, add -l/-la/-lo/-li) and add the auxiliary byť. The auxiliary is dropped in 3rd person.",
+      "table": {
+        "headers": ["Person", "Auxiliary", "Masculine", "Feminine", "Neuter/Plural"],
+        "rows": [
+          ["ja", "som", "robil som", "robila som", "—"],
+          ["ty", "si", "robil si", "robila si", "—"],
+          ["on/ona/ono", "(none)", "robil", "robila", "robilo"],
+          ["my", "sme", "robili sme", "robili sme", "robili sme"],
+          ["vy", "ste", "robili ste", "robili ste", "robili ste"],
+          ["oni/ony", "(none)", "robili", "robili", "robili"]
+        ]
+      },
       "examples": [
-        "robil som – I did (masc)",
-        "robila som – I did (fem)",
-        "robili sme – we did",
-        "robil – he did (no auxiliary)"
-      ]
-    },
-    {
-      "title": "Conjugation - 'robiť' (to do)",
-      "table": {
-        "headers": ["Person", "Masculine", "Feminine", "Plural"],
-        "rows": [
-          ["JA", "robil som", "robila som", "—"],
-          ["TY", "robil si", "robila si", "—"],
-          ["ON/ONA/ONO", "robil", "robila", "robilo"],
-          ["MY", "robili sme", "robili sme", "robili sme"],
-          ["VY", "robili ste", "robili ste", "robili ste"],
-          ["ONI/ONY", "robili", "robili", "robili"]
-        ]
-      }
-    },
-    {
-      "title": "Perfective Example - 'napísať' (to write, completed)",
-      "table": {
-        "headers": ["Person", "Masculine", "Feminine", "Plural"],
-        "rows": [
-          ["JA", "napísal som", "napísala som", "—"],
-          ["TY", "napísal si", "napísala si", "—"],
-          ["ON/ONA/ONO", "napísal", "napísala", "napísalo"],
-          ["MY", "napísali sme", "napísali sme", "napísali sme"],
-          ["VY", "napísali ste", "napísali ste", "napísali ste"],
-          ["ONI/ONY", "napísali", "napísali", "napísali"]
-        ]
-      }
-    },
-    {
-      "title": "Reflexive Verbs - 'učiť sa' (to learn)",
-      "text": "Reflexive 'sa/si' comes after the auxiliary (or after participle in 3rd person).",
-      "table": {
-        "headers": ["Person", "Masculine", "Feminine", "Plural"],
-        "rows": [
-          ["JA", "učil som sa", "učila som sa", "—"],
-          ["TY", "učil si sa", "učila si sa", "—"],
-          ["ON/ONA/ONO", "učil sa", "učila sa", "učilo sa"],
-          ["MY", "učili sme sa", "učili sme sa", "učili sme sa"],
-          ["VY", "učili ste sa", "učili ste sa", "učili ste sa"],
-          ["ONI/ONY", "učili sa", "učili sa", "učili sa"]
-        ]
-      }
-    },
-    {
-      "title": "Negation",
-      "text": "Add 'ne-' prefix to the participle. Auxiliary stays the same.",
-      "examples": [
-        "Nerobil som – I didn't do (masc)",
-        "Nerobila som – I didn't do (fem)",
-        "Nerobil – He didn't do",
-        "Neučil som sa – I didn't learn"
+        "Robil som – I did (male speaking)",
+        "Robila som – I did (female speaking)",
+        "Robil – He did (no auxiliary in 3rd person)",
+        "Robili sme – We did (always -li in plural)"
       ]
     },
     {
       "title": "Aspect in Past Tense",
-      "text": "Imperfective = ongoing/habitual ('what was happening'). Perfective = completed ('what happened').",
+      "text": "Both aspects exist in past tense. Imperfective = ongoing/repeated/background action. Perfective = completed action with result.",
       "table": {
-        "headers": ["Imperfective", "Meaning", "Perfective", "Meaning"],
+        "headers": ["Imperfective (process)", "Perfective (result)"],
         "rows": [
-          ["písal som", "I was writing", "napísal som", "I wrote (finished)"],
-          ["jedol som", "I was eating", "zjedol som", "I ate it all"],
-          ["čítal som", "I was reading", "prečítal som", "I read (finished)"],
-          ["robil som", "I was doing", "urobil som", "I did (completed)"],
-          ["učil som sa", "I was learning", "naučil som sa", "I learned (mastered)"]
+          ["písal som – I was writing", "napísal som – I wrote (finished)"],
+          ["čítal som – I was reading", "prečítal som – I read (finished)"],
+          ["jedol som – I was eating", "zjedol som – I ate (all of it)"],
+          ["robil som – I was doing", "urobil som – I did (completed)"],
+          ["učil som sa – I was studying", "naučil som sa – I learned (mastered)"],
+          ["varil som – I was cooking", "uvaril som – I cooked (finished)"]
         ]
-      }
+      },
+      "examples": [
+        "Čítal som knihu celý deň – I was reading a book all day (process)",
+        "Prečítal som knihu – I finished reading the book (result)"
+      ]
     },
     {
-      "title": "Key Irregular Past Participles",
+      "title": "Reflexive Verbs",
+      "text": "The reflexive particle sa/si comes after the auxiliary. In 3rd person (no auxiliary), it comes after the participle.",
+      "examples": [
+        "Učil som sa – I was learning (1st person: participle + auxiliary + sa)",
+        "Učila si sa – You were learning (female)",
+        "Učil sa – He was learning (3rd person: participle + sa)",
+        "Učili sme sa – We were learning",
+        "Naučil som sa to – I learned it (perfective reflexive)"
+      ]
+    },
+    {
+      "title": "Negation",
+      "text": "Add ne- to the participle. The auxiliary stays unchanged.",
+      "examples": [
+        "Nerobil som – I didn't do",
+        "Nerobila – She didn't do",
+        "Nerobili sme – We didn't do",
+        "Neučil som sa – I didn't learn",
+        "Nenapísal som – I didn't write (finish)"
+      ]
+    },
+    {
+      "title": "Irregular Past Participles",
+      "text": "These common verbs have unpredictable l-participle forms. Must be memorized.",
       "table": {
-        "headers": ["Infinitive", "Masc", "Fem", "Plural"],
+        "headers": ["Infinitive", "M sg (-l)", "F sg (-la)", "Plural (-li)"],
         "rows": [
           ["byť (to be)", "bol", "bola", "boli"],
           ["ísť (to go)", "išiel", "išla", "išli"],
@@ -91,15 +90,20 @@
           ["vedieť (to know)", "vedel", "vedela", "vedeli"],
           ["niesť (to carry)", "niesol", "niesla", "niesli"],
           ["viesť (to lead)", "viedol", "viedla", "viedli"],
-          ["piecť (to bake)", "piekol", "piekla", "piekli"]
+          ["piecť (to bake)", "piekol", "piekla", "piekli"],
+          ["vziať (to take)", "vzal", "vzala", "vzali"],
+          ["prísť (to come)", "prišiel", "prišla", "prišli"],
+          ["nájsť (to find)", "našiel", "našla", "našli"]
         ]
       },
       "examples": [
         "Bol som doma – I was at home",
-        "Išla som do školy – I went to school",
+        "Išla som do školy – I went to school (female)",
         "Jedli sme pizzu – We ate pizza",
         "Mohol som prísť – I could come",
-        "Vedel som odpoveď – I knew the answer"
+        "Vedel som odpoveď – I knew the answer",
+        "Prišiel neskoro – He came late",
+        "Našla kľúče – She found the keys"
       ]
     }
   ],
