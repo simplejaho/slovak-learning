@@ -1,493 +1,230 @@
+
 {
   "summary": [
-    "jeden (1): declines like adjective with full gender agreement (jeden/jedna/jedno)",
-    "dva (2): three-way distinction — dvaja (M personal), dva (M non-personal), dve (F/N)",
-    "tri (3) / štyri (4): personal vs non-personal in nominative (traja/tri, štyria/štyri)",
-    "5+: decline through all cases but NO gender distinction — same form for all genders",
-    "Noun case with 1 (Nom) → Nominative singular (jeden muž)",
-    "Noun case with 2-4 (Nom) → Nominative plural (dva muži)",
-    "Noun case with 5+ (Nom/Acc) → Genitive plural (päť mužov)",
-    "Oblique cases (G/D/L/I): 2-4 and 5+ both govern the same case as the numeral on the noun",
-    "5+ declension pattern: -ich (G/L), -im (D), -imi (I) — e.g. piatich, piatim, piatimi",
-    "11-19 formed with -násť, 20-90 with -dsať/-desiat — all decline like 5+",
-    "Compound numbers (21-99): only the units part declines, noun follows the units rule",
-    "sto (100): irregular — sta (G), stu (D), ste (L), stoma (I)",
-    "tisíc (1000): mostly indeclinable in practice",
-    "Animate distinction: jeden (Acc), dva/tri/štyri (Nom + Acc) — 5+ has none",
-    "Collective numerals: dvoje, troje, štvoro, pätoro — for groups/pairs/kinds",
-    "obaja/obe = both (M personal / F-N)"
+    "1 (jeden) behaves like an ADJECTIVE — full gender agreement, matches noun's case and number",
+    "2-4 (dva/tri/štyri) behave like ADJECTIVES too — limited gender, noun stays in nominative plural",
+    "5+ (päť, šesť...) behave like NOUNS — the number itself is the 'subject', noun drops to genitive plural",
+    "Think: 'jeden muž' (one man) vs 'dva muži' (two men) vs 'päť mužov' (five OF men)",
+    "In oblique cases (G/D/L/I), all numbers agree with the noun's case — the special rules only apply in Nom/Acc",
+    "jeden: jeden/jedna/jedno — declines exactly like ten/tá/to",
+    "dva: dvaja (M personal) / dva (M other) / dve (F/N) — oblique: dvoch/dvom/dvoma",
+    "tri/štyri: traja/štyria (personal) / tri/štyri (other) — oblique: troch/trom/troma, štyroch/štyrom/štyrmi",
+    "5+ pattern: Nom/Acc unchanged, oblique adds -ich (G/L), -im (D), -imi (I)",
+    "11-19 = base + -násť, 20-90 = base + -dsať/-desiat — all decline like 5+",
+    "Compound 21-99: only the units part declines, noun follows the units rule",
+    "sto (100) and tisíc (1000) are mostly indeclinable in everyday speech",
+    "Collective numerals (dvoje, troje, obaja/obe) exist for groups and pairs"
   ],
-  
+
   "rules": [
     {
-      "title": "Slovak Cardinal Numbers - Overview",
-      "text": "Slovak cardinal numbers (základné číslovky) express quantity and answer the question 'koľko?' (how many?). They behave differently based on the number: 'jeden' (one) declines like an adjective with full gender agreement, 'dva/tri/štyri' (2-4) have limited declension with personal/animate distinctions, and numbers 5+ decline through all cases but don't show gender. Cardinals govern the case of nouns they modify.",
-      "examples": [
-        "jeden muž (one man - nominative singular)",
-        "dva muži (two men - nominative plural)",
-        "päť mužov (five men - genitive plural)",
-        "Vidím jedného muža (I see one man - accusative)",
-        "S piatimi mužmi (with five men - instrumental)"
-      ]
-    },
-    {
-      "title": "Cardinal Number 'jeden' (one) - Complete Declension",
-      "text": "The number 'jeden' (one) is unique among cardinals because it declines like an adjective with full gender agreement across all three genders. It's used for counting and also functions like an indefinite article (a/an). It shows animate/inanimate distinction in masculine accusative.",
+      "title": "The Core Idea: Adjective → Adjective → Noun",
+      "text": "Slovak cardinals fall into three groups based on how they relate to the noun they modify. This is the single most important thing to understand.",
       "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M pers)", "Plural (other)"],
+        "headers": ["Number", "Behaves Like", "Noun Form (Nominative)", "Example", "Think of it as..."],
         "rows": [
-          ["Nominative", "jeden", "jedna", "jedno", "jedni", "jedny"],
-          ["Genitive", "jedného", "jednej", "jedného", "jedných", "jedných"],
-          ["Dative", "jednému", "jednej", "jednému", "jedným", "jedným"],
-          ["Accusative", "jedného/jeden", "jednu", "jedno", "jedných", "jedny"],
-          ["Locative", "jednom", "jednej", "jednom", "jedných", "jedných"],
-          ["Instrumental", "jedným", "jednou", "jedným", "jednými", "jednými"]
+          ["1 (jeden)", "Adjective", "Nom. singular", "jeden muž", "'one man' — number describes the noun"],
+          ["2-4", "Adjective (limited)", "Nom. plural", "dva muži", "'two men' — number still describes the noun"],
+          ["5+", "Noun", "Gen. plural", "päť mužov", "'a five of men' — number IS the subject, noun is 'of X'"]
         ]
       },
       "examples": [
-        "Nominative: Jeden muž je tu - One man is here",
-        "Nominative: Jedna žena prišla - One woman came",
-        "Nominative: Jedno dieťa spí - One child is sleeping",
-        "Genitive: Cena jedného domu - The price of one house",
-        "Genitive: Cena jednej knihy - The price of one book",
-        "Dative: Dal som to jednému mužovi - I gave it to one man",
-        "Accusative: Vidím jedného muža - I see one man (animate)",
-        "Accusative: Vidím jeden dom - I see one house (inanimate)",
-        "Accusative: Vidím jednu ženu - I see one woman",
-        "Locative: V jednom dome - In one house",
-        "Instrumental: S jedným mužom - With one man",
-        "Instrumental: S jednou ženou - With one woman"
+        "jeden muž pracuje — One man works (verb agrees with 'muž')",
+        "dva muži pracujú — Two men work (verb agrees with 'muži')",
+        "päť mužov pracuje — Five men works (verb agrees with 'päť', which is neuter singular!)",
+        "This is why 'päť mužov prišlo' uses neuter 'prišlo' — the subject is the number, not the men"
       ]
     },
     {
-      "title": "Cardinal Number 'dva' (two) - Complete Declension",
-      "text": "'Dva' (two) has special forms that distinguish between masculine personal (dvaja), masculine non-personal (dva), and feminine/neuter (dve). In oblique cases, it shows animate/inanimate distinction in accusative but otherwise has uniform endings.",
+      "title": "In Oblique Cases, Everything Agrees",
+      "text": "The adjective/noun distinction only matters in Nominative and Accusative. In all other cases (Genitive, Dative, Locative, Instrumental), the number and noun simply share the same case. This makes oblique cases much simpler.",
       "table": {
-        "headers": ["Case", "Masculine Personal", "Masculine Non-personal", "Feminine/Neuter", "Notes"],
+        "headers": ["Case", "1 (jeden)", "2-4", "5+"],
         "rows": [
-          ["Nominative", "dvaja", "dva", "dve", "Three-way distinction"],
-          ["Genitive", "dvoch", "dvoch", "dvoch", "Same for all genders"],
-          ["Dative", "dvom", "dvom", "dvom", "Same for all genders"],
-          ["Accusative", "dvoch", "dva", "dve", "Animate vs inanimate"],
-          ["Locative", "dvoch", "dvoch", "dvoch", "Same for all genders"],
-          ["Instrumental", "dvoma", "dvoma", "dvoma", "Same for all genders"]
+          ["Nominative", "Nom. sg (jeden muž)", "Nom. pl (dva muži)", "Gen. pl (päť mužov)"],
+          ["Accusative", "Acc. sg (jedného muža)", "Acc. pl (dvoch mužov)", "Gen. pl (päť mužov)"],
+          ["Genitive", "Gen. sg (jedného muža)", "Gen. pl (dvoch mužov)", "Gen. pl (piatich mužov)"],
+          ["Dative", "Dat. sg (jednému mužovi)", "Dat. pl (dvom mužom)", "Dat. pl (piatim mužom)"],
+          ["Locative", "Loc. sg (o jednom mužovi)", "Loc. pl (o dvoch mužoch)", "Loc. pl (o piatich mužoch)"],
+          ["Instrumental", "Ins. sg (s jedným mužom)", "Ins. pl (s dvoma mužmi)", "Ins. pl (s piatimi mužmi)"]
         ]
       },
       "examples": [
-        "Nominative: Dvaja muži prišli - Two men came (personal)",
-        "Nominative: Dva domy - Two houses (non-personal)",
-        "Nominative: Dve ženy - Two women",
-        "Nominative: Dve deti - Two children",
-        "Genitive: Cena dvoch domov - The price of two houses",
-        "Genitive: Cena dvoch kníh - The price of two books",
-        "Dative: Dvom mužom - To two men",
-        "Accusative: Vidím dvoch mužov - I see two men (animate)",
-        "Accusative: Vidím dva domy - I see two houses (inanimate)",
-        "Accusative: Vidím dve ženy - I see two women",
-        "Locative: O dvoch mužoch - About two men",
-        "Instrumental: S dvoma mužmi - With two men",
-        "Instrumental: S dvoma ženami - With two women"
+        "s jedným mužom / s dvoma mužmi / s piatimi mužmi — all instrumental, all agree",
+        "o jednom dome / o dvoch domoch / o piatich domoch — all locative, all agree"
       ]
     },
     {
-      "title": "Cardinal Number 'tri' (three) - Complete Declension",
-      "text": "'Tri' (three) distinguishes between personal (traja) and non-personal (tri) in nominative. In accusative, it shows animate/inanimate distinction. Other cases have uniform endings for all genders.",
+      "title": "jeden (1) — Full Adjective Declension",
+      "text": "Declines like an adjective with full gender agreement. Masculine accusative distinguishes animate (jedného) vs inanimate (jeden).",
       "table": {
-        "headers": ["Case", "Personal", "Non-personal", "Notes"],
+        "headers": ["Case", "Masculine", "Feminine", "Neuter"],
         "rows": [
-          ["Nominative", "traja", "tri", "Personal distinction"],
-          ["Genitive", "troch", "troch", "Same for all"],
-          ["Dative", "trom", "trom", "Same for all"],
-          ["Accusative", "troch", "tri", "Animate vs inanimate"],
-          ["Locative", "troch", "troch", "Same for all"],
-          ["Instrumental", "troma", "troma", "Same for all"]
+          ["Nominative", "jeden", "jedna", "jedno"],
+          ["Genitive", "jedného", "jednej", "jedného"],
+          ["Dative", "jednému", "jednej", "jednému"],
+          ["Accusative", "jedného / jeden", "jednu", "jedno"],
+          ["Locative", "jednom", "jednej", "jednom"],
+          ["Instrumental", "jedným", "jednou", "jedným"]
         ]
       },
       "examples": [
-        "Nominative: Traja študenti - Three students (personal)",
-        "Nominative: Tri autá - Three cars (non-personal)",
-        "Nominative: Tri ženy - Three women",
-        "Genitive: Cena troch áut - The price of three cars",
-        "Dative: Trom študentom - To three students",
-        "Accusative: Vidím troch študentov - I see three students (animate)",
-        "Accusative: Vidím tri autá - I see three cars (inanimate)",
-        "Locative: O troch študentoch - About three students",
-        "Instrumental: S troma študentmi - With three students"
+        "Jeden muž, jedna žena, jedno dieťa",
+        "Vidím jedného muža (animate) vs Vidím jeden dom (inanimate)",
+        "S jednou ženou — With one woman"
       ]
     },
     {
-      "title": "Cardinal Number 'štyri' (four) - Complete Declension",
-      "text": "'Štyri' (four) follows the same pattern as 'tri' with personal/non-personal distinction in nominative and animate/inanimate in accusative. Note the instrumental ending -mi (not -ma like dva/tri).",
+      "title": "dva (2) — Three-Way Gender Split",
+      "text": "Nominative/Accusative distinguish three forms: dvaja (M personal), dva (M non-personal), dve (F/N). All other cases are the same for all genders.",
       "table": {
-        "headers": ["Case", "Personal", "Non-personal", "Notes"],
+        "headers": ["Case", "M Personal", "M Non-personal", "F / N"],
         "rows": [
-          ["Nominative", "štyria", "štyri", "Personal distinction"],
-          ["Genitive", "štyroch", "štyroch", "Same for all"],
-          ["Dative", "štyrom", "štyrom", "Same for all"],
-          ["Accusative", "štyroch", "štyri", "Animate vs inanimate"],
-          ["Locative", "štyroch", "štyroch", "Same for all"],
-          ["Instrumental", "štyrmi", "štyrmi", "Note: -mi ending"]
+          ["Nominative", "dvaja", "dva", "dve"],
+          ["Genitive", "dvoch", "dvoch", "dvoch"],
+          ["Dative", "dvom", "dvom", "dvom"],
+          ["Accusative", "dvoch", "dva", "dve"],
+          ["Locative", "dvoch", "dvoch", "dvoch"],
+          ["Instrumental", "dvoma", "dvoma", "dvoma"]
         ]
       },
       "examples": [
-        "Nominative: Štyria chlapci - Four boys (personal)",
-        "Nominative: Štyri domy - Four houses (non-personal)",
-        "Nominative: Štyri ženy - Four women",
-        "Genitive: Cena štyroch domov - The price of four houses",
-        "Dative: Štyrom chlapcom - To four boys",
-        "Accusative: Vidím štyroch chlapcov - I see four boys (animate)",
-        "Accusative: Vidím štyri domy - I see four houses (inanimate)",
-        "Locative: O štyroch chlapcoch - About four boys",
-        "Instrumental: So štyrmi chlapcami - With four boys"
+        "Dvaja muži (two men — personal), Dva domy (two houses), Dve ženy (two women)",
+        "S dvoma mužmi / S dvoma ženami — same form for all genders in instrumental"
       ]
     },
     {
-      "title": "Cardinal Numbers 5-10 - Complete Declension Table",
-      "text": "Numbers from 5 onwards decline through all cases but don't distinguish gender or animacy. They follow a consistent pattern with genitive/locative forms ending in -ich and instrumental in -imi.",
+      "title": "tri (3) and štyri (4) — Personal vs Non-personal",
+      "text": "Only Nominative and Accusative distinguish personal (traja/štyria) from non-personal (tri/štyri). All other cases are uniform. Note: štyri uses -mi in instrumental (not -ma like dva/tri).",
       "table": {
-        "headers": ["Number (EN)", "Nominative", "Genitive", "Dative", "Accusative", "Locative", "Instrumental"],
+        "headers": ["Case", "tri (personal / other)", "štyri (personal / other)"],
         "rows": [
-          ["5", "päť", "piatich", "piatim", "päť", "piatich", "piatimi"],
-          ["6", "šesť", "šiestich", "šiestim", "šesť", "šiestich", "šiestimi"],
-          ["7", "sedem", "siedmich", "siedmim", "sedem", "siedmich", "siedmimi"],
-          ["8", "osem", "ôsmich", "ôsmim", "osem", "ôsmich", "ôsmimi"],
-          ["9", "deväť", "deviátich", "deviatim", "deväť", "deviátich", "deviátimi"],
-          ["10", "desať", "desiatich", "desiatim", "desať", "desiatich", "desiatimi"]
+          ["Nominative", "traja / tri", "štyria / štyri"],
+          ["Genitive", "troch", "štyroch"],
+          ["Dative", "trom", "štyrom"],
+          ["Accusative", "troch / tri", "štyroch / štyri"],
+          ["Locative", "troch", "štyroch"],
+          ["Instrumental", "troma", "štyrmi"]
         ]
       },
       "examples": [
-        "Nominative: Päť mužov - Five men",
-        "Genitive: Cena piatich domov - The price of five houses",
-        "Dative: Piatim mužom - To five men",
-        "Accusative: Vidím päť mužov - I see five men",
-        "Locative: O piatich mužoch - About five men",
-        "Instrumental: S piatimi mužmi - With five men",
-        "Šesť žien - Six women",
-        "Sedem detí - Seven children",
-        "Osem áut - Eight cars",
-        "Deväť kníh - Nine books",
-        "Desať rokov - Ten years"
+        "Traja študenti (personal) vs Tri autá (non-personal)",
+        "S troma mužmi vs So štyrmi mužmi (note: -ma vs -mi)"
       ]
     },
     {
-      "title": "Cardinal Numbers 11-20 - Complete Declension Table",
-      "text": "Numbers 11-20 are formed by adding '-násť' to the base number. They decline like numbers 5-10 with the same -ich/-im/-imi pattern in oblique cases.",
+      "title": "5+ — The 'Noun' Numbers",
+      "text": "Numbers 5 and above have NO gender distinction. Nominative and Accusative are the same (unchanged). Oblique cases follow a simple pattern: -ich (G/L), -im (D), -imi (I). The noun always takes genitive plural in Nom/Acc.",
       "table": {
-        "headers": ["Number (EN)", "Nominative", "Genitive", "Dative", "Accusative", "Locative", "Instrumental"],
+        "headers": ["Case", "päť (5)", "šesť (6)", "sedem (7)", "osem (8)", "deväť (9)", "desať (10)"],
         "rows": [
-          ["11", "jedenásť", "jedenástich", "jedenástim", "jedenásť", "jedenástich", "jedenástimi"],
-          ["12", "dvanásť", "dvanástich", "dvanástim", "dvanásť", "dvanástich", "dvanástimi"],
-          ["13", "trinásť", "trinástich", "trinástim", "trinásť", "trinástich", "trinástimi"],
-          ["14", "štrnásť", "štrnástich", "štrnástim", "štrnásť", "štrnástich", "štrnástimi"],
-          ["15", "pätnásť", "pätnástich", "pätnástim", "pätnásť", "pätnástich", "pätnástimi"],
-          ["16", "šestnásť", "šestnástich", "šestnástim", "šestnásť", "šestnástich", "šestnástimi"],
-          ["17", "sedemnásť", "sedemnástich", "sedemnástim", "sedemnásť", "sedemnástich", "sedemnástimi"],
-          ["18", "osemnásť", "osemnástich", "osemnástim", "osemnásť", "osemnástich", "osemnástimi"],
-          ["19", "devätnásť", "devätnástich", "devätnástim", "devätnásť", "devätnástich", "devätnástimi"],
-          ["20", "dvadsať", "dvadsiatich", "dvadsiatim", "dvadsať", "dvadsiatich", "dvadsiatimi"]
+          ["Nom / Acc", "päť", "šesť", "sedem", "osem", "deväť", "desať"],
+          ["Genitive", "piatich", "šiestich", "siedmich", "ôsmich", "deviátich", "desiatich"],
+          ["Dative", "piatim", "šiestim", "siedmim", "ôsmim", "deviatim", "desiatim"],
+          ["Locative", "piatich", "šiestich", "siedmich", "ôsmich", "deviátich", "desiatich"],
+          ["Instrumental", "piatimi", "šiestimi", "siedmimi", "ôsmimi", "deviátimi", "desiatimi"]
         ]
       },
       "examples": [
-        "Nominative: Jedenásť mužov - Eleven men",
-        "Genitive: Cena dvanástich domov - The price of twelve houses",
-        "Dative: Trinástim študentom - To thirteen students",
-        "Accusative: Vidím štrnásť áut - I see fourteen cars",
-        "Locative: O pätnástich knihách - About fifteen books",
-        "Instrumental: S šestnástimi ľuďmi - With sixteen people"
+        "Päť mužov prišlo — Five men came (noun in genitive plural, verb neuter singular)",
+        "S piatimi mužmi — With five men",
+        "O desiatich knihách — About ten books"
       ]
     },
     {
-      "title": "Cardinal Numbers 20-100 - Tens Declension",
-      "text": "Tens (20, 30, 40, etc.) decline like numbers 5+. They follow the same -ich/-im/-imi pattern in oblique cases.",
+      "title": "11-20 and Tens (20-90)",
+      "text": "11-19 are formed with -násť, tens with -dsať/-desiat. All decline exactly like 5+ with the -ich/-im/-imi pattern. The noun always takes genitive plural.",
       "table": {
-        "headers": ["Number (EN)", "Nominative", "Genitive", "Dative", "Accusative", "Locative", "Instrumental"],
+        "headers": ["Number", "Nominative", "Oblique stem (add -ich/-im/-imi)"],
         "rows": [
-          ["20", "dvadsať", "dvadsiatich", "dvadsiatim", "dvadsať", "dvadsiatich", "dvadsiatimi"],
-          ["30", "tridsať", "tridsiatich", "tridsiatim", "tridsať", "tridsiatich", "tridsiatimi"],
-          ["40", "štyridsať", "štyridsiatich", "štyridsiatim", "štyridsať", "štyridsiatich", "štyridsiatimi"],
-          ["50", "päťdesiat", "päťdesiatich", "päťdesiatim", "päťdesiat", "päťdesiatich", "päťdesiatimi"],
-          ["60", "šesťdesiat", "šesťdesiatich", "šesťdesiatim", "šesťdesiat", "šesťdesiatich", "šesťdesiatimi"],
-          ["70", "sedemdesiat", "sedemdesiatich", "sedemdesiatim", "sedemdesiat", "sedemdesiatich", "sedemdesiatimi"],
-          ["80", "osemdesiat", "osemdesiatich", "osemdesiatim", "osemdesiat", "osemdesiatich", "osemdesiatimi"],
-          ["90", "deväťdesiat", "deväťdesiatich", "deväťdesiatim", "deväťdesiat", "deväťdesiatich", "deväťdesiatimi"]
+          ["11", "jedenásť", "jedenást-"],
+          ["12", "dvanásť", "dvanást-"],
+          ["15", "pätnásť", "pätnást-"],
+          ["20", "dvadsať", "dvadsiat-"],
+          ["30", "tridsať", "tridsiat-"],
+          ["50", "päťdesiat", "päťdesiat-"],
+          ["100", "sto", "sta (G), stu (D), ste (L), stoma (I)"],
+          ["1000", "tisíc", "mostly unchanged"]
         ]
       },
       "examples": [
-        "Nominative: Dvadsať mužov - Twenty men",
-        "Genitive: Cena tridsiatich domov - The price of thirty houses",
-        "Dative: Štyridsiatim študentom - To forty students",
-        "Accusative: Vidím päťdesiat áut - I see fifty cars",
-        "Locative: O šesťdesiatich knihách - About sixty books",
-        "Instrumental: So sedemdesiatimi ľuďmi - With seventy people"
+        "Dvanásť mužov — Twelve men",
+        "S dvanástimi mužmi — With twelve men",
+        "Mám tridsaťpäť rokov — I am 35 years old"
       ]
     },
     {
-      "title": "Cardinal Numbers 100, 1000 - Declension",
-      "text": "'Sto' (hundred) and 'tisíc' (thousand) decline through all cases. 'Sto' has irregular forms, while 'tisíc' follows a more regular pattern.",
-      "table": {
-        "headers": ["Number", "Case", "Form", "Example"],
-        "rows": [
-          ["100", "Nominative", "sto", "sto mužov (one hundred men)"],
-          ["100", "Genitive", "sta", "cena sta domov (price of hundred houses)"],
-          ["100", "Dative", "stu", "stu mužom (to hundred men)"],
-          ["100", "Accusative", "sto", "vidím sto mužov (I see hundred men)"],
-          ["100", "Locative", "ste", "o ste mužoch (about hundred men)"],
-          ["100", "Instrumental", "stoma/sto", "so stoma mužmi (with hundred men)"],
-          ["1000", "Nominative", "tisíc", "tisíc mužov (thousand men)"],
-          ["1000", "Genitive", "tisíc/tisíca", "cena tisíc domov (price of thousand houses)"],
-          ["1000", "Dative", "tisíc/tisícu", "tisíc mužom (to thousand men)"],
-          ["1000", "Accusative", "tisíc", "vidím tisíc mužov (I see thousand men)"],
-          ["1000", "Locative", "tisíc/tisíci", "o tisíc mužoch (about thousand men)"],
-          ["1000", "Instrumental", "tisíc/tisícom", "s tisíc mužmi (with thousand men)"]
-        ]
-      },
+      "title": "Compound Numbers 21-99",
+      "text": "Tens + units joined together. Only the units part declines. The noun follows the rule of the units digit: 1 → singular, 2-4 → plural, 5-9 → genitive plural.",
       "examples": [
-        "Sto ľudí prišlo - One hundred people came",
-        "Cena sta kníh - The price of one hundred books",
-        "Tisíc vojakov - One thousand soldiers",
-        "S tisíc ľuďmi - With one thousand people"
+        "Dvadsaťjeden muž — 21 men (singular! because 'jeden')",
+        "Dvadsaťdva muži — 22 men (plural because 'dva')",
+        "Dvadsaťpäť mužov — 25 men (genitive plural because 'päť')",
+        "Mám tridsaťpäť rokov — I am 35 years old (genitive plural)"
       ]
     },
     {
-      "title": "Compound Numbers 21-99 - Formation and Declension",
-      "text": "Compound numbers (21-99) are formed by combining tens and units. Only the last element (units) declines; the tens part remains in nominative. The noun case is governed by the final element.",
+      "title": "Time, Age, and Measurements",
+      "text": "Cardinals follow the same 1/2-4/5+ rules in time and measurement expressions.",
       "table": {
-        "headers": ["Number", "Formation", "Nominative", "Genitive", "Example"],
+        "headers": ["Expression", "Slovak", "Why"],
         "rows": [
-          ["21", "dvadsať + jeden", "dvadsaťjeden", "dvadsaťjedného", "dvadsaťjeden muž (21 men)"],
-          ["22", "dvadsať + dva", "dvadsaťdva", "dvadsaťdvoch", "dvadsaťdva muži (22 men)"],
-          ["25", "dvadsať + päť", "dvadsaťpäť", "dvadsaťpiatich", "dvadsaťpäť mužov (25 men)"],
-          ["31", "tridsať + jeden", "tridsaťjeden", "tridsaťjedného", "tridsaťjeden muž (31 men)"],
-          ["34", "tridsať + štyri", "tridsaťštyri", "tridsaťštyroch", "tridsaťštyri muži (34 men)"],
-          ["47", "štyridsať + sedem", "štyridsaťsedem", "štyridsaťsiedmich", "štyridsaťsedem mužov (47 men)"]
-        ]
-      },
-      "examples": [
-        "Nominative: Dvadsaťjeden muž - Twenty-one men (singular!)",
-        "Nominative: Dvadsaťdva muži - Twenty-two men (plural)",
-        "Nominative: Dvadsaťpäť mužov - Twenty-five men (genitive plural)",
-        "Genitive: Cena dvadsaťjedného domu - Price of 21 houses",
-        "Genitive: Cena dvadsaťdvoch domov - Price of 22 houses",
-        "Instrumental: S dvadsaťjeden mužmi - With 21 men (only 'jeden' declines)",
-        "Mám tridsaťpäť rokov - I am 35 years old"
-      ]
-    },
-    {
-      "title": "Cardinal Numbers - Noun Case Agreement Rules",
-      "text": "Cardinals govern the case of the noun they modify. The rules differ based on the number and the case of the numeral itself. This is one of the most important aspects of Slovak cardinal usage.",
-      "table": {
-        "headers": ["Numeral", "Numeral Case", "Noun Form", "Example"],
-        "rows": [
-          ["1", "Nominative", "Nominative singular", "jeden muž (one man)"],
-          ["2-4", "Nominative", "Nominative plural", "dva muži (two men)"],
-          ["5+", "Nominative", "Genitive plural", "päť mužov (five men)"],
-          ["1", "Genitive", "Genitive singular", "jedného muža (of one man)"],
-          ["2-4", "Genitive", "Genitive plural", "dvoch mužov (of two men)"],
-          ["5+", "Genitive", "Genitive plural", "piatich mužov (of five men)"],
-          ["1", "Dative", "Dative singular", "jednému mužovi (to one man)"],
-          ["2-4", "Dative", "Dative plural", "dvom mužom (to two men)"],
-          ["5+", "Dative", "Dative plural", "piatim mužom (to five men)"],
-          ["1", "Accusative", "Accusative singular", "jedného muža (one man - acc)"],
-          ["2-4", "Accusative", "Accusative plural", "dvoch mužov (two men - acc)"],
-          ["5+", "Accusative", "Genitive plural", "päť mužov (five men - acc)"],
-          ["1", "Locative", "Locative singular", "o jednom mužovi (about one man)"],
-          ["2-4", "Locative", "Locative plural", "o dvoch mužoch (about two men)"],
-          ["5+", "Locative", "Locative plural", "o piatich mužoch (about five men)"],
-          ["1", "Instrumental", "Instrumental singular", "s jedným mužom (with one man)"],
-          ["2-4", "Instrumental", "Instrumental plural", "s dvoma mužmi (with two men)"],
-          ["5+", "Instrumental", "Instrumental plural", "s piatimi mužmi (with five men)"]
-        ]
-      },
-      "examples": [
-        "Nominative: jeden muž, dva muži, päť mužov",
-        "Genitive: jedného muža, dvoch mužov, piatich mužov",
-        "Dative: jednému mužovi, dvom mužom, piatim mužom",
-        "Accusative: jedného muža, dvoch mužov, päť mužov",
-        "Locative: o jednom mužovi, o dvoch mužoch, o piatich mužoch",
-        "Instrumental: s jedným mužom, s dvoma mužmi, s piatimi mužmi"
-      ]
-    },
-    {
-      "title": "Cardinals with Different Noun Genders",
-      "text": "Cardinals interact differently with masculine, feminine, and neuter nouns. Only 'jeden' and 'dva' show gender distinctions. Numbers 3+ use the same form for all genders.",
-      "table": {
-        "headers": ["Number", "Masculine", "Feminine", "Neuter", "Notes"],
-        "rows": [
-          ["1", "jeden muž", "jedna žena", "jedno dieťa", "Full gender agreement"],
-          ["2", "dva muži / dvaja muži", "dve ženy", "dve deti", "Gender distinction"],
-          ["3", "tri muži / traja muži", "tri ženy", "tri deti", "Personal form for masculine"],
-          ["4", "štyri muži / štyria muži", "štyri ženy", "štyri deti", "Personal form for masculine"],
-          ["5", "päť mužov", "päť žien", "päť detí", "No gender distinction"],
-          ["10", "desať mužov", "desať žien", "desať detí", "No gender distinction"]
-        ]
-      },
-      "examples": [
-        "Masculine: jeden muž, dva muži, päť mužov",
-        "Feminine: jedna žena, dve ženy, päť žien",
-        "Neuter: jedno dieťa, dve deti, päť detí",
-        "Masculine personal: dvaja muži, traja študenti, štyria chlapci",
-        "Masculine non-personal: dva domy, tri stromy, štyri stoly"
-      ]
-    },
-    {
-      "title": "Cardinals as Nouns - Substantive Use",
-      "text": "Cardinals can function as nouns (substantives) when they stand alone without modifying another noun. They decline according to their normal patterns and typically refer to people or things previously mentioned.",
-      "table": {
-        "headers": ["Number", "Example", "Translation", "Notes"],
-        "rows": [
-          ["1", "Jeden z nich prišiel", "One of them came", "Masculine singular"],
-          ["1", "Jedna z nich prišla", "One of them came", "Feminine singular"],
-          ["2", "Dvaja odišli", "Two (people) left", "Personal masculine"],
-          ["2", "Dve zostali", "Two (things) remained", "Feminine/neuter"],
-          ["3-4", "Traja prišli", "Three came", "Personal"],
-          ["5+", "Päť ich bolo", "There were five (of them)", "Genitive construction"],
-          ["5+", "Videl som piatich", "I saw five (people)", "Accusative"]
-        ]
-      },
-      "examples": [
-        "Jeden z nich prišiel - One of them came",
-        "Dvaja odišli, traja zostali - Two left, three stayed",
-        "Päť ich bolo - There were five (of them)",
-        "Hovoril som s dvoma - I spoke with two (people)",
-        "Videl som troch - I saw three (people)",
-        "Jeden je dobrý, druhý zlý - One is good, the other bad",
-        "Z piatich prišli len traja - Of five, only three came",
-        "Potrebujem ešte jedného - I need one more (person)"
-      ]
-    },
-    {
-      "title": "Cardinals in Time Expressions",
-      "text": "Cardinals are used extensively in time expressions for hours, years, ages, and durations. They govern genitive plural for nouns of time measurement.",
-      "table": {
-        "headers": ["Expression Type", "Slovak", "English", "Notes"],
-        "rows": [
-          ["Clock time", "Je jedna hodina", "It's one o'clock", "Nominative singular"],
-          ["Clock time", "Sú dve hodiny", "It's two o'clock", "Nominative plural"],
-          ["Clock time", "Je päť hodín", "It's five o'clock", "Genitive plural"],
-          ["Age", "Mám dvadsaťpäť rokov", "I am 25 years old", "Genitive plural"],
-          ["Age", "Je mu päť rokov", "He is five years old", "Genitive plural"],
-          ["Duration", "Tri hodiny", "Three hours", "Nominative plural"],
-          ["Duration", "Päť dní", "Five days", "Genitive plural"],
-          ["Year", "V roku 2026", "In the year 2026", "Locative singular"]
-        ]
-      },
-      "examples": [
-        "Je jedna hodina - It's one o'clock",
-        "Sú dve hodiny - It's two o'clock",
-        "Je päť hodín - It's five o'clock",
-        "Mám dvadsaťjeden rokov - I am 21 years old",
-        "Čakal som tri hodiny - I waited three hours",
-        "Päť dní v týždni - Five days a week",
-        "V roku 2026 - In the year 2026",
-        "O druhej hodine - At two o'clock (locative)"
-      ]
-    },
-    {
-      "title": "Cardinals in Dates",
-      "text": "Cardinals are used for years in dates. Days use ordinals in genitive case. Months are in genitive case when expressing dates.",
-      "examples": [
-        "Prvého januára 2026 - On the first of January 2026 (ordinal + cardinal)",
-        "Dvadsiateho druhého marca - On the twenty-second of March (ordinal)",
-        "V roku 2026 - In the year 2026 (cardinal)",
-        "Rok 2026 - The year 2026",
-        "Dvadsaťšiesteho decembra - On the twenty-sixth of December",
-        "Narodil sa v roku tisíc deväťsto deväťdesiatpäť - He was born in 1995"
-      ]
-    },
-    {
-      "title": "Cardinals with Measurements and Quantities",
-      "text": "Cardinals are used with units of measurement, currency, and quantities. The noun takes genitive plural with numbers 5+.",
-      "table": {
-        "headers": ["Measurement Type", "Example", "Translation", "Noun Case"],
-        "rows": [
-          ["Distance", "päť kilometrov", "five kilometers", "Genitive plural"],
-          ["Weight", "tri kilogramy", "three kilograms", "Nominative plural"],
-          ["Volume", "dva litre", "two liters", "Nominative plural"],
-          ["Currency", "desať eur", "ten euros", "Genitive plural"],
-          ["Currency", "dvadsať dolárov", "twenty dollars", "Genitive plural"],
-          ["Temperature", "päť stupňov", "five degrees", "Genitive plural"],
-          ["Percentage", "päťdesiat percent", "fifty percent", "Genitive plural"]
-        ]
-      },
-      "examples": [
-        "Päť kilometrov - Five kilometers",
-        "Tri kilogramy - Three kilograms",
-        "Dva litre mlieka - Two liters of milk",
-        "Desať eur - Ten euros",
-        "Dvadsať dolárov - Twenty dollars",
-        "Päť stupňov Celzia - Five degrees Celsius",
-        "Sto percent - One hundred percent",
-        "Päťdesiat percent - Fifty percent"
-      ]
-    },
-    {
-      "title": "Collective Numerals",
-      "text": "Slovak has special collective numerals for groups, pairs, and kinds. These are formed differently from regular cardinals and have specific uses.",
-      "table": {
-        "headers": ["Number", "Collective Form", "Usage", "Example"],
-        "rows": [
-          ["2", "dvoje", "Two kinds/pairs", "dvoje dverí (two doors - pair)"],
-          ["3", "troje", "Three kinds", "troje detí (three children - group)"],
-          ["4", "štvoro", "Four kinds", "štvoro ľudí (four people - group)"],
-          ["5", "pätoro", "Five kinds", "pätoro detí (five children)"],
-          ["both", "obaja (m) / obe (f/n)", "Both", "obaja bratia (both brothers)"],
-          ["pair", "pár", "A couple", "pár dní (a couple of days)"]
-        ]
-      },
-      "examples": [
-        "Dvoje dverí - Two doors (as a pair)",
-        "Troje detí - Three children (as a group)",
-        "Obaja bratia - Both brothers",
-        "Obe sestry - Both sisters",
-        "Pár dní - A couple of days",
-        "Dvoje topánok - Two pairs of shoes",
-        "Štvoro ľudí - Four people (as a group)"
-      ]
-    },
-    {
-      "title": "Summary - Cardinal Number Behavior",
-      "text": "Quick reference comparing how different cardinal numbers behave grammatically in Slovak.",
-      "table": {
-        "headers": ["Feature", "jeden (1)", "dva/tri/štyri (2-4)", "päť+ (5+)"],
-        "rows": [
-          ["Gender agreement", "Full (m/f/n)", "Limited (dva: m/f-n; tri/štyri: pers/non-pers)", "None"],
-          ["Case declension", "Full like adjective", "Limited oblique cases", "Full but no gender"],
-          ["Noun case (Nom)", "Nominative singular", "Nominative plural", "Genitive plural"],
-          ["Noun case (Gen)", "Genitive singular", "Genitive plural", "Genitive plural"],
-          ["Noun case (Dat)", "Dative singular", "Dative plural", "Dative plural"],
-          ["Noun case (Acc)", "Accusative singular", "Accusative plural", "Genitive plural"],
-          ["Noun case (Loc)", "Locative singular", "Locative plural", "Locative plural"],
-          ["Noun case (Ins)", "Instrumental singular", "Instrumental plural", "Instrumental plural"],
-          ["Animate distinction", "Yes (accusative)", "Yes (nominative/accusative)", "No"],
-          ["Substantive use", "Common", "Common", "Common"],
-          ["Example", "jeden muž", "dva muži", "päť mužov"]
+          ["1 o'clock", "Je jedna hodina", "1 → Nom singular"],
+          ["2 o'clock", "Sú dve hodiny", "2 → Nom plural"],
+          ["5 o'clock", "Je päť hodín", "5+ → Gen plural"],
+          ["Age 25", "Mám dvadsaťpäť rokov", "5+ → Gen plural"],
+          ["10 euros", "desať eur", "5+ → Gen plural"],
+          ["3 kilograms", "tri kilogramy", "2-4 → Nom plural"]
         ]
       },
       "examples": []
+    },
+    {
+      "title": "Collective Numerals",
+      "text": "Special forms for groups, pairs, and kinds. Used with pluralia tantum nouns (nouns that only exist in plural) and mixed groups.",
+      "table": {
+        "headers": ["Form", "Meaning", "Example"],
+        "rows": [
+          ["dvoje", "two (pairs/kinds)", "dvoje dverí (two doors)"],
+          ["troje", "three (groups)", "troje detí (three children)"],
+          ["štvoro", "four (groups)", "štvoro ľudí (four people)"],
+          ["obaja (M) / obe (F/N)", "both", "obaja bratia / obe sestry"]
+        ]
+      },
+      "examples": [
+        "Dvoje topánok — Two pairs of shoes",
+        "Obaja bratia prišli — Both brothers came"
+      ]
     }
   ],
 
   "vocab": [
-    {"slovak": "jeden/jedna/jedno", "english": "one", "type": "cardinal"},
-    {"slovak": "dva/dve", "english": "two", "type": "cardinal"},
-    {"slovak": "tri", "english": "three", "type": "cardinal"},
-    {"slovak": "štyri", "english": "four", "type": "cardinal"},
-    {"slovak": "päť", "english": "five", "type": "cardinal"},
-    {"slovak": "šesť", "english": "six", "type": "cardinal"},
-    {"slovak": "sedem", "english": "seven", "type": "cardinal"},
-    {"slovak": "osem", "english": "eight", "type": "cardinal"},
-    {"slovak": "deväť", "english": "nine", "type": "cardinal"},
-    {"slovak": "desať", "english": "ten", "type": "cardinal"},
-    {"slovak": "jedenásť", "english": "eleven", "type": "cardinal"},
-    {"slovak": "dvanásť", "english": "twelve", "type": "cardinal"},
-    {"slovak": "dvadsať", "english": "twenty", "type": "cardinal"},
-    {"slovak": "tridsať", "english": "thirty", "type": "cardinal"},
-    {"slovak": "sto", "english": "one hundred", "type": "cardinal"},
-    {"slovak": "tisíc", "english": "one thousand", "type": "cardinal"},
-    {"slovak": "dvoje", "english": "two (collective)", "type": "collective"},
-    {"slovak": "troje", "english": "three (collective)", "type": "collective"},
-    {"slovak": "obaja/obe", "english": "both", "type": "collective"}
+    {"sk": "jeden / jedna / jedno", "en": "one"},
+    {"sk": "dva / dve", "en": "two"},
+    {"sk": "tri", "en": "three"},
+    {"sk": "štyri", "en": "four"},
+    {"sk": "päť", "en": "five"},
+    {"sk": "šesť", "en": "six"},
+    {"sk": "sedem", "en": "seven"},
+    {"sk": "osem", "en": "eight"},
+    {"sk": "deväť", "en": "nine"},
+    {"sk": "desať", "en": "ten"},
+    {"sk": "jedenásť", "en": "eleven"},
+    {"sk": "dvanásť", "en": "twelve"},
+    {"sk": "trinásť", "en": "thirteen"},
+    {"sk": "štrnásť", "en": "fourteen"},
+    {"sk": "pätnásť", "en": "fifteen"},
+    {"sk": "dvadsať", "en": "twenty"},
+    {"sk": "tridsať", "en": "thirty"},
+    {"sk": "štyridsať", "en": "forty"},
+    {"sk": "päťdesiat", "en": "fifty"},
+    {"sk": "sto", "en": "one hundred"},
+    {"sk": "tisíc", "en": "one thousand"},
+    {"sk": "dvoje", "en": "two (collective)"},
+    {"sk": "troje", "en": "three (collective)"},
+    {"sk": "obaja / obe", "en": "both"}
   ],
 
   "exercises": []
 }
+
