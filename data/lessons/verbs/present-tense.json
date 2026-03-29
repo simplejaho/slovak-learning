@@ -1,107 +1,259 @@
 {
-  "title": "Present Tense Verb Conjugation",
+  "summary": [
+    "4 main conjugation types: -ať (→ -ám/-ajú), -iť (→ -ím/-ia), -ovať (→ -ujem/-ujú), -ieť (→ -iem/-ejú)",
+    "Identify the type from the infinitive ending and especially the 3rd person plural",
+    "Type 1 (-ať): pozerám, pozeráš, pozerá, pozeráme, pozeráte, pozerajú",
+    "Type 2 (-iť): hovorím, hovoríš, hovorí, hovoríme, hovoríte, hovoria",
+    "Type 3 (-ovať): pracujem, pracuješ, pracuje, pracujeme, pracujete, pracujú",
+    "Type 4 (-ieť): rozumiem, rozumieš, rozumie, rozumieme, rozumiete, rozumejú",
+    "byť is fully irregular: som, si, je, sme, ste, sú",
+    "mať is irregular: mám, máš, má, máme, máte, majú",
+    "jesť is irregular: jem, ješ, je, jeme, jete, jedia",
+    "Modals are irregular: chcem/chcú, môžem/môžu, musím/musia, smiem/smú",
+    "vedieť is irregular: viem, vieš, vie, vieme, viete, vedia",
+    "Some -ať verbs have stem changes: písať → píšem (not *písam), brať → beriem",
+    "Only imperfective verbs have true present tense — perfective 'present' = future",
+    "Reflexive sa/si comes after the verb: učím sa, not *sa učím (except at sentence start)"
+  ],
 
   "rules": [
     {
       "title": "The 4 Main Verb Conjugation Patterns",
-      "text": "Most Slovak verbs follow one of four common conjugation patterns. These patterns are easiest to recognize from the infinitive ending and especially from the 3rd person plural form.",
+      "text": "Most Slovak verbs follow one of four common conjugation patterns. Identify the type from the infinitive ending and especially the 3rd person plural form.",
       "table": {
-        "headers": ["Type", "Infinitive Pattern", "3rd Person Plural Ending", "Example"],
+        "headers": ["Type", "Infinitive Pattern", "Key Endings (1sg / 3pl)", "Example"],
         "rows": [
-          ["Type 1", "-ať verbs", "-ajú", "pozerajú"],
-          ["Type 2", "-iť verbs", "-ia", "robia / hovoria"],
-          ["Type 3", "-ovať verbs", "-ujú", "pracujú / študujú"],
-          ["Type 4", "-ieť verbs", "-ejú", "rozumejú"]
+          ["Type 1", "-ať verbs", "-ám / -ajú", "pozerať → pozerám / pozerajú"],
+          ["Type 2", "-iť verbs", "-ím / -ia", "robiť → robím / robia"],
+          ["Type 3", "-ovať verbs", "-ujem / -ujú", "pracovať → pracujem / pracujú"],
+          ["Type 4", "-ieť verbs", "-iem / -ejú", "rozumieť → rozumiem / rozumejú"]
         ]
-      }
+      },
+      "examples": [
+        "Type 1: čítať → čítam, čítajú",
+        "Type 2: hovoriť → hovorím, hovoria",
+        "Type 3: študovať → študujem, študujú",
+        "Type 4: myslieť → myslím (irregular — follows Type 2 pattern instead)"
+      ]
     },
-
     {
       "title": "Type 1: -ať verbs (pozerať type)",
-      "text": "These verbs usually end in -ať. The stem remains stable and the endings follow a clear pattern.",
+      "text": "These verbs end in -ať. The stem remains stable and the endings follow a clear -á- pattern throughout, with -ajú in 3rd plural.",
       "table": {
-        "headers": ["Person", "Ending", "Example: pozerať"],
+        "headers": ["Person", "Ending", "pozerať", "čítať", "volať", "čakať"],
         "rows": [
-          ["1st sg", "-ám", "pozerám"],
-          ["2nd sg", "-áš", "pozeráš"],
-          ["3rd sg", "-á", "pozerá"],
-          ["1st pl", "-áme", "pozeráme"],
-          ["2nd pl", "-áte", "pozeráte"],
-          ["3rd pl", "-ajú", "pozerajú"]
+          ["ja", "-ám", "pozerám", "čítam", "volám", "čakám"],
+          ["ty", "-áš", "pozeráš", "čítaš", "voláš", "čakáš"],
+          ["on/ona", "-á", "pozerá", "číta", "volá", "čaká"],
+          ["my", "-áme", "pozeráme", "čítame", "voláme", "čakáme"],
+          ["vy", "-áte", "pozeráte", "čítate", "voláte", "čakáte"],
+          ["oni", "-ajú", "pozerajú", "čítajú", "volajú", "čakajú"]
         ]
-      }
+      },
+      "examples": [
+        "čítať, volať, čakať, dávať, počúvať, bývať, behať, poznať, rozprávať"
+      ]
     },
-
     {
       "title": "Type 2: -iť verbs (hovoriť / robiť type)",
-      "text": "Many verbs ending in -iť follow this pattern. The stem drops -iť and takes endings with -í / -ia.",
+      "text": "Verbs ending in -iť drop the -iť and take endings with -í- throughout, with -ia in 3rd plural. Many common verbs follow this pattern.",
       "table": {
-        "headers": ["Person", "Ending", "Example: hovoriť"],
+        "headers": ["Person", "Ending", "hovoriť", "robiť", "učiť", "nosiť"],
         "rows": [
-          ["1st sg", "-ím", "hovorím"],
-          ["2nd sg", "-íš", "hovoríš"],
-          ["3rd sg", "-í", "hovorí"],
-          ["1st pl", "-íme", "hovoríme"],
-          ["2nd pl", "-íte", "hovoríte"],
-          ["3rd pl", "-ia", "hovoria"]
+          ["ja", "-ím", "hovorím", "robím", "učím", "nosím"],
+          ["ty", "-íš", "hovoríš", "robíš", "učíš", "nosíš"],
+          ["on/ona", "-í", "hovorí", "robí", "učí", "nosí"],
+          ["my", "-íme", "hovoríme", "robíme", "učíme", "nosíme"],
+          ["vy", "-íte", "hovoríte", "robíte", "učíte", "nosíte"],
+          ["oni", "-ia", "hovoria", "robia", "učia", "nosia"]
         ]
-      }
+      },
+      "examples": [
+        "hovoriť, robiť, učiť, nosiť, chodiť, sedieť, stáť (stojím!), spať (spím!), vidieť (vidím!)"
+      ]
     },
-
     {
-      "title": "Type 3: -ovať verbs (pracovať / študovať type)",
-      "text": "Verbs ending in -ovať usually insert -uj- in the present tense stem.",
+      "title": "Type 3: -ovať verbs (pracovať type)",
+      "text": "Verbs ending in -ovať insert -uj- in the present tense stem. Very productive pattern — many loanwords and newer verbs use this.",
       "table": {
-        "headers": ["Person", "Ending", "Example: pracovať"],
+        "headers": ["Person", "Ending", "pracovať", "študovať", "kupovať", "cestovať"],
         "rows": [
-          ["1st sg", "-ujem", "pracujem"],
-          ["2nd sg", "-uješ", "pracuješ"],
-          ["3rd sg", "-uje", "pracuje"],
-          ["1st pl", "-ujeme", "pracujeme"],
-          ["2nd pl", "-ujete", "pracujete"],
-          ["3rd pl", "-ujú", "pracujú"]
+          ["ja", "-ujem", "pracujem", "študujem", "kupujem", "cestujem"],
+          ["ty", "-uješ", "pracuješ", "študuješ", "kupuješ", "cestuješ"],
+          ["on/ona", "-uje", "pracuje", "študuje", "kupuje", "cestuje"],
+          ["my", "-ujeme", "pracujeme", "študujeme", "kupujeme", "cestujeme"],
+          ["vy", "-ujete", "pracujete", "študujete", "kupujete", "cestujete"],
+          ["oni", "-ujú", "pracujú", "študujú", "kupujú", "cestujú"]
         ]
-      }
+      },
+      "examples": [
+        "pracovať, študovať, kupovať, cestovať, telefonovať, predávať (predávam — Type 1!)"
+      ]
     },
-
     {
       "title": "Type 4: -ieť verbs (rozumieť type)",
-      "text": "These verbs change the stem slightly and use endings that create the 3rd plural -ejú.",
+      "text": "Verbs ending in -ieť use -ie- in the stem and -ejú in 3rd plural. Fewer verbs follow this pattern. Warning: some -ieť verbs actually follow Type 2 (vidieť → vidím, not *vidiem).",
       "table": {
-        "headers": ["Person", "Ending", "Example: rozumieť"],
+        "headers": ["Person", "Ending", "rozumieť"],
         "rows": [
-          ["1st sg", "-iem", "rozumiem"],
-          ["2nd sg", "-ieš", "rozumieš"],
-          ["3rd sg", "-ie", "rozumie"],
-          ["1st pl", "-ieme", "rozumieme"],
-          ["2nd pl", "-iete", "rozumiete"],
-          ["3rd pl", "-ejú", "rozumejú"]
+          ["ja", "-iem", "rozumiem"],
+          ["ty", "-ieš", "rozumieš"],
+          ["on/ona", "-ie", "rozumie"],
+          ["my", "-ieme", "rozumieme"],
+          ["vy", "-iete", "rozumiete"],
+          ["oni", "-ejú", "rozumejú"]
         ]
-      }
+      },
+      "examples": [
+        "rozumieť → rozumiem/rozumejú (true Type 4)",
+        "vidieť → vidím/vidia (looks like -ieť but conjugates as Type 2!)",
+        "myslieť → myslím/myslia (also Type 2 pattern despite -ieť ending)"
+      ]
     },
-
     {
-      "title": "Irregular and Less Predictable Verbs",
-      "text": "Some verbs change their stems or endings in ways that do not match the standard patterns. These must usually be memorized.",
+      "title": "Essential Irregular Verbs: byť, mať, jesť, ísť",
+      "text": "The most common verbs in Slovak are irregular. These must be memorized — no pattern will predict them.",
       "table": {
-        "headers": ["Infinitive", "1sg", "2sg", "3sg", "1pl", "2pl", "3pl"],
+        "headers": ["Person", "byť (to be)", "mať (to have)", "jesť (to eat)", "ísť (to go)"],
         "rows": [
-          ["brať", "beriem", "berieš", "berie", "berieme", "beriete", "berú"],
-          ["chudnúť", "chudnem", "chudneš", "chudne", "chudneme", "chudnete", "chudnú"],
-          ["chytať", "chytám", "chytáš", "chytá", "chytáme", "chytáte", "chytajú"],
-          ["česať", "česem", "česeš", "čese", "česeme", "česete", "česú"],
-          ["hynúť", "hyniem", "hynieš", "hynie", "hynieme", "hyniete", "hynú"],
-          ["kričať", "kričím", "kričíš", "kričí", "kričíme", "kričíte", "kričia"],
-          ["niesť", "niesiem", "niesieš", "niesie", "niesieme", "niesiete", "nesú"],
-          ["pracovať", "pracujem", "pracuješ", "pracuje", "pracujeme", "pracujete", "pracujú"],
-          ["robiť", "robím", "robíš", "robí", "robíme", "robíte", "robia"],
-          ["rozumieť", "rozumiem", "rozumieš", "rozumie", "rozumieme", "rozumiete", "rozumejú"],
-          ["trieť", "triem", "trieš", "trie", "trieme", "triete", "trú"],
-          ["vidieť", "vidím", "vidíš", "vidí", "vidíme", "vidíte", "vidia"],
-          ["žať", "žnem", "žneš", "žne", "žneme", "žnete", "žnú"],
-          ["žuť", "žujem", "žuješ", "žuje", "žueme", "žuete", "žujú"]
+          ["ja", "som", "mám", "jem", "idem"],
+          ["ty", "si", "máš", "ješ", "ideš"],
+          ["on/ona", "je", "má", "je", "ide"],
+          ["my", "sme", "máme", "jeme", "ideme"],
+          ["vy", "ste", "máte", "jete", "idete"],
+          ["oni", "sú", "majú", "jedia", "idú"]
         ]
-      }
+      },
+      "examples": [
+        "byť: completely unique — som/si/je/sme/ste/sú",
+        "mať: looks Type 1 but 3pl is majú (not *majú is regular, but stem is irregular)",
+        "jesť: 3sg 'je' = same as 'is' — context distinguishes (On je = He is / He eats)",
+        "ísť: idem/ideš/ide — unidirectional motion verb"
+      ]
+    },
+    {
+      "title": "Modal Verbs: chcieť, môcť, musieť, smieť",
+      "text": "Modal verbs are irregular and must be memorized. They are followed by an infinitive.",
+      "table": {
+        "headers": ["Person", "chcieť (want)", "môcť (can)", "musieť (must)", "smieť (may)"],
+        "rows": [
+          ["ja", "chcem", "môžem", "musím", "smiem"],
+          ["ty", "chceš", "môžeš", "musíš", "smieš"],
+          ["on/ona", "chce", "môže", "musí", "smie"],
+          ["my", "chceme", "môžeme", "musíme", "smieme"],
+          ["vy", "chcete", "môžete", "musíte", "smiete"],
+          ["oni", "chcú", "môžu", "musia", "smú"]
+        ]
+      },
+      "examples": [
+        "Chcem ísť domov – I want to go home",
+        "Môžeš mi pomôcť? – Can you help me?",
+        "Musím pracovať – I must work",
+        "Nesmieš to robiť – You must not do that"
+      ]
+    },
+    {
+      "title": "Other Key Irregular Verbs",
+      "text": "These common verbs have stem changes or unpredictable conjugations. The infinitive alone won't tell you the present tense form.",
+      "table": {
+        "headers": ["Infinitive", "ja", "ty", "on/ona", "my", "vy", "oni", "Pattern Note"],
+        "rows": [
+          ["vedieť", "viem", "vieš", "vie", "vieme", "viete", "vedia", "Unique stem"],
+          ["piť", "pijem", "piješ", "pije", "pijeme", "pijete", "pijú", "Inserts -j-"],
+          ["spať", "spím", "spíš", "spí", "spíme", "spíte", "spia", "Type 2 despite -ať"],
+          ["stáť", "stojím", "stojíš", "stojí", "stojíme", "stojíte", "stoja", "Stem change á→oj"],
+          ["brať", "beriem", "berieš", "berie", "berieme", "beriete", "berú", "Stem change a→er"],
+          ["písať", "píšem", "píšeš", "píše", "píšeme", "píšete", "píšu", "s→š stem change"],
+          ["niesť", "nesiem", "nesieš", "nesie", "nesieme", "nesiete", "nesú", "ie stem + -ú"],
+          ["počuť", "počujem", "počuješ", "počuje", "počujeme", "počujete", "počujú", "Inserts -uj-"]
+        ]
+      },
+      "examples": [
+        "písať → píšem (not *písam) — stem consonant changes",
+        "brať → beriem (not *brám) — completely different stem",
+        "stáť → stojím (not *stám) — stem vowel changes",
+        "spať → spím (not *spám) — follows Type 2 despite -ať ending"
+      ]
+    },
+    {
+      "title": "Stem-Change Traps: -ať Verbs That Don't Follow Type 1",
+      "text": "Not all -ať verbs follow the regular Type 1 (-ám/-ajú) pattern. Some have consonant or vowel changes in the stem. These are common and must be learned individually.",
+      "table": {
+        "headers": ["Infinitive", "Expected (Type 1)", "Actual (1sg)", "Actual (3pl)", "Why"],
+        "rows": [
+          ["písať", "*písam", "píšem", "píšu", "s → š, follows -em/-ú pattern"],
+          ["brať", "*brám", "beriem", "berú", "Complete stem change"],
+          ["spať", "*spám", "spím", "spia", "Follows Type 2"],
+          ["stáť", "*stám", "stojím", "stoja", "á → oj, follows Type 2"],
+          ["kričať", "*kričám", "kričím", "kričia", "Follows Type 2"],
+          ["ležať", "*ležám", "ležím", "ležia", "Follows Type 2"],
+          ["žať", "*žám", "žnem", "žnú", "Complete stem change"]
+        ]
+      },
+      "examples": [
+        "Rule of thumb: if an -ať verb describes a state/position (spať, stáť, ležať, sedieť), it often follows Type 2",
+        "If an -ať verb has a consonant cluster before -ať, check for stem changes"
+      ]
+    },
+    {
+      "title": "Reflexive Verbs in Present Tense",
+      "text": "Reflexive verbs use sa (accusative) or si (dative) after the conjugated verb. In questions or after conjunctions, sa/si can shift position but generally follows the verb.",
+      "table": {
+        "headers": ["Person", "učiť sa (to learn)", "kúpiť si (to buy oneself)"],
+        "rows": [
+          ["ja", "učím sa", "kúpim si"],
+          ["ty", "učíš sa", "kúpiš si"],
+          ["on/ona", "učí sa", "kúpi si"],
+          ["my", "učíme sa", "kúpime si"],
+          ["vy", "učíte sa", "kúpite si"],
+          ["oni", "učia sa", "kúpia si"]
+        ]
+      },
+      "examples": [
+        "Učím sa slovenčinu – I'm learning Slovak",
+        "Umývam sa – I'm washing myself",
+        "Kúpim si kávu – I'll buy myself a coffee",
+        "Ako sa máš? – How are you? (sa moves after question word)"
+      ]
+    },
+    {
+      "title": "Negation in Present Tense",
+      "text": "Negate verbs by adding 'ne-' directly before the verb. No space, no separate word. Exception: byť → nie je (3sg), but nie som, nie si, etc. are also used.",
+      "table": {
+        "headers": ["Positive", "Negative", "Translation"],
+        "rows": [
+          ["robím", "nerobím", "I don't do"],
+          ["hovorí", "nehovorí", "he/she doesn't speak"],
+          ["pracujú", "nepracujú", "they don't work"],
+          ["rozumiem", "nerozumiem", "I don't understand"],
+          ["som", "nie som", "I am not"],
+          ["je", "nie je", "he/she/it is not"],
+          ["sú", "nie sú", "they are not"]
+        ]
+      },
+      "examples": [
+        "Nerozumiem – I don't understand",
+        "Nepracujem dnes – I'm not working today",
+        "Nie som unavený – I'm not tired",
+        "Nie je tu – He/she is not here"
+      ]
+    },
+    {
+      "title": "Quick Conjugation Identification Guide",
+      "text": "Use this to quickly identify which pattern a verb follows.",
+      "table": {
+        "headers": ["If the infinitive ends in...", "Check for...", "Likely pattern"],
+        "rows": [
+          ["-ať", "Regular stem? No consonant changes?", "Type 1: -ám/-ajú"],
+          ["-ať", "State/position verb? (spať, stáť, ležať)", "Type 2: -ím/-ia"],
+          ["-ať", "Consonant change in stem? (písať→píš-)", "Irregular: -em/-ú"],
+          ["-iť", "Standard", "Type 2: -ím/-ia"],
+          ["-ovať", "Standard", "Type 3: -ujem/-ujú"],
+          ["-ieť", "Check 3pl: -ejú or -ia?", "Type 4 (-ejú) or Type 2 (-ia)"],
+          ["anything else", "Check individually", "Likely irregular"]
+        ]
+      },
+      "examples": []
     }
   ],
   "vocab": [
