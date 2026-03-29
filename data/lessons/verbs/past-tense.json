@@ -109,7 +109,7 @@
   ],
 
   "vocab": [
-        { "sk": "byť (imp)", "en": "to be" },
+    { "sk": "byť (imp)", "en": "to be" },
     { "sk": "mať (imp)", "en": "to have" },
     { "sk": "môcť (imp)", "en": "to be able to, can" },
     { "sk": "musieť (imp)", "en": "to have to, must" },
