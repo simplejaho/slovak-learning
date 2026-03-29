@@ -1,380 +1,221 @@
 {
+  "summary": [
+    "ALL ordinals decline like adjectives — full gender, number, and case agreement",
+    "Hard-stem pattern (-ý/-á/-é): prvý, druhý, štvrtý, piaty, šiesty... stý",
+    "Soft-stem exception: tretí/tretia/tretie (3rd) — only one that's soft",
+    "Masculine animate Acc = Gen (vidím prvého muža), inanimate Acc = Nom (vidím prvý dom)",
+    "Hard-stem endings: -ý/-ého/-ému/-ého or -ý/-om/-ým (M), -á/-ej/-ej/-ú/-ej/-ou (F), -é/-ého/-ému/-é/-om/-ým (N)",
+    "Dates use ordinals in GENITIVE: prvého januára, dvadsiateho druhého marca",
+    "Time uses ordinals in LOCATIVE with 'o': o druhej, o piatej",
+    "Fractions from ordinals: tretina (1/3), štvrtina (1/4), pätina (1/5)",
+    "Compound ordinals (21st+): only the last part is ordinal — dvadsiaty prvý",
+    "posledný (last), ďalší (next) — also decline like adjectives"
+  ],
+
   "rules": [
     {
-      "title": "Slovak Ordinal Numbers - Overview",
-      "text": "Slovak ordinal numbers (radové číslovky) express position or order in a sequence and answer the question 'ktorý?' (which one?). Unlike cardinals, ALL ordinals decline like adjectives with full gender, number, and case agreement. They describe position (first, second, third) rather than quantity. Ordinals are formed from cardinal numbers with specific suffixes and always agree with the noun they modify.",
-      "examples": [
-        "prvý muž (the first man - masculine)",
-        "druhá žena (the second woman - feminine)",
-        "tretie dieťa (the third child - neuter)",
-        "Vidím prvého muža (I see the first man - accusative)",
-        "S piatym mužom (with the fifth man - instrumental)"
-      ]
-    },
-    {
-      "title": "Ordinal Number 'prvý' (first) - Complete Declension",
-      "text": "'Prvý' (first) is the most common ordinal and declines like a hard-stem adjective. It shows full gender agreement (masculine, feminine, neuter) and distinguishes between animate and inanimate in masculine accusative.",
+      "title": "The Core Idea: Ordinals = Adjectives",
+      "text": "Every ordinal number in Slovak declines exactly like an adjective. If you know adjective endings, you know ordinal endings. There are only two patterns: hard-stem (-ý) for almost everything, and soft-stem (-í) for 'tretí' (third) only.",
       "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M pers)", "Plural (other)"],
+        "headers": ["Pattern", "Which Ordinals", "Nom M/F/N", "Example"],
         "rows": [
-          ["Nominative", "prvý", "prvá", "prvé", "prví", "prvé"],
-          ["Genitive", "prvého", "prvej", "prvého", "prvých", "prvých"],
-          ["Dative", "prvému", "prvej", "prvému", "prvým", "prvým"],
-          ["Accusative", "prvého/prvý", "prvú", "prvé", "prvých", "prvé"],
-          ["Locative", "prvom", "prvej", "prvom", "prvých", "prvých"],
-          ["Instrumental", "prvým", "prvou", "prvým", "prvými", "prvými"]
+          ["Hard-stem", "All except 3rd", "-ý / -á / -é", "prvý muž, prvá žena, prvé dieťa"],
+          ["Soft-stem", "Only 3rd", "-í / -ia / -ie", "tretí muž, tretia žena, tretie dieťa"]
         ]
       },
       "examples": [
-        "Nominative: Prvý muž prišiel - The first man came",
-        "Nominative: Prvá žena odišla - The first woman left",
-        "Nominative: Prvé dieťa spí - The first child is sleeping",
-        "Genitive: Dom prvého muža - The first man's house",
-        "Genitive: Kniha prvej ženy - The first woman's book",
-        "Dative: Prvému mužovi - To the first man",
-        "Accusative: Vidím prvého muža - I see the first man (animate)",
-        "Accusative: Vidím prvý dom - I see the first house (inanimate)",
-        "Accusative: Vidím prvú ženu - I see the first woman",
-        "Locative: O prvom mužovi - About the first man",
-        "Instrumental: S prvým mužom - With the first man",
-        "Instrumental: S prvou ženou - With the first woman"
+        "prvý, druhý, štvrtý, piaty... stý — all hard-stem (-ý)",
+        "tretí — the only soft-stem (-í)"
       ]
     },
     {
-      "title": "Ordinal Number 'druhý' (second) - Complete Declension",
-      "text": "'Druhý' (second) follows the same declension pattern as 'prvý'. It's a hard-stem adjective with full gender and case agreement.",
+      "title": "Hard-Stem Declension (prvý, druhý, piaty, etc.)",
+      "text": "This is the pattern for all ordinals except tretí. Same endings as any hard-stem adjective (like dobrý, nový, pekný).",
       "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M pers)", "Plural (other)"],
+        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural"],
         "rows": [
-          ["Nominative", "druhý", "druhá", "druhé", "druhí", "druhé"],
-          ["Genitive", "druhého", "druhej", "druhého", "druhých", "druhých"],
-          ["Dative", "druhému", "druhej", "druhému", "druhým", "druhým"],
-          ["Accusative", "druhého/druhý", "druhú", "druhé", "druhých", "druhé"],
-          ["Locative", "druhom", "druhej", "druhom", "druhých", "druhých"],
-          ["Instrumental", "druhým", "druhou", "druhým", "druhými", "druhými"]
+          ["Nominative", "-ý (prvý)", "-á (prvá)", "-é (prvé)", "-í / -é (prví / prvé)"],
+          ["Genitive", "-ého (prvého)", "-ej (prvej)", "-ého (prvého)", "-ých (prvých)"],
+          ["Dative", "-ému (prvému)", "-ej (prvej)", "-ému (prvému)", "-ým (prvým)"],
+          ["Accusative", "-ého / -ý (prvého / prvý)", "-ú (prvú)", "-é (prvé)", "-ých / -é"],
+          ["Locative", "-om (prvom)", "-ej (prvej)", "-om (prvom)", "-ých (prvých)"],
+          ["Instrumental", "-ým (prvým)", "-ou (prvou)", "-ým (prvým)", "-ými (prvými)"]
         ]
       },
       "examples": [
-        "Nominative: Druhý muž - The second man",
-        "Nominative: Druhá kniha - The second book",
-        "Nominative: Druhé auto - The second car",
-        "Genitive: Cena druhého domu - The price of the second house",
-        "Dative: Druhému študentovi - To the second student",
-        "Accusative: Vidím druhého muža - I see the second man",
-        "Locative: O druhom dome - About the second house",
-        "Instrumental: S druhým mužom - With the second man"
+        "Vidím prvého muža (animate Acc = Gen) vs Vidím prvý dom (inanimate Acc = Nom)",
+        "S prvou ženou — With the first woman",
+        "O prvom dome — About the first house"
       ]
     },
     {
-      "title": "Ordinal Number 'tretí' (third) - Complete Declension",
-      "text": "'Tretí' (third) is a soft-stem adjective, so it has slightly different endings than 'prvý' and 'druhý'. Note the -í ending in nominative masculine and the soft consonant throughout.",
+      "title": "Soft-Stem Declension (tretí only)",
+      "text": "Tretí (third) is the only ordinal with soft-stem endings. The differences from hard-stem are small but consistent.",
       "table": {
-        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural (M pers)", "Plural (other)"],
+        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural"],
         "rows": [
-          ["Nominative", "tretí", "tretia", "tretie", "tretí", "tretie"],
-          ["Genitive", "tretieho", "tretej", "tretieho", "tretích", "tretích"],
-          ["Dative", "tretiemu", "tretej", "tretiemu", "tretím", "tretím"],
-          ["Accusative", "tretieho/tretí", "tretiu", "tretie", "tretích", "tretie"],
-          ["Locative", "treťom", "tretej", "treťom", "tretích", "tretích"],
-          ["Instrumental", "tretím", "tretou", "tretím", "tretími", "tretími"]
+          ["Nominative", "tretí", "tretia", "tretie", "tretí / tretie"],
+          ["Genitive", "tretieho", "tretej", "tretieho", "tretích"],
+          ["Dative", "tretiemu", "tretej", "tretiemu", "tretím"],
+          ["Accusative", "tretieho / tretí", "tretiu", "tretie", "tretích / tretie"],
+          ["Locative", "treťom", "tretej", "treťom", "tretích"],
+          ["Instrumental", "tretím", "tretou", "tretím", "tretími"]
         ]
       },
       "examples": [
-        "Nominative: Tretí muž - The third man",
-        "Nominative: Tretia žena - The third woman",
-        "Nominative: Tretie dieťa - The third child",
-        "Genitive: Dom tretieho muža - The third man's house",
-        "Dative: Tretiemu mužovi - To the third man",
-        "Accusative: Vidím tretieho muža - I see the third man",
-        "Locative: O treťom mužovi - About the third man",
-        "Instrumental: S tretím mužom - With the third man"
+        "Tretí deň — The third day",
+        "Tretia ulica — The third street",
+        "V treťom dome — In the third house"
       ]
     },
     {
-      "title": "Ordinal Numbers 4th-10th - Complete Declension Table",
-      "text": "Ordinals 4-10 are hard-stem adjectives ending in -ý (masculine nominative). They all follow the same pattern as 'prvý' and 'druhý'.",
+      "title": "All Ordinals 1st–10th",
+      "text": "The ordinal forms for 1-10. All are hard-stem except tretí. Just learn the stem and add standard adjective endings.",
       "table": {
-        "headers": ["Ordinal (EN)", "Nominative (M)", "Genitive (M)", "Dative (M)", "Accusative (M)", "Locative (M)", "Instrumental (M)"],
+        "headers": ["#", "Masculine", "Feminine", "Neuter", "Stem Type"],
         "rows": [
-          ["4th", "štvrtý", "štvrtého", "štvrtému", "štvrtého/štvrtý", "štvrtom", "štvrtým"],
-          ["5th", "piaty", "piateho", "piatemu", "piateho/piaty", "piatom", "piatym"],
-          ["6th", "šiesty", "šiesteho", "šiestemu", "šiesteho/šiesty", "šiestom", "šiestym"],
-          ["7th", "siedmy", "siedmeho", "siedmemu", "siedmeho/siedmy", "siedmom", "siedmym"],
-          ["8th", "ôsmy", "ôsmeho", "ôsmemu", "ôsmeho/ôsmy", "ôsmom", "ôsmym"],
-          ["9th", "deviaty", "deviateho", "deviatemu", "deviateho/deviaty", "deviatom", "deviatym"],
-          ["10th", "desiaty", "desiateho", "desiatemu", "desiateho/desiaty", "desiatom", "desiatym"]
+          ["1st", "prvý", "prvá", "prvé", "hard"],
+          ["2nd", "druhý", "druhá", "druhé", "hard"],
+          ["3rd", "tretí", "tretia", "tretie", "SOFT"],
+          ["4th", "štvrtý", "štvrtá", "štvrté", "hard"],
+          ["5th", "piaty", "piata", "piate", "hard"],
+          ["6th", "šiesty", "šiesta", "šieste", "hard"],
+          ["7th", "siedmy", "siedma", "siedme", "hard"],
+          ["8th", "ôsmy", "ôsma", "ôsme", "hard"],
+          ["9th", "deviaty", "deviata", "deviate", "hard"],
+          ["10th", "desiaty", "desiata", "desiate", "hard"]
         ]
       },
       "examples": [
-        "Nominative: Štvrtý deň - The fourth day",
-        "Nominative: Piata hodina - The fifth hour",
-        "Nominative: Šieste poschodie - The sixth floor",
-        "Genitive: Cena siedmeho domu - The price of the seventh house",
-        "Dative: Ôsmemu študentovi - To the eighth student",
-        "Accusative: Vidím deviateho muža - I see the ninth man",
-        "Locative: O desiatom dome - About the tenth house",
-        "Instrumental: S piatym mužom - With the fifth man"
+        "Piaty deň — The fifth day",
+        "Šiesta hodina — The sixth hour",
+        "Siedme poschodie — The seventh floor"
       ]
     },
     {
-      "title": "Ordinal Numbers 11th-20th - Complete Declension Table",
-      "text": "Ordinals 11-20 are formed from cardinals with -y/-ý suffix. They all decline like hard-stem adjectives.",
+      "title": "Ordinals 11th–20th and Tens",
+      "text": "Formed from the cardinal stem + -y/-ý. All hard-stem, all follow the same adjective pattern.",
       "table": {
-        "headers": ["Ordinal (EN)", "Nominative (M)", "Genitive (M)", "Dative (M)", "Accusative (M)", "Locative (M)", "Instrumental (M)"],
+        "headers": ["#", "Masculine", "From Cardinal"],
         "rows": [
-          ["11th", "jedenásty", "jedenásteho", "jedenástemu", "jedenásteho/jedenásty", "jedenástom", "jedenástym"],
-          ["12th", "dvanásty", "dvanásteho", "dvanástemu", "dvanásteho/dvanásty", "dvanástom", "dvanástym"],
-          ["13th", "trinásty", "trinásteho", "trinástemu", "trinásteho/trinásty", "trinástom", "trinástym"],
-          ["14th", "štrnásty", "štrnásteho", "štrnástemu", "štrnásteho/štrnásty", "štrnástom", "štrnástym"],
-          ["15th", "pätnásty", "pätnásteho", "pätnástemu", "pätnásteho/pätnásty", "pätnástom", "pätnástym"],
-          ["16th", "šestnásty", "šestnásteho", "šestnástemu", "šestnásteho/šestnásty", "šestnástom", "šestnástym"],
-          ["17th", "sedemnásty", "sedemnásteho", "sedemnástemu", "sedemnásteho/sedemnásty", "sedemnástom", "sedemnástym"],
-          ["18th", "osemnásty", "osemnásteho", "osemnástemu", "osemnásteho/osemnásty", "osemnástom", "osemnástym"],
-          ["19th", "devätnásty", "devätnásteho", "devätnástemu", "devätnásteho/devätnásty", "devätnástom", "devätnástym"],
-          ["20th", "dvadsiaty", "dvadsiateho", "dvadsiatemu", "dvadsiateho/dvadsiaty", "dvadsiatom", "dvadsiatym"]
+          ["11th", "jedenásty", "jedenásť"],
+          ["12th", "dvanásty", "dvanásť"],
+          ["13th", "trinásty", "trinásť"],
+          ["14th", "štrnásty", "štrnásť"],
+          ["15th", "pätnásty", "pätnásť"],
+          ["20th", "dvadsiaty", "dvadsať"],
+          ["30th", "tridsiaty", "tridsať"],
+          ["40th", "štyridsaty", "štyridsať"],
+          ["50th", "päťdesiaty", "päťdesiat"],
+          ["100th", "stý", "sto"]
         ]
       },
       "examples": [
-        "Jedenásty deň - The eleventh day",
-        "Dvanásta hodina - The twelfth hour",
-        "V trinástom dome - In the thirteenth house",
-        "S pätnástym študentom - With the fifteenth student",
-        "Dvadsiaty storočie - The twentieth century"
+        "Dvanásta hodina — The twelfth hour (noon/midnight)",
+        "Dvadsiaty rok — The twentieth year",
+        "Stý ročník — The hundredth anniversary"
       ]
     },
     {
-      "title": "Ordinal Numbers 20th-100th - Tens Declension",
-      "text": "Ordinals for tens (20th, 30th, etc.) are formed from cardinal tens with -y suffix. They decline like hard-stem adjectives.",
-      "table": {
-        "headers": ["Ordinal (EN)", "Nominative (M)", "Genitive (M)", "Dative (M)", "Accusative (M)", "Locative (M)", "Instrumental (M)"],
-        "rows": [
-          ["20th", "dvadsiaty", "dvadsiateho", "dvadsiatemu", "dvadsiateho/dvadsiaty", "dvadsiatom", "dvadsiatym"],
-          ["30th", "tridsiaty", "tridsiateho", "tridsiatemu", "tridsiateho/tridsiaty", "tridsiatom", "tridsiatym"],
-          ["40th", "štyridsaty", "štyrdsiateho", "štyridsiatemu", "štyridsateho/štyridsaty", "štyridsiatom", "štyridsiatym"],
-          ["50th", "päťdesiaty", "päťdesiateho", "päťdesiatemu", "päťdesiateho/päťdesiaty", "päťdesiatom", "päťdesiatym"],
-          ["60th", "šesťdesiaty", "šesťdesiateho", "šesťdesiatemu", "šesťdesiateho/šesťdesiaty", "šesťdesiatom", "šesťdesiatym"],
-          ["70th", "sedemdesiaty", "sedemdesiateho", "sedemdesiatemu", "sedemdesiateho/sedemdesiaty", "sedemdesiatom", "sedemdesiatym"],
-          ["80th", "osemdesiaty", "osemdesiateho", "osemdesiatemu", "osemdesiateho/osemdesiaty", "osemdesiatom", "osemdesiatym"],
-          ["90th", "deväťdesiaty", "deväťdesiateho", "deväťdesiatemu", "deväťdesiateho/deväťdesiaty", "deväťdesiatom", "deväťdesiatym"],
-          ["100th", "stý", "stého", "stému", "stého/stý", "stom", "stým"]
-        ]
-      },
+      "title": "Compound Ordinals (21st, 22nd, etc.)",
+      "text": "Only the last part becomes ordinal. Both parts decline in oblique cases.",
       "examples": [
-        "Dvadsiaty rok - The twentieth year",
-        "Tridsiata minúta - The thirtieth minute",
-        "Päťdesiaty deň - The fiftieth day",
-        "Stý ročník - The one hundredth anniversary",
-        "V stom dome - In the one hundredth house"
-      ]
-    },
-    {
-      "title": "Ordinal Numbers - Gender Agreement",
-      "text": "All ordinals must agree with the noun in gender (masculine, feminine, neuter). Here are the three genders for common ordinals in nominative case.",
-      "table": {
-        "headers": ["Ordinal (EN)", "Masculine", "Feminine", "Neuter", "Example"],
-        "rows": [
-          ["1st", "prvý", "prvá", "prvé", "prvý muž / prvá žena / prvé dieťa"],
-          ["2nd", "druhý", "druhá", "druhé", "druhý dom / druhá kniha / druhé auto"],
-          ["3rd", "tretí", "tretia", "tretie", "tretí deň / tretia ulica / tretie poschodie"],
-          ["4th", "štvrtý", "štvrtá", "štvrté", "štvrtý mesiac / štvrtá trieda / štvrté miesto"],
-          ["5th", "piaty", "piata", "piate", "piaty rok / piata hodina / piate dieťa"],
-          ["10th", "desiaty", "desiata", "desiate", "desiaty ročník / desiata strana / desiate číslo"],
-          ["20th", "dvadsiaty", "dvadsiata", "dvadsiate", "dvadsiaty storočie / dvadsiata minúta / dvadsiate výročie"],
-          ["100th", "stý", "stá", "sté", "stý deň / stá strana / sté výročie"]
-        ]
-      },
-      "examples": [
-        "Prvý muž prišiel - The first man came",
-        "Prvá žena odišla - The first woman left",
-        "Prvé dieťa spí - The first child is sleeping",
-        "Druhá kniha je lepšia - The second book is better",
-        "Tretie poschodie - The third floor",
-        "Piata hodina - The fifth hour",
-        "Desiata strana - The tenth page"
-      ]
-    },
-    {
-      "title": "Compound Ordinal Numbers - Formation Rules",
-      "text": "Compound ordinals (21st-99th, 101st+) are formed by combining tens and units. Only the last element is ordinal; earlier elements remain as cardinals. Both parts decline when the ordinal is in oblique cases.",
-      "table": {
-        "headers": ["Number", "Formation", "Nominative (M)", "Genitive (M)", "Example"],
-        "rows": [
-          ["21st", "dvadsať + prvý", "dvadsiatyprvý", "dvadsiateho prvého", "dvadsiatyprvý deň"],
-          ["22nd", "dvadsať + druhý", "dvadsiatydru", "dvadsiateho druhého", "dvadsiatydru deň"],
-          ["25th", "dvadsať + piaty", "dvadsiatypiaty", "dvadsiateho piateho", "dvadsiatypiaty deň"],
-          ["31st", "tridsať + prvý", "tridsiaty prvý", "tridsiateho prvého", "tridsiaty prvý deň"],
-          ["100th", "sto", "stý", "stého", "stý deň"],
-          ["101st", "sto + prvý", "stý prvý", "stého prvého", "stý prvý deň"]
-        ]
-      },
-      "examples": [
-        "Dvadsiatyprvý deň - The twenty-first day",
-        "Dvadsiatypiaty marec - The twenty-fifth of March",
-        "Tridsiaty prvý december - The thirty-first of December",
-        "Stý ročník - The one hundredth anniversary",
-        "O dvadsiatom prvom - About the twenty-first",
-        "S dvadsiatym piatym - With the twenty-fifth"
-      ]
-    },
-    {
-      "title": "Special Ordinals - 'prvý' and 'posledný'",
-      "text": "'Prvý' (first) and 'posledný' (last) are the most commonly used ordinals. 'Posledný' (last) declines like a regular hard-stem adjective.",
-      "table": {
-        "headers": ["Ordinal", "Masculine", "Feminine", "Neuter", "Usage"],
-        "rows": [
-          ["first", "prvý", "prvá", "prvé", "Position at beginning"],
-          ["last", "posledný", "posledná", "posledné", "Position at end"],
-          ["next", "ďalší", "ďalšia", "ďalšie", "Following in sequence"],
-          ["previous", "predchádzajúci", "predchádzajúca", "predchádzajúce", "Preceding in sequence"]
-        ]
-      },
-      "examples": [
-        "Prvý deň - The first day",
-        "Prvá láska - First love",
-        "Posledný vlak - The last train",
-        "Posledná šanca - The last chance",
-        "Ďalší týždeň - Next week",
-        "Predchádzajúci mesiac - Previous month",
-        "Na prvom mieste - In first place",
-        "Do posledného - To the last one"
-      ]
-    },
-    {
-      "title": "Ordinals as Nouns - Substantive Use",
-      "text": "Ordinals frequently function as nouns (substantives) when they stand alone without modifying another noun. They decline like adjectives and take appropriate gender based on what they refer to.",
-      "table": {
-        "headers": ["Example", "Translation", "Gender", "Notes"],
-        "rows": [
-          ["Prvý je najlepší", "The first one is the best", "Masculine", "Refers to person/thing"],
-          ["Druhá prišla neskoro", "The second one came late", "Feminine", "Refers to female"],
-          ["Tretí vyhral", "The third one won", "Masculine", "Refers to male"],
-          ["Hovoril som s prvým", "I spoke with the first one", "Masculine instrumental", "Oblique case"],
-          ["Videl som druhého", "I saw the second one", "Masculine accusative", "Animate"],
-          ["Piaty v rade", "The fifth in line", "Masculine", "Position"],
-          ["Desiaty z nich", "The tenth of them", "Masculine", "From group"],
-          ["Prvá z nich", "The first one of them", "Feminine", "Female from group"]
-        ]
-      },
-      "examples": [
-        "Prvý je najlepší - The first one is the best",
-        "Druhá prišla neskoro - The second one (female) came late",
-        "Tretí vyhral - The third one won",
-        "Hovoril som s prvým - I spoke with the first one",
-        "Videl som druhého - I saw the second one",
-        "Piaty v rade - The fifth in line",
-        "Desiaty z nich - The tenth of them",
-        "Prvá z nich - The first one (female) of them"
+        "Dvadsiaty prvý — 21st (dvadsiaty + prvý)",
+        "Dvadsiaty druhý — 22nd",
+        "Tridsiaty prvý december — December 31st",
+        "Genitive: dvadsiateho prvého — of the 21st",
+        "Instrumental: s dvadsiatym piatym — with the 25th"
       ]
     },
     {
       "title": "Ordinals in Dates",
-      "text": "Ordinals are used for days of the month in dates. They appear in genitive case when expressing 'on the [date]'. Months are also in genitive.",
+      "text": "Days of the month use ordinals in GENITIVE case. The month is also in genitive. Years use cardinals.",
       "table": {
-        "headers": ["Date Expression", "Slovak", "Case Used", "Notes"],
+        "headers": ["Date", "Slovak", "Case"],
         "rows": [
-          ["On the 1st of January", "prvého januára", "Genitive masculine", "Day + month"],
-          ["On the 22nd of March", "dvadsiateho druhého marca", "Genitive masculine", "Compound ordinal"],
-          ["On the 31st of December", "tridsiateho prvého decembra", "Genitive masculine", "Last day"],
-          ["In the year 2026", "v roku 2026", "Locative + cardinal", "Year uses cardinal"],
-          ["March 22, 2026", "22. marca 2026", "Abbreviated form", "Written format"]
+          ["January 1st", "prvého januára", "Genitive"],
+          ["March 22nd", "dvadsiateho druhého marca", "Genitive"],
+          ["December 31st", "tridsiateho prvého decembra", "Genitive"],
+          ["In 2026", "v roku 2026", "Locative + cardinal"]
         ]
       },
       "examples": [
-        "Prvého januára - On the first of January",
-        "Dvadsiateho marca - On the twentieth of March",
-        "Tridsiateho prvého decembra - On the thirty-first of December",
-        "Narodil sa prvého mája - He was born on the first of May",
-        "Dvadsiateho druhého marca 2026 - On March 22, 2026",
-        "V roku 2026 - In the year 2026 (cardinal for year)"
+        "Narodil sa prvého mája — He was born on May 1st",
+        "Dvadsiateho druhého marca 2026 — March 22, 2026"
       ]
     },
     {
-      "title": "Ordinals in Time Expressions",
-      "text": "Ordinals can be used for hours of the day, though cardinals are more common. When used, they appear in locative case with 'o' (at).",
+      "title": "Ordinals in Time",
+      "text": "Hours use ordinals in LOCATIVE case with the preposition 'o'. The feminine form is used (agreeing with 'hodina').",
       "examples": [
-        "O prvej hodine - At one o'clock (locative)",
-        "O druhej - At two o'clock",
-        "O piatej - At five o'clock",
-        "O dvanástej - At twelve o'clock",
-        "Prvá hodina - One o'clock (nominative)",
-        "Je prvá hodina - It's one o'clock"
+        "O prvej — At one o'clock",
+        "O druhej — At two o'clock",
+        "O piatej — At five o'clock",
+        "O dvanástej — At twelve o'clock"
       ]
     },
     {
-      "title": "Ordinals with Fractions",
-      "text": "Ordinals are used to form fraction nouns. The ordinal becomes a feminine noun ending in -ina.",
+      "title": "Fractions from Ordinals",
+      "text": "Fractions are formed by adding -ina to the ordinal stem. They become feminine nouns.",
       "table": {
-        "headers": ["Fraction", "Slovak Noun", "From Ordinal", "Example"],
+        "headers": ["Fraction", "Slovak", "From Ordinal"],
         "rows": [
-          ["1/2", "polovica / pol", "polovičný (half)", "polovica chleba (half of bread)"],
-          ["1/3", "tretina", "tretí (third)", "tretina populácie (a third of population)"],
-          ["1/4", "štvrtina", "štvrtý (fourth)", "štvrtina hodiny (a quarter of an hour)"],
-          ["1/5", "pätina", "piaty (fifth)", "pätina študentov (a fifth of students)"],
-          ["1/10", "desatina", "desiaty (tenth)", "desatina (a tenth)"]
+          ["1/2", "polovica", "(special)"],
+          ["1/3", "tretina", "tretí"],
+          ["1/4", "štvrtina", "štvrtý"],
+          ["1/5", "pätina", "piaty"],
+          ["1/10", "desatina", "desiaty"]
         ]
       },
       "examples": [
-        "Polovica chleba - Half of the bread",
-        "Tretina študentov - A third of the students",
-        "Štvrtina hodiny - A quarter of an hour",
-        "Pätina obyvateľov - A fifth of the inhabitants",
-        "Desatina úrody - A tenth of the harvest"
+        "Tretina študentov — A third of the students",
+        "Štvrtina hodiny — A quarter of an hour",
+        "Polovica chleba — Half of the bread"
       ]
     },
     {
-      "title": "Ordinals in Titles and Names",
-      "text": "Ordinals are used in royal titles, pope names, and historical periods. They follow the noun and agree in gender and case.",
-      "examples": [
-        "Ján Pavol Druhý - John Paul II (the Second)",
-        "Alžbeta Druhá - Elizabeth II",
-        "Karol Piaty - Charles V",
-        "Prvá svetová vojna - World War I (First World War)",
-        "Druhá svetová vojna - World War II (Second World War)",
-        "Dvadsiaty prvý storočie - The twenty-first century"
-      ]
-    },
-    {
-      "title": "Summary - Ordinal vs Cardinal Behavior",
-      "text": "Quick reference comparing how ordinals and cardinals behave grammatically in Slovak.",
+      "title": "Useful Related Words",
+      "text": "These position words also decline like adjectives.",
       "table": {
-        "headers": ["Feature", "Cardinals", "Ordinals"],
+        "headers": ["Slovak (M/F/N)", "English", "Example"],
         "rows": [
-          ["Function", "Count quantity", "Show position/order"],
-          ["Question answered", "Koľko? (How many?)", "Ktorý? (Which one?)"],
-          ["Gender agreement", "Only 'jeden' (1) shows full gender", "All ordinals show full gender"],
-          ["Case declension", "1 = full; 2-4 = limited; 5+ = no gender", "All decline like adjectives"],
-          ["Noun case (Nom)", "1 = Nom sg; 2-4 = Nom pl; 5+ = Gen pl", "Same case as ordinal"],
-          ["Substantive use", "Can stand alone as nouns", "Frequently used as nouns"],
-          ["In dates", "Years only", "Days of month (genitive)"],
-          ["Compounds", "Only last element declines", "Only last element is ordinal"],
-          ["Example", "päť mužov (five men)", "piaty muž (fifth man)"]
+          ["prvý / prvá / prvé", "first", "Prvý deň — The first day"],
+          ["posledný / posledná / posledné", "last", "Posledný vlak — The last train"],
+          ["ďalší / ďalšia / ďalšie", "next", "Ďalší týždeň — Next week"],
+          ["predchádzajúci / -a / -e", "previous", "Predchádzajúci mesiac — Previous month"]
         ]
       },
-      "examples": []
+      "examples": [
+        "Prvá svetová vojna — World War I",
+        "Druhá svetová vojna — World War II",
+        "Dvadsiaty prvý storočie — The 21st century"
+      ]
     }
   ],
 
   "vocab": [
-    {"slovak": "prvý/prvá/prvé", "english": "first", "type": "ordinal"},
-    {"slovak": "druhý/druhá/druhé", "english": "second", "type": "ordinal"},
-    {"slovak": "tretí/tretia/tretie", "english": "third", "type": "ordinal"},
-    {"slovak": "štvrtý/štvrtá/štvrté", "english": "fourth", "type": "ordinal"},
-    {"slovak": "piaty/piata/piate", "english": "fifth", "type": "ordinal"},
-    {"slovak": "šiesty/šiesta/šieste", "english": "sixth", "type": "ordinal"},
-    {"slovak": "siedmy/siedma/siedme", "english": "seventh", "type": "ordinal"},
-    {"slovak": "ôsmy/ôsma/ôsme", "english": "eighth", "type": "ordinal"},
-    {"slovak": "deviaty/deviata/deviate", "english": "ninth", "type": "ordinal"},
-    {"slovak": "desiaty/desiata/desiate", "english": "tenth", "type": "ordinal"},
-    {"slovak": "jedenásty/jedenásta/jedenáste", "english": "eleventh", "type": "ordinal"},
-    {"slovak": "dvanásty/dvanásta/dvanáste", "english": "twelfth", "type": "ordinal"},
-    {"slovak": "dvadsiaty/dvadsiata/dvadsiate", "english": "twentieth", "type": "ordinal"},
-    {"slovak": "stý/stá/sté", "english": "one hundredth", "type": "ordinal"},
-    {"slovak": "posledný/posledná/posledné", "english": "last", "type": "ordinal"},
-    {"slovak": "tretina", "english": "one third", "type": "fraction"},
-    {"slovak": "štvrtina", "english": "one quarter", "type": "fraction"},
-    {"slovak": "polovica", "english": "half", "type": "fraction"}
+    {"sk": "prvý / prvá / prvé", "en": "first"},
+    {"sk": "druhý / druhá / druhé", "en": "second"},
+    {"sk": "tretí / tretia / tretie", "en": "third"},
+    {"sk": "štvrtý / štvrtá / štvrté", "en": "fourth"},
+    {"sk": "piaty / piata / piate", "en": "fifth"},
+    {"sk": "šiesty / šiesta / šieste", "en": "sixth"},
+    {"sk": "siedmy / siedma / siedme", "en": "seventh"},
+    {"sk": "ôsmy / ôsma / ôsme", "en": "eighth"},
+    {"sk": "deviaty / deviata / deviate", "en": "ninth"},
+    {"sk": "desiaty / desiata / desiate", "en": "tenth"},
+    {"sk": "jedenásty", "en": "eleventh"},
+    {"sk": "dvanásty", "en": "twelfth"},
+    {"sk": "dvadsiaty", "en": "twentieth"},
+    {"sk": "tridsiaty", "en": "thirtieth"},
+    {"sk": "stý / stá / sté", "en": "hundredth"},
+    {"sk": "posledný / posledná / posledné", "en": "last"},
+    {"sk": "ďalší / ďalšia / ďalšie", "en": "next"},
+    {"sk": "tretina", "en": "one third (1/3)"},
+    {"sk": "štvrtina", "en": "one quarter (1/4)"},
+    {"sk": "pätina", "en": "one fifth (1/5)"},
+    {"sk": "polovica", "en": "half (1/2)"}
   ],
 
   "exercises": []
 }
-
