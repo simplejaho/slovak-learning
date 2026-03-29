@@ -1,47 +1,281 @@
 {
+  "summary": [
+    "Every Slovak verb has an aspect: imperfective (ongoing/repeated) or perfective (completed/result)",
+    "Short base verbs without prefixes → usually imperfective (čítať, písať, robiť)",
+    "Adding a prefix → usually creates perfective (pre-čítať, na-písať, u-robiť)",
+    "Perfective 'present tense' form = future meaning (prečítam = I will read it through)",
+    "Suffixes -ávať / -ovať / -úvať → imperfective, even with prefix (odovzdávať, kupovať)",
+    "Aspect pairs: most verbs have an imperfective + perfective partner (písať ↔ napísať)",
+    "Some prefixes change meaning, not just aspect (písať → opísať = to describe, not 'write completely')",
+    "Past tense exists for BOTH aspects: čítal som (was reading) vs. prečítal som (finished reading)",
+    "Imperfective = used with ongoing, habitual, repeated, or background actions",
+    "Perfective = used with single completed actions, results, or sequential events",
+    "Motion verbs have special aspect pairs: ísť/chodiť, niesť/nosiť, viezť/voziť",
+    "When in doubt: imperfective for process, perfective for result"
+  ],
+
   "rules": [
     {
       "title": "Basic Concept",
-      "text": "Slovak verbs exist in aspect pairs. Imperfective (nedokonavé) verbs describe ongoing, repeated, or unfinished actions. Perfective (dokonavé) verbs describe completed actions with a clear result.",
+      "text": "Slovak verbs exist in aspect pairs. Imperfective (nedokonavé) verbs describe ongoing, repeated, or unfinished actions. Perfective (dokonavé) verbs describe completed actions with a clear result. Almost every verb belongs to one aspect — you must learn which.",
       "examples": [
-        "čítam knihu – I am reading a book (ongoing)",
-        "prečítam knihu – I will read the book completely"
+        "čítam knihu – I am reading a book (ongoing, imperfective)",
+        "prečítam knihu – I will read the book completely (perfective)",
+        "písal som list – I was writing a letter (past, imperfective)",
+        "napísal som list – I wrote/finished the letter (past, perfective)"
       ]
     },
     {
       "title": "Short Verbs Are Usually Imperfective",
-      "text": "Short base verbs without prefixes are often imperfective. They describe general or repeated actions and can be used in the present tense.",
+      "text": "Short base verbs without prefixes are typically imperfective. They describe general, ongoing, or repeated actions and can be used in the present tense to describe what's happening now.",
       "examples": [
         "čítať – to read (imperfective)",
         "písať – to write (imperfective)",
-        "robiť – to do (imperfective)"
+        "robiť – to do/make (imperfective)",
+        "jesť – to eat (imperfective)",
+        "piť – to drink (imperfective)",
+        "hovoriť – to speak (imperfective)"
       ]
     },
     {
-      "title": "Prefixes Usually Create Perfective Verbs",
-      "text": "Adding a prefix often turns an imperfective verb into a perfective one. These verbs usually describe a completed action and normally do not have a true present tense (their present form refers to the future).",
+      "title": "Prefixes Create Perfective Verbs",
+      "text": "Adding a prefix to an imperfective verb usually makes it perfective. The prefix often adds a sense of completion or direction. The 'present tense' conjugation of a perfective verb refers to the future.",
+      "table": {
+        "headers": ["Imperfective", "Prefix", "Perfective", "Meaning Change"],
+        "rows": [
+          ["čítať", "pre-", "prečítať", "to read through completely"],
+          ["písať", "na-", "napísať", "to write (finish writing)"],
+          ["robiť", "u-", "urobiť", "to do/make (complete)"],
+          ["jesť", "z-", "zjesť", "to eat up"],
+          ["piť", "vy-", "vypiť", "to drink up"],
+          ["hovoriť", "po-", "pohovoriť", "to have a talk (completed)"],
+          ["variť", "u-", "uvariť", "to cook (finish cooking)"],
+          ["učiť sa", "na-", "naučiť sa", "to learn (master)"]
+        ]
+      },
       "examples": [
         "čítať → prečítať – to read completely",
         "písať → napísať – to write completely",
-        "robiť → urobiť – to finish doing"
+        "robiť → urobiť – to finish doing",
+        "variť → uvariť – to finish cooking"
       ]
     },
     {
-      "title": "Verbs Ending in -ávať or -ovať Are Usually Imperfective",
-      "text": "Verbs with endings like -ávať or -ovať are typically imperfective, even when they contain a prefix. They often describe repeated or habitual actions.",
+      "title": "Prefixes That Change Meaning (Not Just Aspect)",
+      "text": "Not every prefix simply 'completes' the verb. Many prefixes change the meaning entirely, creating a new verb with its own aspect pair. Learn these as separate vocabulary, not as aspect partners.",
+      "table": {
+        "headers": ["Base Verb", "Prefix + Verb", "New Meaning", "Still Perfective?"],
+        "rows": [
+          ["písať (write)", "opísať", "to describe", "Yes"],
+          ["písať (write)", "prepísať", "to rewrite", "Yes"],
+          ["písať (write)", "podpísať", "to sign", "Yes"],
+          ["písať (write)", "vpísať", "to inscribe", "Yes"],
+          ["ísť (go)", "odísť", "to leave", "Yes"],
+          ["ísť (go)", "prísť", "to arrive", "Yes"],
+          ["ísť (go)", "vyjsť", "to go out / come out", "Yes"],
+          ["robiť (do)", "prerobiť", "to redo/remake", "Yes"],
+          ["robiť (do)", "vyrobiť", "to produce/manufacture", "Yes"]
+        ]
+      },
+      "examples": [
+        "písať → napísať (write completely) — aspect pair",
+        "písať → opísať (describe) — NEW meaning, not aspect pair",
+        "ísť → prísť (arrive) — NEW meaning",
+        "robiť → vyrobiť (manufacture) — NEW meaning"
+      ]
+    },
+    {
+      "title": "Suffixes -ávať / -ovať / -úvať = Imperfective",
+      "text": "Verbs with suffixes -ávať, -ovať, or -úvať are imperfective, even when they contain a prefix. These are often the imperfective partner of a prefixed perfective verb — they 're-imperfectivize' it for repeated or habitual actions.",
+      "table": {
+        "headers": ["Perfective", "Re-imperfectivized", "Meaning"],
+        "rows": [
+          ["napísať", "napísavať (rare) / písavať", "to write repeatedly"],
+          ["odovzdať", "odovzdávať", "to hand over repeatedly"],
+          ["kúpiť", "kupovať", "to buy (habitually)"],
+          ["otvoriť", "otvárať", "to open (repeatedly)"],
+          ["zatvoriť", "zatvárať", "to close (repeatedly)"],
+          ["rozhodnúť", "rozhodovať", "to decide (repeatedly)"],
+          ["ukázať", "ukazovať", "to show (repeatedly)"]
+        ]
+      },
       "examples": [
         "dávať – to give repeatedly (imperfective)",
         "odovzdávať – to hand over repeatedly (imperfective)",
-        "kupovať – to be buying / buy regularly (imperfective)"
+        "kupovať – to buy regularly (imperfective)",
+        "otvárať – to open repeatedly (imperfective)"
       ]
     },
     {
-      "title": "Perfective Verbs Cannot Describe Ongoing Present Actions",
-      "text": "Perfective verbs usually cannot describe something happening right now. Their present-tense form refers to the future completion of the action.",
+      "title": "Perfective Verbs Have No True Present Tense",
+      "text": "When you conjugate a perfective verb in 'present tense' forms, it actually means future. To talk about the present, you must use the imperfective partner.",
+      "table": {
+        "headers": ["Perfective Form", "Actual Meaning", "For Present Use Instead"],
+        "rows": [
+          ["prečítam", "I will read (completely)", "čítam (I am reading)"],
+          ["napíšem", "I will write (completely)", "píšem (I am writing)"],
+          ["urobím", "I will do (completely)", "robím (I am doing)"],
+          ["uvarím", "I will cook (completely)", "varím (I am cooking)"],
+          ["naučím sa", "I will learn (master)", "učím sa (I am learning)"]
+        ]
+      },
       "examples": [
-        "prečítam knihu – I will read the book (completely)",
-        "napíšem list – I will write the letter"
+        "prečítam knihu – I will read the book (future, perfective)",
+        "čítam knihu – I am reading the book (present, imperfective)",
+        "napíšem list – I will write the letter (future, perfective)",
+        "píšem list – I am writing the letter (present, imperfective)"
       ]
+    },
+    {
+      "title": "Both Aspects in Past Tense",
+      "text": "Both imperfective and perfective verbs have past tense forms. The difference is whether the action was ongoing/repeated (imperfective) or completed with a result (perfective).",
+      "table": {
+        "headers": ["Imperfective Past", "Meaning", "Perfective Past", "Meaning"],
+        "rows": [
+          ["čítal som", "I was reading / I used to read", "prečítal som", "I read (finished)"],
+          ["písal som", "I was writing", "napísal som", "I wrote (finished)"],
+          ["robil som", "I was doing", "urobil som", "I did (completed)"],
+          ["jedol som", "I was eating", "zjedol som", "I ate (all of it)"],
+          ["varil som", "I was cooking", "uvaril som", "I cooked (finished)"],
+          ["učil som sa", "I was studying", "naučil som sa", "I learned (mastered)"]
+        ]
+      },
+      "examples": [
+        "Čítal som knihu celý deň – I was reading a book all day (process)",
+        "Prečítal som knihu – I finished reading the book (result)",
+        "Varil som obed – I was cooking lunch (ongoing)",
+        "Uvaril som obed – I cooked lunch (it's done)"
+      ]
+    },
+    {
+      "title": "When to Use Each Aspect",
+      "text": "Choosing the right aspect depends on what you want to express about the action.",
+      "table": {
+        "headers": ["Use Imperfective When...", "Use Perfective When..."],
+        "rows": [
+          ["Action is ongoing: Čítam knihu (I'm reading)", "Action is completed: Prečítal som knihu (I finished reading)"],
+          ["Action is repeated/habitual: Každý deň čítam (I read every day)", "Action happened once with result: Včera som prečítal knihu (I read the book yesterday)"],
+          ["Describing background: Keď som čítal... (While I was reading...)", "Describing a sequence: Prečítal som a potom som šiel spať (I finished reading and then went to sleep)"],
+          ["Duration/process matters: Čítal som hodinu (I read for an hour)", "Result/completion matters: Prečítal som to za hodinu (I read it in an hour)"],
+          ["With 'still/already' ongoing: Ešte čítam (I'm still reading)", "With 'already' done: Už som prečítal (I've already read it)"]
+        ]
+      },
+      "examples": [
+        "Ongoing: Píšem email – I'm writing an email",
+        "Completed: Napísal som email – I wrote the email (done)",
+        "Habitual: Každý deň varím – I cook every day",
+        "One-time result: Uvaril som večeru – I cooked dinner (it's ready)"
+      ]
+    },
+    {
+      "title": "Common Aspect Pairs to Memorize",
+      "text": "The most important aspect pairs. The imperfective is listed first, perfective second.",
+      "table": {
+        "headers": ["Imperfective", "Perfective", "English"],
+        "rows": [
+          ["čítať", "prečítať", "to read"],
+          ["písať", "napísať", "to write"],
+          ["robiť", "urobiť", "to do/make"],
+          ["jesť", "zjesť", "to eat"],
+          ["piť", "vypiť", "to drink"],
+          ["variť", "uvariť", "to cook"],
+          ["hovoriť", "povedať", "to say/speak"],
+          ["kupovať", "kúpiť", "to buy"],
+          ["dávať", "dať", "to give"],
+          ["otvárať", "otvoriť", "to open"],
+          ["zatvárať", "zatvoriť", "to close"],
+          ["brať", "vziať", "to take"],
+          ["hľadať", "nájsť", "to look for / find"],
+          ["učiť sa", "naučiť sa", "to study / learn"],
+          ["začínať", "začať", "to begin"],
+          ["končiť", "skončiť", "to end/finish"],
+          ["vracať sa", "vrátiť sa", "to return"],
+          ["ukazovať", "ukázať", "to show"],
+          ["rozhodovať sa", "rozhodnúť sa", "to decide"],
+          ["pýtať sa", "opýtať sa", "to ask"]
+        ]
+      },
+      "examples": [
+        "kupovať / kúpiť – Kupujem auto (I'm buying) vs. Kúpil som auto (I bought it)",
+        "dávať / dať – Dávam ti to (I'm giving you) vs. Dal som ti to (I gave you)",
+        "brať / vziať – Beriem si to (I'm taking it) vs. Vzal som si to (I took it)",
+        "hľadať / nájsť – Hľadám kľúče (I'm looking for keys) vs. Našiel som kľúče (I found keys)"
+      ]
+    },
+    {
+      "title": "Irregular Aspect Pairs",
+      "text": "Some aspect pairs use completely different roots rather than prefix/suffix changes. These must be memorized as separate vocabulary items.",
+      "table": {
+        "headers": ["Imperfective", "Perfective", "English", "Note"],
+        "rows": [
+          ["hovoriť", "povedať", "to say/speak", "Different roots"],
+          ["brať", "vziať", "to take", "Different roots"],
+          ["klásť", "položiť", "to put/lay", "Different roots"],
+          ["hľadať", "nájsť", "to look for / find", "Different roots + meaning shift"],
+          ["dávať", "dať", "to give", "Shortened root"],
+          ["kupovať", "kúpiť", "to buy", "Different suffix pattern"],
+          ["vidieť", "uvidieť", "to see", "Simple prefix"],
+          ["sadať si", "sadnúť si", "to sit down", "Different suffix"]
+        ]
+      },
+      "examples": [
+        "hovoriť / povedať – completely different words",
+        "brať / vziať – completely different words",
+        "hľadať / nájsť – imperfective = searching, perfective = finding"
+      ]
+    },
+    {
+      "title": "Motion Verbs — Special Aspect System",
+      "text": "Motion verbs have a unique system: unidirectional (one-way, specific) vs. multidirectional (habitual, general). Both are imperfective. Adding a prefix creates the perfective.",
+      "table": {
+        "headers": ["Unidirectional (one trip)", "Multidirectional (habitual)", "Perfective (prefix)", "English"],
+        "rows": [
+          ["ísť", "chodiť", "prísť / odísť", "to go (on foot)"],
+          ["niesť", "nosiť", "priniesť / odniesť", "to carry"],
+          ["viezť", "voziť", "priviezť / odviezť", "to transport"],
+          ["bežať", "behať", "pribežať / odbežať", "to run"],
+          ["letieť", "lietať", "priletieť / odletieť", "to fly"],
+          ["ťahať", "ťahávať", "pritiahnuť / odtiahnuť", "to pull"]
+        ]
+      },
+      "examples": [
+        "Idem do školy – I'm going to school (right now, one direction)",
+        "Chodím do školy – I go to school (regularly/habitually)",
+        "Prišiel som do školy – I arrived at school (perfective, completed)",
+        "Nesiem tašku – I'm carrying a bag (right now)",
+        "Nosím okuliare – I wear glasses (habitually)"
+      ]
+    },
+    {
+      "title": "Aspect with Negation",
+      "text": "Negation works with both aspects but the meaning differs. Imperfective negation = didn't do it at all / wasn't doing it. Perfective negation = didn't manage to complete it.",
+      "examples": [
+        "Nečítal som knihu – I wasn't reading the book / I didn't read (at all)",
+        "Neprečítal som knihu – I didn't finish reading the book",
+        "Nepísal som – I wasn't writing",
+        "Nenapísal som – I didn't manage to write (it)",
+        "Nevaril som – I wasn't cooking",
+        "Neuvaril som – I didn't manage to cook (it)"
+      ]
+    },
+    {
+      "title": "Quick Decision Guide",
+      "text": "Use this to quickly decide which aspect to use.",
+      "table": {
+        "headers": ["Question to Ask Yourself", "Answer → Aspect"],
+        "rows": [
+          ["Is the action happening right now?", "Imperfective"],
+          ["Is it a habit or repeated action?", "Imperfective"],
+          ["Am I describing a process or duration?", "Imperfective"],
+          ["Is the action completed with a result?", "Perfective"],
+          ["Did it happen once and it's done?", "Perfective"],
+          ["Am I listing a sequence of completed events?", "Perfective"],
+          ["Am I talking about future completion?", "Perfective"],
+          ["Am I using 'every day / always / often'?", "Imperfective"],
+          ["Am I using 'already / finally / suddenly'?", "Perfective"]
+        ]
+      },
+      "examples": []
     }
   ],
 
