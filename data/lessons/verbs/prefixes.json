@@ -1,7 +1,33 @@
 {
+  "summary": [
+    "Prefixes modify verb meaning: direction, completion, repetition, beginning, or negation",
+    "Most prefixes turn imperfective → perfective: robiť (imp) → urobiť (perf)",
+    "Some prefixes change meaning WITHOUT changing aspect — secondary imperfectives: zapisovať (imp) from zapísať (perf)",
+    "Motion verbs have a complete prefix system: each prefix + ísť/chodiť gives a different directional meaning",
+    "Key directional prefixes: pri- (towards), od- (away), v- (in), vy- (out), pre- (through/across), ob- (around), nad- (above), pod- (under)",
+    "po- = brief/slight action (pospať = sleep a bit) OR beginning of motion (poísť = set off)",
+    "za- = behind/beginning (začať = begin) OR closing/covering (zatvoriť = close)",
+    "roz- = spreading apart (rozdeliť = split), s-/so- = together (spojiť = connect) — opposites",
+    "pre- = through/across (preísť = cross) OR re-doing (prepísať = rewrite)",
+    "ne- is the only prefix that doesn't change aspect — it just negates: chcieť → nechcieť",
+    "vy- = out/completion (vypiť = drink up, vyjsť = go out)",
+    "na- = onto/accumulation/completion (napísať = write completely, najesť sa = eat one's fill)",
+    "do- = finishing/reaching (dočítať = finish reading, doísť = arrive at)"
+  ],
+
   "rules": [
     {
-      "title": "Understanding Prefixes",
+      "title": "How Prefixes Work",
+      "text": "Prefixes attach to the front of a verb and change its meaning, direction, or aspect. Most prefixes make an imperfective verb perfective. To get back to imperfective with the new meaning, Slovak adds a secondary suffix (-ovať, -ávať, -ievať): písať (imp) → napísať (perf) → napisovať (imp, 'to be writing down repeatedly').",
+      "examples": [
+        "robiť (imp) → urobiť (perf) — prefix makes it perfective",
+        "písať (imp) → napísať (perf) → napisovať (imp) — secondary imperfective",
+        "ísť (imp) → prísť (perf) → prichádzať (imp) — secondary imperfective of motion verb",
+        "ne- is special: nechcieť is still imperfective — negation doesn't change aspect"
+      ]
+    },
+    {
+      "title": "Common Prefixes — Reference Table",
       "text": "Prefixes in Slovak modify the meaning of the verb, often indicating direction, completion, repetition, or negation. Many prefixes turn imperfective verbs into perfective ones, but some preserve the imperfective aspect. Use the table below to see common prefixes and their effects.",
       "table": {
         "headers": ["Prefix", "Meaning", "Example", "Root", "Root Meaning", "Combined Meaning"],
@@ -20,11 +46,117 @@
           ["bez-", "without, lacking", "bez-mocný", "moc", "power", "powerless"],
           ["ne-", "negation", "nechcieť", "chcieť", "to want", "to not want"],
           ["pro-", "forward, in favor", "prospievať", "spievať", "to sing/thrive", "to prosper"],
-          ["pre-", "through, over", "prebiehať", "behať", "to run", "to run across/through"]
+          ["pre-", "through, over", "prebiehať", "behať", "to run", "to run across/through"],
+          ["na-", "onto, accumulation, completion", "napísať", "písať", "to write", "to write (complete)"],
+          ["od-/odo-", "away, separation", "odísť", "ísť", "to go", "to leave (go away)"],
+          ["vy-", "out, upward, completion", "vyjsť", "ísť", "to go", "to go out/exit"],
+          ["do-", "finishing, reaching", "dočítať", "čítať", "to read", "to finish reading"],
+          ["z-/zo-", "completion, down from", "zjesť", "jesť", "to eat", "to eat up completely"]
         ]
       }
+    },
+    {
+      "title": "Motion Verb Prefix System",
+      "text": "Motion verbs have the most systematic prefix usage in Slovak. Each prefix gives a specific directional meaning. The base pair is ísť (one direction) / chodiť (repeated). Prefixed forms: perfective from ísť, secondary imperfective with -chádzať.",
+      "table": {
+        "headers": ["Prefix", "Direction", "Perfective (ísť)", "Sec. Imperfective", "Meaning"],
+        "rows": [
+          ["pri-", "towards", "prísť", "prichádzať", "to come / to arrive"],
+          ["od-", "away", "odísť", "odchádzať", "to leave / to depart"],
+          ["v-", "in", "vojsť", "vchádzať", "to enter"],
+          ["vy-", "out", "vyjsť", "vychádzať", "to exit / go out"],
+          ["pre-", "through/across", "prejsť", "prechádzať", "to cross / pass through"],
+          ["ob-", "around", "obísť", "obchádzať", "to go around"],
+          ["nad-", "above/past", "nadísť", "nadchádzať", "to approach / come upon"],
+          ["pod-", "under", "podísť", "podchádzať", "to go under / approach stealthily"],
+          ["z-/zo-", "down from", "zísť", "schádzať", "to descend / come down"],
+          ["roz-", "apart (scatter)", "rozísť sa", "rozchádzať sa", "to part ways / disperse"],
+          ["do-", "up to / reaching", "dôjsť", "dochádzať", "to reach / arrive at"],
+          ["po-", "setting off", "pôjsť", "—", "to go (future: pôjdem)"],
+          ["na-", "onto / upon", "naísť", "nachádzať", "to come upon / find"]
+        ]
+      },
+      "examples": [
+        "Prišiel domov – He came home (pri- = towards)",
+        "Odišla z práce – She left work (od- = away)",
+        "Vošiel do izby – He entered the room (v- = in)",
+        "Vyšli von – They went out (vy- = out)",
+        "Prešli cez most – They crossed the bridge (pre- = through)",
+        "Obišiel dom – He went around the house (ob- = around)",
+        "Zišli z kopca – They came down the hill (z- = down)"
+      ]
+    },
+    {
+      "title": "Motion Verbs: Other Base Pairs",
+      "text": "The prefix system works with other motion verb pairs too, not just ísť/chodiť. The same directional prefixes apply.",
+      "table": {
+        "headers": ["Base Pair (imp/imp)", "Meaning", "pri- (towards)", "od- (away)", "vy- (out)", "pre- (through)"],
+        "rows": [
+          ["bežať / behať", "to run", "pribežať", "odbežať", "vybežať", "prebežať"],
+          ["letieť / lietať", "to fly", "priletieť", "odletieť", "vyletieť", "preletieť"],
+          ["niesť / nosiť", "to carry", "priniesť", "odniesť", "vyniesť", "preniesť"],
+          ["viesť / vodiť", "to lead", "priviesť", "odviesť", "vyviesť", "previesť"],
+          ["viezť / voziť", "to transport", "priviezť", "odviezť", "vyviezť", "previezť"],
+          ["ťahať / ťahať", "to pull/drag", "pritiahnuť", "odtiahnuť", "vytiahnuť", "pretiahnuť"]
+        ]
+      },
+      "examples": [
+        "Priletelo lietadlo – The plane arrived (pri- + letieť)",
+        "Odniesol tasku – He carried the bag away (od- + niesť)",
+        "Vybežal von – He ran out (vy- + bežať)",
+        "Preniesli nábytok – They carried the furniture across (pre- + niesť)"
+      ]
+    },
+    {
+      "title": "Prefixes with Multiple Meanings",
+      "text": "Many prefixes have more than one meaning depending on the verb they attach to. Context determines which meaning applies.",
+      "table": {
+        "headers": ["Prefix", "Meaning 1", "Example", "Meaning 2", "Example"],
+        "rows": [
+          ["za-", "beginning", "začať (to begin)", "behind/closing", "zatvoriť (to close)"],
+          ["za-", "stopping by", "zaísť (to stop by)", "covering", "zakryť (to cover)"],
+          ["po-", "brief action", "pospať (sleep a bit)", "beginning of motion", "pôjsť (to set off)"],
+          ["po-", "one by one", "popadať (to fall one by one)", "along surface", "pozerať (to look at)"],
+          ["pre-", "through", "prejsť (to cross)", "re-doing", "prepísať (to rewrite)"],
+          ["pre-", "excess", "prejesť sa (to overeat)", "transfer", "preložiť (to translate/move)"],
+          ["na-", "onto", "nalepiť (to stick on)", "accumulation", "nakúpiť (to buy up)"],
+          ["na-", "completion", "napísať (to write fully)", "filling", "najesť sa (to eat one's fill)"],
+          ["vy-", "out", "vyjsť (to go out)", "completion", "vypiť (to drink up)"],
+          ["s-/z-", "together", "spojiť (to connect)", "completion", "zjesť (to eat up)"],
+          ["s-/z-", "down from", "zísť (to descend)", "removal", "zobliecť (to undress)"]
+        ]
+      },
+      "examples": [
+        "začať (begin) vs zatvoriť (close) — same prefix, different meanings",
+        "prepísať (rewrite) vs prejsť (cross) — pre- as 're-' vs 'through'",
+        "napísať (write completely) vs najesť sa (eat one's fill) — na- as completion vs filling"
+      ]
+    },
+    {
+      "title": "Secondary Imperfectives",
+      "text": "When a prefix makes a verb perfective, Slovak can create a new imperfective form with suffixes -ovať, -ávať, -ievať, or -úvať. This gives you three forms: base imperfective → prefixed perfective → secondary imperfective.",
+      "table": {
+        "headers": ["Base (imp)", "Prefixed (perf)", "Secondary (imp)", "Meaning of secondary"],
+        "rows": [
+          ["písať", "napísať", "napisovať", "to be writing (repeatedly/habitually)"],
+          ["písať", "prepísať", "prepisovať", "to be rewriting"],
+          ["robiť", "urobiť", "—", "(no common secondary)"],
+          ["ísť", "prísť", "prichádzať", "to be arriving/coming"],
+          ["ísť", "odísť", "odchádzať", "to be leaving/departing"],
+          ["čítať", "prečítať", "—", "(no common secondary)"],
+          ["kupovať", "kúpiť", "nakupovať", "to be shopping"],
+          ["tvoriť", "vytvoriť", "vytvárať", "to be creating"],
+          ["dať", "vydať", "vydávať", "to be publishing/issuing"]
+        ]
+      },
+      "examples": [
+        "písať (I write) → napísať (I will write it) → napisovať (I write things down regularly)",
+        "ísť (I go) → prísť (I will come) → prichádzať (I come/arrive regularly)",
+        "Not all perfective verbs have a secondary imperfective — some pairs are just two forms"
+      ]
     }
   ],
+  
   "vocab": [
     {"sk":"byť (imp)", "en":"to be"},
     {"sk":"prebyť (perf)", "en":"to survive / endure through"},
